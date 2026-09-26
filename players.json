@@ -1,10 +1,94 @@
 {
     "players": [
-        "Lamine Yamal",
-        "Luis Suárez",
-        "Ferrán Torres",
-        "Antoine Griezmann",
-        "João Cancelo",
-        "Fermín López"
+        {
+            "name": "Lamine Yamal",
+            "fotmob_id": null,
+            "notifications": {
+                "starting": true,
+                "bench": true,
+                "goal": true,
+                "assist": true,
+                "substitution": true,
+                "yellow_card": true,
+                "red_card": true,
+                "rating": true,
+                "transfer": true
+            }
+        },
+        {
+            "name": "Luis Suárez",
+            "fotmob_id": null,
+            "notifications": {
+                "starting": true,
+                "bench": true,
+                "goal": true,
+                "assist": true,
+                "substitution": true,
+                "yellow_card": true,
+                "red_card": true,
+                "rating": true,
+                "transfer": true
+            }
+        },
+        {
+            "name": "Ferrán Torres",
+            "fotmob_id": null,
+            "notifications": {
+                "starting": true,
+                "bench": true,
+                "goal": true,
+                "assist": true,
+                "substitution": true,
+                "yellow_card": true,
+                "red_card": true,
+                "rating": true,
+                "transfer": true
+            }
+        },
+        {
+            "name": "Antoine Griezmann",
+            "fotmob_id": null,
+            "notifications": {
+                "starting": true,
+                "bench": true,
+                "goal": true,
+                "assist": true,
+                "substitution": true,
+                "yellow_card": true,
+                "red_card": true,
+                "rating": true,
+                "transfer": true
+            }
+        },
+        {
+            "name": "João Cancelo",
+            "fotmob_id": null,
+            "notifications": {
+                "starting": true,
+                "bench": true,
+                "goal": true,
+                "assist": true,
+                "substitution": true,
+                "yellow_card": true,
+                "red_card": true,
+                "rating": true,
+                "transfer": true
+            }
+        },
+        {
+            "name": "Fermín López",
+            "fotmob_id": null,
+            "notifications": {
+                "starting": true,
+                "bench": true,
+                "goal": true,
+                "assist": true,
+                "substitution": true,
+                "yellow_card": true,
+                "red_card": true,
+                "rating": true,
+                "transfer": true
+            }
+        }
     ]
 }
