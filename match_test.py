@@ -1,6 +1,27 @@
 import requests
+import json
 
 MATCH_ID = 5181850
+
+# --------------------------------------------------
+# LOAD FOLLOWED PLAYERS
+# --------------------------------------------------
+
+with open("players.json", "r", encoding="utf-8") as file:
+    player_data = json.load(file)
+
+followed_players = player_data["players"]
+
+print("========== FOLLOWED PLAYERS ==========")
+
+for player in followed_players:
+    print(f"👤 {player}")
+
+print()
+
+# --------------------------------------------------
+# GET MATCH DETAILS
+# --------------------------------------------------
 
 url = "https://www.fotmob.com/api/data/matchDetails"
 
@@ -31,28 +52,18 @@ print()
 # --------------------------------------------------
 
 general = data.get("general", {})
-header = data.get("header", {})
 
 print("========== MATCH ==========")
 print(general.get("matchName"))
 print()
 
-print("========== SCORE ==========")
-
-for team in header.get("teams", []):
-    print(
-        f"{team.get('name')}: {team.get('score')}"
-    )
-
-print()
-
 # --------------------------------------------------
-# LINEUPS
+# FIND FOLLOWED PLAYERS
 # --------------------------------------------------
-
-print("========== LINEUPS ==========")
 
 lineup = data.get("content", {}).get("lineup", {})
+
+found_players = []
 
 for team_key in ["homeTeam", "awayTeam"]:
 
@@ -61,41 +72,49 @@ for team_key in ["homeTeam", "awayTeam"]:
     if not team:
         continue
 
-    print()
-    print(team.get("name"))
+    team_name = team.get("name")
 
-    print("  Starters:")
-
+    # Check starters
     for player in team.get("starters", []):
-        print(
-            f"    {player.get('name')}"
-        )
 
-    print("  Substitutes:")
+        player_name = player.get("name")
 
+        if player_name in followed_players:
+
+            found_players.append(player_name)
+
+            print(
+                f"✅ {player_name} is starting for {team_name}"
+            )
+
+    # Check substitutes
     for player in team.get("subs", []):
-        print(
-            f"    {player.get('name')}"
-        )
+
+        player_name = player.get("name")
+
+        if player_name in followed_players:
+
+            found_players.append(player_name)
+
+            print(
+                f"🪑 {player_name} is on the bench for {team_name}"
+            )
 
 print()
 
 # --------------------------------------------------
-# MATCH EVENTS
+# SUMMARY
 # --------------------------------------------------
 
-print("========== EVENTS ==========")
+print("========== RESULT ==========")
 
-match_facts = data.get("content", {}).get("matchFacts", {})
+if found_players:
 
-events = match_facts.get("events", {}).get("events", [])
+    print("We found your followed player(s)! 🎉")
 
-for event in events:
+    for player in found_players:
+        print(f"→ {player}")
 
-    event_type = event.get("type")
-    time = event.get("timeStr")
-    player = event.get("player", {}).get("name")
+else:
 
-    print(
-        f"{time}' | {event_type} | {player}"
-    )
+    print("None of your followed players are in this match.")
