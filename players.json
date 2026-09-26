@@ -2,7 +2,9 @@
     "players": [
         {
             "name": "Lamine Yamal",
-            "fotmob_id": null,
+            "fotmob_id": 1467236,
+            "team_id": 8634,
+            "team_name": "Barcelona",
             "notifications": {
                 "starting": true,
                 "bench": true,
@@ -17,7 +19,9 @@
         },
         {
             "name": "Luis Suárez",
-            "fotmob_id": null,
+            "fotmob_id": 40636,
+            "team_id": 960720,
+            "team_name": "Inter Miami CF",
             "notifications": {
                 "starting": true,
                 "bench": true,
@@ -32,7 +36,9 @@
         },
         {
             "name": "Ferrán Torres",
-            "fotmob_id": null,
+            "fotmob_id": 881771,
+            "team_id": 9847,
+            "team_name": "Paris Saint-Germain",
             "notifications": {
                 "starting": true,
                 "bench": true,
@@ -47,7 +53,9 @@
         },
         {
             "name": "Antoine Griezmann",
-            "fotmob_id": null,
+            "fotmob_id": 184138,
+            "team_id": 267810,
+            "team_name": "Orlando City",
             "notifications": {
                 "starting": true,
                 "bench": true,
@@ -62,7 +70,9 @@
         },
         {
             "name": "João Cancelo",
-            "fotmob_id": null,
+            "fotmob_id": 361757,
+            "team_id": 8634,
+            "team_name": "Barcelona",
             "notifications": {
                 "starting": true,
                 "bench": true,
@@ -77,7 +87,9 @@
         },
         {
             "name": "Fermín López",
-            "fotmob_id": null,
+            "fotmob_id": 1404415,
+            "team_id": 8634,
+            "team_name": "Barcelona",
             "notifications": {
                 "starting": true,
                 "bench": true,
