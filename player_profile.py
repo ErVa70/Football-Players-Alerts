@@ -17,7 +17,7 @@ headers = {
 
 
 # --------------------------------------------------
-# GET PLAYER PROFILES
+# GET PLAYER INFORMATION
 # --------------------------------------------------
 
 for player in players:
@@ -43,47 +43,31 @@ for player in players:
 
     profile = response.json()
 
-    # --------------------------------------------------
-    # TOP-LEVEL KEYS
-    # --------------------------------------------------
+    print("\nPLAYER INFORMATION:")
+    print(
+        json.dumps(
+            profile.get("playerInformation"),
+            indent=2,
+            ensure_ascii=False
+        )
+    )
 
-    print("\nTop-level sections:")
-    print(list(profile.keys()))
+    print("\nMETA:")
+    print(
+        json.dumps(
+            profile.get("meta"),
+            indent=2,
+            ensure_ascii=False
+        )
+    )
 
-    # --------------------------------------------------
-    # PRIMARY TEAM
-    # --------------------------------------------------
-
-    primary_team = profile.get("primaryTeam")
-
-    print("\nPrimary team:")
-    print(primary_team)
-
-    # --------------------------------------------------
-    # COUNTRY / NATIONAL TEAM CANDIDATES
-    # --------------------------------------------------
-
-    print("\nPossible country/national-team information:")
-
-    for key in profile.keys():
-
-        key_lower = key.lower()
-
-        if (
-            "country" in key_lower
-            or "national" in key_lower
-            or "international" in key_lower
-        ):
-            print(f"{key}:")
-            print(profile[key])
-
-    # --------------------------------------------------
-    # CAREER
-    # --------------------------------------------------
-
-    career = profile.get("career")
-
-    print("\nCareer:")
-    print(career)
+    print("\nMATCH FILTERS:")
+    print(
+        json.dumps(
+            profile.get("matchFilters"),
+            indent=2,
+            ensure_ascii=False
+        )
+    )
 
     print("\n")
