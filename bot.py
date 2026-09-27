@@ -84,7 +84,10 @@ for player in players:
 
     player_name = player["name"]
 
-    # Club monitoring
+    # ----------------------------------------------
+    # CLUB
+    # ----------------------------------------------
+
     add_player_to_team(
         player.get("team_id"),
         player.get("team_name"),
@@ -92,7 +95,10 @@ for player in players:
         "club"
     )
 
-    # National-team monitoring
+    # ----------------------------------------------
+    # NATIONAL TEAM
+    # ----------------------------------------------
+
     if player.get(
         "monitor_national_team",
         True
@@ -186,42 +192,22 @@ for league in matches_data.get(
         away_id = away.get("id")
 
         # ------------------------------------------
-        # CHECK WHETHER HOME TEAM IS TRACKED
+        # CHECK TRACKED TEAMS
         # ------------------------------------------
 
-        home_players = []
+        home_is_tracked = (
+            home_id in tracked_teams
+        )
 
-        if home_id in tracked_teams:
+        away_is_tracked = (
+            away_id in tracked_teams
+        )
 
-            home_players = (
-                tracked_teams[
-                    home_id
-                ]["players"]
-            )
-
-        # ------------------------------------------
-        # CHECK WHETHER AWAY TEAM IS TRACKED
-        # ------------------------------------------
-
-        away_players = []
-
-        if away_id in tracked_teams:
-
-            away_players = (
-                tracked_teams[
-                    away_id
-                ]["players"]
-            )
-
-        # ------------------------------------------
-        # IGNORE IRRELEVANT MATCHES
-        # ------------------------------------------
-
-        if not home_players and not away_players:
+        if not home_is_tracked and not away_is_tracked:
             continue
 
         # ------------------------------------------
-        # GET KICKOFF TIME
+        # KICKOFF TIME
         # ------------------------------------------
 
         utc_time = status.get(
@@ -244,7 +230,6 @@ for league in matches_data.get(
             )
         )
 
-        # Only today's local matches.
         if kickoff_local.date() != today_local:
             continue
 
@@ -260,11 +245,11 @@ for league in matches_data.get(
 
 
 # --------------------------------------------------
-# CHECK LINEUPS
+# CHECK CONFIRMED LINEUPS
 # --------------------------------------------------
 
 print("=" * 70)
-print("LINEUP CHECK")
+print("CONFIRMED LINEUP CHECK")
 print("=" * 70)
 print()
 
@@ -339,8 +324,7 @@ for match in relevant_matches:
     if lineup_type != "standard":
 
         print(
-            "  ⏳ Lineup exists, but it is "
-            "not confirmed yet."
+            "  ⏳ Lineup is not confirmed yet."
         )
 
         print()
@@ -348,7 +332,7 @@ for match in relevant_matches:
         continue
 
     # ----------------------------------------------
-    # SEARCH FOR TRACKED PLAYERS
+    # FIND OUR PLAYERS
     # ----------------------------------------------
 
     found_players = []
@@ -419,30 +403,94 @@ for match in relevant_matches:
                     "team": team_name
                 })
 
+
     # ----------------------------------------------
-    # DISPLAY RESULTS
+    # NOTHING FOUND
     # ----------------------------------------------
 
     if not found_players:
 
         print(
-            "  No tracked players found "
-            "in confirmed lineup."
+            "  No tracked players in confirmed lineup."
         )
 
-    else:
+        print()
 
-        for player in found_players:
+        continue
 
-            print(
-                f"  ✅ {player['name']} "
-                f"→ {player['status']} "
-                f"({player['team']})"
+
+    # ----------------------------------------------
+    # PRINT FOUND PLAYERS
+    # ----------------------------------------------
+
+    for player in found_players:
+
+        print(
+            f"  ✅ {player['name']} "
+            f"→ {player['status']} "
+            f"({player['team']})"
+        )
+
+
+    # ----------------------------------------------
+    # CREATE TELEGRAM MESSAGE
+    # ----------------------------------------------
+
+    lines = [
+        "🔵 CONFIRMED LINEUP",
+        "",
+        f"⚽ {match['home_name']} "
+        f"vs {match['away_name']}",
+        ""
+    ]
+
+    for player in found_players:
+
+        if player["status"] == "STARTING XI":
+
+            lines.append(
+                f"✅ {player['name']} — STARTING XI"
             )
+
+        else:
+
+            lines.append(
+                f"🪑 {player['name']} — BENCH"
+            )
+
+
+    message = "\n".join(lines)
+
+
+    # ----------------------------------------------
+    # SEND TELEGRAM
+    # ----------------------------------------------
+
+    telegram_url = (
+        f"https://api.telegram.org/"
+        f"bot{BOT_TOKEN}/sendMessage"
+    )
+
+    telegram_data = {
+        "chat_id": CHANNEL,
+        "text": message
+    }
+
+    telegram_response = requests.post(
+        telegram_url,
+        data=telegram_data,
+        timeout=20
+    )
+
+    telegram_response.raise_for_status()
+
+    print(
+        "  📱 Telegram lineup notification sent!"
+    )
 
     print()
 
 
 print("=" * 70)
-print("LINEUP CHECK COMPLETE")
+print("LINEUP MONITORING COMPLETE")
 print("=" * 70)
