@@ -9,16 +9,17 @@ from datetime import datetime, timezone, timedelta
 # --------------------------------------------------
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-
 CHANNEL = "@formerbarcaplayers"
 
 MATCHES_URL = "https://www.fotmob.com/api/data/matches"
+MATCH_DETAILS_URL = (
+    "https://www.fotmob.com/api/data/matchDetails"
+)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# Your local timezone: UTC+03:30
 LOCAL_TIMEZONE = timezone(
     timedelta(hours=3, minutes=30)
 )
@@ -63,11 +64,17 @@ def add_player_to_team(
             "players": {}
         }
 
-    if player_name not in tracked_teams[team_id]["players"]:
+    if player_name not in tracked_teams[
+        team_id
+    ]["players"]:
 
-        tracked_teams[team_id]["players"][player_name] = set()
+        tracked_teams[
+            team_id
+        ]["players"][player_name] = set()
 
-    tracked_teams[team_id]["players"][player_name].add(
+    tracked_teams[
+        team_id
+    ]["players"][player_name].add(
         team_type
     )
 
@@ -76,10 +83,7 @@ for player in players:
 
     player_name = player["name"]
 
-    # ----------------------------------------------
-    # CLUB IS ALWAYS MONITORED
-    # ----------------------------------------------
-
+    # Club
     add_player_to_team(
         player.get("team_id"),
         player.get("team_name"),
@@ -87,10 +91,7 @@ for player in players:
         "club"
     )
 
-    # ----------------------------------------------
-    # NATIONAL TEAM ONLY IF ENABLED
-    # ----------------------------------------------
-
+    # National team
     if player.get(
         "monitor_national_team",
         True
@@ -118,11 +119,12 @@ fotmob_date = today_local.strftime(
     "%Y%m%d"
 )
 
-
 print(
     f"Checking tracked matches for "
     f"{today_local}..."
 )
+
+print()
 
 
 # --------------------------------------------------
@@ -179,67 +181,31 @@ for league in matches_data.get(
             "status"
         ) or {}
 
-        home_id = home.get(
-            "id"
-        )
+        home_id = home.get("id")
+        away_id = away.get("id")
 
-        away_id = away.get(
-            "id"
-        )
-
-
-        # ------------------------------------------
-        # TRACKED HOME PLAYERS
-        # ------------------------------------------
-
-        home_tracked = []
+        home_players = []
 
         if home_id in tracked_teams:
 
-            team_players = tracked_teams[
-                home_id
-            ]["players"]
+            home_players = (
+                tracked_teams[
+                    home_id
+                ]["players"]
+            )
 
-            for player_name, types in (
-                team_players.items()
-            ):
-
-                home_tracked.append({
-                    "name": player_name,
-                    "types": types
-                })
-
-
-        # ------------------------------------------
-        # TRACKED AWAY PLAYERS
-        # ------------------------------------------
-
-        away_tracked = []
+        away_players = []
 
         if away_id in tracked_teams:
 
-            team_players = tracked_teams[
-                away_id
-            ]["players"]
+            away_players = (
+                tracked_teams[
+                    away_id
+                ]["players"]
+            )
 
-            for player_name, types in (
-                team_players.items()
-            ):
-
-                away_tracked.append({
-                    "name": player_name,
-                    "types": types
-                })
-
-
-        # Nothing relevant?
-        if not home_tracked and not away_tracked:
+        if not home_players and not away_players:
             continue
-
-
-        # ------------------------------------------
-        # ACTUAL KICKOFF TIME
-        # ------------------------------------------
 
         utc_time = status.get(
             "utcTime"
@@ -248,7 +214,6 @@ for league in matches_data.get(
         if not utc_time:
             continue
 
-
         kickoff_utc = datetime.fromisoformat(
             utc_time.replace(
                 "Z",
@@ -256,151 +221,175 @@ for league in matches_data.get(
             )
         )
 
-        kickoff_local = kickoff_utc.astimezone(
-            LOCAL_TIMEZONE
+        kickoff_local = (
+            kickoff_utc.astimezone(
+                LOCAL_TIMEZONE
+            )
         )
 
-
-        # Only today's local matches.
         if kickoff_local.date() != today_local:
             continue
-
 
         relevant_matches.append({
             "match_id": match.get("id"),
             "league": league_name,
             "kickoff": kickoff_local,
+            "home_id": home_id,
             "home_name": home.get("name"),
+            "away_id": away_id,
             "away_name": away.get("name"),
-            "home_players": home_tracked,
-            "away_players": away_tracked
         })
 
 
 # --------------------------------------------------
-# SORT BY KICKOFF
+# CHECK LINEUPS
 # --------------------------------------------------
 
-relevant_matches.sort(
-    key=lambda match: match["kickoff"]
-)
+print("=" * 70)
+print("LINEUP CHECK")
+print("=" * 70)
+print()
 
 
-# --------------------------------------------------
-# CREATE TELEGRAM MESSAGE
-# --------------------------------------------------
+for match in relevant_matches:
 
-if not relevant_matches:
+    match_id = match["match_id"]
 
-    message = (
-        "📅 TODAY'S TRACKED MATCHES\n\n"
-        "No tracked players have a match today."
+    print(
+        f"Checking: "
+        f"{match['home_name']} vs "
+        f"{match['away_name']}"
     )
 
-else:
+    details_response = requests.get(
+        MATCH_DETAILS_URL,
+        params={
+            "matchId": match_id
+        },
+        headers=HEADERS,
+        timeout=20
+    )
 
-    lines = [
-        "📅 TODAY'S TRACKED MATCHES",
-        ""
-    ]
+    if details_response.status_code != 200:
 
-    for match in relevant_matches:
-
-        lines.append(
-            f"⚽ {match['home_name']} "
-            f"vs "
-            f"{match['away_name']}"
+        print(
+            "  ⚠️ Could not get match details."
         )
 
-        lines.append(
-            f"🕐 "
-            f"{match['kickoff'].strftime('%H:%M')}"
+        print()
+
+        continue
+
+    details = details_response.json()
+
+    lineup = (
+        details
+        .get("content", {})
+        .get("lineup")
+    )
+
+    if not lineup:
+
+        print(
+            "  No lineup data available yet."
         )
 
-        lines.append(
-            f"🏆 {match['league']}"
+        print()
+
+        continue
+
+    found_players = []
+
+    for team_key in [
+        "homeTeam",
+        "awayTeam"
+    ]:
+
+        team = lineup.get(
+            team_key
         )
 
+        if not team:
+            continue
+
+        team_name = team.get(
+            "name"
+        )
 
         # ------------------------------------------
-        # HOME PLAYERS
+        # STARTING XI
         # ------------------------------------------
 
-        for player in match["home_players"]:
+        for player in (
+            team.get("starters", [])
+        ):
 
-            types = player["types"]
-
-            if "club" in types:
-                label = "club"
-            else:
-                label = "national team"
-
-            lines.append(
-                f"👤 {player['name']} "
-                f"({label})"
+            player_name = player.get(
+                "name"
             )
 
+            if player_name in tracked_teams.get(
+                team.get("id"),
+                {}
+            ).get(
+                "players",
+                {}
+            ):
+
+                found_players.append({
+                    "name": player_name,
+                    "status": "STARTING XI",
+                    "team": team_name
+                })
+
 
         # ------------------------------------------
-        # AWAY PLAYERS
+        # BENCH
         # ------------------------------------------
 
-        for player in match["away_players"]:
+        for player in (
+            team.get("subs", [])
+        ):
 
-            types = player["types"]
-
-            if "club" in types:
-                label = "club"
-            else:
-                label = "national team"
-
-            lines.append(
-                f"👤 {player['name']} "
-                f"({label})"
+            player_name = player.get(
+                "name"
             )
 
+            if player_name in tracked_teams.get(
+                team.get("id"),
+                {}
+            ).get(
+                "players",
+                {}
+            ):
 
-        lines.append("")
+                found_players.append({
+                    "name": player_name,
+                    "status": "BENCH",
+                    "team": team_name
+                })
 
 
-    message = "\n".join(lines)
+    if not found_players:
+
+        print(
+            "  No tracked players found "
+            "in lineup."
+        )
+
+    else:
+
+        for player in found_players:
+
+            print(
+                f"  ✅ {player['name']} "
+                f"→ {player['status']} "
+                f"({player['team']})"
+            )
+
+    print()
 
 
-# --------------------------------------------------
-# PRINT MESSAGE
-# --------------------------------------------------
-
-print()
 print("=" * 70)
-print("TELEGRAM MESSAGE")
+print("LINEUP CHECK COMPLETE")
 print("=" * 70)
-print()
-print(message)
-print()
-
-
-# --------------------------------------------------
-# SEND TO TELEGRAM
-# --------------------------------------------------
-
-telegram_url = (
-    f"https://api.telegram.org/"
-    f"bot{BOT_TOKEN}/sendMessage"
-)
-
-telegram_data = {
-    "chat_id": CHANNEL,
-    "text": message
-}
-
-telegram_response = requests.post(
-    telegram_url,
-    data=telegram_data,
-    timeout=20
-)
-
-telegram_response.raise_for_status()
-
-print(
-    "✅ Telegram message sent successfully!"
-)
