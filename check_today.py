@@ -1,6 +1,6 @@
 import json
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 MATCHES_URL = "https://www.fotmob.com/api/data/matches"
@@ -14,7 +14,7 @@ HEADERS = {
 # TODAY
 # --------------------------------------------------
 
-today = datetime.now().strftime("%Y-%m-%d")
+today = datetime.now(timezone.utc).strftime("%Y%m%d")
 
 print("=" * 70)
 print(f"CHECKING FOTMOB MATCHES FOR: {today}")
@@ -44,12 +44,15 @@ try:
     response = requests.get(
         MATCHES_URL,
         params={
-            "date": today,
-            "timezone": "Europe/London"
+            "date": today
         },
         headers=HEADERS,
         timeout=20
     )
+
+    print("HTTP status:", response.status_code)
+    print("Content-Type:", response.headers.get("Content-Type"))
+    print()
 
     response.raise_for_status()
 
@@ -57,13 +60,13 @@ try:
 
 except Exception as error:
 
-    print(f"❌ Failed to retrieve today's matches:")
+    print("❌ Failed to retrieve today's matches:")
     print(error)
     raise SystemExit(1)
 
 
 # --------------------------------------------------
-# INSPECT RESPONSE
+# BASIC RESPONSE INFORMATION
 # --------------------------------------------------
 
 print("FotMob response type:")
@@ -83,11 +86,11 @@ elif isinstance(matches_data, list):
 
 
 # --------------------------------------------------
-# SHOW A SMALL SAMPLE
+# SHOW STRUCTURE
 # --------------------------------------------------
 
 print("=" * 70)
-print("SAMPLE OF RESPONSE")
+print("RESPONSE STRUCTURE")
 print("=" * 70)
 
 if isinstance(matches_data, dict):
@@ -104,12 +107,13 @@ if isinstance(matches_data, dict):
 
             if value:
                 print("FIRST ITEM:")
+
                 print(
                     json.dumps(
                         value[0],
                         indent=2,
                         ensure_ascii=False
-                    )
+                    )[:4000]
                 )
 
         elif isinstance(value, dict):
@@ -119,7 +123,7 @@ if isinstance(matches_data, dict):
                     value,
                     indent=2,
                     ensure_ascii=False
-                )[:3000]
+                )[:4000]
             )
 
         else:
@@ -138,7 +142,7 @@ elif isinstance(matches_data, list):
                 item,
                 indent=2,
                 ensure_ascii=False
-            )
+            )[:4000]
         )
 
         print("-" * 70)
