@@ -20,6 +20,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
+# Your local timezone: UTC+03:30
 LOCAL_TIMEZONE = timezone(
     timedelta(hours=3, minutes=30)
 )
@@ -83,7 +84,7 @@ for player in players:
 
     player_name = player["name"]
 
-    # Club
+    # Club monitoring
     add_player_to_team(
         player.get("team_id"),
         player.get("team_name"),
@@ -91,7 +92,7 @@ for player in players:
         "club"
     )
 
-    # National team
+    # National-team monitoring
     if player.get(
         "monitor_national_team",
         True
@@ -184,6 +185,10 @@ for league in matches_data.get(
         home_id = home.get("id")
         away_id = away.get("id")
 
+        # ------------------------------------------
+        # CHECK WHETHER HOME TEAM IS TRACKED
+        # ------------------------------------------
+
         home_players = []
 
         if home_id in tracked_teams:
@@ -193,6 +198,10 @@ for league in matches_data.get(
                     home_id
                 ]["players"]
             )
+
+        # ------------------------------------------
+        # CHECK WHETHER AWAY TEAM IS TRACKED
+        # ------------------------------------------
 
         away_players = []
 
@@ -204,8 +213,16 @@ for league in matches_data.get(
                 ]["players"]
             )
 
+        # ------------------------------------------
+        # IGNORE IRRELEVANT MATCHES
+        # ------------------------------------------
+
         if not home_players and not away_players:
             continue
+
+        # ------------------------------------------
+        # GET KICKOFF TIME
+        # ------------------------------------------
 
         utc_time = status.get(
             "utcTime"
@@ -227,6 +244,7 @@ for league in matches_data.get(
             )
         )
 
+        # Only today's local matches.
         if kickoff_local.date() != today_local:
             continue
 
@@ -237,7 +255,7 @@ for league in matches_data.get(
             "home_id": home_id,
             "home_name": home.get("name"),
             "away_id": away_id,
-            "away_name": away.get("name"),
+            "away_name": away.get("name")
         })
 
 
@@ -261,6 +279,10 @@ for match in relevant_matches:
         f"{match['away_name']}"
     )
 
+    # ----------------------------------------------
+    # GET MATCH DETAILS
+    # ----------------------------------------------
+
     details_response = requests.get(
         MATCH_DETAILS_URL,
         params={
@@ -282,7 +304,11 @@ for match in relevant_matches:
 
     details = details_response.json()
 
-       lineup = (
+    # ----------------------------------------------
+    # GET LINEUP
+    # ----------------------------------------------
+
+    lineup = (
         details
         .get("content", {})
         .get("lineup")
@@ -297,6 +323,10 @@ for match in relevant_matches:
         print()
 
         continue
+
+    # ----------------------------------------------
+    # CHECK LINEUP TYPE
+    # ----------------------------------------------
 
     lineup_type = lineup.get(
         "lineupType"
@@ -317,6 +347,10 @@ for match in relevant_matches:
 
         continue
 
+    # ----------------------------------------------
+    # SEARCH FOR TRACKED PLAYERS
+    # ----------------------------------------------
+
     found_players = []
 
     for team_key in [
@@ -331,29 +365,32 @@ for match in relevant_matches:
         if not team:
             continue
 
-        team_name = team.get(
-            "name"
+        team_id = team.get("id")
+        team_name = team.get("name")
+
+        tracked_players = (
+            tracked_teams
+            .get(team_id, {})
+            .get("players", {})
         )
+
+        if not tracked_players:
+            continue
 
         # ------------------------------------------
         # STARTING XI
         # ------------------------------------------
 
-        for player in (
-            team.get("starters", [])
+        for player in team.get(
+            "starters",
+            []
         ):
 
             player_name = player.get(
                 "name"
             )
 
-            if player_name in tracked_teams.get(
-                team.get("id"),
-                {}
-            ).get(
-                "players",
-                {}
-            ):
+            if player_name in tracked_players:
 
                 found_players.append({
                     "name": player_name,
@@ -361,26 +398,20 @@ for match in relevant_matches:
                     "team": team_name
                 })
 
-
         # ------------------------------------------
         # BENCH
         # ------------------------------------------
 
-        for player in (
-            team.get("subs", [])
+        for player in team.get(
+            "subs",
+            []
         ):
 
             player_name = player.get(
                 "name"
             )
 
-            if player_name in tracked_teams.get(
-                team.get("id"),
-                {}
-            ).get(
-                "players",
-                {}
-            ):
+            if player_name in tracked_players:
 
                 found_players.append({
                     "name": player_name,
@@ -388,12 +419,15 @@ for match in relevant_matches:
                     "team": team_name
                 })
 
+    # ----------------------------------------------
+    # DISPLAY RESULTS
+    # ----------------------------------------------
 
     if not found_players:
 
         print(
             "  No tracked players found "
-            "in lineup."
+            "in confirmed lineup."
         )
 
     else:
