@@ -17,7 +17,7 @@ HEADERS = {
 today = datetime.now(timezone.utc).strftime("%Y%m%d")
 
 print("=" * 70)
-print(f"CHECKING FOTMOB MATCHES FOR: {today}")
+print(f"CHECKING TRACKED MATCHES FOR: {today}")
 print("=" * 70)
 print()
 
@@ -32,6 +32,30 @@ with open("players_resolved.json", "r", encoding="utf-8") as file:
 players = data["players"]
 
 print(f"Loaded players: {len(players)}")
+
+
+# --------------------------------------------------
+# BUILD TEAM -> PLAYERS LOOKUP
+# --------------------------------------------------
+
+tracked_teams = {}
+
+for player in players:
+
+    team_id = player.get("team_id")
+
+    if team_id is None:
+        continue
+
+    if team_id not in tracked_teams:
+        tracked_teams[team_id] = []
+
+    tracked_teams[team_id].append(
+        player["name"]
+    )
+
+
+print(f"Tracked club teams: {len(tracked_teams)}")
 print()
 
 
@@ -39,121 +63,117 @@ print()
 # GET TODAY'S MATCHES
 # --------------------------------------------------
 
-try:
+response = requests.get(
+    MATCHES_URL,
+    params={
+        "date": today
+    },
+    headers=HEADERS,
+    timeout=20
+)
 
-    response = requests.get(
-        MATCHES_URL,
-        params={
-            "date": today
-        },
-        headers=HEADERS,
-        timeout=20
+response.raise_for_status()
+
+matches_data = response.json()
+
+
+# --------------------------------------------------
+# FIND RELEVANT MATCHES
+# --------------------------------------------------
+
+relevant_matches = []
+
+for league in matches_data.get("leagues", []):
+
+    league_name = league.get(
+        "name",
+        "Unknown competition"
     )
 
-    print("HTTP status:", response.status_code)
-    print("Content-Type:", response.headers.get("Content-Type"))
-    print()
+    for match in league.get("matches", []):
 
-    response.raise_for_status()
+        home = match.get("home", {})
+        away = match.get("away", {})
 
-    matches_data = response.json()
+        home_id = home.get("id")
+        away_id = away.get("id")
 
-except Exception as error:
-
-    print("❌ Failed to retrieve today's matches:")
-    print(error)
-    raise SystemExit(1)
-
-
-# --------------------------------------------------
-# BASIC RESPONSE INFORMATION
-# --------------------------------------------------
-
-print("FotMob response type:")
-print(type(matches_data).__name__)
-print()
-
-if isinstance(matches_data, dict):
-
-    print("Top-level keys:")
-    print(list(matches_data.keys()))
-    print()
-
-elif isinstance(matches_data, list):
-
-    print(f"Response contains {len(matches_data)} top-level items.")
-    print()
-
-
-# --------------------------------------------------
-# SHOW STRUCTURE
-# --------------------------------------------------
-
-print("=" * 70)
-print("RESPONSE STRUCTURE")
-print("=" * 70)
-
-if isinstance(matches_data, dict):
-
-    for key, value in matches_data.items():
-
-        print()
-        print(f"KEY: {key}")
-        print(f"TYPE: {type(value).__name__}")
-
-        if isinstance(value, list):
-
-            print(f"LENGTH: {len(value)}")
-
-            if value:
-                print("FIRST ITEM:")
-
-                print(
-                    json.dumps(
-                        value[0],
-                        indent=2,
-                        ensure_ascii=False
-                    )[:4000]
-                )
-
-        elif isinstance(value, dict):
-
-            print(
-                json.dumps(
-                    value,
-                    indent=2,
-                    ensure_ascii=False
-                )[:4000]
-            )
-
-        else:
-
-            print(value)
-
-        print("-" * 70)
-
-
-elif isinstance(matches_data, list):
-
-    for item in matches_data[:3]:
-
-        print(
-            json.dumps(
-                item,
-                indent=2,
-                ensure_ascii=False
-            )[:4000]
+        home_players = tracked_teams.get(
+            home_id,
+            []
         )
 
-        print("-" * 70)
+        away_players = tracked_teams.get(
+            away_id,
+            []
+        )
 
+        if not home_players and not away_players:
+            continue
+
+        tracked_players = (
+            home_players + away_players
+        )
+
+        relevant_matches.append({
+            "match_id": match.get("id"),
+            "league": league_name,
+            "time": match.get("time"),
+            "home_id": home_id,
+            "home_name": home.get("name"),
+            "away_id": away_id,
+            "away_name": away.get("name"),
+            "tracked_players": tracked_players
+        })
+
+
+# --------------------------------------------------
+# DISPLAY RESULTS
+# --------------------------------------------------
+
+print("=" * 70)
+print("TODAY'S TRACKED MATCHES")
+print("=" * 70)
+print()
+
+
+if not relevant_matches:
+
+    print("No tracked players have a club match today.")
 
 else:
 
-    print(matches_data)
+    for match in relevant_matches:
+
+        print(
+            f"⚽ {match['home_name']} "
+            f"vs "
+            f"{match['away_name']}"
+        )
+
+        print(
+            f"   Competition: {match['league']}"
+        )
+
+        print(
+            f"   Kickoff: {match['time']}"
+        )
+
+        print(
+            f"   Match ID: {match['match_id']}"
+        )
+
+        print("   Tracked players:")
+
+        for player in match["tracked_players"]:
+            print(f"      • {player}")
+
+        print()
 
 
-print()
 print("=" * 70)
-print("TEST COMPLETE")
+print(
+    f"Relevant matches found: "
+    f"{len(relevant_matches)}"
+)
 print("=" * 70)
