@@ -17,7 +17,7 @@ headers = {
 
 
 # --------------------------------------------------
-# GET PLAYER INFORMATION
+# GET PLAYER PROFILES
 # --------------------------------------------------
 
 for player in players:
@@ -25,10 +25,10 @@ for player in players:
     name = player["name"]
     player_id = player["fotmob_id"]
 
-    print("=" * 60)
+    print("=" * 70)
     print(f"PLAYER: {name}")
     print(f"FOTMOB ID: {player_id}")
-    print("=" * 60)
+    print("=" * 70)
 
     url = "https://www.fotmob.com/api/data/playerData"
 
@@ -43,31 +43,51 @@ for player in players:
 
     profile = response.json()
 
-    print("\nPLAYER INFORMATION:")
+    # --------------------------------------------------
+    # CURRENT CLUB
+    # --------------------------------------------------
+
+    primary_team = profile.get("primaryTeam") or {}
+
     print(
-        json.dumps(
-            profile.get("playerInformation"),
-            indent=2,
-            ensure_ascii=False
-        )
+        f"\nClub: "
+        f"{primary_team.get('teamName')} "
+        f"({primary_team.get('teamId')})"
     )
 
-    print("\nMETA:")
+    # --------------------------------------------------
+    # COUNTRY
+    # --------------------------------------------------
+
+    country = None
+    country_code = None
+
+    for item in profile.get("playerInformation", []):
+
+        if item.get("title") == "Country":
+
+            value = item.get("value") or {}
+
+            country = value.get("fallback")
+            country_code = item.get("countryCode")
+
+            break
+
     print(
-        json.dumps(
-            profile.get("meta"),
-            indent=2,
-            ensure_ascii=False
-        )
+        f"Country: {country} "
+        f"({country_code})"
     )
 
-    print("\nMATCH FILTERS:")
-    print(
-        json.dumps(
-            profile.get("matchFilters"),
-            indent=2,
-            ensure_ascii=False
-        )
-    )
+    # --------------------------------------------------
+    # RECENT MATCHES
+    # --------------------------------------------------
+
+    recent_matches = profile.get("recentMatches") or []
+
+    print(f"\nRecent matches found: {len(recent_matches)}")
+
+    for match in recent_matches:
+
+        print(json.dumps(match, ensure_ascii=False))
 
     print("\n")
