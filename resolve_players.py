@@ -569,11 +569,16 @@ errors = sum(
     for player in resolved_players
 )
 
-national_teams_found = sum(
+national_team_players = sum(
     player["national_team_id"] is not None
     for player in resolved_players
 )
 
+unique_national_teams = {
+    player["national_team_id"]
+    for player in resolved_players
+    if player["national_team_id"] is not None
+}
 print(
     "=" * 60
 )
@@ -593,7 +598,11 @@ print(
 )
 
 print(
-    f"National teams:      {national_teams_found}"
+    f"National teams found: {national_team_players} players"
+)
+
+print(
+    f"Unique national teams: {len(unique_national_teams)}"
 )
 
 print(
