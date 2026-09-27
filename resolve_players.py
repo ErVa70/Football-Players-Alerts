@@ -11,6 +11,32 @@ HEADERS = {
 }
 
 
+# --------------------------------------------------
+# MANUAL PLAYER OVERRIDES
+# --------------------------------------------------
+#
+# These are players for whom FotMob returns multiple
+# exact-name matches. We explicitly select the correct
+# player using their FotMob ID.
+#
+
+MANUAL_OVERRIDES = {
+    "Marlon Santos": 540113,
+    "Borja López": 603463,
+    "Neymar": 19533,
+    "André Gomes": 361770,
+    "Arthur": 654044,
+    "Nico González": 1280132,
+    "Pablo Torre": 1233404,
+    "Álex Collado": 929834,
+    "Tomás Marqués": 1777474,
+    "Luis Suárez": 40636,
+    "João Félix": 794427,
+    "Adama Traoré": 493647,
+    "Dani Rodríguez": 1367049
+}
+
+
 def normalize(text):
     """
     Makes name comparison more tolerant of accents/case.
@@ -23,7 +49,8 @@ def normalize(text):
     """
     text = unicodedata.normalize("NFKD", text)
     text = "".join(
-        char for char in text
+        char
+        for char in text
         if not unicodedata.combining(char)
     )
 
@@ -117,6 +144,67 @@ for index, player in enumerate(players, start=1):
         })
 
         continue
+
+
+    # --------------------------------------------------
+    # MANUAL OVERRIDE
+    # --------------------------------------------------
+
+    if name in MANUAL_OVERRIDES:
+
+        selected_id = MANUAL_OVERRIDES[name]
+
+        selected_candidates = [
+            candidate
+            for candidate in candidates
+            if str(candidate.get("id")) == str(selected_id)
+        ]
+
+        if selected_candidates:
+
+            match = selected_candidates[0]
+
+            resolved_players.append({
+                "name": name,
+                "fotmob_id": int(match["id"]),
+                "team_id": match.get("teamId"),
+                "team_name": match.get("teamName"),
+                "status": "resolved"
+            })
+
+            print(
+                f"    ✅ Manual selection: "
+                f"{match.get('name')} "
+                f"→ ID {match.get('id')} "
+                f"→ {match.get('teamName')}"
+            )
+
+        else:
+
+            print(
+                f"    ❌ Manual ID {selected_id} "
+                f"was not returned by FotMob."
+            )
+
+            resolved_players.append({
+                "name": name,
+                "fotmob_id": None,
+                "team_id": None,
+                "team_name": None,
+                "status": "error"
+            })
+
+        print()
+
+        # Be polite to the endpoint.
+        time.sleep(0.25)
+
+        continue
+
+
+    # --------------------------------------------------
+    # NORMAL EXACT-MATCH LOGIC
+    # --------------------------------------------------
 
     normalized_name = normalize(name)
 
