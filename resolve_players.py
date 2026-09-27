@@ -15,11 +15,6 @@ HEADERS = {
 # --------------------------------------------------
 # MANUAL PLAYER OVERRIDES
 # --------------------------------------------------
-#
-# These players have multiple exact-name matches
-# on FotMob. These IDs select the former Barcelona
-# player we actually want.
-#
 
 MANUAL_OVERRIDES = {
     "Marlon Santos": 540113,
@@ -43,17 +38,6 @@ MANUAL_OVERRIDES = {
 # --------------------------------------------------
 
 def normalize(text):
-    """
-    Makes name comparison more tolerant of
-    accents and capitalization.
-
-    Example:
-        Ferran Torres
-        Ferrán Torres
-
-    become equivalent.
-    """
-
     if not text:
         return ""
 
@@ -98,8 +82,6 @@ def search_entities(term):
             []
         ):
 
-            # Avoid duplicates between
-            # "All" and "Players"/"Teams".
             entity_id = suggestion.get("id")
 
             if any(
@@ -122,7 +104,7 @@ def find_player(name):
 
     candidates = search_entities(name)
 
-    # Manual selection for known ambiguous names.
+    # Use manual ID for known ambiguous players.
     if name in MANUAL_OVERRIDES:
 
         selected_id = MANUAL_OVERRIDES[name]
@@ -138,7 +120,6 @@ def find_player(name):
 
         return None
 
-    # Normal exact-name matching.
     normalized_name = normalize(name)
 
     exact_matches = [
@@ -180,7 +161,7 @@ def get_player_profile(player_id):
 
 
 # --------------------------------------------------
-# GET COUNTRY FROM PLAYER PROFILE
+# GET COUNTRY
 # --------------------------------------------------
 
 def get_country(profile):
@@ -218,12 +199,8 @@ def find_national_team(
     if not country_name:
         return None
 
-    # First search by the country's full name.
-    search_terms = [
-        country_name
-    ]
+    search_terms = [country_name]
 
-    # If necessary, also try the country code.
     if country_code:
         search_terms.append(country_code)
 
@@ -231,13 +208,11 @@ def find_national_team(
 
         try:
             candidates = search_entities(term)
-
         except Exception:
             continue
 
         normalized_term = normalize(term)
 
-        # We want an exact senior-team match.
         for candidate in candidates:
 
             if candidate.get("type") != "team":
@@ -251,11 +226,9 @@ def find_national_team(
             if normalize(candidate_name) != normalized_term:
                 continue
 
-            # This naturally excludes:
-            # France (W)
-            # France U21
-            # France U20
-            # etc.
+            # Exact country name means we select
+            # the senior team, not:
+            # France (W), France U21, etc.
             return {
                 "id": int(candidate["id"]),
                 "name": candidate_name
@@ -265,7 +238,7 @@ def find_national_team(
 
 
 # --------------------------------------------------
-# LOAD PLAYERS
+# LOAD PLAYERS + SETTINGS
 # --------------------------------------------------
 
 with open(
@@ -278,8 +251,23 @@ with open(
 
 players = data["players"]
 
+# Players listed here will NOT have their
+# national team monitored.
+excluded_national_players = {
+    normalize(name)
+    for name in data.get(
+        "national_team_exclusions",
+        []
+    )
+}
+
 print(
     f"Players to resolve: {len(players)}"
+)
+
+print(
+    f"National-team exclusions: "
+    f"{len(excluded_national_players)}"
 )
 
 print()
@@ -288,17 +276,6 @@ print()
 # --------------------------------------------------
 # NATIONAL TEAM CACHE
 # --------------------------------------------------
-#
-# Many players share the same nationality.
-#
-# For example:
-# Spain → search once
-# France → search once
-# Portugal → search once
-#
-# instead of repeating the same search for
-# every player.
-#
 
 national_team_cache = {}
 
@@ -319,6 +296,15 @@ for index, player in enumerate(
     print(
         f"[{index:03}/{len(players):03}] "
         f"{name}"
+    )
+
+    # ----------------------------------------------
+    # NATIONAL TEAM MONITORING SETTING
+    # ----------------------------------------------
+
+    monitor_national_team = (
+        normalize(name)
+        not in excluded_national_players
     )
 
     # ----------------------------------------------
@@ -345,6 +331,7 @@ for index, player in enumerate(
             "country_code": None,
             "national_team_id": None,
             "national_team_name": None,
+            "monitor_national_team": monitor_national_team,
             "status": "error"
         })
 
@@ -353,7 +340,7 @@ for index, player in enumerate(
     if player_match is None:
 
         print(
-            "    ❌ Could not uniquely resolve player."
+            "    ❌ Could not resolve player."
         )
 
         resolved_players.append({
@@ -365,6 +352,7 @@ for index, player in enumerate(
             "country_code": None,
             "national_team_id": None,
             "national_team_name": None,
+            "monitor_national_team": monitor_national_team,
             "status": "not_found"
         })
 
@@ -379,7 +367,7 @@ for index, player in enumerate(
     )
 
     # ----------------------------------------------
-    # GET PLAYER PROFILE
+    # GET PROFILE
     # ----------------------------------------------
 
     try:
@@ -408,6 +396,7 @@ for index, player in enumerate(
             "country_code": None,
             "national_team_id": None,
             "national_team_name": None,
+            "monitor_national_team": monitor_national_team,
             "status": "error"
         })
 
@@ -436,12 +425,10 @@ for index, player in enumerate(
     )
 
     # ----------------------------------------------
-    # NATIONALITY
+    # COUNTRY
     # ----------------------------------------------
 
-    country = get_country(
-        profile
-    )
+    country = get_country(profile)
 
     country_name = country.get(
         "name"
@@ -460,44 +447,54 @@ for index, player in enumerate(
     # NATIONAL TEAM
     # ----------------------------------------------
 
-    cache_key = normalize(
-        country_name
-    )
+    national_team = None
 
-    if cache_key in national_team_cache:
+    if monitor_national_team:
 
-        national_team = (
+        cache_key = normalize(
+            country_name
+        )
+
+        if cache_key in national_team_cache:
+
+            national_team = (
+                national_team_cache[
+                    cache_key
+                ]
+            )
+
+        else:
+
+            national_team = find_national_team(
+                country_name,
+                country_code
+            )
+
             national_team_cache[
                 cache_key
-            ]
-        )
+            ] = national_team
 
-    else:
+            time.sleep(0.25)
 
-        national_team = find_national_team(
-            country_name,
-            country_code
-        )
+        if national_team:
 
-        national_team_cache[
-            cache_key
-        ] = national_team
+            print(
+                f"    National team: "
+                f"{national_team['name']} "
+                f"({national_team['id']})"
+            )
 
-        time.sleep(0.25)
+        else:
 
-    if national_team:
-
-        print(
-            f"    National team: "
-            f"{national_team['name']} "
-            f"({national_team['id']})"
-        )
+            print(
+                "    ⚠️ National team "
+                "could not be resolved."
+            )
 
     else:
 
         print(
-            "    ⚠️ National team "
-            "could not be resolved."
+            "    🚫 National-team monitoring: OFF"
         )
 
     # ----------------------------------------------
@@ -521,12 +518,12 @@ for index, player in enumerate(
             if national_team
             else None
         ),
+        "monitor_national_team": monitor_national_team,
         "status": "resolved"
     })
 
     print()
 
-    # Be polite to FotMob.
     time.sleep(0.25)
 
 
@@ -569,13 +566,7 @@ errors = sum(
     for player in resolved_players
 )
 
-unique_club_teams = {
-    player["team_id"]
-    for player in resolved_players
-    if player["team_id"] is not None
-}
-
-national_team_players = sum(
+national_teams_found = sum(
     player["national_team_id"] is not None
     for player in resolved_players
 )
@@ -585,6 +576,28 @@ unique_national_teams = {
     for player in resolved_players
     if player["national_team_id"] is not None
 }
+
+unique_club_teams = {
+    player["team_id"]
+    for player in resolved_players
+    if player["team_id"] is not None
+}
+
+national_monitoring_on = sum(
+    player["monitor_national_team"]
+    for player in resolved_players
+)
+
+national_monitoring_off = sum(
+    not player["monitor_national_team"]
+    for player in resolved_players
+)
+
+
+# --------------------------------------------------
+# SUMMARY
+# --------------------------------------------------
+
 print(
     "=" * 60
 )
@@ -596,37 +609,42 @@ print(
 )
 
 print(
-    f"Total:               {len(players)}"
+    f"Total:                    {len(players)}"
 )
 
 print(
-    f"Players resolved:    {resolved}"
+    f"Players resolved:         {resolved}"
 )
 
 print(
-    f"National teams found: {national_team_players} players"
+    f"Unique club teams:        "
+    f"{len(unique_club_teams)}"
 )
 
 print(
-    f"Unique national teams: {len(unique_national_teams)}"
+    f"National teams found:     "
+    f"{national_teams_found} players"
 )
 
 print(
-    f"Unique club teams:     {len(unique_club_teams)}"
+    f"Unique national teams:    "
+    f"{len(unique_national_teams)}"
 )
 
 print(
-    f"National teams found: {national_team_players} players"
+    f"National monitoring ON:   "
+    f"{national_monitoring_on}"
 )
 
 print(
-    f"Unique national teams: {len(unique_national_teams)}"
+    f"National monitoring OFF:  "
+    f"{national_monitoring_off}"
 )
 
 print(
-    f"Not found:           {not_found}"
+    f"Not found:                {not_found}"
 )
 
 print(
-    f"Errors:              {errors}"
+    f"Errors:                   {errors}"
 )
