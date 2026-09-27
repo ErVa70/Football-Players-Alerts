@@ -282,7 +282,7 @@ for match in relevant_matches:
 
     details = details_response.json()
 
-    lineup = (
+       lineup = (
         details
         .get("content", {})
         .get("lineup")
@@ -291,7 +291,26 @@ for match in relevant_matches:
     if not lineup:
 
         print(
-            "  No lineup data available yet."
+            "  No lineup data available."
+        )
+
+        print()
+
+        continue
+
+    lineup_type = lineup.get(
+        "lineupType"
+    )
+
+    print(
+        f"  Lineup type: {lineup_type}"
+    )
+
+    if lineup_type != "standard":
+
+        print(
+            "  ⏳ Lineup exists, but it is "
+            "not confirmed yet."
         )
 
         print()
