@@ -1,6 +1,6 @@
 import json
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 
 MATCHES_URL = "https://www.fotmob.com/api/data/matches"
@@ -14,9 +14,10 @@ HEADERS = {
 # SETTINGS
 # --------------------------------------------------
 
-# Change this later if you want the bot to use
-# a different timezone.
-BOT_TIMEZONE_OFFSET_HOURS = 3.5
+# Your local timezone: UTC+03:30
+LOCAL_TIMEZONE = timezone(
+    timedelta(hours=3, minutes=30)
+)
 
 
 # --------------------------------------------------
@@ -51,15 +52,19 @@ for player in players:
 
 
 # --------------------------------------------------
-# GET TODAY'S DATE
+# GET TODAY'S LOCAL DATE
 # --------------------------------------------------
 
-today_utc = datetime.now(timezone.utc)
+now_local = datetime.now(LOCAL_TIMEZONE)
+
+today_local = now_local.date()
+
+fotmob_date = today_local.strftime("%Y%m%d")
 
 print("=" * 70)
 print(
-    "CHECKING TRACKED MATCHES FOR UTC DATE:",
-    today_utc.strftime("%Y-%m-%d")
+    f"CHECKING TRACKED MATCHES FOR LOCAL DATE: "
+    f"{today_local}"
 )
 print("=" * 70)
 print()
@@ -72,8 +77,6 @@ print()
 # --------------------------------------------------
 # GET MATCHES FROM FOTMOB
 # --------------------------------------------------
-
-fotmob_date = today_utc.strftime("%Y%m%d")
 
 response = requests.get(
     MATCHES_URL,
@@ -112,8 +115,7 @@ for league in matches_data.get("leagues", []):
         away_id = away.get("id")
 
         # ------------------------------------------
-        # CHECK WHETHER THIS MATCH INVOLVES
-        # ONE OF OUR TRACKED CLUBS
+        # DOES THIS MATCH INVOLVE A TRACKED CLUB?
         # ------------------------------------------
 
         home_players = tracked_teams.get(
@@ -130,7 +132,7 @@ for league in matches_data.get("leagues", []):
             continue
 
         # ------------------------------------------
-        # GET ACTUAL KICKOFF DATE FROM UTC
+        # GET ACTUAL KICKOFF TIME
         # ------------------------------------------
 
         utc_time = status.get("utcTime")
@@ -138,16 +140,21 @@ for league in matches_data.get("leagues", []):
         if not utc_time:
             continue
 
-        match_utc_date = (
-            datetime.fromisoformat(
-                utc_time.replace("Z", "+00:00")
-            )
-            .date()
+        kickoff_utc = datetime.fromisoformat(
+            utc_time.replace("Z", "+00:00")
         )
 
-        # Ignore matches whose actual UTC date
-        # does not match the requested date.
-        if match_utc_date != today_utc.date():
+        kickoff_local = kickoff_utc.astimezone(
+            LOCAL_TIMEZONE
+        )
+
+        # ------------------------------------------
+        # IMPORTANT:
+        # Only keep matches whose LOCAL
+        # calendar date is today.
+        # ------------------------------------------
+
+        if kickoff_local.date() != today_local:
             continue
 
         tracked_players = (
@@ -157,7 +164,9 @@ for league in matches_data.get("leagues", []):
         relevant_matches.append({
             "match_id": match.get("id"),
             "league": league_name,
-            "time": match.get("time"),
+            "time": kickoff_local.strftime(
+                "%d.%m.%Y %H:%M"
+            ),
             "home_id": home_id,
             "home_name": home.get("name"),
             "away_id": away_id,
@@ -207,7 +216,9 @@ else:
         print("   Tracked players:")
 
         for player in match["tracked_players"]:
-            print(f"      • {player}")
+            print(
+                f"      • {player}"
+            )
 
         print()
 
