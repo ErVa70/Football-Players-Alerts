@@ -1,4 +1,7 @@
 {
+    "national_team_exclusions": [
+        "Luis Suárez"
+    ],
     "players": [
         {"name": "Iñaki Peña"},
         {"name": "Marc ter Stegen"},
