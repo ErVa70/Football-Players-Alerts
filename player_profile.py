@@ -11,7 +11,6 @@ with open("players.json", "r", encoding="utf-8") as file:
 
 players = data["players"]
 
-
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
@@ -35,9 +34,7 @@ for player in players:
 
     response = requests.get(
         url,
-        params={
-            "id": player_id
-        },
+        params={"id": player_id},
         headers=headers,
         timeout=20
     )
@@ -46,5 +43,47 @@ for player in players:
 
     profile = response.json()
 
-    print(json.dumps(profile, indent=2, ensure_ascii=False))
-    print()
+    # --------------------------------------------------
+    # TOP-LEVEL KEYS
+    # --------------------------------------------------
+
+    print("\nTop-level sections:")
+    print(list(profile.keys()))
+
+    # --------------------------------------------------
+    # PRIMARY TEAM
+    # --------------------------------------------------
+
+    primary_team = profile.get("primaryTeam")
+
+    print("\nPrimary team:")
+    print(primary_team)
+
+    # --------------------------------------------------
+    # COUNTRY / NATIONAL TEAM CANDIDATES
+    # --------------------------------------------------
+
+    print("\nPossible country/national-team information:")
+
+    for key in profile.keys():
+
+        key_lower = key.lower()
+
+        if (
+            "country" in key_lower
+            or "national" in key_lower
+            or "international" in key_lower
+        ):
+            print(f"{key}:")
+            print(profile[key])
+
+    # --------------------------------------------------
+    # CAREER
+    # --------------------------------------------------
+
+    career = profile.get("career")
+
+    print("\nCareer:")
+    print(career)
+
+    print("\n")
