@@ -20,10 +20,11 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# Your local timezone: UTC+03:30
 LOCAL_TIMEZONE = timezone(
     timedelta(hours=3, minutes=30)
 )
+
+STATE_FILE = "bot_state.json"
 
 
 # --------------------------------------------------
@@ -39,6 +40,19 @@ with open(
     data = json.load(file)
 
 players = data["players"]
+
+
+# --------------------------------------------------
+# LOAD BOT STATE
+# --------------------------------------------------
+
+with open(
+    STATE_FILE,
+    "r",
+    encoding="utf-8"
+) as file:
+
+    state = json.load(file)
 
 
 # --------------------------------------------------
@@ -84,10 +98,7 @@ for player in players:
 
     player_name = player["name"]
 
-    # ----------------------------------------------
-    # CLUB
-    # ----------------------------------------------
-
+    # Club
     add_player_to_team(
         player.get("team_id"),
         player.get("team_name"),
@@ -95,10 +106,7 @@ for player in players:
         "club"
     )
 
-    # ----------------------------------------------
-    # NATIONAL TEAM
-    # ----------------------------------------------
-
+    # National team
     if player.get(
         "monitor_national_team",
         True
@@ -191,24 +199,11 @@ for league in matches_data.get(
         home_id = home.get("id")
         away_id = away.get("id")
 
-        # ------------------------------------------
-        # CHECK TRACKED TEAMS
-        # ------------------------------------------
-
-        home_is_tracked = (
-            home_id in tracked_teams
-        )
-
-        away_is_tracked = (
-            away_id in tracked_teams
-        )
-
-        if not home_is_tracked and not away_is_tracked:
+        if (
+            home_id not in tracked_teams
+            and away_id not in tracked_teams
+        ):
             continue
-
-        # ------------------------------------------
-        # KICKOFF TIME
-        # ------------------------------------------
 
         utc_time = status.get(
             "utcTime"
@@ -254,9 +249,14 @@ print("=" * 70)
 print()
 
 
+state_changed = False
+
+
 for match in relevant_matches:
 
-    match_id = match["match_id"]
+    match_id = str(
+        match["match_id"]
+    )
 
     print(
         f"Checking: "
@@ -271,7 +271,7 @@ for match in relevant_matches:
     details_response = requests.get(
         MATCH_DETAILS_URL,
         params={
-            "matchId": match_id
+            "matchId": match["match_id"]
         },
         headers=HEADERS,
         timeout=20
@@ -332,7 +332,7 @@ for match in relevant_matches:
         continue
 
     # ----------------------------------------------
-    # FIND OUR PLAYERS
+    # FIND TRACKED PLAYERS
     # ----------------------------------------------
 
     found_players = []
@@ -361,10 +361,7 @@ for match in relevant_matches:
         if not tracked_players:
             continue
 
-        # ------------------------------------------
-        # STARTING XI
-        # ------------------------------------------
-
+        # Starting XI
         for player in team.get(
             "starters",
             []
@@ -382,10 +379,7 @@ for match in relevant_matches:
                     "team": team_name
                 })
 
-        # ------------------------------------------
-        # BENCH
-        # ------------------------------------------
-
+        # Bench
         for player in team.get(
             "subs",
             []
@@ -404,14 +398,11 @@ for match in relevant_matches:
                 })
 
 
-    # ----------------------------------------------
-    # NOTHING FOUND
-    # ----------------------------------------------
-
     if not found_players:
 
         print(
-            "  No tracked players in confirmed lineup."
+            "  No tracked players in "
+            "confirmed lineup."
         )
 
         print()
@@ -420,77 +411,144 @@ for match in relevant_matches:
 
 
     # ----------------------------------------------
-    # PRINT FOUND PLAYERS
+    # DUPLICATE PROTECTION
     # ----------------------------------------------
+
+    if match_id not in state[
+        "lineup_notifications"
+    ]:
+
+        state[
+            "lineup_notifications"
+        ][match_id] = []
+
 
     for player in found_players:
 
-        print(
-            f"  ✅ {player['name']} "
-            f"→ {player['status']} "
-            f"({player['team']})"
+        notification_key = (
+            f"{player['name']}|"
+            f"{player['status']}"
         )
 
+        if notification_key in state[
+            "lineup_notifications"
+        ][match_id]:
 
-    # ----------------------------------------------
-    # CREATE TELEGRAM MESSAGE
-    # ----------------------------------------------
+            print(
+                f"  ↪ Already reported: "
+                f"{player['name']} "
+                f"({player['status']})"
+            )
 
-    lines = [
-        "🔵 CONFIRMED LINEUP",
-        "",
-        f"⚽ {match['home_name']} "
-        f"vs {match['away_name']}",
-        ""
-    ]
+            continue
 
-    for player in found_players:
+
+        # ------------------------------------------
+        # CREATE TELEGRAM MESSAGE
+        # ------------------------------------------
+
+        lines = [
+            "🔵 CONFIRMED LINEUP",
+            "",
+            f"⚽ {match['home_name']} "
+            f"vs {match['away_name']}",
+            ""
+        ]
 
         if player["status"] == "STARTING XI":
 
             lines.append(
-                f"✅ {player['name']} — STARTING XI"
+                f"✅ {player['name']} "
+                f"— STARTING XI"
             )
 
         else:
 
             lines.append(
-                f"🪑 {player['name']} — BENCH"
+                f"🪑 {player['name']} "
+                f"— BENCH"
             )
 
 
-    message = "\n".join(lines)
+        message = "\n".join(lines)
 
 
-    # ----------------------------------------------
-    # SEND TELEGRAM
-    # ----------------------------------------------
+        # ------------------------------------------
+        # SEND TELEGRAM
+        # ------------------------------------------
 
-    telegram_url = (
-        f"https://api.telegram.org/"
-        f"bot{BOT_TOKEN}/sendMessage"
-    )
+        telegram_url = (
+            f"https://api.telegram.org/"
+            f"bot{BOT_TOKEN}/sendMessage"
+        )
 
-    telegram_data = {
-        "chat_id": CHANNEL,
-        "text": message
-    }
+        telegram_data = {
+            "chat_id": CHANNEL,
+            "text": message
+        }
 
-    telegram_response = requests.post(
-        telegram_url,
-        data=telegram_data,
-        timeout=20
-    )
+        telegram_response = requests.post(
+            telegram_url,
+            data=telegram_data,
+            timeout=20
+        )
 
-    telegram_response.raise_for_status()
+        telegram_response.raise_for_status()
 
-    print(
-        "  📱 Telegram lineup notification sent!"
-    )
+
+        # ------------------------------------------
+        # REMEMBER IT
+        # ------------------------------------------
+
+        state[
+            "lineup_notifications"
+        ][match_id].append(
+            notification_key
+        )
+
+        state_changed = True
+
+        print(
+            f"  📱 Telegram notification sent: "
+            f"{player['name']} "
+            f"({player['status']})"
+        )
+
 
     print()
 
 
+# --------------------------------------------------
+# SAVE STATE
+# --------------------------------------------------
+
+if state_changed:
+
+    with open(
+        STATE_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            state,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    print(
+        "💾 Bot state updated."
+    )
+
+else:
+
+    print(
+        "💾 No state changes."
+    )
+
+
+print()
 print("=" * 70)
 print("LINEUP MONITORING COMPLETE")
 print("=" * 70)
