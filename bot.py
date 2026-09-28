@@ -1,5 +1,7 @@
 import json
 import os
+import html
+import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -645,18 +647,101 @@ def process_daily_schedule(
 # MATCH DETAILS
 # ============================================================
 
-def get_match_details(match_id, refresh=False):
-    params = {
-        "matchId": match_id
-    }
-
-    if refresh:
-        params["refresh"] = "true"
-
+def get_match_details(match_id):
     return fotmob_get(
         "matchDetails",
-        params,
+        {
+            "matchId": match_id
+        },
     )
+
+
+def find_match_payload(node):
+    """Find the embedded FotMob match payload inside __NEXT_DATA__."""
+
+    if isinstance(node, dict):
+        content = node.get("content")
+
+        if (
+            isinstance(content, dict)
+            and isinstance(content.get("lineup"), dict)
+        ):
+            return node
+
+        for value in node.values():
+            found = find_match_payload(value)
+
+            if found is not None:
+                return found
+
+    elif isinstance(node, list):
+        for value in node:
+            found = find_match_payload(value)
+
+            if found is not None:
+                return found
+
+    return None
+
+
+def get_match_details_from_page(match_id):
+    """Fetch fresh match data from FotMob's match page.
+
+    This is used only as a pre-match lineup fallback. Live events
+    and final stats continue to use the normal matchDetails API.
+    """
+
+    url = (
+        f"https://www.fotmob.com/match/{match_id}"
+    )
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/154.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml",
+    }
+
+    response = requests.get(
+        url,
+        headers=headers,
+        timeout=30,
+        allow_redirects=True,
+    )
+
+    response.raise_for_status()
+
+    match = re.search(
+        r'<script[^>]+id=["\']__NEXT_DATA__["\'][^>]*>(.*?)</script>',
+        response.text,
+        re.DOTALL,
+    )
+
+    if not match:
+        raise RuntimeError(
+            "FotMob match page did not contain __NEXT_DATA__."
+        )
+
+    raw_json = html.unescape(
+        match.group(1)
+    )
+
+    next_data = json.loads(
+        raw_json
+    )
+
+    details = find_match_payload(
+        next_data
+    )
+
+    if details is None:
+        raise RuntimeError(
+            "Could not find match data inside FotMob __NEXT_DATA__."
+        )
+
+    return details
 
 
 # ============================================================
@@ -768,7 +853,7 @@ def process_confirmed_lineup(
 
     # Upcoming matchDetails responses can be cached.
     # If the match has not started and the lineup is not
-    # confirmed yet, make one explicit refresh request.
+    # confirmed yet, try the actual FotMob match page once.
     match_status = (
         details.get(
             "header",
@@ -784,17 +869,16 @@ def process_confirmed_lineup(
         and lineup_type != "standard"
     ):
         print(
-            "  🔄 Retrying matchDetails with refresh=true..."
+            "  🔄 Checking FotMob match page for a fresher lineup..."
         )
 
         try:
-            refreshed_details = get_match_details(
-                match_id,
-                refresh=True,
+            page_details = get_match_details_from_page(
+                match_id
             )
 
-            refreshed_lineup = (
-                refreshed_details.get(
+            page_lineup = (
+                page_details.get(
                     "content",
                     {}
                 ).get(
@@ -802,23 +886,23 @@ def process_confirmed_lineup(
                 )
             )
 
-            if refreshed_lineup:
-                refreshed_type = refreshed_lineup.get(
+            if page_lineup:
+                page_type = page_lineup.get(
                     "lineupType"
                 )
 
                 print(
-                    f"  Refreshed lineup type: {refreshed_type}"
+                    f"  FotMob page lineup type: {page_type}"
                 )
 
-                details = refreshed_details
-                lineup = refreshed_lineup
-                lineup_type = refreshed_type
+                details = page_details
+                lineup = page_lineup
+                lineup_type = page_type
 
         except Exception as e:
             print(
-                "  ⚠️ Refresh request failed; "
-                f"keeping original response: {e}"
+                "  ⚠️ FotMob match-page check failed; "
+                f"keeping API response: {e}"
             )
 
     if lineup_type != "standard":
