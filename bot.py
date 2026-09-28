@@ -771,12 +771,17 @@ def main():
     print("BARCELONA PLAYER BOT")
     print("=" * 70)
 
-    players = load_json(
-        PLAYERS_FILE,
-        [],
-    )
+    players_data = load_json(
+    PLAYERS_FILE,
+    [],
+)
 
-    state = load_json(
+if isinstance(players_data, dict):
+    players = players_data.get("players", [])
+else:
+    players = players_data
+
+state = load_json(
         STATE_FILE,
         {
             "daily_posts": [],
