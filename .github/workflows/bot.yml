@@ -3,6 +3,12 @@ name: Barcelona Player Bot
 on:
   workflow_dispatch:
 
+  schedule:
+    # Every 5 minutes, offset from the top of the hour
+    # using Tehran time.
+    - cron: "2-59/5 * * * *"
+      timezone: "Asia/Tehran"
+
 permissions:
   contents: write
 
