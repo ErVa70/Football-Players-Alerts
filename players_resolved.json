@@ -374,14 +374,15 @@
     {
         "name": "Patric",
         "fotmob_id": 358149,
-        "team_id": 8543,
-        "team_name": "Lazio",
+        "team_id": -1,
+        "team_name": "Al-Ittifaq",
         "country": "Spain",
         "country_code": "ESP",
         "national_team_id": 6720,
         "national_team_name": "Spain",
         "monitor_national_team": true,
-        "status": "resolved"
+        "status": "resolved",
+        "on_loan": false
     },
     {
         "name": "Marc Cucurella",
