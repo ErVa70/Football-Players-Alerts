@@ -2042,7 +2042,13 @@ def main():
             tracked_teams,
         )
     ]
+process_daily_schedule(
+    relevant_matches,
+    state,
+    player_lookup,
+)
 
+    
     print(
         f"Found {len(relevant_matches)} "
         f"relevant matches."
