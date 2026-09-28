@@ -11,7 +11,10 @@ import requests
 # ============================================================
 
 FOTMOB_BASE = "https://www.fotmob.com/api/data"
-LOCAL_TIMEZONE = timezone(timedelta(hours=3, minutes=30))
+
+LOCAL_TIMEZONE = timezone(
+    timedelta(hours=3, minutes=30)
+)
 
 PLAYERS_FILE = "players_resolved.json"
 STATE_FILE = "bot_state.json"
@@ -35,8 +38,17 @@ def load_json(filename, default):
 
 
 def save_json(filename, data):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    with open(
+        filename,
+        "w",
+        encoding="utf-8"
+    ) as f:
+        json.dump(
+            data,
+            f,
+            ensure_ascii=False,
+            indent=4
+        )
 
 
 # ============================================================
@@ -53,6 +65,7 @@ def fotmob_get(endpoint, params=None):
     )
 
     response.raise_for_status()
+
     return response.json()
 
 
@@ -79,37 +92,185 @@ def send_telegram(message):
 
 
 # ============================================================
-# MATCH DISCOVERY
+# TIME / DATE HELPERS
 # ============================================================
 
-def get_local_today():
+def get_local_now():
     return datetime.now(
         timezone.utc
     ).astimezone(
         LOCAL_TIMEZONE
-    ).date()
+    )
 
 
-def get_today_matches():
-    today = get_local_today()
-    date_string = today.strftime("%Y%m%d")
+def get_local_today():
+    return get_local_now().date()
+
+
+def get_daily_window():
+    """
+    Daily Matches window:
+
+        Today 10:00 Tehran
+        ->
+        Tomorrow 10:00 Tehran
+    """
+
+    now = get_local_now()
+
+    window_start = now.replace(
+        hour=10,
+        minute=0,
+        second=0,
+        microsecond=0,
+    )
+
+    window_end = (
+        window_start
+        + timedelta(days=1)
+    )
+
+    return (
+        window_start,
+        window_end,
+        now,
+    )
+
+
+# ============================================================
+# MATCH DISCOVERY
+# ============================================================
+
+def get_matches_for_date(date_value):
+    date_string = date_value.strftime(
+        "%Y%m%d"
+    )
 
     data = fotmob_get(
         "matches",
-        {"date": date_string},
+        {
+            "date": date_string
+        },
     )
 
-    return data.get("leagues", [])
+    return data.get(
+        "leagues",
+        []
+    )
+
+
+def get_today_matches():
+    return get_matches_for_date(
+        get_local_today()
+    )
 
 
 def collect_matches(leagues):
     matches = []
 
     for league in leagues:
-        for match in league.get("matches", []):
+        for match in league.get(
+            "matches",
+            []
+        ):
             matches.append(match)
 
     return matches
+
+
+def parse_match_kickoff(match):
+    utc_time = (
+        match.get(
+            "status",
+            {}
+        ).get(
+            "utcTime"
+        )
+    )
+
+    if not utc_time:
+        return None
+
+    try:
+        return (
+            datetime.fromisoformat(
+                utc_time.replace(
+                    "Z",
+                    "+00:00"
+                )
+            ).astimezone(
+                LOCAL_TIMEZONE
+            )
+        )
+    except ValueError:
+        return None
+
+
+def get_daily_window_matches(
+    window_start,
+    window_end,
+):
+    """
+    Fetch both calendar dates because the
+    10:00 -> 10:00 window crosses midnight.
+    """
+
+    dates_to_fetch = [
+        window_start.date(),
+        window_end.date(),
+    ]
+
+    all_matches = []
+    seen_match_ids = set()
+
+    for date_value in dates_to_fetch:
+
+        leagues = get_matches_for_date(
+            date_value
+        )
+
+        matches = collect_matches(
+            leagues
+        )
+
+        for match in matches:
+
+            match_id = match.get(
+                "id"
+            )
+
+            if match_id in seen_match_ids:
+                continue
+
+            kickoff = parse_match_kickoff(
+                match
+            )
+
+            if kickoff is None:
+                continue
+
+            if (
+                kickoff >= window_start
+                and kickoff < window_end
+            ):
+                all_matches.append(
+                    match
+                )
+
+                seen_match_ids.add(
+                    match_id
+                )
+
+    all_matches.sort(
+        key=lambda match: (
+            parse_match_kickoff(
+                match
+            )
+            or window_start
+        )
+    )
+
+    return all_matches
 
 
 # ============================================================
@@ -121,10 +282,13 @@ def build_tracked_teams(players):
 
     for player in players:
 
-        club_id = player.get(
-            "team_id"
-        ) or player.get(
-            "teamId"
+        club_id = (
+            player.get(
+                "team_id"
+            )
+            or player.get(
+                "teamId"
+            )
         )
 
         if club_id is not None:
@@ -152,22 +316,39 @@ def build_tracked_teams(players):
     return tracked_teams
 
 
-def is_relevant_match(match, tracked_teams):
-    home = match.get("home", {})
-    away = match.get("away", {})
+def is_relevant_match(
+    match,
+    tracked_teams
+):
+    home = match.get(
+        "home",
+        {}
+    )
 
-    home_id = home.get("id")
-    away_id = away.get("id")
+    away = match.get(
+        "away",
+        {}
+    )
+
+    home_id = home.get(
+        "id"
+    )
+
+    away_id = away.get(
+        "id"
+    )
 
     if (
         home_id is not None
-        and int(home_id) in tracked_teams
+        and int(home_id)
+        in tracked_teams
     ):
         return True
 
     if (
         away_id is not None
-        and int(away_id) in tracked_teams
+        and int(away_id)
+        in tracked_teams
     ):
         return True
 
@@ -193,6 +374,273 @@ def build_player_lookup(players):
     return lookup
 
 
+def get_tracked_players_for_match(
+    match,
+    player_lookup,
+):
+    """
+    Return the tracked players whose current
+    club or monitored national team is involved
+    in this match.
+    """
+
+    home_id = (
+        match.get(
+            "home",
+            {}
+        ).get(
+            "id"
+        )
+    )
+
+    away_id = (
+        match.get(
+            "away",
+            {}
+        ).get(
+            "id"
+        )
+    )
+
+    tracked_players = []
+
+    for player in player_lookup.values():
+
+        club_id = player.get(
+            "team_id"
+        )
+
+        national_id = player.get(
+            "national_team_id"
+        )
+
+        monitor_national = player.get(
+            "monitor_national_team",
+            True
+        )
+
+        matched = False
+
+        # Current club
+        if club_id is not None:
+
+            try:
+                club_id = int(
+                    club_id
+                )
+
+                if (
+                    home_id is not None
+                    and int(home_id)
+                    == club_id
+                ):
+                    matched = True
+
+                elif (
+                    away_id is not None
+                    and int(away_id)
+                    == club_id
+                ):
+                    matched = True
+
+            except (
+                TypeError,
+                ValueError
+            ):
+                pass
+
+        # Monitored national team
+        if (
+            not matched
+            and monitor_national
+            and national_id is not None
+        ):
+
+            try:
+                national_id = int(
+                    national_id
+                )
+
+                if (
+                    home_id is not None
+                    and int(home_id)
+                    == national_id
+                ):
+                    matched = True
+
+                elif (
+                    away_id is not None
+                    and int(away_id)
+                    == national_id
+                ):
+                    matched = True
+
+            except (
+                TypeError,
+                ValueError
+            ):
+                pass
+
+        if matched:
+            tracked_players.append(
+                player["name"]
+            )
+
+    return tracked_players
+
+
+# ============================================================
+# DAILY MATCHES POST
+# ============================================================
+
+def process_daily_schedule(
+    matches,
+    state,
+    player_lookup,
+    window_start,
+    window_end,
+):
+    """
+    Publish the Daily Matches post once for the
+    current 10:00 -> next-day 10:00 Tehran window.
+    """
+
+    now = get_local_now()
+
+    # Do not publish before 10:00.
+    if now < window_start:
+        print(
+            "  ⏳ Daily Matches post is not due yet."
+        )
+
+        print(
+            "  Window begins at:",
+            window_start.strftime(
+                "%Y-%m-%d %H:%M"
+            )
+        )
+
+        return
+
+    window_key = (
+        window_start.isoformat()
+    )
+
+    # Already posted this exact window.
+    if window_key in state[
+        "daily_posts"
+    ]:
+        print(
+            "  ↪ Daily schedule already "
+            "posted for "
+            f"{window_start.strftime('%Y-%m-%d %H:%M')}"
+        )
+
+        return
+
+    sections = []
+
+    for match in matches:
+
+        tracked_players = (
+            get_tracked_players_for_match(
+                match,
+                player_lookup,
+            )
+        )
+
+        if not tracked_players:
+            continue
+
+        home_name = (
+            match.get(
+                "home",
+                {}
+            ).get(
+                "name",
+                "Home"
+            )
+        )
+
+        away_name = (
+            match.get(
+                "away",
+                {}
+            ).get(
+                "name",
+                "Away"
+            )
+        )
+
+        kickoff = parse_match_kickoff(
+            match
+        )
+
+        if kickoff:
+            time_text = kickoff.strftime(
+                "%H:%M"
+            )
+        else:
+            time_text = "TBD"
+
+        section = (
+            f"⚽ {home_name} vs {away_name}"
+            f" — {time_text}\n"
+            f"👤 "
+            + ", ".join(
+                tracked_players
+            )
+        )
+
+        sections.append(
+            section
+        )
+
+    if not sections:
+        print(
+            "  ℹ️ No relevant matches "
+            "inside this 24-hour window."
+        )
+
+        state[
+            "daily_posts"
+        ].append(
+            window_key
+        )
+
+        return
+
+    window_text = (
+        f"{window_start.strftime('%d %b %H:%M')}"
+        f" → "
+        f"{window_end.strftime('%d %b %H:%M')}"
+        f" Tehran"
+    )
+
+    message = (
+        "📅 DAILY MATCHES\n\n"
+        f"🕙 {window_text}\n\n"
+        + "\n\n".join(
+            sections
+        )
+    )
+
+    send_telegram(
+        message
+    )
+
+    state[
+        "daily_posts"
+    ].append(
+        window_key
+    )
+
+    print(
+        "  📱 Daily schedule "
+        "notification sent."
+    )
+
+
 # ============================================================
 # MATCH DETAILS
 # ============================================================
@@ -200,7 +648,9 @@ def build_player_lookup(players):
 def get_match_details(match_id):
     return fotmob_get(
         "matchDetails",
-        {"matchId": match_id},
+        {
+            "matchId": match_id
+        },
     )
 
 
@@ -249,7 +699,9 @@ def extract_lineup_players(lineup):
                 if player_id is None:
                     continue
 
-                players[int(player_id)] = {
+                players[
+                    int(player_id)
+                ] = {
                     "role": role_name,
                     "name": player.get(
                         "name",
@@ -298,6 +750,7 @@ def process_confirmed_lineup(
         print(
             "  No lineup data available."
         )
+
         return
 
     lineup_type = lineup.get(
@@ -312,6 +765,7 @@ def process_confirmed_lineup(
         print(
             "  ⏳ Lineup is not confirmed yet."
         )
+
         return
 
     lineup_players = (
@@ -410,9 +864,7 @@ def get_event_key(event):
     )
 
     if event_id is not None:
-        return (
-            f"id:{event_id}"
-        )
+        return f"id:{event_id}"
 
     event_type = str(
         event.get(
@@ -431,7 +883,8 @@ def get_event_key(event):
     player = (
         event.get(
             "player"
-        ) or {}
+        )
+        or {}
     )
 
     player_id = player.get(
@@ -442,7 +895,8 @@ def get_event_key(event):
     swaps = (
         event.get(
             "swap"
-        ) or []
+        )
+        or []
     )
 
     swap_ids = ",".join(
@@ -480,7 +934,8 @@ def get_event_player_id(event):
     player = (
         event.get(
             "player"
-        ) or {}
+        )
+        or {}
     )
 
     player_id = player.get(
@@ -508,7 +963,8 @@ def get_swap_players(event):
     for swap in (
         event.get(
             "swap"
-        ) or []
+        )
+        or []
     ):
 
         if not isinstance(
@@ -539,10 +995,7 @@ def get_swap_players(event):
 
         swap_players.append({
             "id": player_id,
-            "name": (
-                name
-                or "Unknown"
-            ),
+            "name": name or "Unknown",
         })
 
     return swap_players
@@ -622,15 +1075,11 @@ def is_penalty_event(event):
         ),
     ]
 
-    combined = (
-        " ".join(
-            text_parts
-        ).lower()
-    )
+    combined = " ".join(
+        text_parts
+    ).lower()
 
-    return (
-        "penalty" in combined
-    )
+    return "penalty" in combined
 
 
 def is_own_goal(event):
@@ -753,13 +1202,15 @@ def build_substitution_info(details):
                 events = (
                     player.get(
                         "events"
-                    ) or {}
+                    )
+                    or {}
                 )
 
                 sub = (
                     events.get(
                         "sub"
-                    ) or {}
+                    )
+                    or {}
                 )
 
                 info[player_id] = {
@@ -918,7 +1369,8 @@ def process_match_events(
     status = (
         header.get(
             "status"
-        ) or {}
+        )
+        or {}
     )
 
     started = bool(
@@ -944,19 +1396,22 @@ def process_match_events(
     match_facts = (
         content.get(
             "matchFacts"
-        ) or {}
+        )
+        or {}
     )
 
     events_container = (
         match_facts.get(
             "events"
-        ) or {}
+        )
+        or {}
     )
 
     events = (
         events_container.get(
             "events"
-        ) or []
+        )
+        or []
     )
 
     if not events:
@@ -1202,10 +1657,7 @@ def process_match_events(
 
             for swap_player in swap_players:
 
-                if (
-                    swap_player["id"]
-                    is not None
-                ):
+                if swap_player["id"] is not None:
                     involved_ids.add(
                         swap_player["id"]
                     )
@@ -1319,7 +1771,8 @@ def find_player_stat(
     groups = (
         player_data.get(
             "stats"
-        ) or []
+        )
+        or []
     )
 
     for group in groups:
@@ -1426,7 +1879,8 @@ def get_player_match_stats(
     player_stats = (
         content.get(
             "playerStats"
-        ) or {}
+        )
+        or {}
     )
 
     results = {}
@@ -1452,9 +1906,7 @@ def get_player_match_stats(
         )
 
         if player_id is None:
-            player_id = (
-                player_id_raw
-            )
+            player_id = player_id_raw
 
         try:
             player_id = int(
@@ -1552,7 +2004,8 @@ def process_final_report(
     status = (
         header.get(
             "status"
-        ) or {}
+        )
+        or {}
     )
 
     if not status.get(
@@ -1568,12 +2021,6 @@ def process_final_report(
             "no final report."
         )
         return
-
-    final_scores = (
-        header.get(
-            "teams"
-        ) or []
-    )
 
     home_name = (
         match.get(
@@ -1638,10 +2085,12 @@ def process_final_report(
         )
 
         if report_key in reported:
+
             print(
                 f"  ↪ Final report already sent: "
                 f"{player['name']}"
             )
+
             continue
 
         minutes = stats.get(
@@ -1677,6 +2126,7 @@ def process_final_report(
                 and rating is None
             ):
                 continue
+
         except (
             TypeError,
             ValueError
@@ -1771,176 +2221,6 @@ def process_final_report(
             report_key
         )
 
-def process_daily_schedule(
-    matches,
-    state,
-    player_lookup,
-):
-    today = get_local_today()
-    today_key = today.isoformat()
-
-    # Already posted today's schedule.
-    if today_key in state["daily_posts"]:
-        print(
-            f"  ↪ Daily schedule already posted for {today_key}"
-        )
-        return
-
-    sections = []
-
-    for match in matches:
-
-        home = match.get("home", {})
-        away = match.get("away", {})
-
-        home_id = home.get("id")
-        away_id = away.get("id")
-
-        tracked_players = []
-
-        for player_id, player in player_lookup.items():
-
-            club_id = player.get("team_id")
-            national_id = player.get(
-                "national_team_id"
-            )
-
-            monitor_national = player.get(
-                "monitor_national_team",
-                True
-            )
-
-            if (
-                home_id is not None
-                and int(home_id) in {
-                    int(club_id)
-                }
-                if club_id is not None
-                else False
-            ):
-                tracked_players.append(
-                    player["name"]
-                )
-                continue
-
-            if (
-                away_id is not None
-                and int(away_id) in {
-                    int(club_id)
-                }
-                if club_id is not None
-                else False
-            ):
-                tracked_players.append(
-                    player["name"]
-                )
-                continue
-
-            if (
-                monitor_national
-                and national_id is not None
-            ):
-                if (
-                    home_id is not None
-                    and int(home_id)
-                    == int(national_id)
-                ):
-                    tracked_players.append(
-                        player["name"]
-                    )
-                    continue
-
-                if (
-                    away_id is not None
-                    and int(away_id)
-                    == int(national_id)
-                ):
-                    tracked_players.append(
-                        player["name"]
-                    )
-
-        if not tracked_players:
-            continue
-
-        home_name = home.get(
-            "name",
-            "Home"
-        )
-
-        away_name = away.get(
-            "name",
-            "Away"
-        )
-
-        kickoff = (
-            match.get("status", {})
-            .get("utcTime")
-        )
-
-        time_text = ""
-
-        if kickoff:
-            try:
-                kickoff_dt = (
-                    datetime.fromisoformat(
-                        kickoff.replace(
-                            "Z",
-                            "+00:00"
-                        )
-                    ).astimezone(
-                        LOCAL_TIMEZONE
-                    )
-                )
-
-                time_text = (
-                    f" — "
-                    f"{kickoff_dt.strftime('%H:%M')}"
-                )
-
-            except ValueError:
-                pass
-
-        section = (
-            f"⚽ {home_name} vs {away_name}"
-            f"{time_text}\n"
-            f"👤 "
-            + ", ".join(
-                tracked_players
-            )
-        )
-
-        sections.append(section)
-
-    if not sections:
-        print(
-            "  ℹ️ No relevant matches "
-            "for today's daily post."
-        )
-
-        state["daily_posts"].append(
-            today_key
-        )
-
-        return
-
-    message = (
-        "📅 TODAY'S MATCHES\n\n"
-        + "\n\n".join(
-            sections
-        )
-    )
-
-    send_telegram(
-        message
-    )
-
-    state["daily_posts"].append(
-        today_key
-    )
-
-    print(
-        "  📱 Daily schedule notification sent."
-    )
 
 # ============================================================
 # MAIN
@@ -2019,6 +2299,10 @@ def main():
         f"club/national teams"
     )
 
+    # ========================================================
+    # LIVE / MATCH MONITORING
+    # ========================================================
+
     today = get_local_today()
 
     print(
@@ -2028,10 +2312,8 @@ def main():
 
     leagues = get_today_matches()
 
-    matches = (
-        collect_matches(
-            leagues
-        )
+    matches = collect_matches(
+        leagues
     )
 
     relevant_matches = [
@@ -2042,19 +2324,81 @@ def main():
             tracked_teams,
         )
     ]
-process_daily_schedule(
-    relevant_matches,
-    state,
-    player_lookup,
-)
 
-    
     print(
         f"Found {len(relevant_matches)} "
         f"relevant matches."
     )
 
+    # ========================================================
+    # DAILY MATCHES POST
+    # ========================================================
+
+    (
+        daily_window_start,
+        daily_window_end,
+        now,
+    ) = get_daily_window()
+
+    print(
+        "Daily Matches window:"
+    )
+
+    print(
+        f"  {daily_window_start.strftime('%Y-%m-%d %H:%M')}"
+        f" -> "
+        f"{daily_window_end.strftime('%Y-%m-%d %H:%M')}"
+        f" Tehran"
+    )
+
+    if now >= daily_window_start:
+
+        daily_matches = (
+            get_daily_window_matches(
+                daily_window_start,
+                daily_window_end,
+            )
+        )
+
+        daily_relevant_matches = [
+            match
+            for match in daily_matches
+            if is_relevant_match(
+                match,
+                tracked_teams,
+            )
+        ]
+
+        print(
+            f"Found {len(daily_relevant_matches)} "
+            f"relevant matches in Daily Matches window."
+        )
+
+        process_daily_schedule(
+            daily_relevant_matches,
+            state,
+            player_lookup,
+            daily_window_start,
+            daily_window_end,
+        )
+
+    else:
+
+        print(
+            "  ⏳ Daily Matches post is not due yet."
+        )
+
+        print(
+            f"  It will be due at "
+            f"{daily_window_start.strftime('%Y-%m-%d %H:%M')} "
+            f"Tehran."
+        )
+
     print("=" * 70)
+
+    # ========================================================
+    # PROCESS TODAY'S MATCHES
+    # ========================================================
 
     for match in relevant_matches:
 
@@ -2096,9 +2440,9 @@ process_daily_schedule(
                 )
             )
 
-            # -----------------------------
+            # ------------------------------------------------
             # CONFIRMED LINEUP
-            # -----------------------------
+            # ------------------------------------------------
 
             process_confirmed_lineup(
                 match,
@@ -2107,9 +2451,9 @@ process_daily_schedule(
                 player_lookup,
             )
 
-            # -----------------------------
+            # ------------------------------------------------
             # LIVE EVENTS
-            # -----------------------------
+            # ------------------------------------------------
 
             process_match_events(
                 match,
@@ -2118,9 +2462,9 @@ process_daily_schedule(
                 player_lookup,
             )
 
-            # -----------------------------
+            # ------------------------------------------------
             # FINAL REPORT
-            # -----------------------------
+            # ------------------------------------------------
 
             process_final_report(
                 match,
@@ -2138,7 +2482,7 @@ process_daily_schedule(
 
     save_json(
         STATE_FILE,
-        state,
+        state
     )
 
     print(
@@ -2146,10 +2490,13 @@ process_daily_schedule(
     )
 
     print("=" * 70)
+
     print(
         "LINEUP + LIVE EVENT + "
+        "DAILY MATCHES + "
         "FINAL REPORT MONITORING COMPLETE"
     )
+
     print("=" * 70)
 
 
