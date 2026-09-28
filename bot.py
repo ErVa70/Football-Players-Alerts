@@ -772,16 +772,16 @@ def main():
     print("=" * 70)
 
     players_data = load_json(
-    PLAYERS_FILE,
-    [],
-)
+        PLAYERS_FILE,
+        [],
+    )
 
-if isinstance(players_data, dict):
-    players = players_data.get("players", [])
-else:
-    players = players_data
+    if isinstance(players_data, dict):
+        players = players_data.get("players", [])
+    else:
+        players = players_data
 
-state = load_json(
+    state = load_json(
         STATE_FILE,
         {
             "daily_posts": [],
