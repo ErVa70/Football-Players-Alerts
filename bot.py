@@ -1,7 +1,5 @@
 import json
 import os
-import html
-import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -656,94 +654,6 @@ def get_match_details(match_id):
     )
 
 
-def find_match_payload(node):
-    """Find the embedded FotMob match payload inside __NEXT_DATA__."""
-
-    if isinstance(node, dict):
-        content = node.get("content")
-
-        if (
-            isinstance(content, dict)
-            and isinstance(content.get("lineup"), dict)
-        ):
-            return node
-
-        for value in node.values():
-            found = find_match_payload(value)
-
-            if found is not None:
-                return found
-
-    elif isinstance(node, list):
-        for value in node:
-            found = find_match_payload(value)
-
-            if found is not None:
-                return found
-
-    return None
-
-
-def get_match_details_from_page(match_id):
-    """Fetch fresh match data from FotMob's match page.
-
-    This is used only as a pre-match lineup fallback. Live events
-    and final stats continue to use the normal matchDetails API.
-    """
-
-    url = (
-        f"https://www.fotmob.com/match/{match_id}"
-    )
-
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/154.0.0.0 Safari/537.36"
-        ),
-        "Accept": "text/html,application/xhtml+xml",
-    }
-
-    response = requests.get(
-        url,
-        headers=headers,
-        timeout=30,
-        allow_redirects=True,
-    )
-
-    response.raise_for_status()
-
-    match = re.search(
-        r'<script[^>]+id=["\']__NEXT_DATA__["\'][^>]*>(.*?)</script>',
-        response.text,
-        re.DOTALL,
-    )
-
-    if not match:
-        raise RuntimeError(
-            "FotMob match page did not contain __NEXT_DATA__."
-        )
-
-    raw_json = html.unescape(
-        match.group(1)
-    )
-
-    next_data = json.loads(
-        raw_json
-    )
-
-    details = find_match_payload(
-        next_data
-    )
-
-    if details is None:
-        raise RuntimeError(
-            "Could not find match data inside FotMob __NEXT_DATA__."
-        )
-
-    return details
-
-
 # ============================================================
 # LINEUP HELPERS
 # ============================================================
@@ -850,60 +760,6 @@ def process_confirmed_lineup(
     print(
         f"  Lineup type: {lineup_type}"
     )
-
-    # Upcoming matchDetails responses can be cached.
-    # If the match has not started and the lineup is not
-    # confirmed yet, try the actual FotMob match page once.
-    match_status = (
-        details.get(
-            "header",
-            {}
-        ).get(
-            "status"
-        )
-        or {}
-    )
-
-    if (
-        not match_status.get("started")
-        and lineup_type != "standard"
-    ):
-        print(
-            "  🔄 Checking FotMob match page for a fresher lineup..."
-        )
-
-        try:
-            page_details = get_match_details_from_page(
-                match_id
-            )
-
-            page_lineup = (
-                page_details.get(
-                    "content",
-                    {}
-                ).get(
-                    "lineup"
-                )
-            )
-
-            if page_lineup:
-                page_type = page_lineup.get(
-                    "lineupType"
-                )
-
-                print(
-                    f"  FotMob page lineup type: {page_type}"
-                )
-
-                details = page_details
-                lineup = page_lineup
-                lineup_type = page_type
-
-        except Exception as e:
-            print(
-                "  ⚠️ FotMob match-page check failed; "
-                f"keeping API response: {e}"
-            )
 
     if lineup_type != "standard":
         print(
@@ -2367,6 +2223,377 @@ def process_final_report(
 
 
 # ============================================================
+# TRANSFER MONITORING
+# ============================================================
+
+TRANSFER_CHECK_INTERVAL_MINUTES = 30
+TRANSFER_PAGES_TO_SCAN = 3
+
+
+def parse_iso_datetime(value):
+    if not value:
+        return None
+
+    if isinstance(value, datetime):
+        return value
+
+    try:
+        return datetime.fromisoformat(
+            str(value).replace(
+                "Z",
+                "+00:00"
+            )
+        )
+    except ValueError:
+        return None
+
+
+def get_transfer_key(transfer):
+    return "|".join([
+        str(transfer.get("playerId", "")),
+        str(transfer.get("transferDate", "")),
+        str(transfer.get("fromClubId", "")),
+        str(transfer.get("toClubId", "")),
+        str(transfer.get("transferType", {}).get("text", "")),
+    ])
+
+
+def get_transfer_label(transfer):
+    transfer_type = transfer.get(
+        "transferType"
+    ) or {}
+
+    text = (
+        transfer_type.get("text")
+        or transfer.get("fee", {}).get("feeText")
+        or "transfer"
+    )
+
+    if transfer.get("onLoan"):
+        return "LOAN"
+
+    return str(text).upper()
+
+
+def format_transfer_date(transfer):
+    date_value = transfer.get(
+        "transferDate"
+    )
+
+    parsed = parse_iso_datetime(
+        date_value
+    )
+
+    if parsed is None:
+        return None
+
+    return parsed.astimezone(
+        LOCAL_TIMEZONE
+    ).strftime(
+        "%d %b %Y"
+    )
+
+
+def update_player_after_transfer(
+    player,
+    transfer,
+):
+    """Update the tracked player's club snapshot."""
+
+    to_club_id = transfer.get(
+        "toClubId"
+    )
+
+    to_club_name = transfer.get(
+        "toClub"
+    )
+
+    if to_club_id is not None:
+        try:
+            player["team_id"] = int(
+                to_club_id
+            )
+        except (
+            TypeError,
+            ValueError
+        ):
+            player["team_id"] = to_club_id
+
+    if to_club_name:
+        player["team_name"] = to_club_name
+
+    player["on_loan"] = bool(
+        transfer.get("onLoan")
+    )
+
+
+def process_transfer_monitoring(
+    players,
+    state,
+):
+    """
+    Check FotMob's transfer center periodically.
+
+    The bot runs every few minutes, but transfers do not need
+    a request on every run. We therefore check every 30 minutes.
+    """
+
+    monitor = state.setdefault(
+        "transfer_monitor",
+        {
+            "initialized": False,
+            "last_checked": None,
+            "seen": [],
+        },
+    )
+
+    now = get_local_now()
+
+    last_checked = parse_iso_datetime(
+        monitor.get("last_checked")
+    )
+
+    if last_checked is not None:
+        elapsed = (
+            now - last_checked.astimezone(
+                LOCAL_TIMEZONE
+            )
+        ).total_seconds()
+
+        if elapsed < (
+            TRANSFER_CHECK_INTERVAL_MINUTES * 60
+        ):
+            print(
+                "  ↪ Transfer check not due yet "
+                f"({TRANSFER_CHECK_INTERVAL_MINUTES} min interval)."
+            )
+            return False
+
+    player_lookup = {
+        int(player["fotmob_id"]): player
+        for player in players
+        if player.get("fotmob_id") is not None
+    }
+
+    print(
+        "  🔄 Checking FotMob transfer center..."
+    )
+
+    transfers = []
+
+    try:
+        for page in range(
+            1,
+            TRANSFER_PAGES_TO_SCAN + 1,
+        ):
+            data = fotmob_get(
+                "transfers",
+                {
+                    "page": page,
+                    "showLoans": "true",
+                },
+            )
+
+            page_transfers = data.get(
+                "transfers",
+                []
+            )
+
+            if not isinstance(
+                page_transfers,
+                list
+            ):
+                break
+
+            transfers.extend(
+                page_transfers
+            )
+
+            if not page_transfers:
+                break
+
+    except Exception as e:
+        print(
+            "  ⚠️ Transfer check failed: "
+            f"{e}"
+        )
+        return False
+
+    if not transfers:
+        monitor["last_checked"] = now.isoformat()
+
+        print(
+            "  ℹ️ No transfer records returned."
+        )
+
+        return True
+
+    seen = set(
+        monitor.get("seen", [])
+    )
+
+    # --------------------------------------------------------
+    # First run: seed the transfer list without sending a huge
+    # batch of historical notifications.
+    # --------------------------------------------------------
+
+    if not monitor.get(
+        "initialized",
+        False
+    ):
+        for transfer in transfers:
+            seen.add(
+                get_transfer_key(
+                    transfer
+                )
+            )
+
+        monitor["seen"] = list(seen)[-1000:]
+        monitor["last_checked"] = now.isoformat()
+        monitor["initialized"] = True
+
+        print(
+            f"  ✅ Transfer monitor initialized "
+            f"({len(transfers)} recent records marked as seen)."
+        )
+
+        return True
+
+    tracked_changes = []
+
+    for transfer in transfers:
+
+        player_id = transfer.get(
+            "playerId"
+        )
+
+        try:
+            player_id = int(
+                player_id
+            )
+        except (
+            TypeError,
+            ValueError
+        ):
+            continue
+
+        if player_id not in player_lookup:
+            continue
+
+        transfer_key = get_transfer_key(
+            transfer
+        )
+
+        if transfer_key in seen:
+            continue
+
+        player = player_lookup[
+            player_id
+        ]
+
+        tracked_changes.append(
+            (
+                player,
+                transfer,
+                transfer_key,
+            )
+        )
+
+    for (
+        player,
+        transfer,
+        transfer_key,
+    ) in tracked_changes:
+
+        transfer_label = get_transfer_label(
+            transfer
+        )
+
+        from_club = (
+            transfer.get(
+                "fromClub"
+            )
+            or "Unknown"
+        )
+
+        to_club = (
+            transfer.get(
+                "toClub"
+            )
+            or "Unknown"
+        )
+
+        date_text = format_transfer_date(
+            transfer
+        )
+
+        if transfer_label == "LOAN":
+            title = "🔄 LOAN"
+        else:
+            title = "🔄 TRANSFER"
+
+        message = (
+            f"{title}\n\n"
+            f"👤 {player['name']}\n"
+            f"➡️ {from_club} → {to_club}"
+        )
+
+        if date_text:
+            message += (
+                f"\n📅 {date_text}"
+            )
+
+        fee = (
+            transfer.get("fee", {})
+            if isinstance(
+                transfer.get("fee"),
+                dict
+            )
+            else {}
+        )
+
+        fee_text = (
+            fee.get("feeText")
+            or transfer.get(
+                "transferType",
+                {}
+            ).get("text")
+        )
+
+        if fee_text and str(fee_text).lower() not in {
+            "on loan",
+            "loan",
+        }:
+            message += (
+                f"\n💰 {fee_text}"
+            )
+
+        send_telegram(
+            message
+        )
+
+        print(
+            f"  📱 Transfer notification sent: "
+            f"{player['name']} — "
+            f"{from_club} → {to_club}"
+        )
+
+        update_player_after_transfer(
+            player,
+            transfer
+        )
+
+        seen.add(
+            transfer_key
+        )
+
+    monitor["seen"] = list(seen)[-1000:]
+    monitor["last_checked"] = now.isoformat()
+
+    return bool(tracked_changes)
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -2422,6 +2649,22 @@ def main():
         {}
     )
 
+    state.setdefault(
+        "transfer_monitor",
+        {
+            "initialized": False,
+            "last_checked": None,
+            "seen": [],
+        }
+    )
+
+    process_transfer_monitoring(
+        players,
+        state,
+    )
+
+    # Rebuild the lookup after transfer monitoring in case a tracked
+    # player's club was updated by a new transfer/loan.
     player_lookup = (
         build_player_lookup(
             players
@@ -2629,6 +2872,23 @@ def main():
         state
     )
 
+    # Persist any current-club changes detected by transfer monitoring.
+    existing_players = load_json(
+        PLAYERS_FILE,
+        None
+    )
+
+    if existing_players != players:
+        save_json(
+            PLAYERS_FILE,
+            players
+        )
+
+        print(
+            "💾 Updated players_resolved.json "
+            "after transfer/loan change."
+        )
+
     print(
         "💾 Bot state updated."
     )
@@ -2638,6 +2898,7 @@ def main():
     print(
         "LINEUP + LIVE EVENT + "
         "DAILY MATCHES + "
+        "TRANSFER + "
         "FINAL REPORT MONITORING COMPLETE"
     )
 
