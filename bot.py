@@ -11,6 +11,19 @@ import requests
 # ============================================================
 
 FOTMOB_BASE = "https://www.fotmob.com/api/data"
+FOTMOB_PAGE_BASE = "https://www.fotmob.com"
+
+FOTMOB_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 "
+        "(KHTML, like Gecko) "
+        "Chrome/154.0.0.0 Safari/537.36"
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    ),
+}
 
 LOCAL_TIMEZONE = timezone(
     timedelta(hours=3, minutes=30)
@@ -61,12 +74,128 @@ def fotmob_get(endpoint, params=None):
     response = requests.get(
         url,
         params=params,
+        headers=FOTMOB_HEADERS,
         timeout=30,
     )
 
     response.raise_for_status()
 
     return response.json()
+
+
+def extract_next_data(html):
+    """Extract the pageProps JSON from FotMob's __NEXT_DATA__ script."""
+
+    marker = '__NEXT_DATA__'
+    marker_index = html.find(marker)
+
+    if marker_index == -1:
+        raise RuntimeError(
+            "FotMob page did not contain __NEXT_DATA__."
+        )
+
+    start = html.find(">", marker_index)
+
+    if start == -1:
+        raise RuntimeError(
+            "Could not find the start of FotMob __NEXT_DATA__."
+        )
+
+    start += 1
+
+    end = html.find(
+        "</script>",
+        start,
+    )
+
+    if end == -1:
+        raise RuntimeError(
+            "Could not find the end of FotMob __NEXT_DATA__."
+        )
+
+    try:
+        wrapper = json.loads(
+            html[start:end]
+        )
+    except json.JSONDecodeError as error:
+        raise RuntimeError(
+            f"Could not decode FotMob __NEXT_DATA__: {error}"
+        ) from error
+
+    page_props = (
+        wrapper.get(
+            "props",
+            {}
+        ).get(
+            "pageProps",
+            {}
+        )
+    )
+
+    if not isinstance(
+        page_props,
+        dict
+    ):
+        raise RuntimeError(
+            "FotMob pageProps has an unexpected structure."
+        )
+
+    return page_props
+
+
+def get_match_details_from_page(match):
+    """Fetch fresh match data from the FotMob match page HTML."""
+
+    page_url = (
+        match.get("pageUrl")
+        or match.get("url")
+    )
+
+    if not page_url:
+        raise RuntimeError(
+            "Match does not contain a FotMob page URL."
+        )
+
+    if page_url.startswith("http://") or page_url.startswith("https://"):
+        url = page_url
+    else:
+        url = f"{FOTMOB_PAGE_BASE}{page_url}"
+
+    response = requests.get(
+        url,
+        headers=FOTMOB_HEADERS,
+        timeout=30,
+    )
+
+    response.raise_for_status()
+
+    page_props = extract_next_data(
+        response.text
+    )
+
+    # The embedded pageProps use the same top-level structure
+    # as the matchDetails JSON used elsewhere in this program.
+    if (
+        "content" in page_props
+        and "header" in page_props
+    ):
+        return page_props
+
+    # Defensive fallback for a wrapped match object.
+    match_data = page_props.get(
+        "match"
+    )
+
+    if (
+        isinstance(match_data, dict)
+        and "content" in match_data
+        and "header" in match_data
+    ):
+        return match_data
+
+    raise RuntimeError(
+        "FotMob page did not contain the expected match data."
+    )
 
 
 # ============================================================
@@ -645,13 +774,36 @@ def process_daily_schedule(
 # MATCH DETAILS
 # ============================================================
 
-def get_match_details(match_id):
-    return fotmob_get(
-        "matchDetails",
-        {
-            "matchId": match_id
-        },
+def get_match_details(match):
+    """Fetch match details using the match page first, then API fallback."""
+
+    match_id = match.get(
+        "id"
     )
+
+    try:
+        details = get_match_details_from_page(
+            match
+        )
+
+        print(
+            "  🔄 Match details refreshed from FotMob match page."
+        )
+
+        return details
+
+    except Exception as page_error:
+        print(
+            "  ⚠️ FotMob match-page refresh failed; "
+            f"using API fallback: {page_error}"
+        )
+
+        return fotmob_get(
+            "matchDetails",
+            {
+                "matchId": match_id
+            },
+        )
 
 
 # ============================================================
@@ -2436,7 +2588,7 @@ def main():
 
             details = (
                 get_match_details(
-                    match_id
+                    match
                 )
             )
 
