@@ -645,12 +645,17 @@ def process_daily_schedule(
 # MATCH DETAILS
 # ============================================================
 
-def get_match_details(match_id):
+def get_match_details(match_id, refresh=False):
+    params = {
+        "matchId": match_id
+    }
+
+    if refresh:
+        params["refresh"] = "true"
+
     return fotmob_get(
         "matchDetails",
-        {
-            "matchId": match_id
-        },
+        params,
     )
 
 
@@ -760,6 +765,61 @@ def process_confirmed_lineup(
     print(
         f"  Lineup type: {lineup_type}"
     )
+
+    # Upcoming matchDetails responses can be cached.
+    # If the match has not started and the lineup is not
+    # confirmed yet, make one explicit refresh request.
+    match_status = (
+        details.get(
+            "header",
+            {}
+        ).get(
+            "status"
+        )
+        or {}
+    )
+
+    if (
+        not match_status.get("started")
+        and lineup_type != "standard"
+    ):
+        print(
+            "  🔄 Retrying matchDetails with refresh=true..."
+        )
+
+        try:
+            refreshed_details = get_match_details(
+                match_id,
+                refresh=True,
+            )
+
+            refreshed_lineup = (
+                refreshed_details.get(
+                    "content",
+                    {}
+                ).get(
+                    "lineup"
+                )
+            )
+
+            if refreshed_lineup:
+                refreshed_type = refreshed_lineup.get(
+                    "lineupType"
+                )
+
+                print(
+                    f"  Refreshed lineup type: {refreshed_type}"
+                )
+
+                details = refreshed_details
+                lineup = refreshed_lineup
+                lineup_type = refreshed_type
+
+        except Exception as e:
+            print(
+                "  ⚠️ Refresh request failed; "
+                f"keeping original response: {e}"
+            )
 
     if lineup_type != "standard":
         print(
