@@ -1771,6 +1771,176 @@ def process_final_report(
             report_key
         )
 
+def process_daily_schedule(
+    matches,
+    state,
+    player_lookup,
+):
+    today = get_local_today()
+    today_key = today.isoformat()
+
+    # Already posted today's schedule.
+    if today_key in state["daily_posts"]:
+        print(
+            f"  ↪ Daily schedule already posted for {today_key}"
+        )
+        return
+
+    sections = []
+
+    for match in matches:
+
+        home = match.get("home", {})
+        away = match.get("away", {})
+
+        home_id = home.get("id")
+        away_id = away.get("id")
+
+        tracked_players = []
+
+        for player_id, player in player_lookup.items():
+
+            club_id = player.get("team_id")
+            national_id = player.get(
+                "national_team_id"
+            )
+
+            monitor_national = player.get(
+                "monitor_national_team",
+                True
+            )
+
+            if (
+                home_id is not None
+                and int(home_id) in {
+                    int(club_id)
+                }
+                if club_id is not None
+                else False
+            ):
+                tracked_players.append(
+                    player["name"]
+                )
+                continue
+
+            if (
+                away_id is not None
+                and int(away_id) in {
+                    int(club_id)
+                }
+                if club_id is not None
+                else False
+            ):
+                tracked_players.append(
+                    player["name"]
+                )
+                continue
+
+            if (
+                monitor_national
+                and national_id is not None
+            ):
+                if (
+                    home_id is not None
+                    and int(home_id)
+                    == int(national_id)
+                ):
+                    tracked_players.append(
+                        player["name"]
+                    )
+                    continue
+
+                if (
+                    away_id is not None
+                    and int(away_id)
+                    == int(national_id)
+                ):
+                    tracked_players.append(
+                        player["name"]
+                    )
+
+        if not tracked_players:
+            continue
+
+        home_name = home.get(
+            "name",
+            "Home"
+        )
+
+        away_name = away.get(
+            "name",
+            "Away"
+        )
+
+        kickoff = (
+            match.get("status", {})
+            .get("utcTime")
+        )
+
+        time_text = ""
+
+        if kickoff:
+            try:
+                kickoff_dt = (
+                    datetime.fromisoformat(
+                        kickoff.replace(
+                            "Z",
+                            "+00:00"
+                        )
+                    ).astimezone(
+                        LOCAL_TIMEZONE
+                    )
+                )
+
+                time_text = (
+                    f" — "
+                    f"{kickoff_dt.strftime('%H:%M')}"
+                )
+
+            except ValueError:
+                pass
+
+        section = (
+            f"⚽ {home_name} vs {away_name}"
+            f"{time_text}\n"
+            f"👤 "
+            + ", ".join(
+                tracked_players
+            )
+        )
+
+        sections.append(section)
+
+    if not sections:
+        print(
+            "  ℹ️ No relevant matches "
+            "for today's daily post."
+        )
+
+        state["daily_posts"].append(
+            today_key
+        )
+
+        return
+
+    message = (
+        "📅 TODAY'S MATCHES\n\n"
+        + "\n\n".join(
+            sections
+        )
+    )
+
+    send_telegram(
+        message
+    )
+
+    state["daily_posts"].append(
+        today_key
+    )
+
+    print(
+        "  📱 Daily schedule notification sent."
+    )
 
 # ============================================================
 # MAIN
