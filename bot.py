@@ -143,18 +143,92 @@ def extract_next_data(html):
     return page_props
 
 
-def get_match_details_from_page(match):
-    """Fetch fresh match data from the FotMob match page HTML."""
+FIXTURES_PAGE_URL_CACHE = {}
 
-    page_url = (
+
+def get_match_page_url(match):
+    """
+    Get a FotMob match page URL. The daily /matches endpoint
+    does not always include pageUrl, so fall back to the
+    fixtures endpoint for the match's league.
+    """
+
+    direct_url = (
         match.get("pageUrl")
         or match.get("url")
     )
 
+    if direct_url:
+        return direct_url
+
+    match_id = str(
+        match.get("id")
+    )
+
+    league_id = (
+        match.get("leagueId")
+        or match.get("primaryId")
+    )
+
+    if league_id is None:
+        raise RuntimeError(
+            "Match has no league ID, so its FotMob page URL"
+            " cannot be resolved."
+        )
+
+    league_key = str(league_id)
+
+    if league_key not in FIXTURES_PAGE_URL_CACHE:
+        fixture_data = fotmob_get(
+            "fixtures",
+            {"id": league_id},
+        )
+
+        fixture_matches = []
+
+        if isinstance(fixture_data, dict):
+            for key in ("matches", "fixtures"):
+                value = fixture_data.get(key)
+                if isinstance(value, list):
+                    fixture_matches.extend(value)
+
+            for league in fixture_data.get("leagues", []):
+                if not isinstance(league, dict):
+                    continue
+                value = league.get("matches", [])
+                if isinstance(value, list):
+                    fixture_matches.extend(value)
+
+        url_map = {}
+
+        for fixture in fixture_matches:
+            if not isinstance(fixture, dict):
+                continue
+
+            fixture_id = fixture.get("id")
+            page_url = fixture.get("pageUrl")
+
+            if fixture_id is not None and page_url:
+                url_map[str(fixture_id)] = page_url
+
+        FIXTURES_PAGE_URL_CACHE[league_key] = url_map
+
+    page_url = FIXTURES_PAGE_URL_CACHE[league_key].get(
+        match_id
+    )
+
     if not page_url:
         raise RuntimeError(
-            "Match does not contain a FotMob page URL."
+            f"Could not resolve a FotMob page URL for match {match_id}."
         )
+
+    return page_url
+
+
+def get_match_details_from_page(match):
+    """Fetch fresh match data from the FotMob match page HTML."""
+
+    page_url = get_match_page_url(match)
 
     if page_url.startswith("http://") or page_url.startswith("https://"):
         url = page_url
