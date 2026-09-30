@@ -3,12 +3,6 @@ name: Barcelona Player Bot
 on:
   workflow_dispatch:
 
-  schedule:
-    # Run every 5 minutes.
-    # GitHub uses UTC here.
-    # bot.py handles Tehran time internally.
-    - cron: "*/5 * * * *"
-
 permissions:
   contents: write
 
