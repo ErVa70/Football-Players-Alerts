@@ -1410,9 +1410,118 @@ def determine_substitution(
     return None, None
 
 
+
 # ============================================================
 # LIVE EVENT PROCESSING
 # ============================================================
+
+def normalize_event_text(event):
+    parts = [
+        event.get("type"),
+        event.get("goalDescription"),
+        event.get("nameStr"),
+        event.get("card"),
+        event.get("cardDescription"),
+        event.get("description"),
+    ]
+
+    return " ".join(
+        str(part)
+        for part in parts
+        if part is not None
+    ).strip().lower()
+
+
+def is_disallowed_goal_event(event):
+    text = normalize_event_text(event)
+
+    return any(
+        term in text
+        for term in [
+            "disallowed",
+            "disallow",
+            "goal disallowed",
+            "goal cancelled",
+            "goal canceled",
+            "goal overturned",
+            "goal overruled",
+            "goal annulled",
+            "goal annul",
+        ]
+    )
+
+
+def is_penalty_missed_event(event):
+    text = normalize_event_text(event)
+
+    if "penalty" not in text:
+        return False
+
+    if "scored" in text or "goal" in text:
+        return False
+
+    return any(
+        term in text
+        for term in [
+            "miss",
+            "saved",
+            "save",
+            "off target",
+            "failed",
+        ]
+    )
+
+
+def get_event_score_before(event):
+    home_score = event.get("homeScore")
+    away_score = event.get("awayScore")
+
+    try:
+        if home_score is not None and away_score is not None:
+            return int(home_score), int(away_score)
+    except (TypeError, ValueError):
+        pass
+
+    return None, None
+
+
+def get_event_score_after(event):
+    home_score, away_score = get_event_score_before(event)
+
+    if home_score is None or away_score is None:
+        return None
+
+    is_home = event.get("isHome")
+    own_goal = is_own_goal(event)
+
+    if is_home is True:
+        if own_goal:
+            away_score += 1
+        else:
+            home_score += 1
+
+    elif is_home is False:
+        if own_goal:
+            home_score += 1
+        else:
+            away_score += 1
+
+    else:
+        return None
+
+    return home_score, away_score
+
+
+def format_score(home_score, away_score):
+    if home_score is None or away_score is None:
+        return None
+
+    return f"{home_score} - {away_score}"
+
+
+def get_current_score_text(status):
+    return status.get("scoreStr") or ""
+
 
 def process_match_events(
     match,
@@ -1421,9 +1530,7 @@ def process_match_events(
     player_lookup,
 ):
 
-    match_id = str(
-        match["id"]
-    )
+    match_id = str(match["id"])
 
     header = details.get(
         "header",
@@ -1437,19 +1544,7 @@ def process_match_events(
         or {}
     )
 
-    started = bool(
-        status.get(
-            "started"
-        )
-    )
-
-    finished = bool(
-        status.get(
-            "finished"
-        )
-    )
-
-    if not started:
+    if not status.get("started"):
         return
 
     content = details.get(
@@ -1478,9 +1573,6 @@ def process_match_events(
         or []
     )
 
-    if not events:
-        return
-
     reported = (
         state[
             "match_events"
@@ -1489,24 +1581,6 @@ def process_match_events(
             []
         )
     )
-
-    # Do not backfill all old live events
-    # when a finished match is first encountered.
-    if finished and not reported:
-
-        state[
-            "match_events"
-        ][match_id] = [
-            get_event_key(event)
-            for event in events
-        ]
-
-        print(
-            "  ℹ️ Match already finished; "
-            "existing events marked as seen."
-        )
-
-        return
 
     substitution_info = (
         build_substitution_info(
@@ -1536,9 +1610,10 @@ def process_match_events(
 
     for event in events:
 
-        event_key = get_event_key(
-            event
-        )
+        if not isinstance(event, dict):
+            continue
+
+        event_key = get_event_key(event)
 
         event_type = str(
             event.get(
@@ -1547,9 +1622,113 @@ def process_match_events(
             )
         ).strip().lower()
 
-        minute = get_minute(
-            event
-        )
+        minute = get_minute(event)
+
+        # ----------------------------------------------------
+        # GOAL DISALLOWED / OVERTURNED
+        # ----------------------------------------------------
+
+        if is_disallowed_goal_event(event):
+
+            scorer_id = get_event_player_id(event)
+
+            assist_id, assist_name = get_assist_info(event)
+
+            tracked_scorer = (
+                scorer_id in player_lookup
+            )
+
+            tracked_assist = (
+                assist_id in player_lookup
+            )
+
+            if not tracked_assist and assist_name:
+                (
+                    assist_id,
+                    _assist_player,
+                ) = find_tracked_player_by_name(
+                    assist_name,
+                    player_lookup,
+                )
+
+                tracked_assist = (
+                    assist_id is not None
+                )
+
+            correction_key = (
+                f"{event_key}|disallowed"
+            )
+
+            if (
+                correction_key not in reported
+                and (tracked_scorer or tracked_assist)
+            ):
+
+                scorer_name = (
+                    event.get(
+                        "player",
+                        {}
+                    ).get(
+                        "name",
+                        "Unknown"
+                    )
+                )
+
+                before_home, before_away = (
+                    get_event_score_before(event)
+                )
+
+                corrected_score = format_score(
+                    before_home,
+                    before_away,
+                )
+
+                if corrected_score is None:
+                    corrected_score = (
+                        get_current_score_text(
+                            status
+                        )
+                    )
+
+                message = (
+                    "🚫 GOAL DISALLOWED\n\n"
+                    f"⚽ {home_name} vs {away_name}\n\n"
+                    f"👤 {scorer_name}\n"
+                    f"⏱️ {minute}"
+                )
+
+                if corrected_score:
+                    message += (
+                        f"\n📊 Corrected score: "
+                        f"{corrected_score}"
+                    )
+
+                reason = (
+                    event.get(
+                        "goalDescription"
+                    )
+                    or event.get(
+                        "cardDescription"
+                    )
+                )
+
+                if reason:
+                    message += (
+                        f"\nℹ️ {reason}"
+                    )
+
+                send_telegram(message)
+
+                print(
+                    f"  📱 Disallowed-goal notification sent: "
+                    f"{scorer_name}"
+                )
+
+                reported.append(
+                    correction_key
+                )
+
+            continue
 
         # ----------------------------------------------------
         # GOAL + ASSIST
@@ -1557,9 +1736,6 @@ def process_match_events(
 
         if event_type == "goal":
 
-            # Assist attribution belongs to the goal event.
-            # It must be checked independently from the scorer
-            # because the tracked player may be the assister.
             assist_id, assist_name = get_assist_info(
                 event
             )
@@ -1572,6 +1748,7 @@ def process_match_events(
                 tracked_assist = player_lookup[
                     assist_id
                 ]
+
             elif assist_name:
                 (
                     tracked_assist_id,
@@ -1581,13 +1758,13 @@ def process_match_events(
                     player_lookup,
                 )
 
-            # ---------------------------------------------
-            # GOAL SCORER
-            # ---------------------------------------------
-
             player_id = get_event_player_id(
                 event
             )
+
+            # ---------------------------------------------
+            # GOAL SCORER
+            # ---------------------------------------------
 
             if (
                 player_id in player_lookup
@@ -1598,49 +1775,47 @@ def process_match_events(
                     player_id
                 ]
 
-                if is_own_goal(
-                    event
-                ):
+                if is_own_goal(event):
                     title = "🔴 OWN GOAL"
-
-                elif is_penalty_event(
-                    event
-                ):
+                elif is_penalty_event(event):
                     title = "⚽ PENALTY GOAL"
-
                 else:
                     title = "⚽ GOAL"
 
                 message = (
                     f"{title}\n\n"
-                    f"⚽ {home_name} vs "
-                    f"{away_name}\n\n"
+                    f"⚽ {home_name} vs {away_name}\n\n"
                     f"👤 {player['name']}\n"
                     f"⏱️ {minute}"
                 )
 
                 if assist_name:
                     message += (
-                        f"\n🅰️ Assist: "
-                        f"{assist_name}"
+                        f"\n🅰️ Assist: {assist_name}"
                     )
 
-                score_str = (
-                    status.get(
-                        "scoreStr"
-                    )
-                    or ""
+                after_home, after_away = (
+                    get_event_score_after(event)
                 )
 
-                if score_str:
+                score_after = format_score(
+                    after_home,
+                    after_away,
+                )
+
+                if score_after is None:
+                    score_after = (
+                        get_current_score_text(
+                            status
+                        )
+                    )
+
+                if score_after:
                     message += (
-                        f"\n📊 Score: "
-                        f"{score_str}"
+                        f"\n📊 Score: {score_after}"
                     )
 
-                send_telegram(
-                    message
-                )
+                send_telegram(message)
 
                 print(
                     f"  📱 Goal notification sent: "
@@ -1652,7 +1827,7 @@ def process_match_events(
                 )
 
             # ---------------------------------------------
-            # ASSISTER
+            # TRACKED ASSISTER
             # ---------------------------------------------
 
             if tracked_assist_id is not None:
@@ -1676,29 +1851,34 @@ def process_match_events(
 
                     message = (
                         "🅰️ ASSIST\n\n"
-                        f"⚽ {home_name} vs "
-                        f"{away_name}\n\n"
+                        f"⚽ {home_name} vs {away_name}\n\n"
                         f"👤 {tracked_assist['name']}\n"
                         f"🎯 For: {scorer_name}\n"
                         f"⏱️ {minute}"
                     )
 
-                    score_str = (
-                        status.get(
-                            "scoreStr"
-                        )
-                        or ""
+                    after_home, after_away = (
+                        get_event_score_after(event)
                     )
 
-                    if score_str:
+                    score_after = format_score(
+                        after_home,
+                        after_away,
+                    )
+
+                    if score_after is None:
+                        score_after = (
+                            get_current_score_text(
+                                status
+                            )
+                        )
+
+                    if score_after:
                         message += (
-                            f"\n📊 Score: "
-                            f"{score_str}"
+                            f"\n📊 Score: {score_after}"
                         )
 
-                    send_telegram(
-                        message
-                    )
+                    send_telegram(message)
 
                     print(
                         f"  📱 Assist notification sent: "
@@ -1711,6 +1891,66 @@ def process_match_events(
 
             continue
 
+        # ----------------------------------------------------
+        # PENALTY MISSED
+        # ----------------------------------------------------
+
+        if is_penalty_missed_event(event):
+
+            player_id = get_event_player_id(
+                event
+            )
+
+            if player_id not in player_lookup:
+                continue
+
+            penalty_key = (
+                f"penalty-missed|"
+                f"{player_id}|"
+                f"{event.get('time', '')}"
+            )
+
+            if penalty_key in reported:
+                continue
+
+            player = player_lookup[
+                player_id
+            ]
+
+            message = (
+                "❌ PENALTY MISSED\n\n"
+                f"⚽ {home_name} vs {away_name}\n\n"
+                f"👤 {player['name']}\n"
+                f"⏱️ {minute}"
+            )
+
+            description = (
+                event.get(
+                    "goalDescription"
+                )
+                or event.get(
+                    "nameStr"
+                )
+            )
+
+            if description:
+                message += (
+                    f"\nℹ️ {description}"
+                )
+
+            send_telegram(message)
+
+            print(
+                f"  📱 Missed-penalty notification sent: "
+                f"{player['name']}"
+            )
+
+            reported.append(
+                penalty_key
+            )
+
+            continue
+
         if event_key in reported:
             continue
 
@@ -1718,12 +1958,10 @@ def process_match_events(
         # CARD
         # ----------------------------------------------------
 
-        elif event_type == "card":
+        if event_type == "card":
 
-            player_id = (
-                get_event_player_id(
-                    event
-                )
+            player_id = get_event_player_id(
+                event
             )
 
             if player_id not in player_lookup:
@@ -1756,123 +1994,198 @@ def process_match_events(
 
             message = (
                 f"{emoji} {card}\n\n"
-                f"⚽ {home_name} vs "
-                f"{away_name}\n\n"
+                f"⚽ {home_name} vs {away_name}\n\n"
                 f"👤 {player['name']}\n"
                 f"⏱️ {minute}"
             )
 
-            send_telegram(
-                message
-            )
+            send_telegram(message)
 
             print(
                 f"  📱 Card notification sent: "
-                f"{player['name']} — "
-                f"{card}"
+                f"{player['name']} — {card}"
             )
 
             reported.append(
                 event_key
             )
 
+            continue
+
         # ----------------------------------------------------
         # SUBSTITUTION
         # ----------------------------------------------------
 
-        elif event_type == "substitution":
+        if event_type == "substitution":
 
-            player_id = (
-                get_event_player_id(
-                    event
-                )
+            player_id = get_event_player_id(
+                event
             )
 
-            swap_players = (
-                get_swap_players(
-                    event
-                )
+            swap_players = get_swap_players(
+                event
             )
 
             involved_ids = set()
 
             if player_id is not None:
-                involved_ids.add(
-                    player_id
-                )
+                involved_ids.add(player_id)
 
             for swap_player in swap_players:
-
                 if swap_player["id"] is not None:
                     involved_ids.add(
                         swap_player["id"]
                     )
 
             tracked_involved = [
-                player_lookup[
-                    player_id
-                ]
-                for player_id
-                in involved_ids
-                if player_id
-                in player_lookup
+                player_lookup[player_id]
+                for player_id in involved_ids
+                if player_id in player_lookup
             ]
 
             if not tracked_involved:
                 continue
 
-            player_in, player_out = (
-                determine_substitution(
-                    event,
-                    substitution_info
-                )
+            player_in, player_out = determine_substitution(
+                event,
+                substitution_info
             )
 
-            if (
-                player_in
-                and player_out
-            ):
-
+            if player_in and player_out:
                 message = (
                     "🔄 SUBSTITUTION\n\n"
-                    f"⚽ {home_name} vs "
-                    f"{away_name}\n\n"
+                    f"⚽ {home_name} vs {away_name}\n\n"
                     f"➡️ IN: {player_in}\n"
                     f"⬅️ OUT: {player_out}\n"
                     f"⏱️ {minute}"
                 )
-
             else:
-
                 names = [
                     player.get(
                         "name",
                         "Unknown"
                     )
-                    for player
-                    in tracked_involved
+                    for player in tracked_involved
                 ]
 
                 message = (
                     "🔄 SUBSTITUTION\n\n"
-                    f"⚽ {home_name} vs "
-                    f"{away_name}\n\n"
+                    f"⚽ {home_name} vs {away_name}\n\n"
                     f"👤 {' / '.join(names)}\n"
                     f"⏱️ {minute}"
                 )
 
-            send_telegram(
-                message
-            )
+            send_telegram(message)
 
             print(
-                "  📱 Substitution "
-                "notification sent."
+                "  📱 Substitution notification sent."
             )
 
             reported.append(
                 event_key
             )
+
+    # --------------------------------------------------------
+    # PENALTY MISSES FROM SHOTMAP
+    # --------------------------------------------------------
+
+    shotmap = content.get(
+        "shotmap"
+    ) or {}
+
+    shots = shotmap.get(
+        "shots"
+    ) or []
+
+    for shot in shots:
+
+        if not isinstance(shot, dict):
+            continue
+
+        event_type_text = " ".join([
+            str(shot.get("eventType", "")),
+            str(shot.get("shotType", "")),
+            str(shot.get("situation", "")),
+        ]).lower()
+
+        if "penalty" not in event_type_text:
+            continue
+
+        if (
+            "scored" in event_type_text
+            or "goal" in event_type_text
+        ):
+            continue
+
+        if not any(
+            term in event_type_text
+            for term in [
+                "miss",
+                "saved",
+                "save",
+                "off target",
+            ]
+        ):
+            continue
+
+        player_id = shot.get(
+            "playerId"
+        )
+
+        try:
+            player_id = int(player_id)
+        except (
+            TypeError,
+            ValueError
+        ):
+            continue
+
+        if player_id not in player_lookup:
+            continue
+
+        minute_value = (
+            shot.get("min")
+            if shot.get("min") is not None
+            else shot.get("minute")
+        )
+
+        penalty_key = (
+            f"penalty-missed|"
+            f"{player_id}|"
+            f"{minute_value}"
+        )
+
+        if penalty_key in reported:
+            continue
+
+        player = player_lookup[
+            player_id
+        ]
+
+        minute_text = (
+            f"{minute_value}'"
+            if minute_value is not None
+            else ""
+        )
+
+        message = (
+            "❌ PENALTY MISSED\n\n"
+            f"⚽ {home_name} vs {away_name}\n\n"
+            f"👤 {player['name']}\n"
+            f"⏱️ {minute_text}"
+        )
+
+        send_telegram(message)
+
+        print(
+            f"  📱 Missed-penalty notification sent: "
+            f"{player['name']}"
+        )
+
+        reported.append(
+            penalty_key
+        )
+
 
 
 # ============================================================
@@ -1891,6 +2204,8 @@ def normalize_stat_key(value):
     replacements = {
         "_": " ",
         "-": " ",
+        ",": " ",
+        ".": " ",
     }
 
     for old, new in replacements.items():
@@ -1904,117 +2219,449 @@ def normalize_stat_key(value):
     )
 
 
-def find_player_stat(
-    player_data,
-    wanted_keys
-):
+def extract_scalar_stat(value):
+    """
+    Convert FotMob's nested stat values into a printable value.
+    Handles:
+      - scalar numbers/strings
+      - {value: X, total: Y} -> X/Y
+      - {num: X}
+      - {stat: {...}}
+    """
 
-    wanted = {
-        normalize_stat_key(key)
-        for key in wanted_keys
-    }
+    if value is None:
+        return None
 
-    groups = (
-        player_data.get(
-            "stats"
-        )
-        or []
-    )
+    if isinstance(
+        value,
+        (str, int, float, bool)
+    ):
+        return value
 
-    for group in groups:
-
-        group_stats = (
-            group.get(
-                "stats"
+    if isinstance(
+        value,
+        list
+    ):
+        if len(value) == 2:
+            left = extract_scalar_stat(
+                value[0]
             )
-            if isinstance(
-                group,
-                dict
+            right = extract_scalar_stat(
+                value[1]
             )
-            else None
-        )
 
-        if not group_stats:
-            continue
-
-        if isinstance(
-            group_stats,
-            dict
-        ):
-
-            for label, stat_data in (
-                group_stats.items()
+            if (
+                left is not None
+                and right is not None
             ):
+                return f"{left}/{right}"
 
-                possible_keys = {
-                    normalize_stat_key(
-                        label
-                    )
-                }
+        return None
 
-                if isinstance(
-                    stat_data,
-                    dict
-                ):
+    if isinstance(
+        value,
+        dict
+    ):
 
-                    if stat_data.get(
-                        "key"
-                    ):
-                        possible_keys.add(
-                            normalize_stat_key(
-                                stat_data.get(
-                                    "key"
-                                )
-                            )
-                        )
+        if (
+            "value" in value
+            and "total" in value
+        ):
+            left = extract_scalar_stat(
+                value.get("value")
+            )
+            right = extract_scalar_stat(
+                value.get("total")
+            )
 
-                    if stat_data.get(
-                        "title"
-                    ):
-                        possible_keys.add(
-                            normalize_stat_key(
-                                stat_data.get(
-                                    "title"
-                                )
-                            )
-                        )
+            if (
+                left is not None
+                and right is not None
+            ):
+                return f"{left}/{right}"
 
-                if not (
-                    possible_keys
-                    & wanted
-                ):
-                    continue
+        for key in [
+            "value",
+            "num",
+            "displayValue",
+            "formattedValue",
+            "text",
+        ]:
+            if key in value:
+                result = extract_scalar_stat(
+                    value.get(key)
+                )
 
-                if isinstance(
-                    stat_data,
-                    dict
-                ):
+                if result is not None:
+                    return result
 
-                    nested = stat_data.get(
-                        "stat"
-                    )
+        nested = value.get(
+            "stat"
+        )
 
-                    if isinstance(
-                        nested,
-                        dict
-                    ):
-                        return nested.get(
-                            "value"
-                        )
-
-                    if "value" in stat_data:
-                        return stat_data.get(
-                            "value"
-                        )
-
-                return stat_data
+        if nested is not None:
+            return extract_scalar_stat(
+                nested
+            )
 
     return None
 
 
+def extract_player_stat_rows(
+    player_data
+):
+    """
+    Extract all scalar player statistics available in FotMob's
+    current matchDetails playerStats structure.
+    """
+
+    rows = []
+    seen = set()
+
+    def add_row(label, value):
+        if not label:
+            return
+
+        printable = extract_scalar_stat(
+            value
+        )
+
+        if printable is None:
+            return
+
+        key = normalize_stat_key(
+            label
+        )
+
+        if not key or key in seen:
+            return
+
+        seen.add(key)
+
+        rows.append(
+            (
+                str(label),
+                printable,
+            )
+        )
+
+    stats_blob = player_data.get(
+        "stats"
+    )
+
+    if isinstance(
+        stats_blob,
+        list
+    ):
+
+        for group in stats_blob:
+
+            if not isinstance(
+                group,
+                dict
+            ):
+                continue
+
+            group_stats = group.get(
+                "stats"
+            )
+
+            if isinstance(
+                group_stats,
+                dict
+            ):
+
+                for label, value in (
+                    group_stats.items()
+                ):
+                    add_row(
+                        label,
+                        value
+                    )
+
+            elif group_stats is not None:
+
+                label = (
+                    group.get(
+                        "title"
+                    )
+                    or group.get(
+                        "key"
+                    )
+                )
+
+                add_row(
+                    label,
+                    group_stats
+                )
+
+    elif isinstance(
+        stats_blob,
+        dict
+    ):
+
+        for label, value in (
+            stats_blob.items()
+        ):
+            add_row(
+                label,
+                value
+            )
+
+    # Some FotMob payload variants expose these directly.
+    direct_fields = {
+        "FotMob rating": player_data.get(
+            "rating"
+        ),
+        "Minutes played": player_data.get(
+            "minutesPlayed"
+        ),
+        "Goals": player_data.get(
+            "goals"
+        ),
+        "Assists": player_data.get(
+            "assists"
+        ),
+        "Player rating": player_data.get(
+            "playerRating"
+        ),
+        "Minutes": player_data.get(
+            "minsPlayed"
+        ),
+    }
+
+    for label, value in (
+        direct_fields.items()
+    ):
+        add_row(
+            label,
+            value
+        )
+
+    return rows
+
+
+def get_stat_from_rows(
+    rows,
+    aliases,
+):
+    wanted = {
+        normalize_stat_key(
+            alias
+        )
+        for alias in aliases
+    }
+
+    for label, value in rows:
+
+        if (
+            normalize_stat_key(label)
+            in wanted
+        ):
+            return value
+
+    return None
+
+
+def get_lineup_player_data(details):
+    """
+    Map player ID -> lineup player object, so we can use
+    lineup performance/minutes as a fallback.
+    """
+
+    lineup = (
+        details.get(
+            "content",
+            {}
+        ).get(
+            "lineup"
+        )
+        or {}
+    )
+
+    result = {}
+
+    for side_key in [
+        "homeTeam",
+        "awayTeam",
+    ]:
+
+        side = lineup.get(
+            side_key
+        )
+
+        if not side:
+            continue
+
+        for role in [
+            "starters",
+            "subs",
+        ]:
+
+            for player in side.get(
+                role,
+                []
+            ):
+
+                player_id = player.get(
+                    "id"
+                )
+
+                if player_id is None:
+                    continue
+
+                try:
+                    player_id = int(
+                        player_id
+                    )
+                except (
+                    TypeError,
+                    ValueError
+                ):
+                    continue
+
+                result[player_id] = player
+
+    return result
+
+
+
+def get_played_tracked_player_ids(
+    details,
+    tracked_player_ids,
+):
+    """
+    Return tracked players who are known to have actually played.
+
+    Returns:
+      - set(...) when lineup data is available
+      - None when lineup data is unavailable, so the caller can retry
+    """
+
+    lineup = (
+        details.get(
+            "content",
+            {}
+        ).get(
+            "lineup"
+        )
+    )
+
+    if not lineup:
+        return None
+
+    result = set()
+
+    tracked_ids = {
+        int(player_id)
+        for player_id in tracked_player_ids
+    }
+
+    for side_key in [
+        "homeTeam",
+        "awayTeam",
+    ]:
+
+        side = lineup.get(
+            side_key
+        )
+
+        if not side:
+            continue
+
+        for role in [
+            "starters",
+            "subs",
+        ]:
+
+            for player in side.get(
+                role,
+                []
+            ):
+
+                player_id = player.get(
+                    "id"
+                )
+
+                if player_id is None:
+                    continue
+
+                try:
+                    player_id = int(
+                        player_id
+                    )
+                except (
+                    TypeError,
+                    ValueError
+                ):
+                    continue
+
+                if player_id not in tracked_ids:
+                    continue
+
+                if role == "starters":
+                    # A starter necessarily appeared in the match,
+                    # even if later substituted off.
+                    result.add(player_id)
+                    continue
+
+                # Bench player: only count them once there is evidence
+                # they entered the match.
+                events = (
+                    player.get(
+                        "events"
+                    )
+                    or {}
+                )
+
+                sub = (
+                    events.get(
+                        "sub"
+                    )
+                    or {}
+                )
+
+                time_subbed_on = player.get(
+                    "timeSubbedOn"
+                )
+
+                subbed_in = sub.get(
+                    "subbedIn"
+                )
+
+                performance = (
+                    player.get(
+                        "performance"
+                    )
+                    or {}
+                )
+
+                minutes_played = (
+                    player.get(
+                        "minutesPlayed"
+                    )
+                )
+
+                if (
+                    time_subbed_on is not None
+                    or subbed_in is not None
+                    or (
+                        minutes_played is not None
+                        and str(minutes_played) not in {
+                            "0",
+                            "0.0",
+                        }
+                    )
+                    or performance
+                ):
+                    result.add(player_id)
+
+    return result
+
+
 def get_player_match_stats(
     details,
-    player_lookup
+    player_lookup,
 ):
 
     content = details.get(
@@ -2037,6 +2684,12 @@ def get_player_match_stats(
     ):
         return results
 
+    lineup_players = (
+        get_lineup_player_data(
+            details
+        )
+    )
+
     for player_id_raw, data in (
         player_stats.items()
     ):
@@ -2050,6 +2703,11 @@ def get_player_match_stats(
         player_id = data.get(
             "id"
         )
+
+        if player_id is None:
+            player_id = data.get(
+                "playerId"
+            )
 
         if player_id is None:
             player_id = player_id_raw
@@ -2067,68 +2725,429 @@ def get_player_match_stats(
         if player_id not in player_lookup:
             continue
 
-        results[player_id] = {
-            "name": data.get(
+        rows = extract_player_stat_rows(
+            data
+        )
+
+        lineup_data = lineup_players.get(
+            player_id,
+            {}
+        )
+
+        performance = (
+            lineup_data.get(
+                "performance"
+            )
+            or {}
+        )
+
+        lineup_rating = None
+
+        if isinstance(
+            performance,
+            dict
+        ):
+            lineup_rating = performance.get(
+                "rating"
+            )
+
+        if lineup_rating is None:
+            lineup_rating = extract_scalar_stat(
+                lineup_data.get(
+                    "rating"
+                )
+            )
+
+        lineup_minutes = extract_scalar_stat(
+            lineup_data.get(
+                "minutesPlayed"
+            )
+        )
+
+        direct_minutes = extract_scalar_stat(
+            data.get(
+                "minutesPlayed"
+            )
+        )
+
+        direct_rating = extract_scalar_stat(
+            data.get(
+                "rating"
+            )
+        )
+
+        minutes = (
+            direct_minutes
+            or get_stat_from_rows(
+                rows,
+                [
+                    "Minutes played",
+                    "minutes played",
+                    "minutesPlayed",
+                    "Mins played",
+                    "minsPlayed",
+                ],
+            )
+            or lineup_minutes
+        )
+
+        rating = (
+            direct_rating
+            or get_stat_from_rows(
+                rows,
+                [
+                    "FotMob rating",
+                    "Player rating",
+                    "rating",
+                    "playerRating",
+                ],
+            )
+            or lineup_rating
+        )
+
+        name = (
+            data.get(
                 "name"
+            )
+            or data.get(
+                "fullName"
             )
             or player_lookup[
                 player_id
-            ]["name"],
+            ]["name"]
+        )
 
-            "minutes": find_player_stat(
-                data,
-                [
-                    "Minutes played",
-                    "minutes_played",
-                    "minutes",
-                ],
-            ),
+        # Bench players who never played are normally represented
+        # with empty stats. Keep them out of final reports.
+        if (
+            not rows
+            and minutes is None
+            and rating is None
+        ):
+            continue
 
-            "rating": find_player_stat(
-                data,
-                [
-                    "FotMob rating",
-                    "rating",
-                ],
-            ),
-
-            "goals": find_player_stat(
-                data,
-                [
-                    "Goals",
-                    "goals",
-                ],
-            ),
-
-            "assists": find_player_stat(
-                data,
-                [
-                    "Assists",
-                    "goal_assist",
-                    "assists",
-                ],
-            ),
-
-            "yellow_cards": find_player_stat(
-                data,
-                [
-                    "Yellow card",
-                    "yellow_card",
-                    "yellow cards",
-                ],
-            ),
-
-            "red_cards": find_player_stat(
-                data,
-                [
-                    "Red card",
-                    "red_card",
-                    "red cards",
-                ],
-            ),
+        results[player_id] = {
+            "name": name,
+            "rows": rows,
+            "minutes": minutes,
+            "rating": rating,
         }
 
     return results
+
+
+STAT_GROUPS = [
+    (
+        "⚽ Attacking",
+        [
+            (
+                "Goals",
+                ["Goals"]
+            ),
+            (
+                "Assists",
+                [
+                    "Assists",
+                    "Goal assist",
+                    "goalAssist",
+                ]
+            ),
+            (
+                "Total shots",
+                [
+                    "Total shots",
+                    "total shots",
+                    "totalScoringAtt",
+                ]
+            ),
+            (
+                "Shots on target",
+                [
+                    "Shots on target",
+                    "ontarget scoring att",
+                    "ontargetScoringAtt",
+                ]
+            ),
+            (
+                "Expected goals (xG)",
+                [
+                    "Expected goals (xG)",
+                    "Expected goals",
+                    "expectedGoals",
+                ]
+            ),
+            (
+                "Expected assists (xA)",
+                [
+                    "Expected assists (xA)",
+                    "Expected assists",
+                ]
+            ),
+            (
+                "xG + xA",
+                ["xG + xA"]
+            ),
+            (
+                "Chances created",
+                ["Chances created"]
+            ),
+            (
+                "Big chances missed",
+                ["Big chances missed"]
+            ),
+            (
+                "Touches in opposition box",
+                [
+                    "Touches in opposition box",
+                    "Touches opp box",
+                ]
+            ),
+            (
+                "Offsides",
+                ["Offsides"]
+            ),
+        ],
+    ),
+    (
+        "🎯 Passing",
+        [
+            (
+                "Accurate passes",
+                ["Accurate passes"]
+            ),
+            (
+                "Accurate long balls",
+                ["Accurate long balls"]
+            ),
+            (
+                "Accurate crosses",
+                ["Accurate crosses"]
+            ),
+            (
+                "Passes into final third",
+                ["Passes into final third"]
+            ),
+            (
+                "Corners",
+                ["Corners"]
+            ),
+        ],
+    ),
+    (
+        "🛡️ Defending",
+        [
+            (
+                "Tackles won",
+                ["Tackles won"]
+            ),
+            (
+                "Interceptions",
+                ["Interceptions"]
+            ),
+            (
+                "Clearances",
+                ["Clearances"]
+            ),
+            (
+                "Defensive actions",
+                ["Defensive actions"]
+            ),
+            (
+                "Blocks",
+                ["Blocks"]
+            ),
+            (
+                "Duels won",
+                ["Duels won"]
+            ),
+            (
+                "Duels lost",
+                ["Duels lost"]
+            ),
+            (
+                "Ground duels won",
+                ["Ground duels won"]
+            ),
+            (
+                "Aerial duels won",
+                ["Aerial duels won"]
+            ),
+            (
+                "Dribbled past",
+                ["Dribbled past"]
+            ),
+            (
+                "Recoveries",
+                ["Recoveries"]
+            ),
+        ],
+    ),
+    (
+        "🧤 Goalkeeping",
+        [
+            (
+                "Saves",
+                ["Saves"]
+            ),
+            (
+                "Goals conceded",
+                ["Goals conceded"]
+            ),
+            (
+                "Goals prevented",
+                ["Goals prevented"]
+            ),
+            (
+                "xGOT faced",
+                ["xGOT faced"]
+            ),
+        ],
+    ),
+    (
+        "📋 Other",
+        [
+            (
+                "Touches",
+                ["Touches"]
+            ),
+            (
+                "Successful dribbles",
+                ["Successful dribbles"]
+            ),
+            (
+                "Was fouled",
+                ["Was fouled"]
+            ),
+            (
+                "Fouls committed",
+                [
+                    "Fouls committed",
+                    "Fouls",
+                ]
+            ),
+            (
+                "Dispossessed",
+                ["Dispossessed"]
+            ),
+            (
+                "Yellow card",
+                ["Yellow card"]
+            ),
+            (
+                "Red card",
+                ["Red card"]
+            ),
+            (
+                "Shot accuracy",
+                ["Shot accuracy"]
+            ),
+            (
+                "Fantasy points",
+                ["Fantasy points"]
+            ),
+        ],
+    ),
+]
+
+
+def format_player_stat_block(
+    stats
+):
+    rows = stats.get(
+        "rows",
+        []
+    )
+
+    if not rows:
+        return ""
+
+    used = set()
+    parts = []
+
+    for group_name, items in (
+        STAT_GROUPS
+    ):
+
+        lines = []
+
+        for display_name, aliases in items:
+
+            value = get_stat_from_rows(
+                rows,
+                aliases,
+            )
+
+            if value is None:
+                continue
+
+            lines.append(
+                f"• {display_name}: {value}"
+            )
+
+            for alias in aliases:
+                used.add(
+                    normalize_stat_key(
+                        alias
+                    )
+                )
+
+        if lines:
+            parts.append(
+                group_name
+                + "\n"
+                + "\n".join(lines)
+            )
+
+    excluded = {
+        "name",
+        "position",
+        "position string short",
+        "localized position",
+        "shirt",
+        "usual position",
+        "team id",
+        "image url",
+        "page url",
+        "is home team",
+        "is captain",
+        "rating",
+        "fotmob rating",
+        "minutes played",
+        "fantasy score",
+        "shotmap",
+        "team data",
+        "role",
+        "player rating",
+        "playerid",
+        "player id",
+    }
+
+    remaining = []
+
+    for label, value in rows:
+
+        normalized = normalize_stat_key(
+            label
+        )
+
+        if normalized in used:
+            continue
+
+        if normalized in excluded:
+            continue
+
+        remaining.append(
+            f"• {label}: {value}"
+        )
+
+    if remaining:
+        parts.append(
+            "📌 Additional"
+            + "\n"
+            + "\n".join(remaining)
+        )
+
+    return "\n\n".join(parts)
 
 
 def process_final_report(
@@ -2136,19 +3155,18 @@ def process_final_report(
     details,
     state,
     player_lookup,
+    tracked_player_ids=None,
 ):
 
     match_id = str(
         match["id"]
     )
 
-    header = details.get(
-        "header",
-        {}
-    )
-
     status = (
-        header.get(
+        details.get(
+            "header",
+            {}
+        ).get(
             "status"
         )
         or {}
@@ -2157,7 +3175,7 @@ def process_final_report(
     if not status.get(
         "finished"
     ):
-        return
+        return False
 
     if status.get(
         "cancelled"
@@ -2166,7 +3184,47 @@ def process_final_report(
             "  ⚠️ Match was cancelled; "
             "no final report."
         )
-        return
+        return True
+
+    if tracked_player_ids is None:
+        tracked_player_ids = (
+            get_tracked_player_ids_for_match(
+                match,
+                player_lookup,
+            )
+        )
+
+    tracked_player_ids = {
+        int(player_id)
+        for player_id in tracked_player_ids
+    }
+
+    player_stats = get_player_match_stats(
+        details,
+        player_lookup,
+    )
+
+    candidate_ids = {
+        player_id
+        for player_id in player_stats
+        if player_id in tracked_player_ids
+    }
+
+    played_ids_from_lineup = (
+        get_played_tracked_player_ids(
+            details,
+            tracked_player_ids,
+        )
+    )
+
+    reported = (
+        state[
+            "final_posts"
+        ].setdefault(
+            match_id,
+            []
+        )
+    )
 
     home_name = (
         match.get(
@@ -2192,37 +3250,24 @@ def process_final_report(
         status.get(
             "scoreStr"
         )
-        or "Final"
+        or ""
     )
 
-    player_stats = (
-        get_player_match_stats(
-            details,
-            player_lookup
+    reason = (
+        status.get(
+            "reason",
+            {}
+        ).get(
+            "long"
         )
+        or "Full-Time"
     )
 
-    if not player_stats:
-        print(
-            "  No tracked player stats "
-            "available for final report."
-        )
-        return
-
-    reported = (
-        state[
-            "final_posts"
-        ].setdefault(
-            match_id,
-            []
-        )
-    )
-
-    for player_id, stats in (
-        player_stats.items()
+    for player_id in sorted(
+        candidate_ids
     ):
 
-        player = player_lookup[
+        stats = player_stats[
             player_id
         ]
 
@@ -2234,7 +3279,7 @@ def process_final_report(
 
             print(
                 f"  ↪ Final report already sent: "
-                f"{player['name']}"
+                f"{stats['name']}"
             )
 
             continue
@@ -2247,43 +3292,12 @@ def process_final_report(
             "rating"
         )
 
-        goals = stats.get(
-            "goals"
-        )
-
-        assists = stats.get(
-            "assists"
-        )
-
-        yellow_cards = stats.get(
-            "yellow_cards"
-        )
-
-        red_cards = stats.get(
-            "red_cards"
-        )
-
-        # Do not report players who were listed
-        # but never actually played.
-        try:
-            if (
-                minutes is not None
-                and float(minutes) <= 0
-                and rating is None
-            ):
-                continue
-
-        except (
-            TypeError,
-            ValueError
-        ):
-            pass
-
         message = (
             "🏁 FULL TIME\n\n"
             f"⚽ {home_name} "
             f"{score_str} "
-            f"{away_name}\n\n"
+            f"{away_name}\n"
+            f"📌 {reason}\n\n"
             f"👤 {stats['name']}\n"
         )
 
@@ -2298,61 +3312,23 @@ def process_final_report(
                 f"{rating}\n"
             )
 
-        if goals is not None:
-            try:
-                if float(goals) > 0:
-                    message += (
-                        f"⚽ Goals: "
-                        f"{goals}\n"
-                    )
-            except (
-                TypeError,
-                ValueError
-            ):
-                pass
+        performance_block = (
+            format_player_stat_block(
+                stats
+            )
+        )
 
-        if assists is not None:
-            try:
-                if float(assists) > 0:
-                    message += (
-                        f"🅰️ Assists: "
-                        f"{assists}\n"
-                    )
-            except (
-                TypeError,
-                ValueError
-            ):
-                pass
+        if performance_block:
+            message += (
+                "\n📊 PLAYER PERFORMANCE\n"
+                + performance_block
+            )
 
-        if yellow_cards is not None:
-            try:
-                if float(
-                    yellow_cards
-                ) > 0:
-                    message += (
-                        f"🟨 Yellow cards: "
-                        f"{yellow_cards}\n"
-                    )
-            except (
-                TypeError,
-                ValueError
-            ):
-                pass
-
-        if red_cards is not None:
-            try:
-                if float(
-                    red_cards
-                ) > 0:
-                    message += (
-                        f"🟥 Red cards: "
-                        f"{red_cards}\n"
-                    )
-            except (
-                TypeError,
-                ValueError
-            ):
-                pass
+        if len(message) > 3900:
+            message = (
+                message[:3850]
+                + "\n\n…some additional FotMob statistics were omitted."
+            )
 
         send_telegram(
             message
@@ -2367,6 +3343,413 @@ def process_final_report(
             report_key
         )
 
+    # If playerStats has tracked players, all of them need reports.
+    if candidate_ids:
+        return all(
+            str(player_id) in reported
+            for player_id in candidate_ids
+        )
+
+    # If the confirmed lineup shows no tracked player played,
+    # there is nothing to publish.
+    if (
+        played_ids_from_lineup
+        == set()
+        and played_ids_from_lineup is not None
+    ):
+        return True
+
+    # Stats may simply not be ready yet. Keep the match alive.
+    return False
+
+
+
+# ============================================================
+# PERSISTENT MATCH MONITORING
+# ============================================================
+
+MONITORED_MATCH_MAX_AGE_HOURS = 48
+
+
+def get_tracked_player_ids_for_match(
+    match,
+    player_lookup,
+):
+
+    home_id = (
+        match.get(
+            "home",
+            {}
+        ).get(
+            "id"
+        )
+    )
+
+    away_id = (
+        match.get(
+            "away",
+            {}
+        ).get(
+            "id"
+        )
+    )
+
+    result = []
+
+    for player_id, player in player_lookup.items():
+
+        club_id = player.get(
+            "team_id"
+        )
+
+        national_id = player.get(
+            "national_team_id"
+        )
+
+        monitor_national = player.get(
+            "monitor_national_team",
+            True
+        )
+
+        matched = False
+
+        try:
+            if club_id is not None:
+                club_id = int(club_id)
+
+                if (
+                    home_id is not None
+                    and int(home_id) == club_id
+                ):
+                    matched = True
+
+                elif (
+                    away_id is not None
+                    and int(away_id) == club_id
+                ):
+                    matched = True
+
+        except (
+            TypeError,
+            ValueError
+        ):
+            pass
+
+        if (
+            not matched
+            and monitor_national
+            and national_id is not None
+        ):
+
+            try:
+                national_id = int(
+                    national_id
+                )
+
+                if (
+                    home_id is not None
+                    and int(home_id) == national_id
+                ):
+                    matched = True
+
+                elif (
+                    away_id is not None
+                    and int(away_id) == national_id
+                ):
+                    matched = True
+
+            except (
+                TypeError,
+                ValueError
+            ):
+                pass
+
+        if matched:
+            result.append(
+                int(player_id)
+            )
+
+    return result
+
+
+def register_monitored_match(
+    match,
+    state,
+    player_lookup,
+):
+
+    state.setdefault(
+        "monitored_matches",
+        {}
+    )
+
+    match_id = str(
+        match["id"]
+    )
+
+    now = get_local_now()
+
+    tracked_ids = (
+        get_tracked_player_ids_for_match(
+            match,
+            player_lookup,
+        )
+    )
+
+    entry = state[
+        "monitored_matches"
+    ].get(
+        match_id
+    )
+
+    if entry is None:
+
+        entry = {
+            "match": match,
+            "tracked_player_ids": tracked_ids,
+            "discovered_at": now.isoformat(),
+            "finished_seen_at": None,
+            "next_check_at": now.isoformat(),
+            "final_complete": False,
+        }
+
+        state[
+            "monitored_matches"
+        ][match_id] = entry
+
+    else:
+
+        entry["match"] = match
+
+        existing = {
+            int(player_id)
+            for player_id in entry.get(
+                "tracked_player_ids",
+                []
+            )
+        }
+
+        existing.update(
+            tracked_ids
+        )
+
+        entry[
+            "tracked_player_ids"
+        ] = sorted(
+            existing
+        )
+
+    return entry
+
+
+def should_process_monitored_match(
+    entry,
+    now,
+):
+
+    next_check_at = parse_iso_datetime(
+        entry.get(
+            "next_check_at"
+        )
+    )
+
+    if next_check_at is None:
+        return True
+
+    return now >= (
+        next_check_at.astimezone(
+            LOCAL_TIMEZONE
+        )
+    )
+
+
+def schedule_next_match_check(
+    entry,
+    now,
+    finished,
+):
+
+    if not finished:
+        # Current/live matches should be checked every scheduler tick.
+        entry[
+            "next_check_at"
+        ] = now.isoformat()
+        return
+
+    finished_seen_at = parse_iso_datetime(
+        entry.get(
+            "finished_seen_at"
+        )
+    )
+
+    if finished_seen_at is None:
+        finished_seen_at = now
+
+        entry[
+            "finished_seen_at"
+        ] = now.isoformat()
+
+    elapsed_minutes = (
+        now
+        - finished_seen_at.astimezone(
+            LOCAL_TIMEZONE
+        )
+    ).total_seconds() / 60
+
+    if elapsed_minutes < 20:
+        delay_minutes = 1
+    elif elapsed_minutes < 120:
+        delay_minutes = 5
+    elif elapsed_minutes < 720:
+        delay_minutes = 15
+    else:
+        delay_minutes = 60
+
+    entry[
+        "next_check_at"
+    ] = (
+        now
+        + timedelta(
+            minutes=delay_minutes
+        )
+    ).isoformat()
+
+
+def prune_monitored_matches(
+    state,
+    now,
+):
+
+    monitored = state.get(
+        "monitored_matches",
+        {}
+    )
+
+    remove_ids = []
+
+    for match_id, entry in monitored.items():
+
+        if entry.get(
+            "final_complete"
+        ):
+            remove_ids.append(
+                match_id
+            )
+            continue
+
+        match = entry.get(
+            "match"
+        ) or {}
+
+        kickoff = parse_match_kickoff(
+            match
+        )
+
+        if kickoff is None:
+
+            discovered_at = (
+                parse_iso_datetime(
+                    entry.get(
+                        "discovered_at"
+                    )
+                )
+            )
+
+            if discovered_at is None:
+                continue
+
+            age_hours = (
+                now
+                - discovered_at.astimezone(
+                    LOCAL_TIMEZONE
+                )
+            ).total_seconds() / 3600
+
+        else:
+
+            age_hours = (
+                now
+                - kickoff
+            ).total_seconds() / 3600
+
+        # Keep remembered matches long enough to survive
+        # fixture-feed removal and delayed final statistics.
+        if age_hours > MONITORED_MATCH_MAX_AGE_HOURS:
+            remove_ids.append(
+                match_id
+            )
+
+    for match_id in remove_ids:
+        monitored.pop(
+            match_id,
+            None
+        )
+
+
+def build_matches_to_process(
+    relevant_matches,
+    state,
+    now,
+):
+
+    matches_to_process = {}
+
+    # Current daily fixture results always get checked.
+    for match in relevant_matches:
+
+        match_id = str(
+            match.get("id")
+        )
+
+        matches_to_process[
+            match_id
+        ] = match
+
+    # Remembered matches continue to be checked even after
+    # they disappear from /matches.
+    for match_id, entry in (
+        state.get(
+            "monitored_matches",
+            {}
+        ).items()
+    ):
+
+        if match_id in matches_to_process:
+            continue
+
+        if not should_process_monitored_match(
+            entry,
+            now,
+        ):
+            continue
+
+        remembered_match = entry.get(
+            "match"
+        )
+
+        if remembered_match:
+            matches_to_process[
+                str(match_id)
+            ] = remembered_match
+
+    ordered = list(
+        matches_to_process.items()
+    )
+
+    ordered.sort(
+        key=lambda item: (
+            parse_match_kickoff(
+                item[1]
+            )
+            or now
+        )
+    )
+
+    return ordered
+
+# ============================================================
+# TRANSFER MONITORING
+# ============================================================
 
 # ============================================================
 # TRANSFER MONITORING
@@ -2739,6 +4122,7 @@ def process_transfer_monitoring(
     return bool(tracked_changes)
 
 
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -2804,13 +4188,22 @@ def main():
         }
     )
 
+    state.setdefault(
+        "monitored_matches",
+        {}
+    )
+
+    # --------------------------------------------------------
+    # TRANSFERS / LOANS
+    # --------------------------------------------------------
+
     process_transfer_monitoring(
         players,
         state,
     )
 
-    # Rebuild the lookup after transfer monitoring in case a tracked
-    # player's club was updated by a new transfer/loan.
+    # Rebuild lookup after a transfer/loan may have changed
+    # a tracked player's current club.
     player_lookup = (
         build_player_lookup(
             players
@@ -2832,11 +4225,13 @@ def main():
         f"club/national teams"
     )
 
+    now = get_local_now()
+
     # ========================================================
-    # LIVE / MATCH MONITORING
+    # CURRENT MATCH DISCOVERY
     # ========================================================
 
-    today = get_local_today()
+    today = now.date()
 
     print(
         f"Checking tracked matches "
@@ -2862,6 +4257,15 @@ def main():
         f"Found {len(relevant_matches)} "
         f"relevant matches."
     )
+
+    # Remember every relevant match before processing it.
+    # This is the key fix for post-game reporting.
+    for match in relevant_matches:
+        register_monitored_match(
+            match,
+            state,
+            player_lookup,
+        )
 
     # ========================================================
     # DAILY MATCHES POST
@@ -2930,14 +4334,36 @@ def main():
     print("=" * 70)
 
     # ========================================================
-    # PROCESS TODAY'S MATCHES
+    # CURRENT + PERSISTENT MATCH PROCESSING
     # ========================================================
 
-    for match in relevant_matches:
+    matches_to_process = build_matches_to_process(
+        relevant_matches,
+        state,
+        now,
+    )
 
-        match_id = match.get(
-            "id"
+    print(
+        f"Processing {len(matches_to_process)} "
+        f"current/remembered matches."
+    )
+
+    print("=" * 70)
+
+    for match_id, match in matches_to_process:
+
+        entry = state[
+            "monitored_matches"
+        ].get(
+            str(match_id)
         )
+
+        if entry is None:
+            entry = register_monitored_match(
+                match,
+                state,
+                player_lookup,
+            )
 
         home_name = (
             match.get(
@@ -2959,10 +4385,25 @@ def main():
             )
         )
 
+        is_current_match = (
+            str(match_id)
+            in {
+                str(match.get("id"))
+                for match in relevant_matches
+            }
+        )
+
+        label = (
+            ""
+            if is_current_match
+            else " (remembered match)"
+        )
+
         print(
             f"Checking: "
             f"{home_name} vs "
             f"{away_name}"
+            f"{label}"
         )
 
         try:
@@ -2971,6 +4412,16 @@ def main():
                 get_match_details(
                     match_id
                 )
+            )
+
+            status = (
+                details.get(
+                    "header",
+                    {}
+                ).get(
+                    "status"
+                )
+                or {}
             )
 
             # ------------------------------------------------
@@ -2999,12 +4450,55 @@ def main():
             # FINAL REPORT
             # ------------------------------------------------
 
-            process_final_report(
+            final_complete = process_final_report(
                 match,
                 details,
                 state,
                 player_lookup,
+                entry.get(
+                    "tracked_player_ids",
+                    [],
+                ),
             )
+
+            finished = bool(
+                status.get(
+                    "finished"
+                )
+            )
+
+            if finished:
+
+                if final_complete:
+
+                    entry[
+                        "final_complete"
+                    ] = True
+
+                    print(
+                        "  ✅ Post-game monitoring complete."
+                    )
+
+                else:
+
+                    schedule_next_match_check(
+                        entry,
+                        now,
+                        True,
+                    )
+
+                    print(
+                        "  ⏳ Final statistics are not complete yet; "
+                        "match remains monitored."
+                    )
+
+            else:
+
+                schedule_next_match_check(
+                    entry,
+                    now,
+                    False,
+                )
 
         except Exception as e:
 
@@ -3013,18 +4507,29 @@ def main():
                 f"{match_id}: {e}"
             )
 
-    save_json(
-        STATE_FILE,
-        state
+    # Remove completed/expired remembered matches.
+    prune_monitored_matches(
+        state,
+        now,
     )
 
-    # Persist any current-club changes detected by transfer monitoring.
+    # ========================================================
+    # SAVE
+    # ========================================================
+
+    save_json(
+        STATE_FILE,
+        state,
+    )
+
+    # Persist any club changes from transfer/loan detection.
     existing_players = load_json(
         PLAYERS_FILE,
         None
     )
 
     if existing_players != players:
+
         save_json(
             PLAYERS_FILE,
             players
@@ -3042,9 +4547,8 @@ def main():
     print("=" * 70)
 
     print(
-        "LINEUP + LIVE EVENT + "
-        "DAILY MATCHES + "
-        "TRANSFER + "
+        "LINEUP + LIVE EVENT + DAILY MATCHES + "
+        "TRANSFER + PERSISTENT MATCH + "
         "FINAL REPORT MONITORING COMPLETE"
     )
 
