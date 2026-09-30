@@ -342,7 +342,7 @@
             "match": {
                 "id": 6266052,
                 "leagueId": 914609,
-                "time": "01.10.2026 01:00",
+                "time": "01.10.2026 02:00",
                 "home": {
                     "id": 6706,
                     "score": 0,
@@ -359,23 +359,313 @@
                 "statusId": 1,
                 "tournamentStage": "1",
                 "status": {
-                    "utcTime": "2026-09-30T23:00:00.000Z",
+                    "utcTime": "2026-10-01T00:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.10.2026 01:00:00"
+                        "firstHalfStarted": "01.10.2026 02:00:00"
                     },
                     "periodLength": 45,
                     "started": false,
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1790809200000
+                "timeTS": 1790812800000
             },
             "tracked_player_ids": [
                 30981
             ],
             "discovered_at": "2026-09-30T04:47:16.752580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-09-30T23:59:17.098356+03:30",
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "5181829": {
+            "match": {
+                "id": 5181829,
+                "leagueId": 920744,
+                "time": "01.10.2026 20:45",
+                "home": {
+                    "id": 8570,
+                    "score": 0,
+                    "name": "Germany",
+                    "longName": "Germany"
+                },
+                "away": {
+                    "id": 8205,
+                    "score": 0,
+                    "name": "Serbia",
+                    "longName": "Serbia"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-01T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790880300000
+            },
+            "tracked_player_ids": [
+                184554,
+                178818
+            ],
+            "discovered_at": "2026-10-01T00:00:42.820786+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "5181830": {
+            "match": {
+                "id": 5181830,
+                "leagueId": 920744,
+                "time": "01.10.2026 20:45",
+                "home": {
+                    "id": 6383,
+                    "score": 0,
+                    "name": "Greece",
+                    "longName": "Greece"
+                },
+                "away": {
+                    "id": 6708,
+                    "score": 0,
+                    "name": "Netherlands",
+                    "longName": "Netherlands"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-01T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790880300000
+            },
+            "tracked_player_ids": [
+                303824
+            ],
+            "discovered_at": "2026-10-01T00:00:42.820864+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "5181865": {
+            "match": {
+                "id": 5181865,
+                "leagueId": 920742,
+                "time": "01.10.2026 20:45",
+                "home": {
+                    "id": 8238,
+                    "score": 0,
+                    "name": "Denmark",
+                    "longName": "Denmark"
+                },
+                "away": {
+                    "id": 8361,
+                    "score": 0,
+                    "name": "Portugal",
+                    "longName": "Portugal"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-01T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790880300000
+            },
+            "tracked_player_ids": [
+                470834,
+                358147,
+                361770,
+                169865,
+                794427,
+                732282
+            ],
+            "discovered_at": "2026-10-01T00:00:42.820923+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "5181817": {
+            "match": {
+                "id": 5181817,
+                "leagueId": 920747,
+                "time": "01.10.2026 20:45",
+                "home": {
+                    "id": 5791,
+                    "score": 0,
+                    "name": "Ireland",
+                    "longName": "Ireland"
+                },
+                "away": {
+                    "id": 8255,
+                    "score": 0,
+                    "name": "Austria",
+                    "longName": "Austria"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-01T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790880300000
+            },
+            "tracked_player_ids": [
+                1114554
+            ],
+            "discovered_at": "2026-10-01T00:00:42.820980+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "6040250": {
+            "match": {
+                "id": 6040250,
+                "leagueId": 943879,
+                "time": "01.10.2026 18:00",
+                "home": {
+                    "id": 6289,
+                    "score": 0,
+                    "name": "Guinea",
+                    "longName": "Guinea"
+                },
+                "away": {
+                    "id": 5884,
+                    "score": 0,
+                    "name": "Kenya",
+                    "longName": "Kenya"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-01T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 18:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790870400000
+            },
+            "tracked_player_ids": [
+                1109046
+            ],
+            "discovered_at": "2026-10-01T00:00:42.821123+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "6366622": {
+            "match": {
+                "id": 6366622,
+                "leagueId": 915708,
+                "time": "01.10.2026 20:00",
+                "home": {
+                    "id": 8603,
+                    "score": 0,
+                    "name": "Real Betis",
+                    "longName": "Real Betis"
+                },
+                "away": {
+                    "id": 357259,
+                    "score": 0,
+                    "name": "AD Ceuta FC",
+                    "longName": "AD Ceuta FC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-01T18:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 20:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790877600000
+            },
+            "tracked_player_ids": [
+                195305,
+                743192,
+                427438,
+                1209399
+            ],
+            "discovered_at": "2026-10-01T00:00:42.821180+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
+            "final_complete": false
+        },
+        "1000021933": {
+            "match": {
+                "id": 1000021933,
+                "leagueId": 1000001445,
+                "time": "01.10.2026 19:15",
+                "home": {
+                    "id": 101904,
+                    "score": 0,
+                    "name": "Al-Shamal",
+                    "longName": "Al-Shamal"
+                },
+                "away": {
+                    "id": 479161,
+                    "score": 0,
+                    "name": "Muaither SC",
+                    "longName": "Muaither SC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-01T17:15:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 19:15:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790874900000
+            },
+            "tracked_player_ids": [
+                301456,
+                929834
+            ],
+            "discovered_at": "2026-10-01T00:00:42.821235+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-01T00:00:42.821291+03:30",
             "final_complete": false
         }
     }
