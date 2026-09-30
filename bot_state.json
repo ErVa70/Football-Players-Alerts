@@ -173,6 +173,9 @@
         ],
         "6040202": [
             "1209399"
+        ],
+        "5991874": [
+            "892816"
         ]
     },
     "transfer_monitor": {
@@ -333,61 +336,6 @@
         ]
     },
     "monitored_matches": {
-        "5991874": {
-            "match": {
-                "id": 5991874,
-                "leagueId": 914609,
-                "time": "30.09.2026 02:00",
-                "home": {
-                    "id": 6713,
-                    "score": 4,
-                    "name": "USA",
-                    "longName": "USA"
-                },
-                "away": {
-                    "id": 9762,
-                    "score": 2,
-                    "name": "Chile",
-                    "longName": "Chile"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-09-30T00:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "30.09.2026 02:08:06",
-                        "secondHalfStarted": "30.09.2026 03:10:53"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "4 - 2",
-                    "liveTime": {
-                        "short": "100‎’‎",
-                        "shortKey": "",
-                        "long": "99:31",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1790726400000
-            },
-            "tracked_player_ids": [
-                49939,
-                50047,
-                892816,
-                1054033
-            ],
-            "discovered_at": "2026-09-30T04:47:16.752497+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-09-30T05:35:24.374392+03:30",
-            "final_complete": false
-        },
         "6266052": {
             "match": {
                 "id": 6266052,
@@ -425,7 +373,7 @@
             ],
             "discovered_at": "2026-09-30T04:47:16.752580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-09-30T05:35:24.374392+03:30",
+            "next_check_at": "2026-09-30T05:36:21.387682+03:30",
             "final_complete": false
         }
     }
