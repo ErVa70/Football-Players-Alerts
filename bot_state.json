@@ -331,5 +331,102 @@
             "174096|2026-09-15T04:43:46Z|9755|6203|contract",
             "696932|2026-09-14T08:01:28Z|102101|8619|on loan"
         ]
+    },
+    "monitored_matches": {
+        "5991874": {
+            "match": {
+                "id": 5991874,
+                "leagueId": 914609,
+                "time": "30.09.2026 02:00",
+                "home": {
+                    "id": 6713,
+                    "score": 1,
+                    "name": "USA",
+                    "longName": "USA"
+                },
+                "away": {
+                    "id": 9762,
+                    "score": 2,
+                    "name": "Chile",
+                    "longName": "Chile"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 3,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-09-30T00:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "30.09.2026 02:08:06",
+                        "secondHalfStarted": "30.09.2026 03:10:53"
+                    },
+                    "periodLength": 45,
+                    "finished": false,
+                    "started": true,
+                    "cancelled": false,
+                    "ongoing": true,
+                    "scoreStr": "1 - 2",
+                    "liveTime": {
+                        "short": "52‎’‎",
+                        "shortKey": "",
+                        "long": "51:23",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
+                        "addedTime": 0
+                    }
+                },
+                "timeTS": 1790726400000
+            },
+            "tracked_player_ids": [
+                892816,
+                49939,
+                50047,
+                1054033
+            ],
+            "discovered_at": "2026-09-30T04:47:16.752497+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-09-30T04:47:16.752656+03:30",
+            "final_complete": false
+        },
+        "6266052": {
+            "match": {
+                "id": 6266052,
+                "leagueId": 914609,
+                "time": "01.10.2026 01:00",
+                "home": {
+                    "id": 6706,
+                    "score": 0,
+                    "name": "Argentina",
+                    "longName": "Argentina"
+                },
+                "away": {
+                    "id": 5797,
+                    "score": 0,
+                    "name": "Bolivia",
+                    "longName": "Bolivia"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-09-30T23:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "01.10.2026 01:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790809200000
+            },
+            "tracked_player_ids": [
+                30981
+            ],
+            "discovered_at": "2026-09-30T04:47:16.752580+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-09-30T04:47:16.752656+03:30",
+            "final_complete": false
+        }
     }
 }
