@@ -1,5 +1,6 @@
 import json
 import os
+import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -1104,42 +1105,105 @@ def is_own_goal(event):
     )
 
 
-def get_assist_name(event):
+def get_assist_info(event):
+    """Return the credited assist player's ID and name when available."""
 
     assist = event.get(
         "assist"
     )
 
+    assist_id = None
+    assist_name = None
+
     if isinstance(
         assist,
         dict
     ):
-        return (
-            assist.get(
-                "name"
-            )
-            or assist.get(
-                "playerName"
-            )
-            or assist.get(
-                "fullName"
-            )
+        assist_id = (
+            assist.get("id")
+            or assist.get("playerId")
+            or assist.get("assistPlayerId")
+            or assist.get("personId")
         )
 
-    if isinstance(
+        assist_name = (
+            assist.get("name")
+            or assist.get("playerName")
+            or assist.get("fullName")
+        )
+
+    elif isinstance(
         assist,
         str
     ):
-        return assist
+        assist_name = assist
 
-    return (
-        event.get(
-            "assistName"
-        )
-        or event.get(
-            "assistPlayerName"
-        )
+    assist_id = (
+        assist_id
+        or event.get("assistPlayerId")
+        or event.get("assistPersonId")
+        or event.get("assistId")
     )
+
+    assist_name = (
+        assist_name
+        or event.get("assistName")
+        or event.get("assistPlayerName")
+        or event.get("assistPlayerFullName")
+    )
+
+    try:
+        if assist_id is not None:
+            assist_id = int(assist_id)
+    except (TypeError, ValueError):
+        assist_id = None
+
+    return assist_id, assist_name
+
+
+def normalize_person_name(value):
+    """Normalize names so ID-less assist names can still be matched."""
+
+    if value is None:
+        return ""
+
+    text = unicodedata.normalize(
+        "NFKD",
+        str(value)
+    )
+
+    text = "".join(
+        char
+        for char in text
+        if not unicodedata.combining(char)
+    )
+
+    return " ".join(
+        text.casefold().split()
+    )
+
+
+def find_tracked_player_by_name(
+    name,
+    player_lookup,
+):
+    """Find a tracked player from a credited assist name."""
+
+    target = normalize_person_name(name)
+
+    if not target:
+        return None, None
+
+    for player_id, player in player_lookup.items():
+        if (
+            normalize_person_name(
+                player.get("name")
+            )
+            == target
+        ):
+            return player_id, player
+
+    return None, None
 
 
 # ============================================================
@@ -1476,9 +1540,6 @@ def process_match_events(
             event
         )
 
-        if event_key in reported:
-            continue
-
         event_type = str(
             event.get(
                 "type",
@@ -1491,82 +1552,167 @@ def process_match_events(
         )
 
         # ----------------------------------------------------
-        # GOAL
+        # GOAL + ASSIST
         # ----------------------------------------------------
 
         if event_type == "goal":
 
-            player_id = (
-                get_event_player_id(
-                    event
-                )
-            )
-
-            if player_id not in player_lookup:
-                continue
-
-            player = player_lookup[
-                player_id
-            ]
-
-            if is_own_goal(
+            # Assist attribution belongs to the goal event.
+            # It must be checked independently from the scorer
+            # because the tracked player may be the assister.
+            assist_id, assist_name = get_assist_info(
                 event
-            ):
-                title = "🔴 OWN GOAL"
+            )
 
-            elif is_penalty_event(
+            tracked_assist_id = None
+            tracked_assist = None
+
+            if assist_id in player_lookup:
+                tracked_assist_id = assist_id
+                tracked_assist = player_lookup[
+                    assist_id
+                ]
+            elif assist_name:
+                (
+                    tracked_assist_id,
+                    tracked_assist,
+                ) = find_tracked_player_by_name(
+                    assist_name,
+                    player_lookup,
+                )
+
+            # ---------------------------------------------
+            # GOAL SCORER
+            # ---------------------------------------------
+
+            player_id = get_event_player_id(
                 event
+            )
+
+            if (
+                player_id in player_lookup
+                and event_key not in reported
             ):
-                title = "⚽ PENALTY GOAL"
 
-            else:
-                title = "⚽ GOAL"
+                player = player_lookup[
+                    player_id
+                ]
 
-            message = (
-                f"{title}\n\n"
-                f"⚽ {home_name} vs "
-                f"{away_name}\n\n"
-                f"👤 {player['name']}\n"
-                f"⏱️ {minute}"
-            )
-
-            assist_name = (
-                get_assist_name(
+                if is_own_goal(
                     event
-                )
-            )
+                ):
+                    title = "🔴 OWN GOAL"
 
-            if assist_name:
-                message += (
-                    f"\n🅰️ Assist: "
-                    f"{assist_name}"
-                )
+                elif is_penalty_event(
+                    event
+                ):
+                    title = "⚽ PENALTY GOAL"
 
-            score_str = (
-                status.get(
-                    "scoreStr"
-                )
-                or ""
-            )
+                else:
+                    title = "⚽ GOAL"
 
-            if score_str:
-                message += (
-                    f"\n📊 Score: "
-                    f"{score_str}"
+                message = (
+                    f"{title}\n\n"
+                    f"⚽ {home_name} vs "
+                    f"{away_name}\n\n"
+                    f"👤 {player['name']}\n"
+                    f"⏱️ {minute}"
                 )
 
-            send_telegram(
-                message
-            )
+                if assist_name:
+                    message += (
+                        f"\n🅰️ Assist: "
+                        f"{assist_name}"
+                    )
 
-            print(
-                f"  📱 Goal notification sent: "
-                f"{player['name']}"
-            )
+                score_str = (
+                    status.get(
+                        "scoreStr"
+                    )
+                    or ""
+                )
 
-            reported.append(
-                event_key
-            )
+                if score_str:
+                    message += (
+                        f"\n📊 Score: "
+                        f"{score_str}"
+                    )
+
+                send_telegram(
+                    message
+                )
+
+                print(
+                    f"  📱 Goal notification sent: "
+                    f"{player['name']}"
+                )
+
+                reported.append(
+                    event_key
+                )
+
+            # ---------------------------------------------
+            # ASSISTER
+            # ---------------------------------------------
+
+            if tracked_assist_id is not None:
+
+                assist_key = (
+                    f"{event_key}|assist|"
+                    f"{tracked_assist_id}"
+                )
+
+                if assist_key not in reported:
+
+                    scorer_name = (
+                        event.get(
+                            "player",
+                            {}
+                        ).get(
+                            "name",
+                            "Unknown"
+                        )
+                    )
+
+                    message = (
+                        "🅰️ ASSIST\n\n"
+                        f"⚽ {home_name} vs "
+                        f"{away_name}\n\n"
+                        f"👤 {tracked_assist['name']}\n"
+                        f"🎯 For: {scorer_name}\n"
+                        f"⏱️ {minute}"
+                    )
+
+                    score_str = (
+                        status.get(
+                            "scoreStr"
+                        )
+                        or ""
+                    )
+
+                    if score_str:
+                        message += (
+                            f"\n📊 Score: "
+                            f"{score_str}"
+                        )
+
+                    send_telegram(
+                        message
+                    )
+
+                    print(
+                        f"  📱 Assist notification sent: "
+                        f"{tracked_assist['name']}"
+                    )
+
+                    reported.append(
+                        assist_key
+                    )
+
+            continue
+
+        if event_key in reported:
+            continue
 
         # ----------------------------------------------------
         # CARD
