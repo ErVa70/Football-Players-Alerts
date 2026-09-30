@@ -366,9 +366,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 2",
                     "liveTime": {
-                        "short": "73‎’‎",
+                        "short": "74‎’‎",
                         "shortKey": "",
-                        "long": "72:27",
+                        "long": "73:23",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -385,7 +385,7 @@
             ],
             "discovered_at": "2026-09-30T04:47:16.752497+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-09-30T05:08:20.940484+03:30",
+            "next_check_at": "2026-09-30T05:09:16.368195+03:30",
             "final_complete": false
         },
         "6266052": {
@@ -425,7 +425,7 @@
             ],
             "discovered_at": "2026-09-30T04:47:16.752580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-09-30T05:08:20.940484+03:30",
+            "next_check_at": "2026-09-30T05:09:16.368195+03:30",
             "final_complete": false
         }
     }
