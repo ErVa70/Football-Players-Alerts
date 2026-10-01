@@ -165,7 +165,8 @@
             "id:14502495|assist|892816",
             "Substitution|63|None|1126058,892816|"
         ],
-        "6266052": []
+        "6266052": [],
+        "6040250": []
     },
     "final_posts": {
         "5991881": [
@@ -381,7 +382,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         },
         "5181830": {
@@ -421,7 +422,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820864+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         },
         "5181865": {
@@ -466,7 +467,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820923+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         },
         "5181817": {
@@ -506,7 +507,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820980+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         },
         "6040250": {
@@ -527,17 +528,28 @@
                     "longName": "Kenya"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-01T16:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.10.2026 18:00:00"
+                        "firstHalfStarted": "01.10.2026 18:04:00"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:22",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1790870400000
             },
@@ -546,7 +558,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821123+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         },
         "6366622": {
@@ -589,7 +601,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -630,7 +642,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821235+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T19:33:18.548588+03:30",
+            "next_check_at": "2026-10-01T19:34:22.778230+03:30",
             "final_complete": false
         }
     }
