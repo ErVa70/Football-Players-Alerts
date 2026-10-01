@@ -190,7 +190,8 @@
         "5991874": [
             "892816"
         ],
-        "6266052": []
+        "6266052": [],
+        "6040250": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -388,7 +389,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
+            "next_check_at": "2026-10-01T21:33:19.740930+03:30",
             "final_complete": false
         },
         "5181830": {
@@ -428,7 +429,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820864+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
+            "next_check_at": "2026-10-01T21:33:19.740930+03:30",
             "final_complete": false
         },
         "5181865": {
@@ -473,7 +474,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820923+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
+            "next_check_at": "2026-10-01T21:33:19.740930+03:30",
             "final_complete": false
         },
         "5181817": {
@@ -513,59 +514,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820980+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
-            "final_complete": false
-        },
-        "6040250": {
-            "match": {
-                "id": 6040250,
-                "leagueId": 943879,
-                "time": "01.10.2026 18:00",
-                "home": {
-                    "id": 6289,
-                    "score": 1,
-                    "name": "Guinea",
-                    "longName": "Guinea"
-                },
-                "away": {
-                    "id": 5884,
-                    "score": 0,
-                    "name": "Kenya",
-                    "longName": "Kenya"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-01T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "01.10.2026 18:04:00",
-                        "secondHalfStarted": "01.10.2026 19:13:28"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:54",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1790870400000
-            },
-            "tracked_player_ids": [
-                1109046
-            ],
-            "discovered_at": "2026-10-01T00:00:42.821123+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
+            "next_check_at": "2026-10-01T21:33:19.740930+03:30",
             "final_complete": false
         },
         "6366622": {
@@ -608,7 +557,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
+            "next_check_at": "2026-10-01T21:33:19.740930+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -649,7 +598,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821235+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T21:32:22.620453+03:30",
+            "next_check_at": "2026-10-01T21:33:19.740930+03:30",
             "final_complete": false
         }
     }
