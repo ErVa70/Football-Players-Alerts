@@ -173,7 +173,10 @@
             "Substitution|63|None|1126058,892816|"
         ],
         "6266052": [],
-        "6040250": []
+        "6040250": [],
+        "5181829": [],
+        "5181830": [],
+        "5181817": []
     },
     "final_posts": {
         "5991881": [
@@ -370,17 +373,28 @@
                     "longName": "Serbia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-01T18:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.10.2026 20:45:00"
+                        "firstHalfStarted": "01.10.2026 20:46:39"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:41",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1790880300000
             },
@@ -390,7 +404,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T22:16:21.579910+03:30",
+            "next_check_at": "2026-10-01T22:17:20.623631+03:30",
             "final_complete": false
         },
         "5181830": {
@@ -411,17 +425,28 @@
                     "longName": "Netherlands"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-01T18:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.10.2026 20:45:00"
+                        "firstHalfStarted": "01.10.2026 20:46:44"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:36",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1790880300000
             },
@@ -430,7 +455,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820864+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T22:16:21.579910+03:30",
+            "next_check_at": "2026-10-01T22:17:20.623631+03:30",
             "final_complete": false
         },
         "5181865": {
@@ -475,7 +500,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820923+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T22:16:21.579910+03:30",
+            "next_check_at": "2026-10-01T22:17:20.623631+03:30",
             "final_complete": false
         },
         "5181817": {
@@ -496,17 +521,28 @@
                     "longName": "Austria"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-01T18:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.10.2026 20:45:00"
+                        "firstHalfStarted": "01.10.2026 20:46:55"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:25",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1790880300000
             },
@@ -515,7 +551,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820980+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T22:16:21.579910+03:30",
+            "next_check_at": "2026-10-01T22:17:20.623631+03:30",
             "final_complete": false
         },
         "6366622": {
@@ -564,7 +600,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T22:16:21.579910+03:30",
+            "next_check_at": "2026-10-01T22:17:20.623631+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -605,7 +641,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821235+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T22:16:21.579910+03:30",
+            "next_check_at": "2026-10-01T22:17:20.623631+03:30",
             "final_complete": false
         }
     }
