@@ -391,9 +391,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:55",
+                        "long": "48:56",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -408,7 +408,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T23:21:19.657772+03:30",
+            "next_check_at": "2026-10-01T23:22:20.995544+03:30",
             "final_complete": false
         },
         "5181830": {
@@ -444,9 +444,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:03",
+                        "long": "47:04",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -460,7 +460,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820864+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T23:21:19.657772+03:30",
+            "next_check_at": "2026-10-01T23:22:20.995544+03:30",
             "final_complete": false
         },
         "5181865": {
@@ -481,12 +481,13 @@
                     "longName": "Portugal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-01T18:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.10.2026 20:48:49"
+                        "firstHalfStarted": "01.10.2026 20:48:49",
+                        "secondHalfStarted": "01.10.2026 21:51:22"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -495,12 +496,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:58",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -516,7 +517,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820923+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T23:21:19.657772+03:30",
+            "next_check_at": "2026-10-01T23:22:20.995544+03:30",
             "final_complete": false
         },
         "5181817": {
@@ -567,7 +568,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.820980+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T23:21:19.657772+03:30",
+            "next_check_at": "2026-10-01T23:22:20.995544+03:30",
             "final_complete": false
         },
         "6366622": {
@@ -616,7 +617,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-01T23:21:19.657772+03:30",
+            "next_check_at": "2026-10-01T23:22:20.995544+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -665,7 +666,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821235+03:30",
             "finished_seen_at": "2026-10-01T22:56:20.857382+03:30",
-            "next_check_at": "2026-10-01T23:26:19.657772+03:30",
+            "next_check_at": "2026-10-01T23:27:20.995544+03:30",
             "final_complete": false
         }
     }
