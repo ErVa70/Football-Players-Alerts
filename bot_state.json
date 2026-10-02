@@ -57,6 +57,9 @@
         "5868475": [],
         "5181793": [
             "Ousmane Dembélé|STARTING XI"
+        ],
+        "5181842": [
+            "Robert Lewandowski|STARTING XI"
         ]
     },
     "match_events": {
@@ -438,7 +441,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -531,7 +534,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -571,7 +574,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         },
         "6369375": {
@@ -606,9 +609,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "42‎’‎",
+                        "short": "43‎’‎",
                         "shortKey": "",
-                        "long": "41:18",
+                        "long": "42:57",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -624,7 +627,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237921+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -664,7 +667,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -706,7 +709,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         },
         "6371519": {
@@ -741,9 +744,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "35‎’‎",
+                        "short": "36‎’‎",
                         "shortKey": "",
-                        "long": "34:12",
+                        "long": "35:51",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -757,7 +760,7 @@
             ],
             "discovered_at": "2026-10-02T15:50:33.384911+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:13:20.667976+03:30",
+            "next_check_at": "2026-10-02T21:14:59.742929+03:30",
             "final_complete": false
         }
     }
