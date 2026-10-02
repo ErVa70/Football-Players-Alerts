@@ -239,7 +239,8 @@
         "1000020536": [
             "535603"
         ],
-        "6369375": []
+        "6369375": [],
+        "6371519": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -445,7 +446,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:29:17.944101+03:30",
+            "next_check_at": "2026-10-02T22:30:51.956836+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -529,9 +530,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "11‎’‎",
+                        "short": "13‎’‎",
                         "shortKey": "",
-                        "long": "10:50",
+                        "long": "12:24",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -549,7 +550,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:29:17.944101+03:30",
+            "next_check_at": "2026-10-02T22:30:51.956836+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -584,9 +585,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "14‎’‎",
+                        "short": "15‎’‎",
                         "shortKey": "",
-                        "long": "13:10",
+                        "long": "14:44",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -600,7 +601,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:29:17.944101+03:30",
+            "next_check_at": "2026-10-02T22:30:51.956836+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -635,9 +636,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "29‎’‎",
+                        "short": "30‎’‎",
                         "shortKey": "",
-                        "long": "28:25",
+                        "long": "29:59",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -651,7 +652,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:29:17.944101+03:30",
+            "next_check_at": "2026-10-02T22:30:51.956836+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -693,59 +694,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:29:17.944101+03:30",
-            "final_complete": false
-        },
-        "6371519": {
-            "match": {
-                "id": 6371519,
-                "leagueId": 915708,
-                "time": "02.10.2026 19:00",
-                "home": {
-                    "id": 8560,
-                    "score": 0,
-                    "name": "Real Sociedad",
-                    "longName": "Real Sociedad"
-                },
-                "away": {
-                    "id": 8315,
-                    "score": 1,
-                    "name": "Athletic Club",
-                    "longName": "Athletic Club"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-02T17:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "02.10.2026 19:09:08",
-                        "secondHalfStarted": "02.10.2026 20:12:46"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "92‎’‎",
-                        "shortKey": "",
-                        "long": "91:31",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1790960400000
-            },
-            "tracked_player_ids": [
-                1490110
-            ],
-            "discovered_at": "2026-10-02T15:50:33.384911+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:29:17.944101+03:30",
+            "next_check_at": "2026-10-02T22:30:51.956836+03:30",
             "final_complete": false
         }
     }
