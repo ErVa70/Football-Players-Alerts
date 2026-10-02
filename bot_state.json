@@ -432,7 +432,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -525,7 +525,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -565,7 +565,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "6369375": {
@@ -600,9 +600,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "36‎’‎",
+                        "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "35:16",
+                        "long": "36:23",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -618,7 +618,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237921+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -658,7 +658,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "1000020536": {
@@ -694,9 +694,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "92‎’‎",
                         "shortKey": "",
-                        "long": "90:23",
+                        "long": "91:30",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -710,7 +710,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238091+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -752,7 +752,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         },
         "6371519": {
@@ -787,9 +787,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "29‎’‎",
+                        "short": "30‎’‎",
                         "shortKey": "",
-                        "long": "28:10",
+                        "long": "29:17",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -803,7 +803,7 @@
             ],
             "discovered_at": "2026-10-02T15:50:33.384911+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T21:07:18.420043+03:30",
+            "next_check_at": "2026-10-02T21:08:25.316509+03:30",
             "final_complete": false
         }
     }
