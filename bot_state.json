@@ -446,7 +446,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:38:21.790908+03:30",
+            "next_check_at": "2026-10-02T22:39:19.390990+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -530,9 +530,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "20‎’‎",
+                        "short": "21‎’‎",
                         "shortKey": "",
-                        "long": "19:54",
+                        "long": "20:52",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -550,7 +550,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:38:21.790908+03:30",
+            "next_check_at": "2026-10-02T22:39:19.390990+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -568,6 +568,7 @@
                     "id": 9730,
                     "score": 0,
                     "name": "Romania",
+                    "redCards": 1,
                     "longName": "Romania"
                 },
                 "eliminatedTeamId": null,
@@ -575,6 +576,7 @@
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-02T18:45:00.000Z",
+                    "numberOfAwayRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "02.10.2026 20:46:07"
                     },
@@ -585,9 +587,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "23‎’‎",
+                        "short": "24‎’‎",
                         "shortKey": "",
-                        "long": "22:14",
+                        "long": "23:12",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -601,7 +603,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:38:21.790908+03:30",
+            "next_check_at": "2026-10-02T22:39:19.390990+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -636,9 +638,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "38‎’‎",
+                        "short": "39‎’‎",
                         "shortKey": "",
-                        "long": "37:29",
+                        "long": "38:27",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -652,7 +654,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:38:21.790908+03:30",
+            "next_check_at": "2026-10-02T22:39:19.390990+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -694,7 +696,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:38:21.790908+03:30",
+            "next_check_at": "2026-10-02T22:39:19.390990+03:30",
             "final_complete": false
         }
     }
