@@ -448,7 +448,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:46:25.896276+03:30",
+            "next_check_at": "2026-10-02T22:47:19.373991+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -532,9 +532,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "28‎’‎",
+                        "short": "29‎’‎",
                         "shortKey": "",
-                        "long": "27:58",
+                        "long": "28:52",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -552,7 +552,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:46:25.896276+03:30",
+            "next_check_at": "2026-10-02T22:47:19.373991+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -589,9 +589,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "31‎’‎",
+                        "short": "32‎’‎",
                         "shortKey": "",
-                        "long": "30:18",
+                        "long": "31:12",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -605,7 +605,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:46:25.896276+03:30",
+            "next_check_at": "2026-10-02T22:47:19.373991+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -626,7 +626,7 @@
                     "longName": "Real Oviedo"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "8",
                 "status": {
                     "utcTime": "2026-10-02T18:30:00.000Z",
@@ -640,10 +640,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "46‎’‎",
-                        "shortKey": "",
-                        "long": "45:33",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -656,7 +656,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:46:25.896276+03:30",
+            "next_check_at": "2026-10-02T22:47:19.373991+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -698,7 +698,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:46:25.896276+03:30",
+            "next_check_at": "2026-10-02T22:47:19.373991+03:30",
             "final_complete": false
         }
     }
