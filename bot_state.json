@@ -442,7 +442,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -535,7 +535,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -575,7 +575,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         },
         "6369375": {
@@ -611,9 +611,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "71‎’‎",
+                        "short": "72‎’‎",
                         "shortKey": "",
-                        "long": "70:56",
+                        "long": "71:55",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -629,7 +629,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237921+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -645,7 +645,7 @@
                 },
                 "away": {
                     "id": 8670,
-                    "score": 0,
+                    "score": 1,
                     "name": "Real Oviedo",
                     "longName": "Real Oviedo"
                 },
@@ -662,11 +662,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:26",
+                        "long": "1:25",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -680,7 +680,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -722,7 +722,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         },
         "6371519": {
@@ -758,9 +758,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:32",
+                        "long": "64:31",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -774,7 +774,7 @@
             ],
             "discovered_at": "2026-10-02T15:50:33.384911+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T22:01:19.024669+03:30",
+            "next_check_at": "2026-10-02T22:02:28.244503+03:30",
             "final_complete": false
         }
     }
