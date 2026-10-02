@@ -213,7 +213,10 @@
             "732282",
             "794427"
         ],
-        "5181817": []
+        "5181817": [],
+        "5991885": [
+            "743192"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -419,7 +422,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -512,7 +515,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -552,7 +555,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         },
         "6369375": {
@@ -594,59 +597,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237921+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
-            "final_complete": false
-        },
-        "5991885": {
-            "match": {
-                "id": 5991885,
-                "leagueId": 941120,
-                "time": "02.10.2026 02:00",
-                "home": {
-                    "id": 262134,
-                    "score": 1,
-                    "name": "Dominican Republic",
-                    "longName": "Dominican Republic"
-                },
-                "away": {
-                    "id": 5934,
-                    "score": 4,
-                    "name": "Haiti",
-                    "longName": "Haiti"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-02T00:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "02.10.2026 02:09:34",
-                        "secondHalfStarted": "02.10.2026 03:13:35"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 4",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:46",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1790899200000
-            },
-            "tracked_player_ids": [
-                743192
-            ],
-            "discovered_at": "2026-10-02T00:00:42.237978+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -686,7 +637,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         },
         "1000020536": {
@@ -726,7 +677,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238091+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -768,7 +719,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T05:31:22.073581+03:30",
+            "next_check_at": "2026-10-02T05:32:20.311780+03:30",
             "final_complete": false
         }
     }
