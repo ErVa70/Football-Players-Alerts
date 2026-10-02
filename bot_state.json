@@ -423,7 +423,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -516,7 +516,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         },
         "5181842": {
@@ -556,7 +556,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         },
         "6369375": {
@@ -598,7 +598,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.237921+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         },
         "5868475": {
@@ -638,7 +638,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         },
         "1000020536": {
@@ -678,7 +678,7 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238091+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         },
         "5103566": {
@@ -720,7 +720,47 @@
             ],
             "discovered_at": "2026-10-02T00:00:42.238147+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-02T15:49:20.907157+03:30",
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
+            "final_complete": false
+        },
+        "6371519": {
+            "match": {
+                "id": 6371519,
+                "leagueId": 915708,
+                "time": "02.10.2026 19:00",
+                "home": {
+                    "id": 8560,
+                    "score": 0,
+                    "name": "Real Sociedad",
+                    "longName": "Real Sociedad"
+                },
+                "away": {
+                    "id": 8315,
+                    "score": 0,
+                    "name": "Athletic Club",
+                    "longName": "Athletic Club"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-02T17:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "02.10.2026 19:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1790960400000
+            },
+            "tracked_player_ids": [
+                1490110
+            ],
+            "discovered_at": "2026-10-02T15:50:33.384911+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-02T15:50:33.385193+03:30",
             "final_complete": false
         }
     }
