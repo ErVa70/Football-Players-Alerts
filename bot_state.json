@@ -228,7 +228,8 @@
             "Substitution|46|None|184536,959915|",
             "Substitution|54|None|1137671,654044|"
         ],
-        "6299693": []
+        "6299693": [],
+        "6374917": []
     },
     "final_posts": {
         "5991881": [
@@ -481,7 +482,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -570,7 +571,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355350+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "5181854": {
@@ -664,7 +665,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "5985687": {
@@ -712,7 +713,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -753,7 +754,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -793,7 +794,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "5868470": {
@@ -834,7 +835,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355718+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "5868471": {
@@ -874,7 +875,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355773+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "6140216": {
@@ -914,7 +915,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355828+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -954,7 +955,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         },
         "6374917": {
@@ -975,17 +976,28 @@
                     "longName": "Bristol City"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-03T11:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "03.10.2026 13:30:00"
+                        "firstHalfStarted": "03.10.2026 13:31:20"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:51",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791027000000
             },
@@ -995,7 +1007,7 @@
             ],
             "discovered_at": "2026-10-03T09:49:20.047617+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T15:01:21.589411+03:30",
+            "next_check_at": "2026-10-03T15:02:23.169695+03:30",
             "final_complete": false
         }
     }
