@@ -468,55 +468,6 @@
         ]
     },
     "monitored_matches": {
-        "6366622": {
-            "match": {
-                "id": 6366622,
-                "leagueId": 915708,
-                "time": "01.10.2026 20:00",
-                "home": {
-                    "id": 8603,
-                    "score": 0,
-                    "name": "Real Betis",
-                    "longName": "Real Betis"
-                },
-                "away": {
-                    "id": 357259,
-                    "score": 0,
-                    "name": "AD Ceuta FC",
-                    "longName": "AD Ceuta FC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 5,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-01T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "01.10.2026 20:00:00"
-                    },
-                    "periodLength": 45,
-                    "cancelled": true,
-                    "started": false,
-                    "finished": false,
-                    "reason": {
-                        "short": "PP",
-                        "shortKey": "postponed_short",
-                        "long": "Postponed",
-                        "longKey": "postponed"
-                    }
-                },
-                "timeTS": 1790877600000
-            },
-            "tracked_player_ids": [
-                195305,
-                427438,
-                743192,
-                1209399
-            ],
-            "discovered_at": "2026-10-01T00:00:42.821180+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-03T21:29:53.422897+03:30",
-            "final_complete": false
-        },
         "5181854": {
             "match": {
                 "id": 5181854,
@@ -608,7 +559,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T21:29:53.422897+03:30",
+            "next_check_at": "2026-10-03T21:30:46.891326+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -649,7 +600,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T21:29:53.422897+03:30",
+            "next_check_at": "2026-10-03T21:30:46.891326+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -685,9 +636,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "95‎’‎",
+                        "short": "96‎’‎",
                         "shortKey": "",
-                        "long": "94:55",
+                        "long": "95:54",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -701,7 +652,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T21:29:53.422897+03:30",
+            "next_check_at": "2026-10-03T21:30:46.891326+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -741,7 +692,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T21:29:53.422897+03:30",
+            "next_check_at": "2026-10-03T21:30:46.891326+03:30",
             "final_complete": false
         }
     }
