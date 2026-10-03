@@ -473,7 +473,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "1000021933": {
@@ -562,7 +562,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355350+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "5181854": {
@@ -656,7 +656,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "5985687": {
@@ -704,7 +704,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -745,7 +745,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -785,7 +785,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "5868470": {
@@ -826,7 +826,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355718+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "5868471": {
@@ -866,7 +866,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355773+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "6140216": {
@@ -906,7 +906,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355828+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -946,7 +946,48 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T09:48:21.876829+03:30",
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
+            "final_complete": false
+        },
+        "6374917": {
+            "match": {
+                "id": 6374917,
+                "leagueId": 915708,
+                "time": "03.10.2026 13:30",
+                "home": {
+                    "id": 9826,
+                    "score": 0,
+                    "name": "Crystal Palace",
+                    "longName": "Crystal Palace"
+                },
+                "away": {
+                    "id": 8427,
+                    "score": 0,
+                    "name": "Bristol City",
+                    "longName": "Bristol City"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-03T11:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "03.10.2026 13:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791027000000
+            },
+            "tracked_player_ids": [
+                952095,
+                1187506
+            ],
+            "discovered_at": "2026-10-03T09:49:20.047617+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-03T09:49:20.047798+03:30",
             "final_complete": false
         }
     }
