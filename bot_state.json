@@ -577,7 +577,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -630,7 +630,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -719,7 +719,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5181831": {
@@ -755,12 +755,12 @@
                 "timeTS": 1791139500000
             },
             "tracked_player_ids": [
-                184554,
-                178818
+                178818,
+                184554
             ],
             "discovered_at": "2026-10-04T00:00:43.947131+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5181832": {
@@ -800,7 +800,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947276+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5181867": {
@@ -836,15 +836,15 @@
                 "timeTS": 1791139500000
             },
             "tracked_player_ids": [
-                470834,
                 358147,
                 361770,
-                794427,
-                732282
+                470834,
+                732282,
+                794427
             ],
             "discovered_at": "2026-10-04T00:00:43.947390+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5181868": {
@@ -884,7 +884,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5181818": {
@@ -924,7 +924,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947709+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6162939": {
@@ -964,7 +964,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947822+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5991875": {
@@ -1005,7 +1005,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947990+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6299698": {
@@ -1045,7 +1045,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948122+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6299701": {
@@ -1087,14 +1087,14 @@
                 "timeTS": 1791136800000
             },
             "tracked_player_ids": [
-                1187506,
                 522579,
+                1187506,
                 1209399,
                 1311915
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6367353": {
@@ -1130,14 +1130,14 @@
                 "timeTS": 1791136800000
             },
             "tracked_player_ids": [
-                1187506,
                 522579,
+                1187506,
                 1209399,
                 1311915
             ],
             "discovered_at": "2026-10-04T00:00:43.948334+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5868478": {
@@ -1178,7 +1178,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948445+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5868480": {
@@ -1214,12 +1214,12 @@
                 "timeTS": 1791123300000
             },
             "tracked_player_ids": [
-                1665439,
-                1054033
+                1054033,
+                1665439
             ],
             "discovered_at": "2026-10-04T00:00:43.948555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5868477": {
@@ -1259,7 +1259,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5868476": {
@@ -1295,13 +1295,13 @@
                 "timeTS": 1791140400000
             },
             "tracked_player_ids": [
-                1233404,
+                748380,
                 873297,
-                748380
+                1233404
             ],
             "discovered_at": "2026-10-04T00:00:43.948766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "6315922": {
@@ -1341,7 +1341,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948869+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -1381,7 +1381,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948976+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5884895": {
@@ -1421,7 +1421,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.949080+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5885560": {
@@ -1461,7 +1461,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.949203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "5990885": {
@@ -1501,7 +1501,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.949349+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         },
         "1000021074": {
@@ -1537,12 +1537,12 @@
                 "timeTS": 1791122400000
             },
             "tracked_player_ids": [
-                1665435,
-                1367049
+                1367049,
+                1665435
             ],
             "discovered_at": "2026-10-04T00:00:43.949466+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T00:00:43.949577+03:30",
+            "next_check_at": "2026-10-04T00:01:19.555920+03:30",
             "final_complete": false
         }
     }
