@@ -487,7 +487,7 @@
                 },
                 "away": {
                     "id": 8496,
-                    "score": 0,
+                    "score": 1,
                     "name": "Czechia",
                     "longName": "Czechia"
                 },
@@ -505,11 +505,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "69‎’‎",
+                        "short": "70‎’‎",
                         "shortKey": "",
-                        "long": "68:49",
+                        "long": "69:53",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -577,7 +577,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T23:43:20.181985+03:30",
+            "next_check_at": "2026-10-03T23:44:23.939169+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -613,9 +613,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "54‎’‎",
+                        "short": "55‎’‎",
                         "shortKey": "",
-                        "long": "53:21",
+                        "long": "54:25",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -630,7 +630,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T23:43:20.181985+03:30",
+            "next_check_at": "2026-10-03T23:44:23.939169+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -679,7 +679,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": "2026-10-03T21:31:19.348600+03:30",
-            "next_check_at": "2026-10-03T23:58:20.181985+03:30",
+            "next_check_at": "2026-10-03T23:59:23.939169+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -719,7 +719,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T23:43:20.181985+03:30",
+            "next_check_at": "2026-10-03T23:44:23.939169+03:30",
             "final_complete": false
         }
     }
