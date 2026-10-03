@@ -510,56 +510,7 @@
             ],
             "discovered_at": "2026-10-01T00:00:42.821180+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T20:44:22.536858+03:30",
-            "final_complete": false
-        },
-        "1000021933": {
-            "match": {
-                "id": 1000021933,
-                "leagueId": 1000001445,
-                "time": "01.10.2026 19:15",
-                "home": {
-                    "id": 101904,
-                    "score": 2,
-                    "name": "Al-Shamal",
-                    "longName": "Al-Shamal"
-                },
-                "away": {
-                    "id": 479161,
-                    "score": 1,
-                    "name": "Muaither SC",
-                    "longName": "Muaither SC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-01T17:15:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "01.10.2026 19:15:00"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "2 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1790874900000
-            },
-            "tracked_player_ids": [
-                301456,
-                929834
-            ],
-            "discovered_at": "2026-10-01T00:00:42.821235+03:30",
-            "finished_seen_at": "2026-10-01T22:56:20.857382+03:30",
-            "next_check_at": "2026-10-03T21:19:22.555056+03:30",
+            "next_check_at": "2026-10-03T20:45:34.122508+03:30",
             "final_complete": false
         },
         "5181853": {
@@ -595,9 +546,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 5",
                     "liveTime": {
-                        "short": "55‎’‎",
+                        "short": "56‎’‎",
                         "shortKey": "",
-                        "long": "54:29",
+                        "long": "55:40",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -611,7 +562,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355350+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T20:44:22.536858+03:30",
+            "next_check_at": "2026-10-03T20:45:34.122508+03:30",
             "final_complete": false
         },
         "5181854": {
@@ -705,7 +656,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T20:44:22.536858+03:30",
+            "next_check_at": "2026-10-03T20:45:34.122508+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -746,7 +697,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T20:44:22.536858+03:30",
+            "next_check_at": "2026-10-03T20:45:34.122508+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -782,9 +733,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "50‎’‎",
+                        "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "49:30",
+                        "long": "50:41",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -798,7 +749,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T20:44:22.536858+03:30",
+            "next_check_at": "2026-10-03T20:45:34.122508+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -838,7 +789,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T20:44:22.536858+03:30",
+            "next_check_at": "2026-10-03T20:45:34.122508+03:30",
             "final_complete": false
         }
     }
