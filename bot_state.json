@@ -248,7 +248,8 @@
         "5985687": [],
         "5868471": [],
         "5181853": [],
-        "6367375": []
+        "6367375": [],
+        "5181854": []
     },
     "final_posts": {
         "5991881": [
@@ -487,17 +488,28 @@
                     "longName": "Czechia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-03T18:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "03.10.2026 20:45:00"
+                        "firstHalfStarted": "03.10.2026 20:47:29"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:56",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791053100000
             },
@@ -560,7 +572,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T22:17:19.259394+03:30",
+            "next_check_at": "2026-10-03T22:18:25.997120+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -601,7 +613,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T22:17:19.259394+03:30",
+            "next_check_at": "2026-10-03T22:18:25.997120+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -650,7 +662,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": "2026-10-03T21:31:19.348600+03:30",
-            "next_check_at": "2026-10-03T22:22:19.259394+03:30",
+            "next_check_at": "2026-10-03T22:23:25.997120+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -690,7 +702,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T22:17:19.259394+03:30",
+            "next_check_at": "2026-10-03T22:18:25.997120+03:30",
             "final_complete": false
         }
     }
