@@ -84,6 +84,9 @@
         ],
         "5181854": [
             "Marc Cucurella|BENCH"
+        ],
+        "6299697": [
+            "Franck Kessié|BENCH"
         ]
     },
     "match_events": {
@@ -502,9 +505,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "8‎’‎",
+                        "short": "9‎’‎",
                         "shortKey": "",
-                        "long": "7:56",
+                        "long": "8:56",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -572,7 +575,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355430+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T22:25:26.032842+03:30",
+            "next_check_at": "2026-10-03T22:26:25.791447+03:30",
             "final_complete": false
         },
         "6299697": {
@@ -613,7 +616,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355607+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T22:25:26.032842+03:30",
+            "next_check_at": "2026-10-03T22:26:25.791447+03:30",
             "final_complete": false
         },
         "6367375": {
@@ -662,7 +665,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355663+03:30",
             "finished_seen_at": "2026-10-03T21:31:19.348600+03:30",
-            "next_check_at": "2026-10-03T22:30:26.032842+03:30",
+            "next_check_at": "2026-10-03T22:31:25.791447+03:30",
             "final_complete": false
         },
         "5103569": {
@@ -702,7 +705,7 @@
             ],
             "discovered_at": "2026-10-03T00:00:43.355884+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-03T22:25:26.032842+03:30",
+            "next_check_at": "2026-10-03T22:26:25.791447+03:30",
             "final_complete": false
         }
     }
