@@ -311,7 +311,8 @@
         ],
         "5181818": [],
         "6315922": [],
-        "5868477": []
+        "5868477": [],
+        "6367353": []
     },
     "final_posts": {
         "5991881": [
@@ -679,7 +680,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947131+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "5181832": {
@@ -719,7 +720,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947276+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "5181867": {
@@ -763,7 +764,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947390+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "5181868": {
@@ -803,7 +804,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "6299701": {
@@ -852,7 +853,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "6367353": {
@@ -873,17 +874,28 @@
                     "longName": "Mali"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-04T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "04.10.2026 20:00:00"
+                        "firstHalfStarted": "04.10.2026 20:03:27"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:55",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791136800000
             },
@@ -895,7 +907,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948334+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "5868477": {
@@ -931,9 +943,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 2",
                     "liveTime": {
-                        "short": "69‎’‎",
+                        "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "68:47",
+                        "long": "70:02",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -947,7 +959,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "5868476": {
@@ -989,7 +1001,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T21:33:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:34:23.032676+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -1038,7 +1050,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948976+03:30",
             "finished_seen_at": "2026-10-04T15:25:25.638750+03:30",
-            "next_check_at": "2026-10-04T21:48:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:49:23.032676+03:30",
             "final_complete": false
         },
         "5884895": {
@@ -1089,7 +1101,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.949080+03:30",
             "finished_seen_at": "2026-10-04T14:56:20.091926+03:30",
-            "next_check_at": "2026-10-04T21:48:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:49:23.032676+03:30",
             "final_complete": false
         },
         "5885560": {
@@ -1138,7 +1150,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.949203+03:30",
             "finished_seen_at": "2026-10-04T15:24:19.645532+03:30",
-            "next_check_at": "2026-10-04T21:48:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:49:23.032676+03:30",
             "final_complete": false
         },
         "1000021074": {
@@ -1188,7 +1200,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.949466+03:30",
             "finished_seen_at": "2026-10-04T19:19:20.665529+03:30",
-            "next_check_at": "2026-10-04T21:48:18.296313+03:30",
+            "next_check_at": "2026-10-04T21:49:23.032676+03:30",
             "final_complete": false
         }
     }
