@@ -325,7 +325,8 @@
         "5868476": [
             "id:14525904",
             "Substitution|58|None|282472,1233404|",
-            "id:14526139"
+            "id:14526139",
+            "Substitution|66|None|1665022,748380|"
         ]
     },
     "final_posts": {
@@ -710,7 +711,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947131+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T23:59:19.878801+03:30",
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         },
         "5181832": {
@@ -762,7 +763,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947276+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T23:59:19.878801+03:30",
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         },
         "5181867": {
@@ -818,7 +819,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947390+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T23:59:19.878801+03:30",
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         },
         "5181868": {
@@ -870,7 +871,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.947492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T23:59:19.878801+03:30",
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         },
         "6299701": {
@@ -919,7 +920,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T23:59:19.878801+03:30",
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         },
         "5868476": {
@@ -973,7 +974,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-04T23:59:19.878801+03:30",
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -1173,6 +1174,130 @@
             "discovered_at": "2026-10-04T00:00:43.949466+03:30",
             "finished_seen_at": "2026-10-04T19:19:20.665529+03:30",
             "next_check_at": "2026-10-05T00:14:19.878801+03:30",
+            "final_complete": false
+        },
+        "5181794": {
+            "match": {
+                "id": 5181794,
+                "leagueId": 920741,
+                "time": "05.10.2026 20:45",
+                "home": {
+                    "id": 6723,
+                    "score": 0,
+                    "name": "France",
+                    "longName": "France"
+                },
+                "away": {
+                    "id": 8263,
+                    "score": 0,
+                    "name": "Belgium",
+                    "longName": "Belgium"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-10-05T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "05.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791225900000
+            },
+            "tracked_player_ids": [
+                488412,
+                210111,
+                955214,
+                692984,
+                184138
+            ],
+            "discovered_at": "2026-10-05T00:00:42.069299+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
+            "final_complete": false
+        },
+        "5181843": {
+            "match": {
+                "id": 5181843,
+                "leagueId": 920748,
+                "time": "05.10.2026 20:45",
+                "home": {
+                    "id": 10106,
+                    "score": 0,
+                    "name": "Bosnia and Herzegovina",
+                    "longName": "Bosnia and Herzegovina"
+                },
+                "away": {
+                    "id": 8568,
+                    "score": 0,
+                    "name": "Poland",
+                    "longName": "Poland"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-10-05T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "05.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791225900000
+            },
+            "tracked_player_ids": [
+                93447
+            ],
+            "discovered_at": "2026-10-05T00:00:42.069398+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
+            "final_complete": false
+        },
+        "5991888": {
+            "match": {
+                "id": 5991888,
+                "leagueId": 941120,
+                "time": "05.10.2026 04:00",
+                "home": {
+                    "id": 5807,
+                    "score": 0,
+                    "name": "Nicaragua",
+                    "longName": "Nicaragua"
+                },
+                "away": {
+                    "id": 262134,
+                    "score": 0,
+                    "name": "Dominican Republic",
+                    "longName": "Dominican Republic"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-10-05T02:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "05.10.2026 04:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791165600000
+            },
+            "tracked_player_ids": [
+                743192
+            ],
+            "discovered_at": "2026-10-05T00:00:42.069466+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-05T00:00:42.069581+03:30",
             "final_complete": false
         }
     }
