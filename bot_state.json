@@ -722,7 +722,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:30:51.676276+03:30",
+            "next_check_at": "2026-10-05T06:31:17.137438+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -965,7 +965,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069299+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:30:51.676276+03:30",
+            "next_check_at": "2026-10-05T06:31:17.137438+03:30",
             "final_complete": false
         },
         "5181843": {
@@ -1005,7 +1005,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069398+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:30:51.676276+03:30",
+            "next_check_at": "2026-10-05T06:31:17.137438+03:30",
             "final_complete": false
         },
         "5991888": {
@@ -1026,12 +1026,13 @@
                     "longName": "Dominican Republic"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-10-05T02:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "05.10.2026 04:00:47"
+                        "firstHalfStarted": "05.10.2026 04:00:47",
+                        "secondHalfStarted": "05.10.2026 05:00:53"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1040,12 +1041,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:24",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1056,7 +1057,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069466+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:30:51.676276+03:30",
+            "next_check_at": "2026-10-05T06:31:17.137438+03:30",
             "final_complete": false
         }
     }
