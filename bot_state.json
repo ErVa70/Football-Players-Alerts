@@ -591,55 +591,6 @@
         ]
     },
     "monitored_matches": {
-        "6367375": {
-            "match": {
-                "id": 6367375,
-                "leagueId": 915708,
-                "time": "03.10.2026 18:00",
-                "home": {
-                    "id": 4674,
-                    "score": 0,
-                    "name": "Turan Tovuz",
-                    "longName": "Turan Tovuz"
-                },
-                "away": {
-                    "id": 8695,
-                    "score": 2,
-                    "name": "Fenerbahçe",
-                    "longName": "Fenerbahçe"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-03T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "03.10.2026 18:05:32",
-                        "secondHalfStarted": "03.10.2026 19:09:52"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 2",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791043200000
-            },
-            "tracked_player_ids": [
-                470834
-            ],
-            "discovered_at": "2026-10-03T00:00:43.355663+03:30",
-            "finished_seen_at": "2026-10-03T21:31:19.348600+03:30",
-            "next_check_at": "2026-10-05T19:50:42.071681+03:30",
-            "final_complete": false
-        },
         "5103569": {
             "match": {
                 "id": 5103569,
@@ -726,7 +677,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T19:29:17.606522+03:30",
+            "next_check_at": "2026-10-05T19:30:52.957010+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -969,7 +920,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069299+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T19:29:17.606522+03:30",
+            "next_check_at": "2026-10-05T19:30:52.957010+03:30",
             "final_complete": false
         },
         "5181843": {
@@ -1009,7 +960,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069398+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T19:29:17.606522+03:30",
+            "next_check_at": "2026-10-05T19:30:52.957010+03:30",
             "final_complete": false
         }
     }
