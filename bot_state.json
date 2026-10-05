@@ -683,7 +683,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T22:46:51.210323+03:30",
+            "next_check_at": "2026-10-05T23:02:58.892774+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -898,12 +898,12 @@
                 },
                 "away": {
                     "id": 8263,
-                    "score": 0,
+                    "score": 1,
                     "name": "Belgium",
                     "longName": "Belgium"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-10-05T18:45:00.000Z",
@@ -915,12 +915,12 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "32‎’‎",
-                        "shortKey": "",
-                        "long": "31:06",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -937,7 +937,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069299+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T22:46:51.210323+03:30",
+            "next_check_at": "2026-10-05T23:02:58.892774+03:30",
             "final_complete": false
         },
         "5181843": {
@@ -958,7 +958,7 @@
                     "longName": "Poland"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-10-05T18:45:00.000Z",
@@ -972,10 +972,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "31‎’‎",
-                        "shortKey": "",
-                        "long": "30:48",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -988,7 +988,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069398+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T22:46:51.210323+03:30",
+            "next_check_at": "2026-10-05T23:02:58.892774+03:30",
             "final_complete": false
         }
     }
