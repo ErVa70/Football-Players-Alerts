@@ -722,7 +722,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:50:31.571479+03:30",
+            "next_check_at": "2026-10-05T06:51:18.845866+03:30",
             "final_complete": false
         },
         "5883673": {
@@ -965,7 +965,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069299+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:50:31.571479+03:30",
+            "next_check_at": "2026-10-05T06:51:18.845866+03:30",
             "final_complete": false
         },
         "5181843": {
@@ -1005,7 +1005,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069398+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:50:31.571479+03:30",
+            "next_check_at": "2026-10-05T06:51:18.845866+03:30",
             "final_complete": false
         },
         "5991888": {
@@ -1021,7 +1021,7 @@
                 },
                 "away": {
                     "id": 262134,
-                    "score": 1,
+                    "score": 2,
                     "name": "Dominican Republic",
                     "longName": "Dominican Republic"
                 },
@@ -1039,11 +1039,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 1",
+                    "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "65‎’‎",
+                        "short": "66‎’‎",
                         "shortKey": "",
-                        "long": "64:30",
+                        "long": "65:25",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1057,7 +1057,7 @@
             ],
             "discovered_at": "2026-10-05T00:00:42.069466+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-05T06:50:31.571479+03:30",
+            "next_check_at": "2026-10-05T06:51:18.845866+03:30",
             "final_complete": false
         }
     }
