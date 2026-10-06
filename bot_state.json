@@ -633,7 +633,7 @@
                     "longName": "Spain"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-10-06T18:45:00.000Z",
@@ -647,10 +647,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "46‎’‎",
-                        "shortKey": "",
-                        "long": "45:48",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -717,7 +717,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:01:20.001694+03:30",
+            "next_check_at": "2026-10-06T23:02:24.542975+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -738,7 +738,7 @@
                     "longName": "Czechia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-10-06T18:45:00.000Z",
@@ -752,10 +752,10 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "46‎’‎",
-                        "shortKey": "",
-                        "long": "45:39",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -768,7 +768,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:01:20.001694+03:30",
+            "next_check_at": "2026-10-06T23:02:24.542975+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -808,7 +808,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:01:20.001694+03:30",
+            "next_check_at": "2026-10-06T23:02:24.542975+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -849,7 +849,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:01:20.001694+03:30",
+            "next_check_at": "2026-10-06T23:02:24.542975+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -890,7 +890,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:01:20.001694+03:30",
+            "next_check_at": "2026-10-06T23:02:24.542975+03:30",
             "final_complete": false
         }
     }
