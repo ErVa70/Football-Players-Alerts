@@ -653,57 +653,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
-            "final_complete": false
-        },
-        "1000021074": {
-            "match": {
-                "id": 1000021074,
-                "leagueId": 1000001483,
-                "time": "04.10.2026 16:00",
-                "home": {
-                    "id": 45228,
-                    "score": 0,
-                    "name": "Vukovar 91",
-                    "longName": "Vukovar 91"
-                },
-                "away": {
-                    "id": 10156,
-                    "score": 4,
-                    "name": "Dinamo Zagreb",
-                    "longName": "Dinamo Zagreb"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "8th Finals",
-                "status": {
-                    "utcTime": "2026-10-04T14:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "04.10.2026 16:01:41",
-                        "secondHalfStarted": "04.10.2026 17:02:35"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 4",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791122400000
-            },
-            "tracked_player_ids": [
-                1367049,
-                1665435
-            ],
-            "discovered_at": "2026-10-04T00:00:43.949466+03:30",
-            "finished_seen_at": "2026-10-04T19:19:20.665529+03:30",
-            "next_check_at": "2026-10-06T17:45:36.037992+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         },
         "5181855": {
@@ -797,7 +747,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -837,7 +787,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         },
         "6162940": {
@@ -878,7 +828,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662798+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -918,7 +868,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -959,7 +909,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -1000,7 +950,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:29:20.748140+03:30",
+            "next_check_at": "2026-10-06T17:31:00.536817+03:30",
             "final_complete": false
         }
     }
