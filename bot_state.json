@@ -613,55 +613,6 @@
         ]
     },
     "monitored_matches": {
-        "6299701": {
-            "match": {
-                "id": 6299701,
-                "leagueId": 914609,
-                "time": "04.10.2026 20:00",
-                "home": {
-                    "id": 6262,
-                    "score": 0,
-                    "name": "Morocco",
-                    "longName": "Morocco"
-                },
-                "away": {
-                    "id": 6714,
-                    "score": 0,
-                    "name": "Ghana",
-                    "longName": "Ghana"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 106,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-04T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "04.10.2026 20:00:00"
-                    },
-                    "periodLength": 45,
-                    "cancelled": true,
-                    "started": false,
-                    "finished": false,
-                    "reason": {
-                        "short": "Can",
-                        "shortKey": "cancelled_short",
-                        "long": "Cancelled",
-                        "longKey": "cancelled"
-                    }
-                },
-                "timeTS": 1791136800000
-            },
-            "tracked_player_ids": [
-                522579,
-                1187506,
-                1209399,
-                1311915
-            ],
-            "discovered_at": "2026-10-04T00:00:43.948225+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-06T21:29:17.616490+03:30",
-            "final_complete": false
-        },
         "5181855": {
             "match": {
                 "id": 5181855,
@@ -753,7 +704,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T21:29:17.616490+03:30",
+            "next_check_at": "2026-10-06T21:30:53.946961+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -793,7 +744,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T21:29:17.616490+03:30",
+            "next_check_at": "2026-10-06T21:30:53.946961+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -833,7 +784,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T21:29:17.616490+03:30",
+            "next_check_at": "2026-10-06T21:30:53.946961+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -874,7 +825,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T21:29:17.616490+03:30",
+            "next_check_at": "2026-10-06T21:30:53.946961+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -915,7 +866,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T21:29:17.616490+03:30",
+            "next_check_at": "2026-10-06T21:30:53.946961+03:30",
             "final_complete": false
         }
     }
