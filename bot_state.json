@@ -650,7 +650,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         },
         "1000021074": {
@@ -794,7 +794,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -834,7 +834,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         },
         "6162940": {
@@ -875,7 +875,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662798+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -915,7 +915,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -956,14 +956,14 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         },
         "6356356": {
             "match": {
                 "id": 6356356,
                 "leagueId": 946196,
-                "time": "07.10.2026 01:30",
+                "time": "07.10.2026 01:00",
                 "home": {
                     "id": 7815,
                     "score": 0,
@@ -980,9 +980,9 @@
                 "statusId": 1,
                 "tournamentStage": "1/4",
                 "status": {
-                    "utcTime": "2026-10-06T23:30:00.000Z",
+                    "utcTime": "2026-10-06T23:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "07.10.2026 01:30:00"
+                        "firstHalfStarted": "07.10.2026 01:00:00"
                     },
                     "periodLength": 45,
                     "started": false,
@@ -990,14 +990,14 @@
                     "finished": false,
                     "aggregatedStr": "1 - 0"
                 },
-                "timeTS": 1791329400000
+                "timeTS": 1791327600000
             },
             "tracked_player_ids": [
                 49939
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T14:59:17.583570+03:30",
+            "next_check_at": "2026-10-06T15:00:46.656823+03:30",
             "final_complete": false
         }
     }
