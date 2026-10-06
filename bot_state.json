@@ -654,7 +654,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         },
         "5181855": {
@@ -748,7 +748,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -788,7 +788,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -828,7 +828,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -869,7 +869,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -910,7 +910,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         },
         "6162940": {
@@ -931,7 +931,7 @@
                     "longName": "Uruguay"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 17,
+                "statusId": 12,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-06T14:00:00.000Z",
@@ -939,26 +939,30 @@
                         "firstHalfStarted": "06.10.2026 16:02:07"
                     },
                     "periodLength": 45,
-                    "cancelled": true,
+                    "finished": false,
                     "started": true,
-                    "finished": true,
-                    "reason": {
-                        "short": "Ab",
-                        "shortKey": "aborted_short",
-                        "long": "Abandoned",
-                        "longKey": "aborted"
-                    },
-                    "scoreStr": "1 - 1"
+                    "cancelled": false,
+                    "ongoing": true,
+                    "scoreStr": "1 - 1",
+                    "liveTime": {
+                        "short": "IR",
+                        "shortKey": "interrupted_short",
+                        "long": "Interrupted",
+                        "longKey": "interrupted",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791295200000
             },
             "tracked_player_ids": [
-                921253,
-                96616
+                96616,
+                921253
             ],
             "discovered_at": "2026-10-06T18:26:26.552100+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T18:26:26.552288+03:30",
+            "next_check_at": "2026-10-06T18:27:37.085627+03:30",
             "final_complete": false
         }
     }
