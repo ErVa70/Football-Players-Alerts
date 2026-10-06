@@ -345,7 +345,8 @@
         "5181794": [
             "Substitution|60|None|1029063,692984|"
         ],
-        "5181843": []
+        "5181843": [],
+        "6162940": []
     },
     "final_posts": {
         "5991881": [
@@ -653,7 +654,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         },
         "5181855": {
@@ -747,7 +748,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -787,7 +788,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         },
         "6162940": {
@@ -808,17 +809,28 @@
                     "longName": "Uruguay"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-06T14:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "06.10.2026 16:00:00"
+                        "firstHalfStarted": "06.10.2026 16:02:07"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:12",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791295200000
             },
@@ -828,7 +840,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662798+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -868,7 +880,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -909,7 +921,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -950,7 +962,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T17:31:29.724573+03:30",
+            "next_check_at": "2026-10-06T17:32:27.522549+03:30",
             "final_complete": false
         }
     }
