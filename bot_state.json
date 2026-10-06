@@ -650,105 +650,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
-            "final_complete": false
-        },
-        "5883673": {
-            "match": {
-                "id": 5883673,
-                "leagueId": 938783,
-                "time": "04.10.2026 12:00",
-                "home": {
-                    "id": 8392,
-                    "score": 2,
-                    "name": "Real Murcia",
-                    "longName": "Real Murcia"
-                },
-                "away": {
-                    "id": 8400,
-                    "score": 0,
-                    "name": "Gimnàstic",
-                    "longName": "Gimnàstic"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-10-04T10:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "04.10.2026 12:01:58",
-                        "secondHalfStarted": "04.10.2026 13:04:49"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "2 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791108000000
-            },
-            "tracked_player_ids": [
-                545903
-            ],
-            "discovered_at": "2026-10-04T00:00:43.948976+03:30",
-            "finished_seen_at": "2026-10-04T15:25:25.638750+03:30",
-            "next_check_at": "2026-10-06T13:43:19.959475+03:30",
-            "final_complete": false
-        },
-        "5885560": {
-            "match": {
-                "id": 5885560,
-                "leagueId": 938796,
-                "time": "04.10.2026 12:00",
-                "home": {
-                    "id": 189672,
-                    "score": 0,
-                    "name": "Getafe B",
-                    "longName": "Getafe B"
-                },
-                "away": {
-                    "id": 8388,
-                    "score": 0,
-                    "name": "Numancia",
-                    "longName": "Numancia"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-10-04T10:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "04.10.2026 12:01:58",
-                        "secondHalfStarted": "04.10.2026 13:03:19"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791108000000
-            },
-            "tracked_player_ids": [
-                603463
-            ],
-            "discovered_at": "2026-10-04T00:00:43.949203+03:30",
-            "finished_seen_at": "2026-10-04T15:24:19.645532+03:30",
-            "next_check_at": "2026-10-06T13:43:19.959475+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         },
         "1000021074": {
@@ -892,7 +794,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -932,7 +834,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         },
         "6162940": {
@@ -973,7 +875,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662798+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -1013,7 +915,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -1054,7 +956,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -1095,7 +997,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T13:29:18.473023+03:30",
+            "next_check_at": "2026-10-06T13:30:54.734005+03:30",
             "final_complete": false
         }
     }
