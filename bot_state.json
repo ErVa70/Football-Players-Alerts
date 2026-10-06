@@ -624,6 +624,7 @@
                     "id": 10155,
                     "score": 1,
                     "name": "Croatia",
+                    "redCards": 1,
                     "longName": "Croatia"
                 },
                 "away": {
@@ -637,6 +638,7 @@
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-10-06T18:45:00.000Z",
+                    "numberOfHomeRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "06.10.2026 20:45:31",
                         "secondHalfStarted": "06.10.2026 21:47:07"
@@ -648,9 +650,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "80‎’‎",
+                        "short": "81‎’‎",
                         "shortKey": "",
-                        "long": "79:12",
+                        "long": "80:14",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -718,7 +720,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:51:20.100911+03:30",
+            "next_check_at": "2026-10-06T23:52:21.333278+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -754,9 +756,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "79‎’‎",
+                        "short": "80‎’‎",
                         "shortKey": "",
-                        "long": "78:32",
+                        "long": "79:34",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -770,7 +772,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:51:20.100911+03:30",
+            "next_check_at": "2026-10-06T23:52:21.333278+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -810,7 +812,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:51:20.100911+03:30",
+            "next_check_at": "2026-10-06T23:52:21.333278+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -851,7 +853,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:51:20.100911+03:30",
+            "next_check_at": "2026-10-06T23:52:21.333278+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -892,7 +894,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:51:20.100911+03:30",
+            "next_check_at": "2026-10-06T23:52:21.333278+03:30",
             "final_complete": false
         }
     }
