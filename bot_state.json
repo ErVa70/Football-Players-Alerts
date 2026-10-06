@@ -648,9 +648,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "57‎’‎",
+                        "short": "58‎’‎",
                         "shortKey": "",
-                        "long": "56:15",
+                        "long": "57:12",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -718,7 +718,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:28:23.174290+03:30",
+            "next_check_at": "2026-10-06T23:29:19.268425+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -754,9 +754,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "56‎’‎",
+                        "short": "57‎’‎",
                         "shortKey": "",
-                        "long": "55:35",
+                        "long": "56:32",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -770,7 +770,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:28:23.174290+03:30",
+            "next_check_at": "2026-10-06T23:29:19.268425+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -810,7 +810,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:28:23.174290+03:30",
+            "next_check_at": "2026-10-06T23:29:19.268425+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -851,7 +851,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:28:23.174290+03:30",
+            "next_check_at": "2026-10-06T23:29:19.268425+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -892,7 +892,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T23:28:23.174290+03:30",
+            "next_check_at": "2026-10-06T23:29:19.268425+03:30",
             "final_complete": false
         }
     }
