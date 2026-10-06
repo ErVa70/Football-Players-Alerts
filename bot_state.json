@@ -448,7 +448,8 @@
         "5181794": [
             "692984"
         ],
-        "5181843": []
+        "5181843": [],
+        "6162940": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -654,7 +655,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
+            "next_check_at": "2026-10-06T20:01:24.164857+03:30",
             "final_complete": false
         },
         "5181855": {
@@ -748,7 +749,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
+            "next_check_at": "2026-10-06T20:01:24.164857+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -788,7 +789,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
+            "next_check_at": "2026-10-06T20:01:24.164857+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -828,7 +829,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
+            "next_check_at": "2026-10-06T20:01:24.164857+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -869,7 +870,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
+            "next_check_at": "2026-10-06T20:01:24.164857+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -910,60 +911,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
-            "final_complete": false
-        },
-        "6162940": {
-            "match": {
-                "id": 6162940,
-                "leagueId": 914609,
-                "time": "06.10.2026 16:00",
-                "home": {
-                    "id": 6329,
-                    "score": 1,
-                    "name": "India",
-                    "longName": "India"
-                },
-                "away": {
-                    "id": 5796,
-                    "score": 6,
-                    "name": "Uruguay",
-                    "longName": "Uruguay"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-06T14:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "06.10.2026 16:35:27",
-                        "secondHalfStarted": "06.10.2026 17:43:00"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 6",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:33",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791295200000
-            },
-            "tracked_player_ids": [
-                96616,
-                921253
-            ],
-            "discovered_at": "2026-10-06T18:26:26.552100+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-06T20:00:44.565780+03:30",
+            "next_check_at": "2026-10-06T20:01:24.164857+03:30",
             "final_complete": false
         }
     }
