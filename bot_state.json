@@ -654,7 +654,7 @@
             ],
             "discovered_at": "2026-10-04T00:00:43.948225+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         },
         "5181855": {
@@ -748,7 +748,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662660+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         },
         "5181856": {
@@ -788,7 +788,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         },
         "6266053": {
@@ -828,7 +828,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         },
         "6299694": {
@@ -869,7 +869,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662909+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -910,7 +910,7 @@
             ],
             "discovered_at": "2026-10-06T00:39:19.662964+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         },
         "6162940": {
@@ -946,9 +946,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 5",
                     "liveTime": {
-                        "short": "78‎’‎",
+                        "short": "79‎’‎",
                         "shortKey": "",
-                        "long": "77:26",
+                        "long": "78:19",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -963,7 +963,7 @@
             ],
             "discovered_at": "2026-10-06T18:26:26.552100+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-06T19:45:36.969137+03:30",
+            "next_check_at": "2026-10-06T19:46:23.317361+03:30",
             "final_complete": false
         }
     }
