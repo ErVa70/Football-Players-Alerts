@@ -677,7 +677,7 @@
                 },
                 "away": {
                     "id": 49615,
-                    "score": 0,
+                    "score": 1,
                     "name": "Yokohama FC",
                     "longName": "Yokohama FC"
                 },
@@ -694,11 +694,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "29‎’‎",
+                        "short": "31‎’‎",
                         "shortKey": "",
-                        "long": "28:42",
+                        "long": "30:12",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -712,7 +712,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366479+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T13:29:17.948656+03:30",
+            "next_check_at": "2026-10-07T13:30:53.775172+03:30",
             "final_complete": false
         },
         "6368806": {
@@ -752,7 +752,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366539+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T13:29:17.948656+03:30",
+            "next_check_at": "2026-10-07T13:30:53.775172+03:30",
             "final_complete": false
         },
         "5103648": {
@@ -792,7 +792,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366592+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T13:29:17.948656+03:30",
+            "next_check_at": "2026-10-07T13:30:53.775172+03:30",
             "final_complete": false
         },
         "5103650": {
@@ -832,7 +832,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T13:29:17.948656+03:30",
+            "next_check_at": "2026-10-07T13:30:53.775172+03:30",
             "final_complete": false
         },
         "5103653": {
@@ -872,7 +872,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366700+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T13:29:17.948656+03:30",
+            "next_check_at": "2026-10-07T13:30:53.775172+03:30",
             "final_complete": false
         }
     }
