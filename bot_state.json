@@ -504,7 +504,8 @@
         "5071211": [
             "93447"
         ],
-        "6368654": []
+        "6368654": [],
+        "6097134": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -682,7 +683,7 @@
                     "longName": "Yokohama FC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 3,
+                "statusId": 6,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-07T09:30:00.000Z",
@@ -691,19 +692,16 @@
                         "secondHalfStarted": "07.10.2026 12:31:29"
                     },
                     "periodLength": 45,
-                    "finished": false,
+                    "finished": true,
                     "started": true,
                     "cancelled": false,
-                    "ongoing": true,
+                    "awarded": false,
                     "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:51",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
+                    "reason": {
+                        "short": "FT",
+                        "shortKey": "fulltime_short",
+                        "long": "Full-Time",
+                        "longKey": "finished"
                     }
                 },
                 "timeTS": 1791365400000
@@ -712,8 +710,8 @@
                 212470
             ],
             "discovered_at": "2026-10-07T00:00:55.366479+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-07T14:51:20.207414+03:30",
+            "finished_seen_at": "2026-10-07T14:52:24.355256+03:30",
+            "next_check_at": "2026-10-07T14:53:24.355256+03:30",
             "final_complete": false
         },
         "6368806": {
@@ -753,7 +751,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366539+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T14:51:20.207414+03:30",
+            "next_check_at": "2026-10-07T14:52:24.355256+03:30",
             "final_complete": false
         },
         "5103648": {
@@ -793,7 +791,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366592+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T14:51:20.207414+03:30",
+            "next_check_at": "2026-10-07T14:52:24.355256+03:30",
             "final_complete": false
         },
         "5103650": {
@@ -833,7 +831,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T14:51:20.207414+03:30",
+            "next_check_at": "2026-10-07T14:52:24.355256+03:30",
             "final_complete": false
         },
         "5103653": {
@@ -873,7 +871,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366700+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T14:51:20.207414+03:30",
+            "next_check_at": "2026-10-07T14:52:24.355256+03:30",
             "final_complete": false
         }
     }
