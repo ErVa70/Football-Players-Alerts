@@ -679,7 +679,7 @@
                     "longName": "Chile"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-07T02:30:00.000Z",
@@ -693,10 +693,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:37",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -710,7 +710,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366353+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T06:55:27.123548+03:30",
+            "next_check_at": "2026-10-07T06:56:20.504296+03:30",
             "final_complete": false
         },
         "6097134": {
@@ -750,7 +750,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366479+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T06:55:27.123548+03:30",
+            "next_check_at": "2026-10-07T06:56:20.504296+03:30",
             "final_complete": false
         },
         "6368806": {
@@ -790,7 +790,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366539+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T06:55:27.123548+03:30",
+            "next_check_at": "2026-10-07T06:56:20.504296+03:30",
             "final_complete": false
         },
         "5103648": {
@@ -830,7 +830,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366592+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T06:55:27.123548+03:30",
+            "next_check_at": "2026-10-07T06:56:20.504296+03:30",
             "final_complete": false
         },
         "5103650": {
@@ -870,7 +870,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T06:55:27.123548+03:30",
+            "next_check_at": "2026-10-07T06:56:20.504296+03:30",
             "final_complete": false
         },
         "5103653": {
@@ -910,7 +910,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366700+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-07T06:55:27.123548+03:30",
+            "next_check_at": "2026-10-07T06:56:20.504296+03:30",
             "final_complete": false
         }
     }
