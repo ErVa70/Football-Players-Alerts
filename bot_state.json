@@ -776,7 +776,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366539+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T03:33:17.994612+03:30",
+            "next_check_at": "2026-10-08T03:34:21.876599+03:30",
             "final_complete": false
         },
         "5103648": {
@@ -792,7 +792,7 @@
                 },
                 "away": {
                     "id": 163782,
-                    "score": 0,
+                    "score": 1,
                     "name": "Mirassol",
                     "redCards": 1,
                     "longName": "Mirassol"
@@ -812,11 +812,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "70‎’‎",
+                        "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "69:44",
+                        "long": "70:48",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -830,7 +830,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366592+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T03:33:17.994612+03:30",
+            "next_check_at": "2026-10-08T03:34:21.876599+03:30",
             "final_complete": false
         },
         "5103650": {
@@ -866,9 +866,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "71‎’‎",
+                        "short": "72‎’‎",
                         "shortKey": "",
-                        "long": "70:25",
+                        "long": "71:29",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -882,7 +882,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T03:33:17.994612+03:30",
+            "next_check_at": "2026-10-08T03:34:21.876599+03:30",
             "final_complete": false
         },
         "5103653": {
@@ -918,9 +918,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "71‎’‎",
+                        "short": "72‎’‎",
                         "shortKey": "",
-                        "long": "70:53",
+                        "long": "71:57",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -934,7 +934,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366700+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T03:33:17.994612+03:30",
+            "next_check_at": "2026-10-08T03:34:21.876599+03:30",
             "final_complete": false
         },
         "5952275": {
@@ -975,7 +975,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450648+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T03:33:17.994612+03:30",
+            "next_check_at": "2026-10-08T03:34:21.876599+03:30",
             "final_complete": false
         },
         "5103646": {
@@ -1018,7 +1018,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450751+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T03:33:17.994612+03:30",
+            "next_check_at": "2026-10-08T03:34:21.876599+03:30",
             "final_complete": false
         }
     }
