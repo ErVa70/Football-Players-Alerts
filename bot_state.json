@@ -887,7 +887,7 @@
                     "liveTime": {
                         "short": "60‎’‎",
                         "shortKey": "",
-                        "long": "59:31",
+                        "long": "59:55",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -902,7 +902,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450648+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T19:33:02.851435+03:30",
+            "next_check_at": "2026-10-08T19:33:20.929856+03:30",
             "final_complete": false
         },
         "5103646": {
@@ -945,7 +945,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450751+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T19:33:02.851435+03:30",
+            "next_check_at": "2026-10-08T19:33:20.929856+03:30",
             "final_complete": false
         }
     }
