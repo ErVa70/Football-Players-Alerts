@@ -536,7 +536,11 @@
         "5103653": [
             "169865"
         ],
-        "6368806": []
+        "6368806": [],
+        "5952275": [
+            "301456",
+            "929834"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -854,59 +858,6 @@
             "next_check_at": "2026-10-08T21:06:18.595361+03:30",
             "final_complete": false
         },
-        "5952275": {
-            "match": {
-                "id": 5952275,
-                "leagueId": 1000001746,
-                "time": "08.10.2026 16:45",
-                "home": {
-                    "id": 101904,
-                    "score": 0,
-                    "name": "Al-Shamal",
-                    "longName": "Al-Shamal"
-                },
-                "away": {
-                    "id": 203826,
-                    "score": 4,
-                    "name": "Al-Duhail SC",
-                    "longName": "Al-Duhail SC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-10-08T14:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "08.10.2026 16:45:28",
-                        "secondHalfStarted": "08.10.2026 17:48:25"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 4",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:48",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791470700000
-            },
-            "tracked_player_ids": [
-                301456,
-                929834
-            ],
-            "discovered_at": "2026-10-08T00:00:44.450648+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-08T20:08:20.326525+03:30",
-            "final_complete": false
-        },
         "5103646": {
             "match": {
                 "id": 5103646,
@@ -947,7 +898,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450751+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T20:08:20.326525+03:30",
+            "next_check_at": "2026-10-08T20:09:19.860013+03:30",
             "final_complete": false
         }
     }
