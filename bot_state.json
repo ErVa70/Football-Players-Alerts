@@ -406,7 +406,8 @@
             "Substitution|59|None|169865,866201|"
         ],
         "5103648": [],
-        "6368806": []
+        "6368806": [],
+        "5952275": []
     },
     "final_posts": {
         "5991881": [
@@ -869,17 +870,28 @@
                     "longName": "Al-Duhail SC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "5",
                 "status": {
                     "utcTime": "2026-10-08T14:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "08.10.2026 16:45:00"
+                        "firstHalfStarted": "08.10.2026 16:45:28"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:49",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791470700000
             },
@@ -889,7 +901,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450648+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T18:15:28.462549+03:30",
+            "next_check_at": "2026-10-08T18:16:21.422640+03:30",
             "final_complete": false
         },
         "5103646": {
@@ -932,7 +944,7 @@
             ],
             "discovered_at": "2026-10-08T00:00:44.450751+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-08T18:15:28.462549+03:30",
+            "next_check_at": "2026-10-08T18:16:21.422640+03:30",
             "final_complete": false
         }
     }
