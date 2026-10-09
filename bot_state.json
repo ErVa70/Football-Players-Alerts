@@ -895,7 +895,7 @@
                 "time": "09.10.2026 20:45",
                 "home": {
                     "id": 8588,
-                    "score": 1,
+                    "score": 2,
                     "name": "Lens",
                     "longName": "Lens"
                 },
@@ -919,11 +919,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "76‎’‎",
+                        "short": "77‎’‎",
                         "shortKey": "",
-                        "long": "75:47",
+                        "long": "76:34",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -937,7 +937,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T23:50:28.471991+03:30",
+            "next_check_at": "2026-10-09T23:51:15.461575+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -989,7 +989,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T23:50:28.471991+03:30",
+            "next_check_at": "2026-10-09T23:51:15.461575+03:30",
             "final_complete": false
         }
     }
