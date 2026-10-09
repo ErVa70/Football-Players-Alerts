@@ -725,55 +725,6 @@
         ]
     },
     "monitored_matches": {
-        "6097134": {
-            "match": {
-                "id": 6097134,
-                "leagueId": 9011,
-                "time": "07.10.2026 11:30",
-                "home": {
-                    "id": 8270,
-                    "score": 0,
-                    "name": "Avispa Fukuoka",
-                    "longName": "Avispa Fukuoka"
-                },
-                "away": {
-                    "id": 49615,
-                    "score": 1,
-                    "name": "Yokohama FC",
-                    "longName": "Yokohama FC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-07T09:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "07.10.2026 11:30:35",
-                        "secondHalfStarted": "07.10.2026 12:31:29"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791365400000
-            },
-            "tracked_player_ids": [
-                212470
-            ],
-            "discovered_at": "2026-10-07T00:00:55.366479+03:30",
-            "finished_seen_at": "2026-10-07T14:52:24.355256+03:30",
-            "next_check_at": "2026-10-09T13:12:17.426121+03:30",
-            "final_complete": false
-        },
         "6368806": {
             "match": {
                 "id": 6368806,
@@ -919,7 +870,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5781762": {
@@ -959,7 +910,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040848+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -1000,7 +951,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5888077": {
@@ -1040,7 +991,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040945+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5909176": {
@@ -1080,7 +1031,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040991+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5904764": {
@@ -1120,7 +1071,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041037+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "1000015483": {
@@ -1160,7 +1111,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041083+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "1000021974": {
@@ -1200,7 +1151,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041129+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5970146": {
@@ -1240,7 +1191,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041177+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         },
         "5970151": {
@@ -1281,7 +1232,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041223+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T12:59:14.534272+03:30",
+            "next_check_at": "2026-10-09T13:00:35.448123+03:30",
             "final_complete": false
         }
     }
