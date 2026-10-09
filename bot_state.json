@@ -902,7 +902,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         },
         "5781762": {
@@ -942,7 +942,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040848+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -983,7 +983,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         },
         "5888077": {
@@ -1004,7 +1004,7 @@
                     "longName": "AVS Futebol SAD"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "7",
                 "status": {
                     "utcTime": "2026-10-09T17:00:00.000Z",
@@ -1018,10 +1018,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:48",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1034,7 +1034,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040945+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         },
         "5904764": {
@@ -1069,9 +1069,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "47:50",
+                        "long": "49:01",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1085,7 +1085,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041037+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         },
         "1000015483": {
@@ -1125,7 +1125,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041083+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         },
         "5970151": {
@@ -1166,7 +1166,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041223+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:19:19.091376+03:30",
+            "next_check_at": "2026-10-09T21:20:26.864855+03:30",
             "final_complete": false
         }
     }
