@@ -198,7 +198,8 @@
         ],
         "5802947": [],
         "5887647": [
-            "Pau Víctor|STARTING XI"
+            "Pau Víctor|STARTING XI",
+            "Tomás Marqués|BENCH"
         ]
     },
     "match_events": {
@@ -909,7 +910,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         },
         "5781762": {
@@ -944,9 +945,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "25‎’‎",
+                        "short": "26‎’‎",
                         "shortKey": "",
-                        "long": "24:31",
+                        "long": "25:30",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -960,7 +961,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040848+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -1001,7 +1002,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         },
         "5888077": {
@@ -1037,9 +1038,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:29",
+                        "long": "64:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1053,7 +1054,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040945+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         },
         "5904764": {
@@ -1089,9 +1090,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:19",
+                        "long": "64:18",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1105,7 +1106,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041037+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         },
         "1000015483": {
@@ -1140,9 +1141,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "27‎’‎",
+                        "short": "28‎’‎",
                         "shortKey": "",
-                        "long": "26:06",
+                        "long": "27:05",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1156,7 +1157,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041083+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         },
         "5970151": {
@@ -1191,9 +1192,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "26‎’‎",
+                        "short": "27‎’‎",
                         "shortKey": "",
-                        "long": "25:59",
+                        "long": "26:58",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1208,7 +1209,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041223+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:56:16.794094+03:30",
+            "next_check_at": "2026-10-09T21:57:15.678844+03:30",
             "final_complete": false
         }
     }
