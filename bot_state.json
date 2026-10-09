@@ -581,7 +581,10 @@
         "5103647": [
             "1339347"
         ],
-        "5909176": []
+        "5909176": [],
+        "5970146": [
+            "732282"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -887,7 +890,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "5781762": {
@@ -927,7 +930,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040848+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -968,7 +971,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "5888077": {
@@ -1008,7 +1011,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040945+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "5904764": {
@@ -1048,7 +1051,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041037+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "1000015483": {
@@ -1088,7 +1091,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041083+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "1000021974": {
@@ -1139,59 +1142,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041129+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
-            "final_complete": false
-        },
-        "5970146": {
-            "match": {
-                "id": 5970146,
-                "leagueId": 1000001787,
-                "time": "09.10.2026 16:55",
-                "home": {
-                    "id": 177356,
-                    "score": 0,
-                    "name": "Al Fateh FC",
-                    "longName": "Al Fateh FC"
-                },
-                "away": {
-                    "id": 2530,
-                    "score": 4,
-                    "name": "Al Ahli",
-                    "longName": "Al Ahli"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "8",
-                "status": {
-                    "utcTime": "2026-10-09T14:55:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "09.10.2026 16:55:15",
-                        "secondHalfStarted": "09.10.2026 17:59:49"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 4",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:28",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791557700000
-            },
-            "tracked_player_ids": [
-                732282
-            ],
-            "discovered_at": "2026-10-09T00:00:39.041177+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         },
         "5970151": {
@@ -1232,7 +1183,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041223+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T20:18:17.771056+03:30",
+            "next_check_at": "2026-10-09T20:19:14.986887+03:30",
             "final_complete": false
         }
     }
