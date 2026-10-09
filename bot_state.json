@@ -430,7 +430,8 @@
         "5103647": [
             "Substitution|69|None|1132960,1339347|"
         ],
-        "5909176": []
+        "5909176": [],
+        "5970146": []
     },
     "final_posts": {
         "5991881": [
@@ -876,7 +877,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "5781762": {
@@ -916,7 +917,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040848+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -957,7 +958,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "5888077": {
@@ -997,7 +998,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040945+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "5904764": {
@@ -1037,7 +1038,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041037+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "1000015483": {
@@ -1077,7 +1078,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041083+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "1000021974": {
@@ -1117,7 +1118,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041129+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "5970146": {
@@ -1138,17 +1139,28 @@
                     "longName": "Al Ahli"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "8",
                 "status": {
                     "utcTime": "2026-10-09T14:55:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "09.10.2026 16:55:00"
+                        "firstHalfStarted": "09.10.2026 16:55:15"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:05",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791557700000
             },
@@ -1157,7 +1169,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041177+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         },
         "5970151": {
@@ -1198,7 +1210,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041223+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T18:25:22.780505+03:30",
+            "next_check_at": "2026-10-09T18:26:20.553935+03:30",
             "final_complete": false
         }
     }
