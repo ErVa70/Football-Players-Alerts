@@ -862,7 +862,7 @@
             ],
             "discovered_at": "2026-10-07T00:00:55.366592+03:30",
             "finished_seen_at": "2026-10-08T03:59:20.382872+03:30",
-            "next_check_at": "2026-10-09T21:22:18.234817+03:30",
+            "next_check_at": "2026-10-09T22:22:18.537768+03:30",
             "final_complete": false
         },
         "5802947": {
@@ -902,7 +902,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040766+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         },
         "5781762": {
@@ -942,7 +942,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040848+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         },
         "5887647": {
@@ -983,7 +983,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040898+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         },
         "5888077": {
@@ -1034,7 +1034,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.040945+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         },
         "5904764": {
@@ -1055,7 +1055,7 @@
                     "longName": "Kasımpaşa"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "7",
                 "status": {
                     "utcTime": "2026-10-09T17:00:00.000Z",
@@ -1069,10 +1069,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "50‎’‎",
-                        "shortKey": "",
-                        "long": "49:58",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1085,7 +1085,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041037+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         },
         "1000015483": {
@@ -1125,7 +1125,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041083+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         },
         "5970151": {
@@ -1166,7 +1166,7 @@
             ],
             "discovered_at": "2026-10-09T00:00:39.041223+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-09T21:21:17.744426+03:30",
+            "next_check_at": "2026-10-09T21:22:18.537768+03:30",
             "final_complete": false
         }
     }
