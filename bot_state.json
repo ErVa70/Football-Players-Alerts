@@ -722,7 +722,10 @@
         "5904761": [
             "470834"
         ],
-        "5881186": []
+        "5881186": [],
+        "5943260": [
+            "675600"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -920,9 +923,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "97‎’‎",
+                        "short": "98‎’‎",
                         "shortKey": "",
-                        "long": "96:53",
+                        "long": "97:48",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -936,7 +939,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681010+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5868089": {
@@ -977,7 +980,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681114+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5802950": {
@@ -1017,7 +1020,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681146+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5802952": {
@@ -1061,7 +1064,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681178+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5071404": {
@@ -1078,7 +1081,7 @@
                 },
                 "away": {
                     "id": 161195,
-                    "score": 0,
+                    "score": 1,
                     "name": "CF Montréal",
                     "shortName": "Montreal",
                     "longName": "CF Montréal"
@@ -1097,11 +1100,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "51‎’‎",
+                        "short": "52‎’‎",
                         "shortKey": "",
-                        "long": "50:48",
+                        "long": "51:43",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1115,7 +1118,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681210+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5071398": {
@@ -1157,7 +1160,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681242+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5071399": {
@@ -1199,7 +1202,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681274+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5071402": {
@@ -1242,7 +1245,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5781759": {
@@ -1278,9 +1281,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "77‎’‎",
+                        "short": "78‎’‎",
                         "shortKey": "",
-                        "long": "76:55",
+                        "long": "77:50",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1294,7 +1297,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681337+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5781764": {
@@ -1335,7 +1338,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         },
         "5883686": {
@@ -1384,61 +1387,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681498+03:30",
             "finished_seen_at": "2026-10-10T20:04:17.422316+03:30",
-            "next_check_at": "2026-10-10T21:59:18.218589+03:30",
-            "final_complete": false
-        },
-        "5943260": {
-            "match": {
-                "id": 5943260,
-                "leagueId": 941071,
-                "time": "10.10.2026 18:30",
-                "home": {
-                    "id": 8563,
-                    "score": 3,
-                    "name": "AEK Athens",
-                    "longName": "AEK Athens"
-                },
-                "away": {
-                    "id": 7753,
-                    "score": 0,
-                    "name": "OFI Crete",
-                    "redCards": 1,
-                    "longName": "OFI Crete"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-10-10T16:30:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "10.10.2026 18:31:20",
-                        "secondHalfStarted": "10.10.2026 19:36:05"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "3 - 0",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:13",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791649800000
-            },
-            "tracked_player_ids": [
-                675600
-            ],
-            "discovered_at": "2026-10-10T00:00:36.681529+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T22:00:19.472156+03:30",
             "final_complete": false
         },
         "1000014592": {
@@ -1480,7 +1429,7 @@
             ],
             "discovered_at": "2026-10-10T00:00:36.681638+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-10T21:54:18.218589+03:30",
+            "next_check_at": "2026-10-10T21:55:19.472156+03:30",
             "final_complete": false
         }
     }
