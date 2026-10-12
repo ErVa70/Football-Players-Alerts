@@ -1290,7 +1290,7 @@
             ],
             "discovered_at": "2026-10-11T00:00:37.253576+03:30",
             "finished_seen_at": "2026-10-11T18:28:18.758637+03:30",
-            "next_check_at": "2026-10-12T22:37:15.653747+03:30",
+            "next_check_at": "2026-10-12T23:37:18.245542+03:30",
             "final_complete": false
         },
         "5888073": {
@@ -1339,7 +1339,7 @@
             ],
             "discovered_at": "2026-10-11T00:00:37.254436+03:30",
             "finished_seen_at": "2026-10-11T18:29:19.103893+03:30",
-            "next_check_at": "2026-10-12T22:37:15.653747+03:30",
+            "next_check_at": "2026-10-12T23:37:18.245542+03:30",
             "final_complete": false
         },
         "5884887": {
@@ -1489,7 +1489,7 @@
                 "time": "12.10.2026 21:00",
                 "home": {
                     "id": 8669,
-                    "score": 0,
+                    "score": 1,
                     "name": "Coventry City",
                     "shortName": "Coventry",
                     "longName": "Coventry City"
@@ -1514,11 +1514,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
                         "short": "7‎’‎",
                         "shortKey": "",
-                        "long": "6:03",
+                        "long": "6:56",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1532,7 +1532,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:36:18.908485+03:30",
+            "next_check_at": "2026-10-12T22:37:18.245542+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1573,7 +1573,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:36:18.908485+03:30",
+            "next_check_at": "2026-10-12T22:37:18.245542+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1608,9 +1608,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "5‎’‎",
+                        "short": "6‎’‎",
                         "shortKey": "",
-                        "long": "4:39",
+                        "long": "5:32",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1625,7 +1625,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:36:18.908485+03:30",
+            "next_check_at": "2026-10-12T22:37:18.245542+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1665,7 +1665,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:36:18.908485+03:30",
+            "next_check_at": "2026-10-12T22:37:18.245542+03:30",
             "final_complete": false
         }
     }
