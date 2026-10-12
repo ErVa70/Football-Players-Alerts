@@ -367,6 +367,9 @@
         "5868490": [
             "Carles Pérez|STARTING XI",
             "Abel Ruiz|STARTING XI"
+        ],
+        "5887649": [
+            "Sergi Gómez|STARTING XI"
         ]
     },
     "match_events": {
@@ -1513,7 +1516,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:53:20.367284+03:30",
+            "next_check_at": "2026-10-12T21:54:17.453123+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1534,7 +1537,7 @@
                     "longName": "Neftchi Fargona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 25,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-12T18:15:00.000Z",
@@ -1544,7 +1547,13 @@
                     "periodLength": 45,
                     "started": false,
                     "cancelled": false,
-                    "finished": false
+                    "finished": false,
+                    "reason": {
+                        "short": "",
+                        "shortKey": "",
+                        "long": "Delayed",
+                        "longKey": "delayed"
+                    }
                 },
                 "timeTS": 1791828900000
             },
@@ -1554,7 +1563,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:53:20.367284+03:30",
+            "next_check_at": "2026-10-12T21:54:17.453123+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1590,9 +1599,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "90‎’‎",
+                        "short": "91‎’‎",
                         "shortKey": "",
-                        "long": "89:42",
+                        "long": "90:39",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1607,7 +1616,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:53:20.367284+03:30",
+            "next_check_at": "2026-10-12T21:54:17.453123+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1648,7 +1657,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:53:20.367284+03:30",
+            "next_check_at": "2026-10-12T21:54:17.453123+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1688,7 +1697,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:53:20.367284+03:30",
+            "next_check_at": "2026-10-12T21:54:17.453123+03:30",
             "final_complete": false
         }
     }
