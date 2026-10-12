@@ -1516,9 +1516,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "10‎’‎",
+                        "short": "11‎’‎",
                         "shortKey": "",
-                        "long": "9:15",
+                        "long": "10:13",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1532,7 +1532,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:39:31.876112+03:30",
+            "next_check_at": "2026-10-12T22:40:29.058642+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1553,7 +1553,7 @@
                     "longName": "Neftchi Fargona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 25,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-12T18:15:00.000Z",
@@ -1563,7 +1563,13 @@
                     "periodLength": 45,
                     "started": false,
                     "cancelled": false,
-                    "finished": false
+                    "finished": false,
+                    "reason": {
+                        "short": "",
+                        "shortKey": "",
+                        "long": "Delayed",
+                        "longKey": "delayed"
+                    }
                 },
                 "timeTS": 1791828900000
             },
@@ -1573,7 +1579,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:39:31.876112+03:30",
+            "next_check_at": "2026-10-12T22:40:29.058642+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1608,9 +1614,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "8‎’‎",
+                        "short": "9‎’‎",
                         "shortKey": "",
-                        "long": "7:51",
+                        "long": "8:49",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1625,7 +1631,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:39:31.876112+03:30",
+            "next_check_at": "2026-10-12T22:40:29.058642+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1665,7 +1671,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:39:31.876112+03:30",
+            "next_check_at": "2026-10-12T22:40:29.058642+03:30",
             "final_complete": false
         }
     }
