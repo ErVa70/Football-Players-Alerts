@@ -772,7 +772,8 @@
             "Substitution|77|None|1012842,579747|",
             "Substitution|76|None|1012842,579747|"
         ],
-        "5868489": []
+        "5868489": [],
+        "5795468": []
     },
     "final_posts": {
         "5991881": [
@@ -1500,17 +1501,28 @@
                     "longName": "Newcastle United"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-10-12T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "12.10.2026 21:00:00"
+                        "firstHalfStarted": "12.10.2026 21:00:15"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:26",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791831600000
             },
@@ -1519,7 +1531,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:29:14.892341+03:30",
+            "next_check_at": "2026-10-12T22:30:45.799475+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1566,7 +1578,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:29:14.892341+03:30",
+            "next_check_at": "2026-10-12T22:30:45.799475+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1607,7 +1619,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:29:14.892341+03:30",
+            "next_check_at": "2026-10-12T22:30:45.799475+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1647,7 +1659,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:29:14.892341+03:30",
+            "next_check_at": "2026-10-12T22:30:45.799475+03:30",
             "final_complete": false
         }
     }
