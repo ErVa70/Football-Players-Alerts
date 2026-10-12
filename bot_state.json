@@ -762,7 +762,8 @@
         ],
         "5749690": [
             "id:14564409",
-            "Substitution|77|None|1012842,579747|"
+            "Substitution|77|None|1012842,579747|",
+            "Substitution|76|None|1012842,579747|"
         ],
         "5868489": []
     },
@@ -1502,7 +1503,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         },
         "5749690": {
@@ -1538,9 +1539,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "77‎’‎",
+                        "short": "78‎’‎",
                         "shortKey": "",
-                        "long": "76:00",
+                        "long": "77:04",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1555,7 +1556,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847232+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         },
         "6050073": {
@@ -1591,9 +1592,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 3",
                     "liveTime": {
-                        "short": "97‎’‎",
+                        "short": "98‎’‎",
                         "shortKey": "",
-                        "long": "96:02",
+                        "long": "97:06",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1607,7 +1608,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847348+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1648,7 +1649,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1684,9 +1685,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "71‎’‎",
+                        "short": "72‎’‎",
                         "shortKey": "",
-                        "long": "70:41",
+                        "long": "71:45",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1701,7 +1702,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1742,7 +1743,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1782,7 +1783,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:34:21.766737+03:30",
+            "next_check_at": "2026-10-12T21:35:24.020410+03:30",
             "final_complete": false
         }
     }
