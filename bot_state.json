@@ -1504,12 +1504,13 @@
                     "longName": "Newcastle United"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-10-12T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "12.10.2026 21:00:15"
+                        "firstHalfStarted": "12.10.2026 21:00:15",
+                        "secondHalfStarted": "12.10.2026 22:03:01"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1518,12 +1519,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:12",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1534,7 +1535,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:32:18.414959+03:30",
+            "next_check_at": "2026-10-12T23:33:16.479819+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1569,9 +1570,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:11",
+                        "long": "48:06",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1586,7 +1587,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:32:18.414959+03:30",
+            "next_check_at": "2026-10-12T23:33:16.479819+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1638,7 +1639,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:32:18.414959+03:30",
+            "next_check_at": "2026-10-12T23:33:16.479819+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1673,9 +1674,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "46‎’‎",
+                        "short": "47‎’‎",
                         "shortKey": "",
-                        "long": "45:41",
+                        "long": "46:36",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1689,7 +1690,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:32:18.414959+03:30",
+            "next_check_at": "2026-10-12T23:33:16.479819+03:30",
             "final_complete": false
         }
     }
