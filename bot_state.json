@@ -1076,6 +1076,9 @@
         ],
         "5749690": [
             "579747"
+        ],
+        "5868489": [
+            "1327733"
         ]
     },
     "transfer_monitor": {
@@ -1516,7 +1519,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
+            "next_check_at": "2026-10-12T21:59:17.447456+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1563,57 +1566,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
-            "final_complete": false
-        },
-        "5868489": {
-            "match": {
-                "id": 5868489,
-                "leagueId": 938653,
-                "time": "12.10.2026 18:30",
-                "home": {
-                    "id": 8670,
-                    "score": 3,
-                    "name": "Real Oviedo",
-                    "longName": "Real Oviedo"
-                },
-                "away": {
-                    "id": 8372,
-                    "score": 1,
-                    "name": "Eibar",
-                    "longName": "Eibar"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-10-12T16:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "12.10.2026 18:32:36",
-                        "secondHalfStarted": "12.10.2026 19:38:38"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "3 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791822600000
-            },
-            "tracked_player_ids": [
-                1321603,
-                1327733
-            ],
-            "discovered_at": "2026-10-12T00:00:37.847920+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
+            "next_check_at": "2026-10-12T21:59:17.447456+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1654,7 +1607,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
+            "next_check_at": "2026-10-12T21:59:17.447456+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1694,7 +1647,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
+            "next_check_at": "2026-10-12T21:59:17.447456+03:30",
             "final_complete": false
         }
     }
