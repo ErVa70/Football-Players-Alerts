@@ -1516,7 +1516,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:57:17.055913+03:30",
+            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1563,7 +1563,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:57:17.055913+03:30",
+            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1584,7 +1584,7 @@
                     "longName": "Eibar"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 3,
+                "statusId": 6,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-12T16:30:00.000Z",
@@ -1593,19 +1593,16 @@
                         "secondHalfStarted": "12.10.2026 19:38:38"
                     },
                     "periodLength": 45,
-                    "finished": false,
+                    "finished": true,
                     "started": true,
                     "cancelled": false,
-                    "ongoing": true,
+                    "awarded": false,
                     "scoreStr": "3 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:38",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
+                    "reason": {
+                        "short": "FT",
+                        "shortKey": "fulltime_short",
+                        "long": "Full-Time",
+                        "longKey": "finished"
                     }
                 },
                 "timeTS": 1791822600000
@@ -1616,7 +1613,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:57:17.055913+03:30",
+            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1657,7 +1654,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:57:17.055913+03:30",
+            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1697,7 +1694,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:57:17.055913+03:30",
+            "next_check_at": "2026-10-12T21:58:17.631872+03:30",
             "final_complete": false
         }
     }
