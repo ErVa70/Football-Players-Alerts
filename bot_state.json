@@ -370,6 +370,9 @@
         ],
         "5887649": [
             "Sergi Gómez|STARTING XI"
+        ],
+        "5103658": [
+            "Matheus Fernandes|BENCH"
         ]
     },
     "match_events": {
@@ -1462,7 +1465,7 @@
             ],
             "discovered_at": "2026-10-11T00:00:37.254542+03:30",
             "finished_seen_at": "2026-10-11T20:33:17.065885+03:30",
-            "next_check_at": "2026-10-13T02:46:17.904508+03:30",
+            "next_check_at": "2026-10-13T03:46:18.044111+03:30",
             "final_complete": false
         },
         "5103654": {
@@ -1542,7 +1545,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372689+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T02:45:24.395172+03:30",
+            "next_check_at": "2026-10-13T02:46:18.044111+03:30",
             "final_complete": false
         },
         "6106267": {
@@ -1583,7 +1586,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T02:45:24.395172+03:30",
+            "next_check_at": "2026-10-13T02:46:18.044111+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1623,7 +1626,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T02:45:24.395172+03:30",
+            "next_check_at": "2026-10-13T02:46:18.044111+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1665,7 +1668,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T02:45:24.395172+03:30",
+            "next_check_at": "2026-10-13T02:46:18.044111+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1705,7 +1708,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T02:45:24.395172+03:30",
+            "next_check_at": "2026-10-13T02:46:18.044111+03:30",
             "final_complete": false
         },
         "5103658": {
@@ -1745,7 +1748,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.373010+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T02:45:24.395172+03:30",
+            "next_check_at": "2026-10-13T02:46:18.044111+03:30",
             "final_complete": false
         }
     }
