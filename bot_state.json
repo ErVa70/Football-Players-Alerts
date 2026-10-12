@@ -1493,7 +1493,7 @@
                 "time": "12.10.2026 21:00",
                 "home": {
                     "id": 8669,
-                    "score": 1,
+                    "score": 2,
                     "name": "Coventry City",
                     "shortName": "Coventry",
                     "longName": "Coventry City"
@@ -1519,11 +1519,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:16",
+                        "long": "49:11",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1537,7 +1537,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
+            "next_check_at": "2026-10-12T23:37:14.752684+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1589,7 +1589,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
+            "next_check_at": "2026-10-12T23:37:14.752684+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1610,12 +1610,13 @@
                     "longName": "Girona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-12T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "12.10.2026 21:01:39"
+                        "firstHalfStarted": "12.10.2026 21:01:39",
+                        "secondHalfStarted": "12.10.2026 22:06:48"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1624,12 +1625,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:24",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1641,7 +1642,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
+            "next_check_at": "2026-10-12T23:37:14.752684+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1692,7 +1693,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
+            "next_check_at": "2026-10-12T23:37:14.752684+03:30",
             "final_complete": false
         }
     }
