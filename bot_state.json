@@ -363,6 +363,10 @@
         ],
         "5795468": [
             "Nico González|STARTING XI"
+        ],
+        "5868490": [
+            "Carles Pérez|STARTING XI",
+            "Abel Ruiz|STARTING XI"
         ]
     },
     "match_events": {
@@ -1506,7 +1510,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:41:18.966567+03:30",
+            "next_check_at": "2026-10-12T21:42:19.714678+03:30",
             "final_complete": false
         },
         "5749690": {
@@ -1542,9 +1546,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "83‎’‎",
+                        "short": "85‎’‎",
                         "shortKey": "",
-                        "long": "82:59",
+                        "long": "84:00",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1559,7 +1563,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847232+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:41:18.966567+03:30",
+            "next_check_at": "2026-10-12T21:42:19.714678+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1600,7 +1604,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:41:18.966567+03:30",
+            "next_check_at": "2026-10-12T21:42:19.714678+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1636,9 +1640,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "78‎’‎",
+                        "short": "79‎’‎",
                         "shortKey": "",
-                        "long": "77:40",
+                        "long": "78:41",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1653,7 +1657,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:41:18.966567+03:30",
+            "next_check_at": "2026-10-12T21:42:19.714678+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1694,7 +1698,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:41:18.966567+03:30",
+            "next_check_at": "2026-10-12T21:42:19.714678+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1734,7 +1738,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:41:18.966567+03:30",
+            "next_check_at": "2026-10-12T21:42:19.714678+03:30",
             "final_complete": false
         }
     }
