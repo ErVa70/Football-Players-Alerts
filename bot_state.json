@@ -1534,7 +1534,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:26:21.393492+03:30",
+            "next_check_at": "2026-10-12T23:27:17.192205+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1544,7 +1544,7 @@
                 "time": "12.10.2026 20:15",
                 "home": {
                     "id": 101918,
-                    "score": 1,
+                    "score": 2,
                     "name": "Al Nassr FC",
                     "longName": "Al Nassr FC"
                 },
@@ -1567,11 +1567,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "42‎’‎",
+                        "short": "43‎’‎",
                         "shortKey": "",
-                        "long": "41:14",
+                        "long": "42:09",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1586,7 +1586,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:26:21.393492+03:30",
+            "next_check_at": "2026-10-12T23:27:17.192205+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1638,7 +1638,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:26:21.393492+03:30",
+            "next_check_at": "2026-10-12T23:27:17.192205+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1673,9 +1673,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "40‎’‎",
+                        "short": "41‎’‎",
                         "shortKey": "",
-                        "long": "39:44",
+                        "long": "40:39",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1689,7 +1689,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:26:21.393492+03:30",
+            "next_check_at": "2026-10-12T23:27:17.192205+03:30",
             "final_complete": false
         }
     }
