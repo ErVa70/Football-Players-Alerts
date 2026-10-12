@@ -356,6 +356,10 @@
         "5749690": [
             "Franck Kessié|STARTING XI",
             "Toni Fernández|BENCH"
+        ],
+        "6050076": [
+            "Iñigo Martínez|STARTING XI",
+            "João Félix|STARTING XI"
         ]
     },
     "match_events": {
@@ -1490,7 +1494,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "5749690": {
@@ -1542,7 +1546,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847232+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "6050073": {
@@ -1580,7 +1584,7 @@
                     "liveTime": {
                         "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "64:01",
+                        "long": "64:59",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1594,7 +1598,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847348+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "6050074": {
@@ -1630,9 +1634,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "73‎’‎",
+                        "short": "74‎’‎",
                         "shortKey": "",
-                        "long": "72:12",
+                        "long": "73:10",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1647,7 +1651,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847463+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1688,7 +1692,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1740,7 +1744,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1781,7 +1785,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1821,7 +1825,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:02:18.946765+03:30",
+            "next_check_at": "2026-10-12T21:03:16.493027+03:30",
             "final_complete": false
         }
     }
