@@ -1502,7 +1502,7 @@
                 },
                 "away": {
                     "id": 10261,
-                    "score": 0,
+                    "score": 1,
                     "name": "Newcastle United",
                     "shortName": "Newcastle",
                     "longName": "Newcastle United"
@@ -1521,11 +1521,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "70‎’‎",
+                        "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "69:17",
+                        "long": "70:09",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1539,7 +1539,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:57:18.665481+03:30",
+            "next_check_at": "2026-10-12T23:58:16.930230+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1575,9 +1575,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:46",
+                        "long": "49:38",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1592,7 +1592,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:57:18.665481+03:30",
+            "next_check_at": "2026-10-12T23:58:16.930230+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1628,9 +1628,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "66‎’‎",
+                        "short": "67‎’‎",
                         "shortKey": "",
-                        "long": "65:30",
+                        "long": "66:22",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1645,7 +1645,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:57:18.665481+03:30",
+            "next_check_at": "2026-10-12T23:58:16.930230+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1683,7 +1683,7 @@
                     "liveTime": {
                         "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "50:06",
+                        "long": "50:58",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1697,7 +1697,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:57:18.665481+03:30",
+            "next_check_at": "2026-10-12T23:58:16.930230+03:30",
             "final_complete": false
         }
     }
