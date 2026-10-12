@@ -1009,7 +1009,10 @@
         "5103660": [
             "169865"
         ],
-        "5103654": []
+        "5103654": [],
+        "5071410": [
+            "212472"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -1270,60 +1273,6 @@
             "next_check_at": "2026-10-12T04:54:16.654515+03:30",
             "final_complete": false
         },
-        "5071410": {
-            "match": {
-                "id": 5071410,
-                "leagueId": 913550,
-                "time": "12.10.2026 01:00",
-                "home": {
-                    "id": 1427963,
-                    "score": 6,
-                    "name": "St. Louis City",
-                    "longName": "St. Louis City"
-                },
-                "away": {
-                    "id": 6637,
-                    "score": 2,
-                    "name": "LA Galaxy",
-                    "shortName": "LA Galaxy",
-                    "longName": "LA Galaxy"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "28",
-                "status": {
-                    "utcTime": "2026-10-11T23:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "12.10.2026 01:12:29",
-                        "secondHalfStarted": "12.10.2026 02:21:30"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "6 - 2",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:59",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791759600000
-            },
-            "tracked_player_ids": [
-                212472,
-                920173
-            ],
-            "discovered_at": "2026-10-11T00:00:37.253886+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
-            "final_complete": false
-        },
         "5888073": {
             "match": {
                 "id": 5888073,
@@ -1552,7 +1501,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "5749690": {
@@ -1593,7 +1542,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847232+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "6050073": {
@@ -1633,7 +1582,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847348+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "6050074": {
@@ -1674,7 +1623,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847463+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1715,7 +1664,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "5868491": {
@@ -1755,7 +1704,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847689+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "5868483": {
@@ -1796,7 +1745,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847802+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1837,7 +1786,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1878,7 +1827,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1918,7 +1867,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T04:40:29.467335+03:30",
+            "next_check_at": "2026-10-12T04:41:17.932852+03:30",
             "final_complete": false
         }
     }
