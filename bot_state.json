@@ -773,7 +773,8 @@
             "Substitution|76|None|1012842,579747|"
         ],
         "5868489": [],
-        "5795468": []
+        "5795468": [],
+        "5868490": []
     },
     "final_posts": {
         "5991881": [
@@ -1515,9 +1516,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "2‎’‎",
+                        "short": "3‎’‎",
                         "shortKey": "",
-                        "long": "1:01",
+                        "long": "2:05",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1531,7 +1532,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:31:16.832826+03:30",
+            "next_check_at": "2026-10-12T22:32:20.727606+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1578,7 +1579,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:31:16.832826+03:30",
+            "next_check_at": "2026-10-12T22:32:20.727606+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1599,17 +1600,28 @@
                     "longName": "Girona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-12T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "12.10.2026 21:00:00"
+                        "firstHalfStarted": "12.10.2026 21:01:39"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:41",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791831600000
             },
@@ -1619,7 +1631,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:31:16.832826+03:30",
+            "next_check_at": "2026-10-12T22:32:20.727606+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1659,7 +1671,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T22:31:16.832826+03:30",
+            "next_check_at": "2026-10-12T22:32:20.727606+03:30",
             "final_complete": false
         }
     }
