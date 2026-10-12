@@ -1510,7 +1510,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:46:18.805796+03:30",
+            "next_check_at": "2026-10-12T21:47:14.829475+03:30",
             "final_complete": false
         },
         "5749690": {
@@ -1522,6 +1522,7 @@
                     "id": 8524,
                     "score": 3,
                     "name": "Atalanta",
+                    "redCards": 1,
                     "longName": "Atalanta"
                 },
                 "away": {
@@ -1535,6 +1536,7 @@
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-10-12T16:30:00.000Z",
+                    "numberOfHomeRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "12.10.2026 18:31:46",
                         "secondHalfStarted": "12.10.2026 19:33:19"
@@ -1546,9 +1548,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "88‎’‎",
+                        "short": "89‎’‎",
                         "shortKey": "",
-                        "long": "87:54",
+                        "long": "88:55",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1563,7 +1565,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847232+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:46:18.805796+03:30",
+            "next_check_at": "2026-10-12T21:47:14.829475+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1604,7 +1606,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:46:18.805796+03:30",
+            "next_check_at": "2026-10-12T21:47:14.829475+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1640,9 +1642,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "83‎’‎",
+                        "short": "84‎’‎",
                         "shortKey": "",
-                        "long": "82:35",
+                        "long": "83:36",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1657,7 +1659,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:46:18.805796+03:30",
+            "next_check_at": "2026-10-12T21:47:14.829475+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1698,7 +1700,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:46:18.805796+03:30",
+            "next_check_at": "2026-10-12T21:47:14.829475+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1738,7 +1740,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:46:18.805796+03:30",
+            "next_check_at": "2026-10-12T21:47:14.829475+03:30",
             "final_complete": false
         }
     }
