@@ -1510,7 +1510,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:48:20.519965+03:30",
+            "next_check_at": "2026-10-12T21:49:15.461107+03:30",
             "final_complete": false
         },
         "5749690": {
@@ -1548,9 +1548,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "90",
+                        "short": "91‎’‎",
                         "shortKey": "",
-                        "long": "90:00",
+                        "long": "90:56",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1565,7 +1565,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847232+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:48:20.519965+03:30",
+            "next_check_at": "2026-10-12T21:49:15.461107+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1606,7 +1606,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:48:20.519965+03:30",
+            "next_check_at": "2026-10-12T21:49:15.461107+03:30",
             "final_complete": false
         },
         "5868489": {
@@ -1616,7 +1616,7 @@
                 "time": "12.10.2026 18:30",
                 "home": {
                     "id": 8670,
-                    "score": 2,
+                    "score": 3,
                     "name": "Real Oviedo",
                     "longName": "Real Oviedo"
                 },
@@ -1640,11 +1640,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 1",
+                    "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "85‎’‎",
+                        "short": "86‎’‎",
                         "shortKey": "",
-                        "long": "84:41",
+                        "long": "85:37",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1659,7 +1659,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:48:20.519965+03:30",
+            "next_check_at": "2026-10-12T21:49:15.461107+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1700,7 +1700,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:48:20.519965+03:30",
+            "next_check_at": "2026-10-12T21:49:15.461107+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1740,7 +1740,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T21:48:20.519965+03:30",
+            "next_check_at": "2026-10-12T21:49:15.461107+03:30",
             "final_complete": false
         }
     }
