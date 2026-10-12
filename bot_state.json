@@ -1521,9 +1521,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:21",
+                        "long": "48:16",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1537,7 +1537,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847089+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:35:22.638162+03:30",
+            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
             "final_complete": false
         },
         "6050076": {
@@ -1558,7 +1558,7 @@
                     "longName": "Neftchi Fargona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-12T18:15:00.000Z",
@@ -1572,10 +1572,10 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "51‎’‎",
-                        "shortKey": "",
-                        "long": "50:15",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1589,7 +1589,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.847575+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:35:22.638162+03:30",
+            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
             "final_complete": false
         },
         "5868490": {
@@ -1641,7 +1641,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848052+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:35:22.638162+03:30",
+            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
             "final_complete": false
         },
         "5887649": {
@@ -1662,7 +1662,7 @@
                     "longName": "Alverca"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "8",
                 "status": {
                     "utcTime": "2026-10-12T19:15:00.000Z",
@@ -1676,10 +1676,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "49‎’‎",
-                        "shortKey": "",
-                        "long": "48:45",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1692,7 +1692,7 @@
             ],
             "discovered_at": "2026-10-12T00:00:37.848166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-12T23:35:22.638162+03:30",
+            "next_check_at": "2026-10-12T23:36:17.820221+03:30",
             "final_complete": false
         }
     }
