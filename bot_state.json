@@ -1387,7 +1387,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:32:20.068459+03:30",
+            "next_check_at": "2026-10-13T23:33:19.576793+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1438,7 +1438,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:32:20.068459+03:30",
+            "next_check_at": "2026-10-13T23:33:19.576793+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1491,7 +1491,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:32:20.068459+03:30",
+            "next_check_at": "2026-10-13T23:33:19.576793+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1512,12 +1512,13 @@
                     "longName": "Napoli"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-13T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.10.2026 21:00:41"
+                        "firstHalfStarted": "13.10.2026 21:00:41",
+                        "secondHalfStarted": "13.10.2026 22:02:56"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1526,12 +1527,12 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:11",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1542,7 +1543,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:32:20.068459+03:30",
+            "next_check_at": "2026-10-13T23:33:19.576793+03:30",
             "final_complete": false
         }
     }
