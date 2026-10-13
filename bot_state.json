@@ -807,7 +807,9 @@
             "Substitution|65|None|789877,1640270|"
         ],
         "6106414": [],
-        "6106328": []
+        "6106328": [],
+        "6106338": [],
+        "6106323": []
     },
     "final_posts": {
         "5991881": [
@@ -1371,7 +1373,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:31:17.544386+03:30",
+            "next_check_at": "2026-10-13T22:32:18.990173+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1392,17 +1394,28 @@
                     "longName": "Barcelona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-13T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.10.2026 21:00:00"
+                        "firstHalfStarted": "13.10.2026 21:01:30"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:48",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791918000000
             },
@@ -1411,7 +1424,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:31:17.544386+03:30",
+            "next_check_at": "2026-10-13T22:32:18.990173+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1433,17 +1446,28 @@
                     "longName": "PSV Eindhoven"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-13T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.10.2026 21:00:00"
+                        "firstHalfStarted": "13.10.2026 21:01:48"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:30",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791918000000
             },
@@ -1453,7 +1477,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:31:17.544386+03:30",
+            "next_check_at": "2026-10-13T22:32:18.990173+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1488,9 +1512,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:36",
+                        "long": "1:37",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1504,7 +1528,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:31:17.544386+03:30",
+            "next_check_at": "2026-10-13T22:32:18.990173+03:30",
             "final_complete": false
         }
     }
