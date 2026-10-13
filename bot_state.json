@@ -1130,7 +1130,8 @@
         ],
         "5103658": [
             "789877"
-        ]
+        ],
+        "6106414": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -1331,58 +1332,6 @@
             "next_check_at": "2026-10-13T22:26:23.873231+03:30",
             "final_complete": false
         },
-        "6106414": {
-            "match": {
-                "id": 6106414,
-                "leagueId": 943230,
-                "time": "13.10.2026 18:45",
-                "home": {
-                    "id": 8588,
-                    "score": 0,
-                    "name": "Lens",
-                    "longName": "Lens"
-                },
-                "away": {
-                    "id": 9768,
-                    "score": 2,
-                    "name": "Sporting CP",
-                    "longName": "Sporting CP"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-13T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "13.10.2026 18:47:02",
-                        "secondHalfStarted": "13.10.2026 19:51:39"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 2",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:37",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791909900000
-            },
-            "tracked_player_ids": [
-                955214
-            ],
-            "discovered_at": "2026-10-13T00:00:36.372689+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:09:16.510045+03:30",
-            "final_complete": false
-        },
         "6106267": {
             "match": {
                 "id": 6106267,
@@ -1421,7 +1370,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:09:16.510045+03:30",
+            "next_check_at": "2026-10-13T22:10:29.843155+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1461,7 +1410,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:09:16.510045+03:30",
+            "next_check_at": "2026-10-13T22:10:29.843155+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1503,7 +1452,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:09:16.510045+03:30",
+            "next_check_at": "2026-10-13T22:10:29.843155+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1543,7 +1492,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T22:09:16.510045+03:30",
+            "next_check_at": "2026-10-13T22:10:29.843155+03:30",
             "final_complete": false
         }
     }
