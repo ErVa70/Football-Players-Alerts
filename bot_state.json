@@ -383,6 +383,9 @@
         ],
         "6106267": [
             "Marcus Rashford|STARTING XI"
+        ],
+        "6106338": [
+            "Ilkay Gündogan|BENCH"
         ]
     },
     "match_events": {
@@ -1358,9 +1361,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "50‎’‎",
+                        "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "49:44",
+                        "long": "50:38",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1374,7 +1377,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372689+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:26:23.873231+03:30",
+            "next_check_at": "2026-10-13T21:27:17.276368+03:30",
             "final_complete": false
         },
         "6106267": {
@@ -1415,7 +1418,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:26:23.873231+03:30",
+            "next_check_at": "2026-10-13T21:27:17.276368+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1455,7 +1458,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:26:23.873231+03:30",
+            "next_check_at": "2026-10-13T21:27:17.276368+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1497,7 +1500,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:26:23.873231+03:30",
+            "next_check_at": "2026-10-13T21:27:17.276368+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1537,7 +1540,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:26:23.873231+03:30",
+            "next_check_at": "2026-10-13T21:27:17.276368+03:30",
             "final_complete": false
         }
     }
