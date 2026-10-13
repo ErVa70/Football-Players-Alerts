@@ -1357,7 +1357,7 @@
                     "longName": "Manchester United"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-13T19:00:00.000Z",
@@ -1371,10 +1371,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:51",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1387,7 +1387,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:19:16.699099+03:30",
+            "next_check_at": "2026-10-13T23:20:30.779976+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1408,7 +1408,7 @@
                     "longName": "Barcelona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-13T19:00:00.000Z",
@@ -1422,10 +1422,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "48‎’‎",
-                        "shortKey": "",
-                        "long": "47:43",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1438,7 +1438,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:19:16.699099+03:30",
+            "next_check_at": "2026-10-13T23:20:30.779976+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1491,7 +1491,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:19:16.699099+03:30",
+            "next_check_at": "2026-10-13T23:20:30.779976+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1542,7 +1542,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:19:16.699099+03:30",
+            "next_check_at": "2026-10-13T23:20:30.779976+03:30",
             "final_complete": false
         }
     }
