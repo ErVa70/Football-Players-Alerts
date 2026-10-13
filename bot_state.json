@@ -1361,9 +1361,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "52‎’‎",
+                        "short": "53‎’‎",
                         "shortKey": "",
-                        "long": "51:43",
+                        "long": "52:38",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1377,7 +1377,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372689+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:28:22.297836+03:30",
+            "next_check_at": "2026-10-13T21:29:17.261996+03:30",
             "final_complete": false
         },
         "6106267": {
@@ -1418,7 +1418,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:28:22.297836+03:30",
+            "next_check_at": "2026-10-13T21:29:17.261996+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1458,7 +1458,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:28:22.297836+03:30",
+            "next_check_at": "2026-10-13T21:29:17.261996+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1500,7 +1500,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:28:22.297836+03:30",
+            "next_check_at": "2026-10-13T21:29:17.261996+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1540,7 +1540,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T21:28:22.297836+03:30",
+            "next_check_at": "2026-10-13T21:29:17.261996+03:30",
             "final_complete": false
         }
     }
