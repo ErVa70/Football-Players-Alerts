@@ -1301,46 +1301,6 @@
         ]
     },
     "monitored_matches": {
-        "5103654": {
-            "match": {
-                "id": 5103654,
-                "leagueId": 1000001407,
-                "time": "11.10.2026 22:30",
-                "home": {
-                    "id": 9770,
-                    "score": 0,
-                    "name": "Flamengo",
-                    "longName": "Flamengo"
-                },
-                "away": {
-                    "id": 9863,
-                    "score": 0,
-                    "name": "Fluminense",
-                    "longName": "Fluminense"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 1,
-                "tournamentStage": "30",
-                "status": {
-                    "utcTime": "2026-10-11T20:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "11.10.2026 22:30:00"
-                    },
-                    "periodLength": 45,
-                    "started": false,
-                    "cancelled": false,
-                    "finished": false
-                },
-                "timeTS": 1791750600000
-            },
-            "tracked_player_ids": [
-                797908
-            ],
-            "discovered_at": "2026-10-11T00:00:37.254814+03:30",
-            "finished_seen_at": "2026-10-12T02:02:17.879078+03:30",
-            "next_check_at": "2026-10-14T00:28:19.463791+03:30",
-            "final_complete": false
-        },
         "6106267": {
             "match": {
                 "id": 6106267,
@@ -1391,7 +1351,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:59:18.247482+03:30",
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1443,7 +1403,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:59:18.247482+03:30",
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1497,7 +1457,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:59:18.247482+03:30",
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1549,7 +1509,542 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:59:18.247482+03:30",
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106309": {
+            "match": {
+                "id": 6106309,
+                "leagueId": 943230,
+                "time": "14.10.2026 18:45",
+                "home": {
+                    "id": 10235,
+                    "score": 0,
+                    "name": "Feyenoord",
+                    "longName": "Feyenoord"
+                },
+                "away": {
+                    "id": 10171,
+                    "score": 0,
+                    "name": "Como",
+                    "longName": "Como"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T16:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 18:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791996300000
+            },
+            "tracked_player_ids": [
+                1225450
+            ],
+            "discovered_at": "2026-10-14T00:00:37.726786+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106405": {
+            "match": {
+                "id": 6106405,
+                "leagueId": 943230,
+                "time": "14.10.2026 18:45",
+                "home": {
+                    "id": 9977,
+                    "score": 0,
+                    "name": "LASK",
+                    "longName": "LASK"
+                },
+                "away": {
+                    "id": 8650,
+                    "score": 0,
+                    "name": "Liverpool",
+                    "longName": "Liverpool"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T16:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 18:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791996300000
+            },
+            "tracked_player_ids": [
+                921253
+            ],
+            "discovered_at": "2026-10-14T00:00:37.726866+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106284": {
+            "match": {
+                "id": 6106284,
+                "leagueId": 943230,
+                "time": "14.10.2026 21:00",
+                "home": {
+                    "id": 10252,
+                    "score": 0,
+                    "name": "Aston Villa",
+                    "longName": "Aston Villa"
+                },
+                "away": {
+                    "id": 8695,
+                    "score": 0,
+                    "name": "Fenerbahçe",
+                    "longName": "Fenerbahçe"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792004400000
+            },
+            "tracked_player_ids": [
+                470834
+            ],
+            "discovered_at": "2026-10-14T00:00:37.726919+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106254": {
+            "match": {
+                "id": 6106254,
+                "leagueId": 943230,
+                "time": "14.10.2026 21:00",
+                "home": {
+                    "id": 8456,
+                    "score": 0,
+                    "name": "Manchester City",
+                    "shortName": "Man City",
+                    "longName": "Manchester City"
+                },
+                "away": {
+                    "id": 9847,
+                    "score": 0,
+                    "name": "Paris Saint-Germain",
+                    "shortName": "PSG",
+                    "longName": "Paris Saint-Germain"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792004400000
+            },
+            "tracked_player_ids": [
+                210111,
+                1682313,
+                881771,
+                692984
+            ],
+            "discovered_at": "2026-10-14T00:00:37.726968+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106299": {
+            "match": {
+                "id": 6106299,
+                "leagueId": 943230,
+                "time": "14.10.2026 21:00",
+                "home": {
+                    "id": 8603,
+                    "score": 0,
+                    "name": "Real Betis",
+                    "longName": "Real Betis"
+                },
+                "away": {
+                    "id": 9773,
+                    "score": 0,
+                    "name": "FC Porto",
+                    "longName": "FC Porto"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792004400000
+            },
+            "tracked_player_ids": [
+                195305,
+                743192,
+                427438,
+                1209399
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727016+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106274": {
+            "match": {
+                "id": 6106274,
+                "leagueId": 943230,
+                "time": "14.10.2026 21:00",
+                "home": {
+                    "id": 8686,
+                    "score": 0,
+                    "name": "Roma",
+                    "longName": "Roma"
+                },
+                "away": {
+                    "id": 8633,
+                    "score": 0,
+                    "name": "Real Madrid",
+                    "longName": "Real Madrid"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792004400000
+            },
+            "tracked_player_ids": [
+                873289
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727066+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6106337": {
+            "match": {
+                "id": 6106337,
+                "leagueId": 943230,
+                "time": "14.10.2026 21:00",
+                "home": {
+                    "id": 9728,
+                    "score": 0,
+                    "name": "Shakhtar Donetsk",
+                    "longName": "Shakhtar Donetsk"
+                },
+                "away": {
+                    "id": 8563,
+                    "score": 0,
+                    "name": "AEK Athens",
+                    "longName": "AEK Athens"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-14T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792004400000
+            },
+            "tracked_player_ids": [
+                540113
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727115+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "5071415": {
+            "match": {
+                "id": 5071415,
+                "leagueId": 913550,
+                "time": "15.10.2026 01:30",
+                "home": {
+                    "id": 161195,
+                    "score": 0,
+                    "name": "CF Montréal",
+                    "shortName": "Montreal",
+                    "longName": "CF Montréal"
+                },
+                "away": {
+                    "id": 773958,
+                    "score": 0,
+                    "name": "Atlanta United",
+                    "shortName": "Atlanta United",
+                    "longName": "Atlanta United"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "29",
+                "status": {
+                    "utcTime": "2026-10-14T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "15.10.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792020600000
+            },
+            "tracked_player_ids": [
+                50047
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727163+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "5071412": {
+            "match": {
+                "id": 5071412,
+                "leagueId": 913550,
+                "time": "15.10.2026 01:30",
+                "home": {
+                    "id": 6001,
+                    "score": 0,
+                    "name": "Columbus Crew",
+                    "shortName": "Columbus",
+                    "longName": "Columbus Crew"
+                },
+                "away": {
+                    "id": 1323940,
+                    "score": 0,
+                    "name": "Charlotte FC",
+                    "longName": "Charlotte FC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "29",
+                "status": {
+                    "utcTime": "2026-10-14T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "15.10.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792020600000
+            },
+            "tracked_player_ids": [
+                361770
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727212+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "5071414": {
+            "match": {
+                "id": 5071414,
+                "leagueId": 913550,
+                "time": "15.10.2026 01:30",
+                "home": {
+                    "id": 960720,
+                    "score": 0,
+                    "name": "Inter Miami CF",
+                    "longName": "Inter Miami CF"
+                },
+                "away": {
+                    "id": 546238,
+                    "score": 0,
+                    "name": "New York City FC",
+                    "shortName": "NYCFC",
+                    "longName": "New York City FC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "29",
+                "status": {
+                    "utcTime": "2026-10-14T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "15.10.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792020600000
+            },
+            "tracked_player_ids": [
+                30981,
+                40636
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727260+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "5071416": {
+            "match": {
+                "id": 5071416,
+                "leagueId": 913550,
+                "time": "15.10.2026 01:30",
+                "home": {
+                    "id": 56453,
+                    "score": 0,
+                    "name": "Toronto FC",
+                    "shortName": "Toronto",
+                    "longName": "Toronto FC"
+                },
+                "away": {
+                    "id": 267810,
+                    "score": 0,
+                    "name": "Orlando City",
+                    "shortName": "Orlando",
+                    "longName": "Orlando City"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "29",
+                "status": {
+                    "utcTime": "2026-10-14T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "15.10.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792020600000
+            },
+            "tracked_player_ids": [
+                184138
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727309+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6362340": {
+            "match": {
+                "id": 6362340,
+                "leagueId": 943369,
+                "time": "14.10.2026 12:00",
+                "home": {
+                    "id": 162193,
+                    "score": 0,
+                    "name": "Sagan Tosu",
+                    "longName": "Sagan Tosu"
+                },
+                "away": {
+                    "id": 8270,
+                    "score": 0,
+                    "name": "Avispa Fukuoka",
+                    "longName": "Avispa Fukuoka"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-14T10:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 12:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791972000000
+            },
+            "tracked_player_ids": [
+                212470
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727357+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
+            "final_complete": false
+        },
+        "6054592": {
+            "match": {
+                "id": 6054592,
+                "leagueId": 9469,
+                "time": "14.10.2026 18:00",
+                "home": {
+                    "id": 102101,
+                    "score": 0,
+                    "name": "Al-Jazira",
+                    "longName": "Al-Jazira"
+                },
+                "away": {
+                    "id": 1689659,
+                    "score": 0,
+                    "name": "Arkadag",
+                    "longName": "Arkadag"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "Group Stage - Round 2",
+                "status": {
+                    "utcTime": "2026-10-14T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "14.10.2026 18:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1791993600000
+            },
+            "tracked_player_ids": [
+                535603
+            ],
+            "discovered_at": "2026-10-14T00:00:37.727405+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-14T00:00:37.727465+03:30",
             "final_complete": false
         }
     }
