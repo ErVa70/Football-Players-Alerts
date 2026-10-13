@@ -1357,12 +1357,13 @@
                     "longName": "Manchester United"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-13T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.10.2026 21:02:22"
+                        "firstHalfStarted": "13.10.2026 21:02:22",
+                        "secondHalfStarted": "13.10.2026 22:05:09"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1371,12 +1372,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:11",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1387,7 +1388,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:34:21.794598+03:30",
+            "next_check_at": "2026-10-13T23:35:21.857254+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1438,7 +1439,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:34:21.794598+03:30",
+            "next_check_at": "2026-10-13T23:35:21.857254+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1491,7 +1492,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:34:21.794598+03:30",
+            "next_check_at": "2026-10-13T23:35:21.857254+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1527,9 +1528,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:25",
+                        "long": "47:24",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1543,7 +1544,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:34:21.794598+03:30",
+            "next_check_at": "2026-10-13T23:35:21.857254+03:30",
             "final_complete": false
         }
     }
