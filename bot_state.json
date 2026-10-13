@@ -1275,55 +1275,6 @@
         ]
     },
     "monitored_matches": {
-        "5885587": {
-            "match": {
-                "id": 5885587,
-                "leagueId": 938796,
-                "time": "11.10.2026 17:00",
-                "home": {
-                    "id": 189689,
-                    "score": 1,
-                    "name": "Real Ávila",
-                    "longName": "Real Ávila"
-                },
-                "away": {
-                    "id": 8388,
-                    "score": 1,
-                    "name": "Numancia",
-                    "longName": "Numancia"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-10-11T15:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "11.10.2026 17:04:55",
-                        "secondHalfStarted": "11.10.2026 18:09:13"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "1 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1791730800000
-            },
-            "tracked_player_ids": [
-                603463
-            ],
-            "discovered_at": "2026-10-11T00:00:37.254542+03:30",
-            "finished_seen_at": "2026-10-11T20:33:17.065885+03:30",
-            "next_check_at": "2026-10-13T18:56:26.639808+03:30",
-            "final_complete": false
-        },
         "5103654": {
             "match": {
                 "id": 5103654,
@@ -1401,7 +1352,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372689+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T18:29:17.412948+03:30",
+            "next_check_at": "2026-10-13T18:30:48.274989+03:30",
             "final_complete": false
         },
         "6106267": {
@@ -1442,7 +1393,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T18:29:17.412948+03:30",
+            "next_check_at": "2026-10-13T18:30:48.274989+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1482,7 +1433,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T18:29:17.412948+03:30",
+            "next_check_at": "2026-10-13T18:30:48.274989+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1524,7 +1475,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T18:29:17.412948+03:30",
+            "next_check_at": "2026-10-13T18:30:48.274989+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1564,7 +1515,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T18:29:17.412948+03:30",
+            "next_check_at": "2026-10-13T18:30:48.274989+03:30",
             "final_complete": false
         }
     }
