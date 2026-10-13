@@ -1140,7 +1140,8 @@
         "5103658": [
             "789877"
         ],
-        "6106414": []
+        "6106414": [],
+        "6106328": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -1351,7 +1352,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1403,7 +1404,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1457,59 +1458,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
-            "final_complete": false
-        },
-        "6106328": {
-            "match": {
-                "id": 6106328,
-                "leagueId": 943230,
-                "time": "13.10.2026 21:00",
-                "home": {
-                    "id": 10205,
-                    "score": 2,
-                    "name": "Villarreal",
-                    "longName": "Villarreal"
-                },
-                "away": {
-                    "id": 9875,
-                    "score": 1,
-                    "name": "Napoli",
-                    "longName": "Napoli"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-13T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "13.10.2026 21:00:41",
-                        "secondHalfStarted": "13.10.2026 22:02:56"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "72‎’‎",
-                        "shortKey": "",
-                        "long": "71:13",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791918000000
-            },
-            "tracked_player_ids": [
-                1311915
-            ],
-            "discovered_at": "2026-10-13T00:00:36.372939+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106309": {
@@ -1549,7 +1498,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106405": {
@@ -1589,7 +1538,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726866+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106284": {
@@ -1629,7 +1578,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726919+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106254": {
@@ -1674,7 +1623,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726968+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106299": {
@@ -1717,7 +1666,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106274": {
@@ -1757,7 +1706,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727066+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6106337": {
@@ -1797,7 +1746,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727115+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "5071415": {
@@ -1839,7 +1788,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727163+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "5071412": {
@@ -1880,7 +1829,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727212+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "5071414": {
@@ -1922,7 +1871,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727260+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "5071416": {
@@ -1964,7 +1913,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727309+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6362340": {
@@ -2004,7 +1953,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727357+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         },
         "6054592": {
@@ -2044,7 +1993,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T00:20:28.232953+03:30",
+            "next_check_at": "2026-10-14T00:21:21.499218+03:30",
             "final_complete": false
         }
     }
