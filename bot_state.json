@@ -375,7 +375,9 @@
         "5103658": [
             "Matheus Fernandes|BENCH"
         ],
-        "6106414": []
+        "6106414": [
+            "Jean-Clair Todibo|BENCH"
+        ]
     },
     "match_events": {
         "5071387": [
@@ -1353,7 +1355,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372689+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T19:13:17.525164+03:30",
+            "next_check_at": "2026-10-13T19:14:23.523641+03:30",
             "final_complete": false
         },
         "6106267": {
@@ -1394,7 +1396,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T19:13:17.525164+03:30",
+            "next_check_at": "2026-10-13T19:14:23.523641+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1434,7 +1436,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T19:13:17.525164+03:30",
+            "next_check_at": "2026-10-13T19:14:23.523641+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1476,7 +1478,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T19:13:17.525164+03:30",
+            "next_check_at": "2026-10-13T19:14:23.523641+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1516,7 +1518,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T19:13:17.525164+03:30",
+            "next_check_at": "2026-10-13T19:14:23.523641+03:30",
             "final_complete": false
         }
     }
