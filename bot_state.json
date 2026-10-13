@@ -1369,9 +1369,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "35‎’‎",
+                        "short": "36‎’‎",
                         "shortKey": "",
-                        "long": "34:54",
+                        "long": "35:54",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1385,7 +1385,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372770+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:07:17.161683+03:30",
+            "next_check_at": "2026-10-13T23:08:17.100439+03:30",
             "final_complete": false
         },
         "6106338": {
@@ -1395,7 +1395,7 @@
                 "time": "13.10.2026 21:00",
                 "home": {
                     "id": 8637,
-                    "score": 2,
+                    "score": 1,
                     "name": "Galatasaray",
                     "longName": "Galatasaray"
                 },
@@ -1418,11 +1418,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "36‎’‎",
+                        "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "35:46",
+                        "long": "36:46",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1436,7 +1436,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372829+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:07:17.161683+03:30",
+            "next_check_at": "2026-10-13T23:08:17.100439+03:30",
             "final_complete": false
         },
         "6106323": {
@@ -1472,9 +1472,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "36‎’‎",
+                        "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "35:28",
+                        "long": "36:28",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1489,7 +1489,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372885+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:07:17.161683+03:30",
+            "next_check_at": "2026-10-13T23:08:17.100439+03:30",
             "final_complete": false
         },
         "6106328": {
@@ -1524,9 +1524,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "37‎’‎",
+                        "short": "38‎’‎",
                         "shortKey": "",
-                        "long": "36:35",
+                        "long": "37:35",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1540,7 +1540,7 @@
             ],
             "discovered_at": "2026-10-13T00:00:36.372939+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-13T23:07:17.161683+03:30",
+            "next_check_at": "2026-10-13T23:08:17.100439+03:30",
             "final_complete": false
         }
     }
