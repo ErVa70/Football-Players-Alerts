@@ -1193,6 +1193,9 @@
         ],
         "6106405": [
             "921253"
+        ],
+        "6106309": [
+            "1225450"
         ]
     },
     "transfer_monitor": {
@@ -1354,58 +1357,6 @@
         ]
     },
     "monitored_matches": {
-        "6106309": {
-            "match": {
-                "id": 6106309,
-                "leagueId": 943230,
-                "time": "14.10.2026 18:45",
-                "home": {
-                    "id": 10235,
-                    "score": 3,
-                    "name": "Feyenoord",
-                    "longName": "Feyenoord"
-                },
-                "away": {
-                    "id": 10171,
-                    "score": 2,
-                    "name": "Como",
-                    "longName": "Como"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-14T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "14.10.2026 18:47:00",
-                        "secondHalfStarted": "14.10.2026 19:52:29"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "3 - 2",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:48",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1791996300000
-            },
-            "tracked_player_ids": [
-                1225450
-            ],
-            "discovered_at": "2026-10-14T00:00:37.726786+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
-            "final_complete": false
-        },
         "6106284": {
             "match": {
                 "id": 6106284,
@@ -1443,7 +1394,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726919+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "6106254": {
@@ -1488,7 +1439,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726968+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "6106299": {
@@ -1531,7 +1482,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "6106274": {
@@ -1571,7 +1522,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727066+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "6106337": {
@@ -1611,7 +1562,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727115+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "5071415": {
@@ -1653,7 +1604,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727163+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "5071412": {
@@ -1694,7 +1645,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727212+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "5071414": {
@@ -1736,7 +1687,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727260+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         },
         "5071416": {
@@ -1778,7 +1729,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727309+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T22:11:17.817697+03:30",
+            "next_check_at": "2026-10-14T22:12:19.003043+03:30",
             "final_complete": false
         }
     }
