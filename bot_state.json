@@ -829,7 +829,9 @@
         ],
         "6362340": [],
         "6054592": [],
-        "6106405": [],
+        "6106405": [
+            "id:14571162"
+        ],
         "6106309": []
     },
     "final_posts": {
@@ -1357,9 +1359,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "21‎’‎",
+                        "short": "22‎’‎",
                         "shortKey": "",
-                        "long": "20:15",
+                        "long": "21:18",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1373,7 +1375,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6106405": {
@@ -1389,7 +1391,7 @@
                 },
                 "away": {
                     "id": 8650,
-                    "score": 0,
+                    "score": 1,
                     "name": "Liverpool",
                     "longName": "Liverpool"
                 },
@@ -1406,11 +1408,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "22‎’‎",
+                        "short": "23‎’‎",
                         "shortKey": "",
-                        "long": "21:32",
+                        "long": "22:35",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1424,7 +1426,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726866+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6106284": {
@@ -1464,7 +1466,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726919+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6106254": {
@@ -1509,7 +1511,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726968+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6106299": {
@@ -1552,7 +1554,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6106274": {
@@ -1592,7 +1594,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727066+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6106337": {
@@ -1632,7 +1634,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727115+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "5071415": {
@@ -1674,7 +1676,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727163+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "5071412": {
@@ -1715,7 +1717,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727212+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "5071414": {
@@ -1757,7 +1759,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727260+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "5071416": {
@@ -1799,7 +1801,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727309+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         },
         "6054592": {
@@ -1835,9 +1837,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:08",
+                        "long": "49:12",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1851,7 +1853,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T20:37:15.919983+03:30",
+            "next_check_at": "2026-10-14T20:38:19.031004+03:30",
             "final_complete": false
         }
     }
