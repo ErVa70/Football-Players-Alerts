@@ -1382,7 +1382,7 @@
                     "longName": "Fenerbahçe"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-14T19:00:00.000Z",
@@ -1396,10 +1396,10 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:18",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1412,7 +1412,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726919+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "6106254": {
@@ -1449,9 +1449,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 3",
                     "liveTime": {
-                        "short": "44‎’‎",
+                        "short": "45‎’‎",
                         "shortKey": "",
-                        "long": "43:50",
+                        "long": "44:49",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1468,7 +1468,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726968+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "6106299": {
@@ -1503,9 +1503,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:16",
+                        "long": "47:15",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1522,7 +1522,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "6106274": {
@@ -1543,7 +1543,7 @@
                     "longName": "Real Madrid"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-14T19:00:00.000Z",
@@ -1557,10 +1557,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:28",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1573,7 +1573,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727066+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "6106337": {
@@ -1594,7 +1594,7 @@
                     "longName": "AEK Athens"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-14T19:00:00.000Z",
@@ -1608,10 +1608,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:25",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1624,7 +1624,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727115+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "5071415": {
@@ -1666,7 +1666,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727163+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "5071412": {
@@ -1707,7 +1707,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727212+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "5071414": {
@@ -1749,7 +1749,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727260+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         },
         "5071416": {
@@ -1791,7 +1791,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727309+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T23:17:18.504099+03:30",
+            "next_check_at": "2026-10-14T23:18:19.575700+03:30",
             "final_complete": false
         }
     }
