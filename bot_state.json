@@ -817,7 +817,8 @@
         "6106267": [
             "id:14569197",
             "Substitution|66|None|1070052,696365|"
-        ]
+        ],
+        "6362340": []
     },
     "final_posts": {
         "5991881": [
@@ -1348,7 +1349,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6106405": {
@@ -1388,7 +1389,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726866+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6106284": {
@@ -1428,7 +1429,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726919+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6106254": {
@@ -1473,7 +1474,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.726968+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6106299": {
@@ -1516,7 +1517,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6106274": {
@@ -1556,7 +1557,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727066+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6106337": {
@@ -1596,7 +1597,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727115+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "5071415": {
@@ -1638,7 +1639,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727163+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "5071412": {
@@ -1679,7 +1680,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727212+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "5071414": {
@@ -1721,7 +1722,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727260+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "5071416": {
@@ -1763,7 +1764,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727309+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6362340": {
@@ -1784,17 +1785,28 @@
                     "longName": "Avispa Fukuoka"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-14T10:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "14.10.2026 12:00:00"
+                        "firstHalfStarted": "14.10.2026 12:03:50"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:30",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1791972000000
             },
@@ -1803,7 +1815,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727357+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         },
         "6054592": {
@@ -1843,7 +1855,7 @@
             ],
             "discovered_at": "2026-10-14T00:00:37.727405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-14T13:33:16.876142+03:30",
+            "next_check_at": "2026-10-14T13:34:20.470944+03:30",
             "final_complete": false
         }
     }
