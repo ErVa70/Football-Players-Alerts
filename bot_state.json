@@ -961,7 +961,9 @@
             "Substitution|76|None|1337911,1789791|"
         ],
         "6112247": [],
-        "6112291": [],
+        "6112291": [
+            "Substitution|62|None|1367049,1526557|"
+        ],
         "6112309": [],
         "6112402": [
             "Substitution|61|None|1159237,889785|",
@@ -1554,9 +1556,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "67‎’‎",
+                        "short": "68‎’‎",
                         "shortKey": "",
-                        "long": "66:12",
+                        "long": "67:07",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1571,7 +1573,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:53:16.948935+03:30",
+            "next_check_at": "2026-10-15T23:54:18.457946+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1607,9 +1609,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "65‎’‎",
+                        "short": "66‎’‎",
                         "shortKey": "",
-                        "long": "64:55",
+                        "long": "65:50",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1626,7 +1628,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:53:16.948935+03:30",
+            "next_check_at": "2026-10-15T23:54:18.457946+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1662,9 +1664,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:19",
+                        "long": "64:14",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1680,7 +1682,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:53:16.948935+03:30",
+            "next_check_at": "2026-10-15T23:54:18.457946+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1716,9 +1718,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "62‎’‎",
+                        "short": "63‎’‎",
                         "shortKey": "",
-                        "long": "61:23",
+                        "long": "62:18",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1733,7 +1735,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:53:16.948935+03:30",
+            "next_check_at": "2026-10-15T23:54:18.457946+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1769,9 +1771,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:14",
+                        "long": "64:09",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1786,7 +1788,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:53:16.948935+03:30",
+            "next_check_at": "2026-10-15T23:54:18.457946+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1802,7 +1804,7 @@
                 },
                 "away": {
                     "id": 10264,
-                    "score": 1,
+                    "score": 0,
                     "name": "Braga",
                     "longName": "Braga"
                 },
@@ -1820,11 +1822,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 1",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "66‎’‎",
+                        "short": "67‎’‎",
                         "shortKey": "",
-                        "long": "65:28",
+                        "long": "66:23",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1840,7 +1842,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:53:16.948935+03:30",
+            "next_check_at": "2026-10-15T23:54:18.457946+03:30",
             "final_complete": false
         }
     }
