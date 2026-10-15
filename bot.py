@@ -176,11 +176,15 @@ def collect_matches(leagues):
     matches = []
 
     for league in leagues:
-        for match in league.get(
-            "matches",
-            []
-        ):
-            matches.append(match)
+        competition_name = (
+            league.get("name")
+            or league.get("parentLeagueName")
+        )
+
+        for match in league.get("matches", []):
+            match_with_competition = dict(match)
+            match_with_competition["_competition_name"] = competition_name
+            matches.append(match_with_competition)
 
     return matches
 
@@ -501,19 +505,23 @@ def get_tracked_players_for_match(
 # ============================================================
 
 def get_match_competition_name(match):
-    """Return the competition label from whichever FotMob field is available."""
+    """Return the competition name preserved from FotMob's league grouping."""
 
     league = match.get("league") or {}
 
     if isinstance(league, str):
         league_name = league
     elif isinstance(league, dict):
-        league_name = league.get("name")
+        league_name = (
+            league.get("name")
+            or league.get("parentLeagueName")
+        )
     else:
         league_name = None
 
     return (
-        match.get("tournamentName")
+        match.get("_competition_name")
+        or match.get("tournamentName")
         or match.get("leagueName")
         or league_name
         or match.get("competition")
@@ -877,26 +885,42 @@ def process_daily_schedule(
         state["daily_posts"].append(window_key)
         return
 
-    message_parts = ["⚽️ <b>DAILY MATCHES</b> ⚽️"]
+    message_parts = [
+        "⚽️ <b>DAILY MATCHES</b> ⚽️"
+    ]
 
     for date_index, match_date in enumerate(sorted(grouped)):
-        if date_index > 0:
-            message_parts.append("--------------------------------------------")
-
-        message_parts.append(
-            f"📆 <b>{match_date.strftime('%B')} "
-            f"{match_date.day}</b>"
-        )
-
         day_matches = sorted(
             grouped[match_date],
             key=lambda item: item[0],
         )
-        message_parts.extend(
-            block for _, block in day_matches
+
+        date_header = (
+            f"📆 <b>{match_date.strftime('%B')} "
+            f"{match_date.day}</b>"
         )
 
-    message = "\n\n".join(message_parts)
+        match_blocks = [
+            block for _, block in day_matches
+        ]
+
+        if date_index == 0:
+            # Title directly above the first date.
+            message_parts.append(date_header)
+            message_parts.append(
+                "\n\n".join(match_blocks)
+            )
+        else:
+            # Separator directly follows the previous day's last player.
+            message_parts.append(
+                "--------------------------------------------"
+            )
+            message_parts.append(date_header)
+            message_parts.append(
+                "\n\n".join(match_blocks)
+            )
+
+    message = "\n".join(message_parts)
 
     # HTML parse mode is used only for this post so the kickoff time can be italic.
     send_telegram(
