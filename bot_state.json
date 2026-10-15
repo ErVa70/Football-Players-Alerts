@@ -1505,9 +1505,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "46‎’‎",
+                        "short": "47‎’‎",
                         "shortKey": "",
-                        "long": "45:58",
+                        "long": "46:54",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1523,7 +1523,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969548+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112286": {
@@ -1544,7 +1544,7 @@
                     "longName": "Real Sociedad"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-15T16:45:00.000Z",
@@ -1558,10 +1558,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "46‎’‎",
-                        "shortKey": "",
-                        "long": "45:49",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1575,7 +1575,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969618+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112247": {
@@ -1616,7 +1616,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1659,7 +1659,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1701,7 +1701,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1742,7 +1742,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112541": {
@@ -1763,7 +1763,7 @@
                     "longName": "Monaco"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-15T16:45:00.000Z",
@@ -1777,10 +1777,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:24",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1794,7 +1794,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969845+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112523": {
@@ -1815,7 +1815,7 @@
                     "longName": "Ajax"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-15T16:45:00.000Z",
@@ -1829,10 +1829,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:00",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -1847,7 +1847,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112415": {
@@ -1882,9 +1882,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:36",
+                        "long": "47:32",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1899,7 +1899,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969938+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1940,7 +1940,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1982,7 +1982,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T21:02:21.842239+03:30",
+            "next_check_at": "2026-10-15T21:03:17.091862+03:30",
             "final_complete": false
         }
     }
