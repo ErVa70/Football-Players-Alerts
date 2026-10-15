@@ -1347,6 +1347,10 @@
         ],
         "6112415": [
             "990996"
+        ],
+        "6112523": [
+            "184554",
+            "1789791"
         ]
     },
     "transfer_monitor": {
@@ -1546,7 +1550,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
+            "next_check_at": "2026-10-15T22:24:18.504004+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1589,7 +1593,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
+            "next_check_at": "2026-10-15T22:24:18.504004+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1631,7 +1635,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
+            "next_check_at": "2026-10-15T22:24:18.504004+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1672,61 +1676,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
-            "final_complete": false
-        },
-        "6112523": {
-            "match": {
-                "id": 6112523,
-                "leagueId": 943231,
-                "time": "15.10.2026 18:45",
-                "home": {
-                    "id": 10154,
-                    "score": 2,
-                    "name": "Hajduk Split",
-                    "longName": "Hajduk Split"
-                },
-                "away": {
-                    "id": 8593,
-                    "score": 1,
-                    "name": "Ajax",
-                    "longName": "Ajax"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-15T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:46:21",
-                        "secondHalfStarted": "15.10.2026 19:50:05"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "109‎’‎",
-                        "shortKey": "",
-                        "long": "108:10",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792082700000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                184554,
-                1789791
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969890+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
+            "next_check_at": "2026-10-15T22:24:18.504004+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1767,7 +1717,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
+            "next_check_at": "2026-10-15T22:24:18.504004+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1809,7 +1759,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:23:15.891214+03:30",
+            "next_check_at": "2026-10-15T22:24:18.504004+03:30",
             "final_complete": false
         }
     }
