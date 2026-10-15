@@ -959,7 +959,11 @@
         "6112286": [],
         "6112523": [
             "Substitution|76|None|1337911,1789791|"
-        ]
+        ],
+        "6112247": [],
+        "6112291": [],
+        "6112309": [],
+        "6112402": []
     },
     "final_posts": {
         "5991881": [
@@ -1550,7 +1554,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:30:50.713642+03:30",
+            "next_check_at": "2026-10-15T22:31:17.419244+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1593,7 +1597,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:30:50.713642+03:30",
+            "next_check_at": "2026-10-15T22:31:17.419244+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1614,17 +1618,28 @@
                     "longName": "Anderlecht"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-15T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.10.2026 21:00:00"
+                        "firstHalfStarted": "15.10.2026 21:00:51"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:15",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792090800000,
                 "_competition_name": "Europa League"
@@ -1635,7 +1650,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:30:50.713642+03:30",
+            "next_check_at": "2026-10-15T22:31:17.419244+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1676,7 +1691,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:30:50.713642+03:30",
+            "next_check_at": "2026-10-15T22:31:17.419244+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1717,7 +1732,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:30:50.713642+03:30",
+            "next_check_at": "2026-10-15T22:31:17.419244+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1759,7 +1774,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:30:50.713642+03:30",
+            "next_check_at": "2026-10-15T22:31:17.419244+03:30",
             "final_complete": false
         }
     }
