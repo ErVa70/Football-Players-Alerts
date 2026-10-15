@@ -16,7 +16,8 @@
         "2026-10-11T10:00:00+03:30",
         "2026-10-12T10:00:00+03:30",
         "2026-10-13T10:00:00+03:30",
-        "2026-10-14T10:00:00+03:30"
+        "2026-10-14T10:00:00+03:30",
+        "2026-10-15T10:00:00+03:30"
     ],
     "lineup_notifications": {
         "5071387": [
@@ -1495,7 +1496,8 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792082700000
+                "timeTS": 1792082700000,
+                "_competition_name": "Europa League"
             },
             "tracked_player_ids": [
                 952095,
@@ -1503,7 +1505,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969548+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112286": {
@@ -1536,14 +1538,15 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792082700000
+                "timeTS": 1792082700000,
+                "_competition_name": "Europa League"
             },
             "tracked_player_ids": [
                 1490110
             ],
             "discovered_at": "2026-10-15T00:00:38.969618+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112247": {
@@ -1576,14 +1579,15 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792090800000
+                "timeTS": 1792090800000,
+                "_competition_name": "Europa League"
             },
             "tracked_player_ids": [
                 488412
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1616,7 +1620,8 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792090800000
+                "timeTS": 1792090800000,
+                "_competition_name": "Europa League"
             },
             "tracked_player_ids": [
                 196169,
@@ -1625,7 +1630,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1658,7 +1663,8 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792090800000
+                "timeTS": 1792090800000,
+                "_competition_name": "Europa League"
             },
             "tracked_player_ids": [
                 1367049,
@@ -1666,7 +1672,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1699,14 +1705,15 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792090800000
+                "timeTS": 1792090800000,
+                "_competition_name": "Europa League"
             },
             "tracked_player_ids": [
                 675600
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112541": {
@@ -1739,14 +1746,15 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792082700000
+                "timeTS": 1792082700000,
+                "_competition_name": "Conference League"
             },
             "tracked_player_ids": [
                 1086012
             ],
             "discovered_at": "2026-10-15T00:00:38.969845+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112523": {
@@ -1779,7 +1787,8 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792082700000
+                "timeTS": 1792082700000,
+                "_competition_name": "Conference League"
             },
             "tracked_player_ids": [
                 184554,
@@ -1787,7 +1796,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112415": {
@@ -1820,14 +1829,15 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792082700000
+                "timeTS": 1792082700000,
+                "_competition_name": "Conference League"
             },
             "tracked_player_ids": [
                 990996
             ],
             "discovered_at": "2026-10-15T00:00:38.969938+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1860,14 +1870,15 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792090800000
+                "timeTS": 1792090800000,
+                "_competition_name": "Conference League"
             },
             "tracked_player_ids": [
                 579747
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1900,7 +1911,8 @@
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792090800000
+                "timeTS": 1792090800000,
+                "_competition_name": "Conference League"
             },
             "tracked_player_ids": [
                 1159237,
@@ -1908,7 +1920,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T19:44:23.202348+03:30",
+            "next_check_at": "2026-10-15T19:46:20.911583+03:30",
             "final_complete": false
         }
     }
