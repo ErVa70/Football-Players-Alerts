@@ -1575,7 +1575,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:59:16.549083+03:30",
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1630,7 +1630,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:59:16.549083+03:30",
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1684,7 +1684,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:59:16.549083+03:30",
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1737,7 +1737,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:59:16.549083+03:30",
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1790,7 +1790,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:59:16.549083+03:30",
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1844,7 +1844,174 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:59:16.549083+03:30",
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
+            "final_complete": false
+        },
+        "5868093": {
+            "match": {
+                "id": 5868093,
+                "leagueId": 87,
+                "time": "16.10.2026 21:00",
+                "home": {
+                    "id": 9783,
+                    "score": 0,
+                    "name": "Deportivo A Coruña",
+                    "longName": "Deportivo A Coruña"
+                },
+                "away": {
+                    "id": 8581,
+                    "score": 0,
+                    "name": "Levante",
+                    "longName": "Levante"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "9",
+                "status": {
+                    "utcTime": "2026-10-16T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "16.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792177200000,
+                "_competition_name": "LaLiga"
+            },
+            "tracked_player_ids": [
+                1384883,
+                150565,
+                493647
+            ],
+            "discovered_at": "2026-10-16T00:00:39.114728+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
+            "final_complete": false
+        },
+        "5846002": {
+            "match": {
+                "id": 5846002,
+                "leagueId": 938366,
+                "time": "16.10.2026 19:30",
+                "home": {
+                    "id": 10015,
+                    "score": 0,
+                    "name": "Rapid Wien",
+                    "longName": "Rapid Wien"
+                },
+                "away": {
+                    "id": 10056,
+                    "score": 0,
+                    "name": "Hartberg",
+                    "longName": "Hartberg"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "9",
+                "status": {
+                    "utcTime": "2026-10-16T17:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "16.10.2026 19:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792171800000,
+                "_competition_name": "Bundesliga"
+            },
+            "tracked_player_ids": [
+                1114554
+            ],
+            "discovered_at": "2026-10-16T00:00:39.114804+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
+            "final_complete": false
+        },
+        "1000020613": {
+            "match": {
+                "id": 1000020613,
+                "leagueId": 1000001642,
+                "time": "16.10.2026 02:30",
+                "home": {
+                    "id": 10094,
+                    "score": 0,
+                    "name": "Estudiantes",
+                    "longName": "Estudiantes"
+                },
+                "away": {
+                    "id": 9770,
+                    "score": 0,
+                    "name": "Flamengo",
+                    "longName": "Flamengo"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "Semi-finals",
+                "status": {
+                    "utcTime": "2026-10-16T00:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "16.10.2026 02:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792110600000,
+                "_competition_name": "Copa Libertadores - Semi-finals"
+            },
+            "tracked_player_ids": [
+                797908
+            ],
+            "discovered_at": "2026-10-16T00:00:39.114892+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
+            "final_complete": false
+        },
+        "5952279": {
+            "match": {
+                "id": 5952279,
+                "leagueId": 1000001746,
+                "time": "16.10.2026 18:45",
+                "home": {
+                    "id": 568590,
+                    "score": 0,
+                    "name": "Al-Shahaniya",
+                    "longName": "Al-Shahaniya"
+                },
+                "away": {
+                    "id": 101899,
+                    "score": 0,
+                    "name": "Al-Arabi",
+                    "longName": "Al-Arabi"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "6",
+                "status": {
+                    "utcTime": "2026-10-16T16:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "16.10.2026 18:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792169100000,
+                "_competition_name": "Qatar Stars League"
+            },
+            "tracked_player_ids": [
+                173382,
+                1225420
+            ],
+            "discovered_at": "2026-10-16T00:00:39.114942+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-16T00:00:39.114992+03:30",
             "final_complete": false
         }
     }
