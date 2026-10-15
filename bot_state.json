@@ -1551,9 +1551,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:12",
+                        "long": "47:19",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1568,7 +1568,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:33:16.181304+03:30",
+            "next_check_at": "2026-10-15T23:34:23.525065+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1589,12 +1589,13 @@
                     "longName": "Juventus"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-15T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.10.2026 21:01:52"
+                        "firstHalfStarted": "15.10.2026 21:01:52",
+                        "secondHalfStarted": "15.10.2026 22:03:21"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1603,12 +1604,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "47‎’‎",
+                        "shortKey": "",
+                        "long": "46:02",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1622,7 +1623,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:33:16.181304+03:30",
+            "next_check_at": "2026-10-15T23:34:23.525065+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1675,7 +1676,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:33:16.181304+03:30",
+            "next_check_at": "2026-10-15T23:34:23.525065+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1727,7 +1728,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:33:16.181304+03:30",
+            "next_check_at": "2026-10-15T23:34:23.525065+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1779,7 +1780,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:33:16.181304+03:30",
+            "next_check_at": "2026-10-15T23:34:23.525065+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1815,9 +1816,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "46‎’‎",
+                        "short": "47‎’‎",
                         "shortKey": "",
-                        "long": "45:28",
+                        "long": "46:35",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1833,7 +1834,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:33:16.181304+03:30",
+            "next_check_at": "2026-10-15T23:34:23.525065+03:30",
             "final_complete": false
         }
     }
