@@ -927,7 +927,9 @@
         "5071420": [
             "id:14573560",
             "Substitution|72|None|1609838,212472|"
-        ]
+        ],
+        "6112541": [],
+        "6112415": []
     },
     "final_posts": {
         "5991881": [
@@ -1505,7 +1507,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969548+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112286": {
@@ -1546,7 +1548,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969618+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112247": {
@@ -1587,7 +1589,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1630,7 +1632,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1672,7 +1674,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1713,7 +1715,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112541": {
@@ -1734,17 +1736,28 @@
                     "longName": "Monaco"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-15T16:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:45:00"
+                        "firstHalfStarted": "15.10.2026 18:45:57"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:23",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792082700000,
                 "_competition_name": "Conference League"
@@ -1754,7 +1767,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969845+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112523": {
@@ -1796,7 +1809,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112415": {
@@ -1817,17 +1830,28 @@
                     "longName": "Borac Banja Luka"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-10-15T16:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:45:00"
+                        "firstHalfStarted": "15.10.2026 18:45:45"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:35",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792082700000,
                 "_competition_name": "Conference League"
@@ -1837,7 +1861,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969938+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1878,7 +1902,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1920,7 +1944,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T20:15:29.958809+03:30",
+            "next_check_at": "2026-10-15T20:16:20.766400+03:30",
             "final_complete": false
         }
     }
