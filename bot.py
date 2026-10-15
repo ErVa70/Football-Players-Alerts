@@ -905,10 +905,10 @@ def process_daily_schedule(
         ]
 
         if date_index == 0:
-            # Title directly above the first date.
+            # Title directly above the first date; blank line before matches.
             message_parts.append(date_header)
             message_parts.append(
-                "\n\n".join(match_blocks)
+                "\n" + "\n\n".join(match_blocks)
             )
         else:
             # Separator directly follows the previous day's last player.
@@ -917,7 +917,7 @@ def process_daily_schedule(
             )
             message_parts.append(date_header)
             message_parts.append(
-                "\n\n".join(match_blocks)
+                "\n" + "\n\n".join(match_blocks)
             )
 
     message = "\n".join(message_parts)
