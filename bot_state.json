@@ -1370,6 +1370,14 @@
         ],
         "6112247": [
             "488412"
+        ],
+        "6112346": [
+            "196169",
+            "1102732",
+            "1109046"
+        ],
+        "6112309": [
+            "675600"
         ]
     },
     "transfer_monitor": {
@@ -1531,61 +1539,6 @@
         ]
     },
     "monitored_matches": {
-        "6112346": {
-            "match": {
-                "id": 6112346,
-                "leagueId": 943229,
-                "time": "15.10.2026 21:00",
-                "home": {
-                    "id": 9910,
-                    "score": 1,
-                    "name": "Celta Vigo",
-                    "longName": "Celta Vigo"
-                },
-                "away": {
-                    "id": 9885,
-                    "score": 1,
-                    "name": "Juventus",
-                    "longName": "Juventus"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-15T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 21:01:52",
-                        "secondHalfStarted": "15.10.2026 22:03:21"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "71‎’‎",
-                        "shortKey": "",
-                        "long": "70:55",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792090800000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                196169,
-                1102732,
-                1109046
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969712+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
-            "final_complete": false
-        },
         "6112291": {
             "match": {
                 "id": 6112291,
@@ -1637,60 +1590,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
-            "final_complete": false
-        },
-        "6112309": {
-            "match": {
-                "id": 6112309,
-                "leagueId": 943229,
-                "time": "15.10.2026 21:00",
-                "home": {
-                    "id": 9851,
-                    "score": 0,
-                    "name": "Rennes",
-                    "longName": "Rennes"
-                },
-                "away": {
-                    "id": 7753,
-                    "score": 1,
-                    "name": "OFI Crete",
-                    "longName": "OFI Crete"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-15T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 21:01:04",
-                        "secondHalfStarted": "15.10.2026 22:06:53"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "68‎’‎",
-                        "shortKey": "",
-                        "long": "67:23",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792090800000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                675600
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969801+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1743,7 +1643,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1797,7 +1697,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         },
         "5868093": {
@@ -1840,7 +1740,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         },
         "5846002": {
@@ -1881,7 +1781,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114804+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         },
         "1000020613": {
@@ -1922,7 +1822,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114892+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         },
         "5952279": {
@@ -1964,7 +1864,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114942+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T00:22:19.546906+03:30",
+            "next_check_at": "2026-10-16T00:23:16.838390+03:30",
             "final_complete": false
         }
     }
