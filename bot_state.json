@@ -1338,7 +1338,16 @@
         "5071420": [
             "212472"
         ],
-        "6112286": []
+        "6112286": [],
+        "6112260": [
+            "952095"
+        ],
+        "6112541": [
+            "1086012"
+        ],
+        "6112415": [
+            "990996"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -1499,60 +1508,6 @@
         ]
     },
     "monitored_matches": {
-        "6112260": {
-            "match": {
-                "id": 6112260,
-                "leagueId": 943229,
-                "time": "15.10.2026 18:45",
-                "home": {
-                    "id": 9748,
-                    "score": 3,
-                    "name": "Lyon",
-                    "longName": "Lyon"
-                },
-                "away": {
-                    "id": 9826,
-                    "score": 2,
-                    "name": "Crystal Palace",
-                    "longName": "Crystal Palace"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-15T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:46:23",
-                        "secondHalfStarted": "15.10.2026 19:50:57"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "3 - 2",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:20",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792082700000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                952095,
-                1187506
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969548+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
-            "final_complete": false
-        },
         "6112247": {
             "match": {
                 "id": 6112247,
@@ -1591,7 +1546,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1634,7 +1589,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1676,7 +1631,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1717,60 +1672,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
-            "final_complete": false
-        },
-        "6112541": {
-            "match": {
-                "id": 6112541,
-                "leagueId": 943231,
-                "time": "15.10.2026 18:45",
-                "home": {
-                    "id": 10144,
-                    "score": 1,
-                    "name": "CSKA Sofia",
-                    "longName": "CSKA Sofia"
-                },
-                "away": {
-                    "id": 9829,
-                    "score": 2,
-                    "name": "Monaco",
-                    "longName": "Monaco"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-15T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:45:57",
-                        "secondHalfStarted": "15.10.2026 19:49:25"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:52",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792082700000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                1086012
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969845+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         },
         "6112523": {
@@ -1806,9 +1708,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "95‎’‎",
+                        "short": "96‎’‎",
                         "shortKey": "",
-                        "long": "94:12",
+                        "long": "95:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1824,60 +1726,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
-            "final_complete": false
-        },
-        "6112415": {
-            "match": {
-                "id": 6112415,
-                "leagueId": 943231,
-                "time": "15.10.2026 18:45",
-                "home": {
-                    "id": 10200,
-                    "score": 2,
-                    "name": "Panathinaikos",
-                    "longName": "Panathinaikos"
-                },
-                "away": {
-                    "id": 10116,
-                    "score": 1,
-                    "name": "Borac Banja Luka",
-                    "longName": "Borac Banja Luka"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-10-15T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:45:45",
-                        "secondHalfStarted": "15.10.2026 19:50:52"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:25",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792082700000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                990996
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969938+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1918,7 +1767,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1960,7 +1809,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:09:17.212028+03:30",
+            "next_check_at": "2026-10-15T22:10:33.926972+03:30",
             "final_complete": false
         }
     }
