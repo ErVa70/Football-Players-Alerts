@@ -1,3 +1,4 @@
+import html
 import json
 import os
 import unicodedata
@@ -74,18 +75,23 @@ def fotmob_get(endpoint, params=None):
 # TELEGRAM
 # ============================================================
 
-def send_telegram(message):
+def send_telegram(message, parse_mode=None):
     url = (
         f"https://api.telegram.org/bot"
         f"{TELEGRAM_BOT_TOKEN}/sendMessage"
     )
 
+    payload = {
+        "chat_id": TELEGRAM_CHANNEL,
+        "text": message,
+    }
+
+    if parse_mode:
+        payload["parse_mode"] = parse_mode
+
     response = requests.post(
         url,
-        json={
-            "chat_id": TELEGRAM_CHANNEL,
-            "text": message,
-        },
+        json=payload,
         timeout=30,
     )
 
@@ -494,6 +500,298 @@ def get_tracked_players_for_match(
 # DAILY MATCHES POST
 # ============================================================
 
+def get_match_competition_name(match):
+    """Return the competition label from whichever FotMob field is available."""
+
+    league = match.get("league") or {}
+
+    if isinstance(league, str):
+        league_name = league
+    elif isinstance(league, dict):
+        league_name = league.get("name")
+    else:
+        league_name = None
+
+    return (
+        match.get("tournamentName")
+        or match.get("leagueName")
+        or league_name
+        or match.get("competition")
+        or "Competition TBA"
+    )
+
+
+def get_match_team(match, side):
+    team = match.get(side) or {}
+    return team if isinstance(team, dict) else {}
+
+
+def get_team_country_flag(team, player_lookup):
+    """Return a national flag when the team is identifiable as a national side."""
+
+    team_id = team.get("id")
+    team_name = str(team.get("name") or "").strip()
+    ccode = str(
+        team.get("ccode")
+        or team.get("countryCode")
+        or ""
+    ).strip().upper()
+
+    # National-team IDs saved with followed players are the strongest signal.
+    if team_id is not None:
+        try:
+            team_id = int(team_id)
+        except (TypeError, ValueError):
+            team_id = None
+
+    is_known_national_team = False
+    for player in player_lookup.values():
+        national_id = (
+            player.get("national_team_id")
+            or player.get("nationalTeamId")
+        )
+        try:
+            if team_id is not None and national_id is not None:
+                if int(national_id) == team_id:
+                    is_known_national_team = True
+                    break
+        except (TypeError, ValueError):
+            continue
+
+    # Common three-letter codes used by FotMob, plus UK home nations.
+    iso3_to_iso2 = {
+        "USA": "US", "ENG": "GB-ENG", "SCO": "GB-SCT",
+        "WAL": "GB-WLS", "NIR": "GB-NIR", "ESP": "ES",
+        "FRA": "FR", "POR": "PT", "URU": "UY", "ARG": "AR",
+        "BRA": "BR", "GER": "DE", "ITA": "IT", "NED": "NL",
+        "NLD": "NL", "BEL": "BE", "CRO": "HR", "SRB": "RS",
+        "DEN": "DK", "SWE": "SE", "NOR": "NO", "POL": "PL",
+        "MEX": "MX", "CAN": "CA", "JPN": "JP", "KOR": "KR",
+        "AUS": "AU", "MAR": "MA", "EGY": "EG", "SUI": "CH",
+        "AUT": "AT", "TUR": "TR", "UKR": "UA", "IRN": "IR",
+        "CHI": "CL", "CHL": "CL", "COL": "CO", "ECU": "EC",
+        "PAR": "PY", "PER": "PE", "CRC": "CR", "GHA": "GH",
+        "NGA": "NG", "CIV": "CI", "CMR": "CM", "RSA": "ZA",
+        "RSA": "ZA", "QAT": "QA", "KSA": "SA", "UAE": "AE",
+        "ISL": "IS", "ROU": "RO", "CZE": "CZ", "SVK": "SK",
+        "HUN": "HU", "GRE": "GR", "GRC": "GR", "IRL": "IE",
+        "FIN": "FI", "JAM": "JM", "PAN": "PA", "VEN": "VE",
+        "BOL": "BO", "HON": "HN", "UZB": "UZ", "CHN": "CN",
+        "THA": "TH", "IDN": "ID", "SEN": "SN", "MLI": "ML",
+        "TUN": "TN", "ALG": "DZ", "DZA": "DZ",
+    }
+
+    name_to_code = {
+        "united states": "US", "usa": "US", "england": "GB-ENG",
+        "scotland": "GB-SCT", "wales": "GB-WLS",
+        "northern ireland": "GB-NIR", "spain": "ES", "france": "FR",
+        "portugal": "PT", "uruguay": "UY", "argentina": "AR",
+        "brazil": "BR", "germany": "DE", "italy": "IT",
+        "netherlands": "NL", "belgium": "BE", "croatia": "HR",
+        "serbia": "RS", "denmark": "DK", "sweden": "SE",
+        "norway": "NO", "poland": "PL", "mexico": "MX",
+        "canada": "CA", "japan": "JP", "south korea": "KR",
+        "australia": "AU", "morocco": "MA", "egypt": "EG",
+        "switzerland": "CH", "austria": "AT", "turkey": "TR",
+        "ukraine": "UA", "iran": "IR", "chile": "CL",
+        "colombia": "CO", "ecuador": "EC", "paraguay": "PY",
+        "peru": "PE", "ireland": "IE", "ghana": "GH",
+        "nigeria": "NG", "south africa": "ZA", "saudi arabia": "SA",
+        "qatar": "QA", "china": "CN", "jamaica": "JM",
+    }
+
+    normalized_team_name = team_name.casefold()
+    named_country_code = name_to_code.get(normalized_team_name, "")
+
+    # Do not interpret a club's league/country code (for example ENG)
+    # as a national-team flag. Use the code only if the team itself is
+    # known to be a national side or its name is a country name.
+    if is_known_national_team or named_country_code:
+        country_code = iso3_to_iso2.get(ccode, ccode) if ccode else ""
+        if not country_code:
+            country_code = named_country_code
+    else:
+        country_code = ""
+
+    # A two-letter ISO country code can be converted to a flag emoji.
+    if len(country_code) == 2 and country_code.isalpha():
+        return "".join(
+            chr(127397 + ord(letter))
+            for letter in country_code
+        )
+
+    # UK home-nation flags need subdivision tag sequences.
+    subdivision_flags = {
+        "GB-ENG": "🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f",
+        "GB-SCT": "🏴\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f",
+        "GB-WLS": "🏴\U000e0067\U000e0062\U000e0077\U000e006c\U000e0073\U000e007f",
+        "GB-NIR": "🇬🇧",
+    }
+    if country_code in subdivision_flags:
+        return subdivision_flags[country_code]
+
+    if is_known_national_team:
+        # If the side is known to be national but the code is missing,
+        # avoid falsely assigning a club-colour emoji.
+        return "🏳️"
+
+    return None
+
+
+def hex_color_to_circle(color):
+    """Map FotMob's hex team colour to the closest supported circle emoji."""
+
+    if not isinstance(color, str):
+        return "⚫️"
+
+    color = color.strip().lstrip("#")
+    if len(color) != 6:
+        return "⚫️"
+
+    try:
+        red, green, blue = (
+            int(color[0:2], 16),
+            int(color[2:4], 16),
+            int(color[4:6], 16),
+        )
+    except ValueError:
+        return "⚫️"
+
+    # White is deliberately omitted: ⚪️ is hard to see on a white background.
+    palette = {
+        "🔴": (220, 35, 45),
+        "🔵": (35, 90, 210),
+        "🟡": (245, 205, 35),
+        "🟣": (145, 65, 185),
+        "🟢": (35, 155, 70),
+        "🟠": (240, 125, 25),
+        "⚫️": (35, 35, 35),
+    }
+
+    def distance(rgb):
+        return sum(
+            (component - target) ** 2
+            for component, target in zip(
+                (red, green, blue),
+                rgb,
+            )
+        )
+
+    return min(
+        palette,
+        key=lambda emoji: distance(palette[emoji]),
+    )
+
+
+def get_match_circle_emojis(match):
+    """Read the match's official FotMob team colours, with safe fallbacks."""
+
+    home_emoji = "🔴"
+    away_emoji = "🔵"
+
+    try:
+        details = get_match_details(match.get("id"))
+        general = details.get("general") or {}
+        colors = general.get("teamColors") or {}
+        dark = colors.get("darkMode") or {}
+        light = colors.get("lightMode") or {}
+
+        home_color = dark.get("home")
+        away_color = dark.get("away")
+
+        if not home_color or str(home_color).lower() == "#ffffff":
+            home_color = light.get("home") or home_color
+        if not away_color or str(away_color).lower() == "#ffffff":
+            away_color = light.get("away") or away_color
+
+        if home_color:
+            home_emoji = hex_color_to_circle(home_color)
+        if away_color:
+            away_emoji = hex_color_to_circle(away_color)
+
+    except Exception as exc:
+        print(
+            "  ⚠️ Could not retrieve team colours for Daily Matches: "
+            f"{exc}"
+        )
+
+    # If both colours collapse to the same emoji, retain the primary-colour
+    # mapping. It is more accurate than inventing a colour for either club.
+    return home_emoji, away_emoji
+
+
+def get_daily_player_entries(match, player_lookup):
+    """Return each followed player with the team they represent in this fixture."""
+
+    home = get_match_team(match, "home")
+    away = get_match_team(match, "away")
+    home_id = home.get("id")
+    away_id = away.get("id")
+    entries = []
+    seen_player_ids = set()
+
+    for player_id, player in player_lookup.items():
+        club_id = player.get("team_id") or player.get("teamId")
+        national_id = (
+            player.get("national_team_id")
+            or player.get("nationalTeamId")
+        )
+        monitor_national = player.get("monitor_national_team", True)
+
+        matched_team = None
+        is_national = False
+
+        try:
+            if club_id is not None and home_id is not None:
+                if int(club_id) == int(home_id):
+                    matched_team = home
+            if matched_team is None and club_id is not None and away_id is not None:
+                if int(club_id) == int(away_id):
+                    matched_team = away
+            if (
+                matched_team is None
+                and monitor_national
+                and national_id is not None
+                and home_id is not None
+                and int(national_id) == int(home_id)
+            ):
+                matched_team = home
+                is_national = True
+            if (
+                matched_team is None
+                and monitor_national
+                and national_id is not None
+                and away_id is not None
+                and int(national_id) == int(away_id)
+            ):
+                matched_team = away
+                is_national = True
+        except (TypeError, ValueError):
+            continue
+
+        if matched_team is None or player_id in seen_player_ids:
+            continue
+
+        seen_player_ids.add(player_id)
+        entries.append({
+            "name": player.get("name") or "Unknown",
+            "team_name": matched_team.get("name") or "Unknown",
+            "team": matched_team,
+            "is_national": is_national,
+        })
+
+    # Sort by surname, then full name for consistent ordering.
+    entries.sort(
+        key=lambda entry: (
+            str(entry["name"]).strip().split()[-1].casefold()
+            if str(entry["name"]).strip()
+            else "",
+            str(entry["name"]).casefold(),
+        )
+    )
+    return entries
+
+
 def process_daily_schedule(
     matches,
     state,
@@ -502,144 +800,113 @@ def process_daily_schedule(
     window_end,
 ):
     """
-    Publish the Daily Matches post once for the
-    current 10:00 -> next-day 10:00 Tehran window.
+    Publish a formatted Daily Matches post once per 10:00 -> 10:00 Tehran window.
     """
 
     now = get_local_now()
 
-    # Do not publish before 10:00.
     if now < window_start:
-        print(
-            "  ⏳ Daily Matches post is not due yet."
-        )
-
+        print("  ⏳ Daily Matches post is not due yet.")
         print(
             "  Window begins at:",
-            window_start.strftime(
-                "%Y-%m-%d %H:%M"
-            )
+            window_start.strftime("%Y-%m-%d %H:%M"),
         )
-
         return
 
-    window_key = (
-        window_start.isoformat()
-    )
+    window_key = window_start.isoformat()
 
-    # Already posted this exact window.
-    if window_key in state[
-        "daily_posts"
-    ]:
+    if window_key in state["daily_posts"]:
         print(
-            "  ↪ Daily schedule already "
-            "posted for "
+            "  ↪ Daily schedule already posted for "
             f"{window_start.strftime('%Y-%m-%d %H:%M')}"
         )
-
         return
 
-    sections = []
-
+    # Group the 24-hour window by Tehran calendar date.
+    grouped = {}
     for match in matches:
-
-        tracked_players = (
-            get_tracked_players_for_match(
-                match,
-                player_lookup,
-            )
-        )
-
-        if not tracked_players:
+        entries = get_daily_player_entries(match, player_lookup)
+        if not entries:
             continue
 
-        home_name = (
-            match.get(
-                "home",
-                {}
-            ).get(
-                "name",
-                "Home"
-            )
-        )
+        kickoff = parse_match_kickoff(match)
+        if kickoff is None:
+            continue
 
-        away_name = (
-            match.get(
-                "away",
-                {}
-            ).get(
-                "name",
-                "Away"
-            )
-        )
+        home = get_match_team(match, "home")
+        away = get_match_team(match, "away")
+        home_name = home.get("name") or "Home"
+        away_name = away.get("name") or "Away"
+        competition = get_match_competition_name(match)
 
-        kickoff = parse_match_kickoff(
-            match
-        )
+        home_flag = get_team_country_flag(home, player_lookup)
+        away_flag = get_team_country_flag(away, player_lookup)
 
-        if kickoff:
-            time_text = kickoff.strftime(
-                "%H:%M"
-            )
+        # National-team sides use flags. Club sides use FotMob team colours.
+        if home_flag or away_flag:
+            home_marker = home_flag or "🏳️"
+            away_marker = away_flag or "🏳️"
         else:
-            time_text = "TBD"
+            home_marker, away_marker = get_match_circle_emojis(match)
 
-        section = (
-            f"⚽ {home_name} vs {away_name}"
-            f" — {time_text}\n"
-            f"👤 "
-            + ", ".join(
-                tracked_players
-            )
+        time_text = html.escape(kickoff.strftime("%H:%M"))
+        match_line = (
+            f"{home_marker} {html.escape(str(home_name))}  "
+            f"<i>{time_text}</i>  "
+            f"{html.escape(str(away_name))} {away_marker}"
         )
 
-        sections.append(
-            section
+        player_lines = [
+            f"👤 {html.escape(str(entry['name']))} "
+            f"({html.escape(str(entry['team_name']))})"
+            for entry in entries
+        ]
+
+        match_block = (
+            f"🏆 {html.escape(str(competition))}\n"
+            f"{match_line}\n"
+            + "\n".join(player_lines)
         )
 
-    if not sections:
-        print(
-            "  ℹ️ No relevant matches "
-            "inside this 24-hour window."
+        grouped.setdefault(kickoff.date(), []).append(
+            (kickoff, match_block)
         )
 
-        state[
-            "daily_posts"
-        ].append(
-            window_key
-        )
-
+    if not grouped:
+        print("  ℹ️ No relevant matches inside this 24-hour window.")
+        state["daily_posts"].append(window_key)
         return
 
-    window_text = (
-        f"{window_start.strftime('%d %b %H:%M')}"
-        f" → "
-        f"{window_end.strftime('%d %b %H:%M')}"
-        f" Tehran"
-    )
+    message_parts = ["⚽️ <b>DAILY MATCHES</b> ⚽️"]
 
-    message = (
-        "📅 DAILY MATCHES\n\n"
-        f"🕙 {window_text}\n\n"
-        + "\n\n".join(
-            sections
+    for date_index, match_date in enumerate(sorted(grouped)):
+        if date_index > 0:
+            message_parts.append("--------------------------------------------")
+
+        message_parts.append(
+            f"📆 <b>{match_date.strftime('%B')} "
+            f"{match_date.day}</b>"
         )
-    )
 
+        day_matches = sorted(
+            grouped[match_date],
+            key=lambda item: item[0],
+        )
+        message_parts.extend(
+            block for _, block in day_matches
+        )
+
+    message = "\n\n".join(message_parts)
+
+    # HTML parse mode is used only for this post so the kickoff time can be italic.
     send_telegram(
-        message
+        message,
+        parse_mode="HTML",
     )
 
-    state[
-        "daily_posts"
-    ].append(
-        window_key
-    )
+    state["daily_posts"].append(window_key)
 
-    print(
-        "  📱 Daily schedule "
-        "notification sent."
-    )
+    print("  📱 Daily Matches post sent in the new format.")
 
 
 # ============================================================
