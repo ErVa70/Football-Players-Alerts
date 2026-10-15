@@ -1484,7 +1484,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969548+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112286": {
@@ -1524,7 +1524,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969618+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112247": {
@@ -1564,7 +1564,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1606,7 +1606,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1647,7 +1647,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1687,7 +1687,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112541": {
@@ -1727,7 +1727,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969845+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112523": {
@@ -1768,7 +1768,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112415": {
@@ -1808,7 +1808,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969938+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1848,7 +1848,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1889,7 +1889,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         },
         "5071420": {
@@ -1899,7 +1899,7 @@
                 "time": "15.10.2026 04:30",
                 "home": {
                     "id": 6637,
-                    "score": 1,
+                    "score": 2,
                     "name": "LA Galaxy",
                     "shortName": "LA Galaxy",
                     "longName": "LA Galaxy"
@@ -1925,11 +1925,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "79‎’‎",
+                        "short": "80‎’‎",
                         "shortKey": "",
-                        "long": "78:54",
+                        "long": "79:56",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1944,7 +1944,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970115+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T07:47:18.615461+03:30",
+            "next_check_at": "2026-10-15T07:48:20.346875+03:30",
             "final_complete": false
         }
     }
