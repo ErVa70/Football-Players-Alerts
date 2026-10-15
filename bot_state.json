@@ -1337,7 +1337,8 @@
         ],
         "5071420": [
             "212472"
-        ]
+        ],
+        "6112286": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -1531,9 +1532,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 2",
                     "liveTime": {
-                        "short": "92‎’‎",
+                        "short": "93‎’‎",
                         "shortKey": "",
-                        "long": "91:10",
+                        "long": "92:22",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1549,60 +1550,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969548+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
-            "final_complete": false
-        },
-        "6112286": {
-            "match": {
-                "id": 6112286,
-                "leagueId": 943229,
-                "time": "15.10.2026 18:45",
-                "home": {
-                    "id": 7978,
-                    "score": 1,
-                    "name": "Union St.Gilloise",
-                    "longName": "Union St.Gilloise"
-                },
-                "away": {
-                    "id": 8560,
-                    "score": 1,
-                    "name": "Real Sociedad",
-                    "longName": "Real Sociedad"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "2",
-                "status": {
-                    "utcTime": "2026-10-15T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.10.2026 18:46:32",
-                        "secondHalfStarted": "15.10.2026 19:48:37"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:30",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792082700000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                1490110
-            ],
-            "discovered_at": "2026-10-15T00:00:38.969618+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112247": {
@@ -1643,7 +1591,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1686,7 +1634,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1728,7 +1676,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1769,7 +1717,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112541": {
@@ -1805,9 +1753,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "93‎’‎",
+                        "short": "94‎’‎",
                         "shortKey": "",
-                        "long": "92:42",
+                        "long": "93:54",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1822,7 +1770,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969845+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112523": {
@@ -1858,9 +1806,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "93‎’‎",
+                        "short": "94‎’‎",
                         "shortKey": "",
-                        "long": "92:02",
+                        "long": "93:14",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1876,7 +1824,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112415": {
@@ -1912,9 +1860,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "92‎’‎",
+                        "short": "93‎’‎",
                         "shortKey": "",
-                        "long": "91:15",
+                        "long": "92:27",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1929,7 +1877,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969938+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1970,7 +1918,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -2012,7 +1960,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T22:07:17.176025+03:30",
+            "next_check_at": "2026-10-15T22:08:19.760345+03:30",
             "final_complete": false
         }
     }
