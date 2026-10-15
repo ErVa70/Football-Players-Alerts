@@ -1551,9 +1551,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "50‎’‎",
+                        "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "49:16",
+                        "long": "50:13",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1568,7 +1568,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969666+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:36:20.550663+03:30",
+            "next_check_at": "2026-10-15T23:37:17.260592+03:30",
             "final_complete": false
         },
         "6112346": {
@@ -1604,9 +1604,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:59",
+                        "long": "48:56",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1623,7 +1623,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:36:20.550663+03:30",
+            "next_check_at": "2026-10-15T23:37:17.260592+03:30",
             "final_complete": false
         },
         "6112291": {
@@ -1659,9 +1659,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:23",
+                        "long": "47:20",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1677,7 +1677,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969757+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:36:20.550663+03:30",
+            "next_check_at": "2026-10-15T23:37:17.260592+03:30",
             "final_complete": false
         },
         "6112309": {
@@ -1698,12 +1698,13 @@
                     "longName": "OFI Crete"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-15T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.10.2026 21:01:04"
+                        "firstHalfStarted": "15.10.2026 21:01:04",
+                        "secondHalfStarted": "15.10.2026 22:06:53"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1712,12 +1713,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:24",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1729,7 +1730,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969801+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:36:20.550663+03:30",
+            "next_check_at": "2026-10-15T23:37:17.260592+03:30",
             "final_complete": false
         },
         "6112387": {
@@ -1765,9 +1766,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "47‎’‎",
+                        "short": "48‎’‎",
                         "shortKey": "",
-                        "long": "46:18",
+                        "long": "47:15",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1782,7 +1783,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.969982+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:36:20.550663+03:30",
+            "next_check_at": "2026-10-15T23:37:17.260592+03:30",
             "final_complete": false
         },
         "6112402": {
@@ -1792,7 +1793,7 @@
                 "time": "15.10.2026 21:00",
                 "home": {
                     "id": 8391,
-                    "score": 0,
+                    "score": 1,
                     "name": "FC København",
                     "longName": "FC København"
                 },
@@ -1816,11 +1817,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:32",
+                        "long": "49:29",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1836,7 +1837,7 @@
             ],
             "discovered_at": "2026-10-15T00:00:38.970027+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-15T23:36:20.550663+03:30",
+            "next_check_at": "2026-10-15T23:37:17.260592+03:30",
             "final_complete": false
         }
     }
