@@ -29,6 +29,7 @@ jobs:
       - name: Run player bot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN_TELEGRAM_ID: ${{ secrets.ADMIN_TELEGRAM_ID }}
         run: python bot.py
 
       - name: Save bot state
