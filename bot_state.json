@@ -1408,6 +1408,10 @@
         ],
         "1000020613": [
             "797908"
+        ],
+        "5952279": [
+            "173382",
+            "1225420"
         ]
     },
     "transfer_monitor": {
@@ -1609,7 +1613,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:10:28.541872+03:30",
+            "next_check_at": "2026-10-16T22:11:19.622186+03:30",
             "final_complete": false
         },
         "5846002": {
@@ -1645,9 +1649,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "51‎’‎",
+                        "short": "52‎’‎",
                         "shortKey": "",
-                        "long": "50:32",
+                        "long": "51:35",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1662,61 +1666,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114804+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:10:28.541872+03:30",
-            "final_complete": false
-        },
-        "5952279": {
-            "match": {
-                "id": 5952279,
-                "leagueId": 1000001746,
-                "time": "16.10.2026 18:45",
-                "home": {
-                    "id": 568590,
-                    "score": 0,
-                    "name": "Al-Shahaniya",
-                    "longName": "Al-Shahaniya"
-                },
-                "away": {
-                    "id": 101899,
-                    "score": 6,
-                    "name": "Al-Arabi",
-                    "longName": "Al-Arabi"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-10-16T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "16.10.2026 18:45:37",
-                        "secondHalfStarted": "16.10.2026 19:52:19"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 6",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:57",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792169100000,
-                "_competition_name": "Qatar Stars League"
-            },
-            "tracked_player_ids": [
-                173382,
-                1225420
-            ],
-            "discovered_at": "2026-10-16T00:00:39.114942+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:10:28.541872+03:30",
+            "next_check_at": "2026-10-16T22:11:19.622186+03:30",
             "final_complete": false
         }
     }
