@@ -1611,9 +1611,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "43‎’‎",
+                        "short": "44‎’‎",
                         "shortKey": "",
-                        "long": "42:05",
+                        "long": "43:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1630,7 +1630,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T23:15:28.576763+03:30",
+            "next_check_at": "2026-10-16T23:16:17.282668+03:30",
             "final_complete": false
         }
     }
