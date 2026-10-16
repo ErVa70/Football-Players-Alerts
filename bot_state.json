@@ -1413,6 +1413,9 @@
         "5952279": [
             "173382",
             "1225420"
+        ],
+        "5846002": [
+            "1114554"
         ]
     },
     "transfer_monitor": {
@@ -1606,9 +1609,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "22‎’‎",
+                        "short": "23‎’‎",
                         "shortKey": "",
-                        "long": "21:03",
+                        "long": "22:11",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1625,60 +1628,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:54:18.772699+03:30",
-            "final_complete": false
-        },
-        "5846002": {
-            "match": {
-                "id": 5846002,
-                "leagueId": 938366,
-                "time": "16.10.2026 19:30",
-                "home": {
-                    "id": 10015,
-                    "score": 3,
-                    "name": "Rapid Wien",
-                    "longName": "Rapid Wien"
-                },
-                "away": {
-                    "id": 10056,
-                    "score": 1,
-                    "name": "Hartberg",
-                    "longName": "Hartberg"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-10-16T17:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "16.10.2026 19:31:55",
-                        "secondHalfStarted": "16.10.2026 20:34:44"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "3 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:32",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792171800000,
-                "_competition_name": "Bundesliga"
-            },
-            "tracked_player_ids": [
-                1114554
-            ],
-            "discovered_at": "2026-10-16T00:00:39.114804+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:54:18.772699+03:30",
+            "next_check_at": "2026-10-16T22:55:24.401189+03:30",
             "final_complete": false
         }
     }
