@@ -26,13 +26,11 @@ TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHANNEL = "@formerbarcaplayers"
 ADMIN_TELEGRAM_ID = os.environ.get("ADMIN_TELEGRAM_ID", "").strip()
 GOAL_TEMPLATE_DEFAULT = (
-    "{title}\n\n"
-    "⚽ {home_name} vs {away_name}\n\n"
-    "👤 {player_name}\n"
-    "⏱️ {minute}{assist_line}{score_line}"
+    "{title}\n"
+    "{score_line}"
 )
 GOAL_TEMPLATE_FIELDS = {
-    "title", "home_name", "away_name", "player_name",
+    "title", "home_name", "away_name", "player_name", "team_name",
     "minute", "assist_line", "score_line",
 }
 
@@ -183,13 +181,14 @@ def validate_goal_template(template):
         )
     try:
         render_goal_template(template, {
-            "title": "⚽ GOAL",
+            "title": "⚽ Lamine Yamal scored!",
             "home_name": "Barcelona",
             "away_name": "Real Madrid",
             "player_name": "Lamine Yamal",
-            "minute": "67'",
-            "assist_line": "\n🅰️ Assist: Raphinha",
-            "score_line": "\n📊 Score: 2 - 1",
+            "team_name": "Barcelona",
+            "minute": "67′",
+            "assist_line": "\n🅰️ Raphinha provided the assist!",
+            "score_line": "🔴 Barcelona [2]–1 Real Madrid 🔵\n🕒 67′",
         })
     except Exception as exc:
         return f"I couldn't preview that template: {exc}"
@@ -198,13 +197,14 @@ def validate_goal_template(template):
 
 def goal_template_preview(template):
     return render_goal_template(template, {
-        "title": "⚽ GOAL",
+        "title": "⚽ Lamine Yamal scored!",
         "home_name": "Barcelona",
         "away_name": "Real Madrid",
         "player_name": "Lamine Yamal",
-        "minute": "67'",
-        "assist_line": "\n🅰️ Assist: Raphinha",
-        "score_line": "\n📊 Score: 2 - 1",
+        "team_name": "Barcelona",
+        "minute": "67′",
+        "assist_line": "\n🅰️ Raphinha provided the assist!",
+        "score_line": "🔴 Barcelona [2]–1 Real Madrid 🔵\n🕒 67′",
     })
 
 
@@ -296,13 +296,13 @@ def process_admin_updates(state):
                         chat_id,
                         "Send the new goal-notification template as one text message.\n\n"
                         "Available placeholders:\n"
-                        "{title} — GOAL / PENALTY GOAL / OWN GOAL\n"
-                        "{home_name} — home team\n"
-                        "{away_name} — away team\n"
+                        "{title} — complete first line, including the action emoji and player name\n"
                         "{player_name} — tracked goal scorer\n"
+                        "{team_name} — player's team\n"
+                        "{home_name} / {away_name} — home and away teams\n"
                         "{minute} — goal minute\n"
                         "{assist_line} — optional assist line (includes its own line break)\n"
-                        "{score_line} — optional score line (includes its own line break)\n\n"
+                        "{score_line} — score, with the scoring team's updated score in brackets, plus minute\n\n"
                         "Nothing will change until you preview and press Save. Send /cancel to stop."
                     )
                 elif data == "goal:save":
@@ -994,6 +994,81 @@ def get_match_circle_emojis(match):
     return home_emoji, away_emoji
 
 
+def get_match_team_markers(match, player_lookup, details=None):
+    """Use flags for national teams and FotMob-colour circles for clubs."""
+    home = get_match_team(match, "home")
+    away = get_match_team(match, "away")
+    home_flag = get_team_country_flag(home, player_lookup)
+    away_flag = get_team_country_flag(away, player_lookup)
+
+    # Resolve club colours even when the opponent is a national team. This
+    # avoids showing a generic white flag for a club in mixed fixtures.
+    home_circle, away_circle = "🔴", "🔵"
+    try:
+        general = (details or {}).get("general") or {}
+        colors = general.get("teamColors") or {}
+        dark = colors.get("darkMode") or {}
+        light = colors.get("lightMode") or {}
+        home_color = dark.get("home")
+        away_color = dark.get("away")
+        if not home_color or str(home_color).lower() == "#ffffff":
+            home_color = light.get("home") or home_color
+        if not away_color or str(away_color).lower() == "#ffffff":
+            away_color = light.get("away") or away_color
+        if home_color:
+            home_circle = hex_color_to_circle(home_color)
+        if away_color:
+            away_circle = hex_color_to_circle(away_color)
+    except Exception:
+        pass
+
+    # A white flag means the team is known to be national but its flag could
+    # not be resolved. Otherwise, use the club's colour circle as fallback.
+    home_marker = home_flag if home_flag is not None else home_circle
+    away_marker = away_flag if away_flag is not None else away_circle
+
+    # If the API supplied no colours at all, retain the existing Daily Matches
+    # fallback so the notification still has two visible team markers.
+    if not (home_flag or away_flag):
+        if not ((details or {}).get("general") or {}).get("teamColors"):
+            return get_match_circle_emojis(match)
+
+    return home_marker, away_marker
+
+
+def format_match_teams_line(match, player_lookup, details=None, score_text=None):
+    """Render both teams with their national flags or club-colour markers."""
+    home = get_match_team(match, "home")
+    away = get_match_team(match, "away")
+    home_name = home.get("name") or "Home"
+    away_name = away.get("name") or "Away"
+    home_marker, away_marker = get_match_team_markers(match, player_lookup, details)
+    if score_text:
+        score_text = str(score_text).replace(" - ", "–")
+    middle = f" {score_text} " if score_text else " vs "
+    return f"{home_marker} {home_name}{middle}{away_name} {away_marker}"
+
+
+def format_event_clock(minute=None, full_time=False):
+    """Put match time on its own line so it never crowds the team line."""
+    if full_time:
+        return "🕒 Full Time"
+    if minute is None:
+        return ""
+    minute_text = str(minute).strip().replace("'", "′")
+    if not minute_text:
+        return ""
+    return f"🕒 {minute_text}"
+
+
+def format_daily_style_event_lines(match, player_lookup, details=None, score_text=None, minute=None, full_time=False):
+    lines = [format_match_teams_line(match, player_lookup, details, score_text)]
+    clock_line = format_event_clock(minute, full_time)
+    if clock_line:
+        lines.append(clock_line)
+    return "\n".join(lines)
+
+
 def get_daily_player_entries(match, player_lookup):
     """Return each followed player with the team they represent in this fixture."""
 
@@ -1285,6 +1360,74 @@ def extract_lineup_players(lineup):
     return players
 
 
+def get_player_team_name(player_id, details, match, event=None):
+    """Find the player's team in this match, preferring lineup data."""
+    try:
+        wanted_id = int(player_id)
+    except (TypeError, ValueError):
+        wanted_id = None
+
+    lineup = (details.get("content") or {}).get("lineup") or {}
+    for side_key in ("homeTeam", "awayTeam"):
+        side = lineup.get(side_key) or {}
+        for role in ("starters", "subs"):
+            for item in side.get(role, []) or []:
+                try:
+                    item_id = int(item.get("id"))
+                except (TypeError, ValueError):
+                    continue
+                if wanted_id is not None and item_id == wanted_id:
+                    return side.get("name") or "Unknown team"
+
+    if event is not None:
+        is_home = event.get("isHome")
+        if is_home is True:
+            return (match.get("home") or {}).get("name") or "Home"
+        if is_home is False:
+            return (match.get("away") or {}).get("name") or "Away"
+
+    return "Unknown team"
+
+
+def format_bracketed_event_score(event, home_name, away_name, status=None, own_goal=False, match=None, player_lookup=None, details=None):
+    """Format post-goal score with team markers and a separate clock line."""
+    is_home = event.get("isHome")
+    home_score, away_score = get_event_score_before(event)
+    minute = get_minute(event)
+
+    if is_home is None or home_score is None or away_score is None:
+        score = get_current_score_text(status or {})
+        if match is not None and player_lookup is not None:
+            return format_daily_style_event_lines(
+                match, player_lookup, details, score_text=score or None, minute=minute
+            )
+        fallback = score or f"{home_name} vs {away_name}"
+        clock_line = format_event_clock(minute)
+        return f"{fallback}\n{clock_line}" if clock_line else fallback
+
+    scoring_home = (is_home is True) != bool(own_goal)
+    if scoring_home:
+        home_score += 1
+    else:
+        away_score += 1
+
+    if scoring_home:
+        score_text = f"[{home_score}]–{away_score}"
+    else:
+        score_text = f"{home_score}–[{away_score}]"
+
+    if match is not None and player_lookup is not None:
+        return format_daily_style_event_lines(
+            match, player_lookup, details, score_text=score_text, minute=minute
+        )
+
+    score_line = (
+        f"{home_name} {score_text} {away_name}"
+    )
+    clock_line = format_event_clock(minute)
+    return f"{score_line}\n{clock_line}" if clock_line else score_line
+
+
 def process_confirmed_lineup(
     match,
     details,
@@ -1388,13 +1531,19 @@ def process_confirmed_lineup(
             )
         )
 
-        message = (
-            "🔵 CONFIRMED LINEUP\n\n"
-            f"⚽ {home_name} vs "
-            f"{away_name}\n\n"
-            f"✅ {player['name']} — "
-            f"{lineup_player['role']}"
+        team_name = lineup_player.get("team_name") or get_player_team_name(
+            player_id, details, match
         )
+        if lineup_player["role"] == "STARTING XI":
+            message = (
+                f"✅ {player['name']} ({team_name}) starts!\n\n"
+                + format_match_teams_line(match, player_lookup, details) + " · Starting XI"
+            )
+        else:
+            message = (
+                f"🪑 {player['name']} ({team_name}) is on the bench.\n\n"
+                + format_match_teams_line(match, player_lookup, details)
+            )
 
         send_telegram(
             message
@@ -2247,11 +2396,12 @@ def process_match_events(
                         )
                     )
 
+                scorer_team = get_player_team_name(scorer_id, details, match)
                 message = (
-                    "🚫 GOAL DISALLOWED\n\n"
-                    f"⚽ {home_name} vs {away_name}\n\n"
-                    f"👤 {scorer_name}\n"
-                    f"⏱️ {minute}"
+                    f"🚫 {scorer_name} ({scorer_team})'s goal was disallowed!\n\n"
+                    + format_daily_style_event_lines(
+                        match, player_lookup, details, minute=minute
+                    )
                 )
 
                 if corrected_score:
@@ -2333,35 +2483,21 @@ def process_match_events(
                 ]
 
                 if is_own_goal(event):
-                    title = "🔴 OWN GOAL"
+                    own_goal_team = get_player_team_name(player_id, details, match, event)
+                    title = f"🔴 {player['name']} ({own_goal_team}) scored an own goal!"
                 elif is_penalty_event(event):
-                    title = "⚽ PENALTY GOAL"
+                    title = f"⚽ {player['name']} scored a penalty!"
                 else:
-                    title = "⚽ GOAL"
+                    title = f"⚽ {player['name']} scored!"
 
-                after_home, after_away = (
-                    get_event_score_after(event)
+                score_line = format_bracketed_event_score(
+                    event, home_name, away_name, status,
+                    own_goal=is_own_goal(event), match=match,
+                    player_lookup=player_lookup, details=details,
                 )
-
-                score_after = format_score(
-                    after_home,
-                    after_away,
-                )
-
-                if score_after is None:
-                    score_after = (
-                        get_current_score_text(
-                            status
-                        )
-                    )
-
                 assist_line = (
-                    f"\n🅰️ Assist: {assist_name}"
+                    f"\n🅰️ {assist_name} provided the assist!"
                     if assist_name else ""
-                )
-                score_line = (
-                    f"\n📊 Score: {score_after}"
-                    if score_after else ""
                 )
                 goal_template = get_goal_template(state)
                 try:
@@ -2370,6 +2506,7 @@ def process_match_events(
                         "home_name": home_name,
                         "away_name": away_name,
                         "player_name": player["name"],
+                        "team_name": get_player_team_name(player_id, details, match, event),
                         "minute": minute,
                         "assist_line": assist_line,
                         "score_line": score_line,
@@ -2383,6 +2520,7 @@ def process_match_events(
                         "home_name": home_name,
                         "away_name": away_name,
                         "player_name": player["name"],
+                        "team_name": get_player_team_name(player_id, details, match, event),
                         "minute": minute,
                         "assist_line": assist_line,
                         "score_line": score_line,
@@ -2422,34 +2560,16 @@ def process_match_events(
                         )
                     )
 
+                    score_line = format_bracketed_event_score(
+                        event, home_name, away_name, status,
+                        own_goal=is_own_goal(event), match=match,
+                        player_lookup=player_lookup, details=details,
+                    )
                     message = (
-                        "🅰️ ASSIST\n\n"
-                        f"⚽ {home_name} vs {away_name}\n\n"
-                        f"👤 {tracked_assist['name']}\n"
-                        f"🎯 For: {scorer_name}\n"
-                        f"⏱️ {minute}"
+                        f"🅰️ {tracked_assist['name']} provided an assist!\n"
+                        f"For: {scorer_name}\n\n"
+                        f"{score_line}"
                     )
-
-                    after_home, after_away = (
-                        get_event_score_after(event)
-                    )
-
-                    score_after = format_score(
-                        after_home,
-                        after_away,
-                    )
-
-                    if score_after is None:
-                        score_after = (
-                            get_current_score_text(
-                                status
-                            )
-                        )
-
-                    if score_after:
-                        message += (
-                            f"\n📊 Score: {score_after}"
-                        )
 
                     send_telegram(message)
 
@@ -2490,11 +2610,12 @@ def process_match_events(
                 player_id
             ]
 
+            team_name = get_player_team_name(player_id, details, match, event)
             message = (
-                "❌ PENALTY MISSED\n\n"
-                f"⚽ {home_name} vs {away_name}\n\n"
-                f"👤 {player['name']}\n"
-                f"⏱️ {minute}"
+                f"❌ {player['name']} missed a penalty! ({team_name})\n\n"
+                + format_daily_style_event_lines(
+                    match, player_lookup, details, minute=minute
+                )
             )
 
             description = (
@@ -2565,11 +2686,19 @@ def process_match_events(
             else:
                 emoji = "🟨"
 
+            team_name = get_player_team_name(player_id, details, match, event)
+            action = (
+                f"{player['name']} has been sent off!"
+                if card in {"RED CARD", "SECOND YELLOW"}
+                else f"{player['name']} has been booked!"
+            )
+            score_text = get_current_score_text(status)
+            match_line = format_daily_style_event_lines(
+                match, player_lookup, details, score_text=score_text or None, minute=minute
+            )
             message = (
-                f"{emoji} {card}\n\n"
-                f"⚽ {home_name} vs {away_name}\n\n"
-                f"👤 {player['name']}\n"
-                f"⏱️ {minute}"
+                f"{emoji} {action} ({team_name})\n\n"
+                f"{match_line}"
             )
 
             send_telegram(message)
@@ -2624,28 +2753,40 @@ def process_match_events(
                 substitution_info
             )
 
+            team_name = get_player_team_name(
+                next(iter(involved_ids), None), details, match, event
+            )
             if player_in and player_out:
-                message = (
-                    "🔄 SUBSTITUTION\n\n"
-                    f"⚽ {home_name} vs {away_name}\n\n"
-                    f"➡️ IN: {player_in}\n"
-                    f"⬅️ OUT: {player_out}\n"
-                    f"⏱️ {minute}"
-                )
-            else:
-                names = [
-                    player.get(
-                        "name",
-                        "Unknown"
+                tracked_names = {p.get("name") for p in tracked_involved}
+                if player_in in tracked_names:
+                    message = (
+                        f"🔼 {player_in} ({team_name}) comes on!\n\n"
+                        + format_daily_style_event_lines(
+                            match, player_lookup, details, minute=minute
+                        )
                     )
-                    for player in tracked_involved
-                ]
-
+                elif player_out in tracked_names:
+                    message = (
+                        f"🔽 {player_out} ({team_name}) is substituted off!\n\n"
+                        + format_daily_style_event_lines(
+                            match, player_lookup, details, minute=minute
+                        )
+                    )
+                else:
+                    message = (
+                        f"🔄 Substitution ({team_name})\n\n"
+                        f"➡️ IN: {player_in}\n⬅️ OUT: {player_out}\n"
+                        + format_daily_style_event_lines(
+                            match, player_lookup, details, minute=minute
+                        )
+                    )
+            else:
+                names = [player.get("name", "Unknown") for player in tracked_involved]
                 message = (
-                    "🔄 SUBSTITUTION\n\n"
-                    f"⚽ {home_name} vs {away_name}\n\n"
-                    f"👤 {' / '.join(names)}\n"
-                    f"⏱️ {minute}"
+                    f"🔄 {' / '.join(names)} involved in a substitution ({team_name})\n\n"
+                    + format_daily_style_event_lines(
+                        match, player_lookup, details, minute=minute
+                    )
                 )
 
             send_telegram(message)
@@ -2741,11 +2882,12 @@ def process_match_events(
             else ""
         )
 
+        team_name = get_player_team_name(player_id, details, match)
         message = (
-            "❌ PENALTY MISSED\n\n"
-            f"⚽ {home_name} vs {away_name}\n\n"
-            f"👤 {player['name']}\n"
-            f"⏱️ {minute_text}"
+            f"❌ {player['name']} missed a penalty! ({team_name})\n\n"
+            + format_daily_style_event_lines(
+                match, player_lookup, details, minute=minute_text
+            )
         )
 
         send_telegram(message)
@@ -3865,24 +4007,26 @@ def process_final_report(
             "rating"
         )
 
-        message = (
-            "🏁 FULL TIME\n\n"
-            f"⚽ {home_name} "
-            f"{score_str} "
-            f"{away_name}\n"
-            f"📌 {reason}\n\n"
-            f"👤 {stats['name']}\n"
-        )
+        if rating is not None:
+            message = (
+                f"⭐ {stats['name']} rated {rating}!\n\n"
+                + format_daily_style_event_lines(
+                    match, player_lookup, details, score_text=score_str or None, full_time=True
+                ) + "\n"
+                + f"📌 {reason}\n"
+            )
+        else:
+            message = (
+                f"🏁 {stats['name']} — full-time report\n\n"
+                + format_daily_style_event_lines(
+                    match, player_lookup, details, score_text=score_str or None, full_time=True
+                ) + "\n"
+                + f"📌 {reason}\n"
+            )
 
         if minutes is not None:
             message += (
                 f"⏱️ {minutes} min\n"
-            )
-
-        if rating is not None:
-            message += (
-                f"⭐ FotMob rating: "
-                f"{rating}\n"
             )
 
         performance_block = (
@@ -4630,14 +4774,13 @@ def process_transfer_monitoring(
         )
 
         if transfer_label == "LOAN":
-            title = "🔄 LOAN"
+            title = f"🔁 {player['name']} joined {to_club} on loan!"
         else:
-            title = "🔄 TRANSFER"
+            title = f"🔄 {player['name']} transferred!"
 
         message = (
             f"{title}\n\n"
-            f"👤 {player['name']}\n"
-            f"➡️ {from_club} → {to_club}"
+            f"{from_club} → {to_club}"
         )
 
         if date_text:
