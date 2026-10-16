@@ -1609,7 +1609,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:08:18.647332+03:30",
+            "next_check_at": "2026-10-16T22:09:19.468755+03:30",
             "final_complete": false
         },
         "5846002": {
@@ -1625,7 +1625,7 @@
                 },
                 "away": {
                     "id": 10056,
-                    "score": 0,
+                    "score": 1,
                     "name": "Hartberg",
                     "longName": "Hartberg"
                 },
@@ -1643,11 +1643,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:23",
+                        "long": "49:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1662,7 +1662,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114804+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:08:18.647332+03:30",
+            "next_check_at": "2026-10-16T22:09:19.468755+03:30",
             "final_complete": false
         },
         "5952279": {
@@ -1698,9 +1698,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 6",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "92‎’‎",
                         "shortKey": "",
-                        "long": "90:48",
+                        "long": "91:53",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1716,7 +1716,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114942+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:08:18.647332+03:30",
+            "next_check_at": "2026-10-16T22:09:19.468755+03:30",
             "final_complete": false
         }
     }
