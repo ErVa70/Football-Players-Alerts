@@ -994,7 +994,8 @@
         "5952279": [
             "Substitution|19|None|645575,173382|"
         ],
-        "5846002": []
+        "5846002": [],
+        "5868093": []
     },
     "final_posts": {
         "5991881": [
@@ -1591,17 +1592,28 @@
                     "longName": "Levante"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-16T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "16.10.2026 21:00:00"
+                        "firstHalfStarted": "16.10.2026 21:03:13"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:03",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792177200000,
                 "_competition_name": "LaLiga"
@@ -1613,7 +1625,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:33:16.898770+03:30",
+            "next_check_at": "2026-10-16T22:34:18.243508+03:30",
             "final_complete": false
         },
         "5846002": {
@@ -1649,9 +1661,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "74‎’‎",
+                        "short": "75‎’‎",
                         "shortKey": "",
-                        "long": "73:28",
+                        "long": "74:32",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1666,7 +1678,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114804+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T22:33:16.898770+03:30",
+            "next_check_at": "2026-10-16T22:34:18.243508+03:30",
             "final_complete": false
         }
     }
