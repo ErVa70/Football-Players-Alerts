@@ -1588,7 +1588,7 @@
                 "time": "16.10.2026 21:00",
                 "home": {
                     "id": 9783,
-                    "score": 0,
+                    "score": 1,
                     "name": "Deportivo A Coruña",
                     "longName": "Deportivo A Coruña"
                 },
@@ -1612,11 +1612,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "62‎’‎",
+                        "short": "63‎’‎",
                         "shortKey": "",
-                        "long": "61:44",
+                        "long": "62:52",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1633,7 +1633,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T23:53:14.866272+03:30",
+            "next_check_at": "2026-10-16T23:54:17.746103+03:30",
             "final_complete": false
         }
     }
