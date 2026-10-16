@@ -1609,7 +1609,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T21:40:29.769376+03:30",
+            "next_check_at": "2026-10-16T21:41:21.703979+03:30",
             "final_complete": false
         },
         "5846002": {
@@ -1644,9 +1644,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "39‎’‎",
+                        "short": "40‎’‎",
                         "shortKey": "",
-                        "long": "38:34",
+                        "long": "39:26",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1661,7 +1661,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114804+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T21:40:29.769376+03:30",
+            "next_check_at": "2026-10-16T21:41:21.703979+03:30",
             "final_complete": false
         },
         "5952279": {
@@ -1677,7 +1677,7 @@
                 },
                 "away": {
                     "id": 101899,
-                    "score": 3,
+                    "score": 4,
                     "name": "Al-Arabi",
                     "longName": "Al-Arabi"
                 },
@@ -1695,11 +1695,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 3",
+                    "scoreStr": "0 - 4",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:10",
+                        "long": "64:02",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1715,7 +1715,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114942+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T21:40:29.769376+03:30",
+            "next_check_at": "2026-10-16T21:41:21.703979+03:30",
             "final_complete": false
         }
     }
