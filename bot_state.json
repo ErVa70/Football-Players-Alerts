@@ -1597,12 +1597,13 @@
                     "longName": "Levante"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-16T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "16.10.2026 21:03:13"
+                        "firstHalfStarted": "16.10.2026 21:03:13",
+                        "secondHalfStarted": "16.10.2026 22:06:25"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -1611,12 +1612,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:44",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -1630,7 +1631,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T23:36:17.957408+03:30",
+            "next_check_at": "2026-10-16T23:37:17.210131+03:30",
             "final_complete": false
         }
     }
