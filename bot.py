@@ -1,6 +1,7 @@
 import html
 import json
 import os
+import string
 import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -23,6 +24,17 @@ STATE_FILE = "bot_state.json"
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHANNEL = "@formerbarcaplayers"
+ADMIN_TELEGRAM_ID = os.environ.get("ADMIN_TELEGRAM_ID", "").strip()
+GOAL_TEMPLATE_DEFAULT = (
+    "{title}\n\n"
+    "⚽ {home_name} vs {away_name}\n\n"
+    "👤 {player_name}\n"
+    "⏱️ {minute}{assist_line}{score_line}"
+)
+GOAL_TEMPLATE_FIELDS = {
+    "title", "home_name", "away_name", "player_name",
+    "minute", "assist_line", "score_line",
+}
 
 
 # ============================================================
@@ -96,6 +108,260 @@ def send_telegram(message, parse_mode=None):
     )
 
     response.raise_for_status()
+
+
+def telegram_api(method, payload=None, timeout=15):
+    url = (
+        f"https://api.telegram.org/bot"
+        f"{TELEGRAM_BOT_TOKEN}/{method}"
+    )
+    response = requests.post(
+        url,
+        json=payload or {},
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    result = response.json()
+    if not result.get("ok"):
+        raise RuntimeError(
+            f"Telegram API {method} failed: {result.get('description', 'unknown error')}"
+        )
+    return result.get("result")
+
+
+def send_admin_message(chat_id, message, reply_markup=None):
+    payload = {
+        "chat_id": chat_id,
+        "text": message,
+    }
+    if reply_markup is not None:
+        payload["reply_markup"] = reply_markup
+    telegram_api("sendMessage", payload)
+
+
+def answer_callback_query(callback_query_id, text=None):
+    payload = {"callback_query_id": callback_query_id}
+    if text:
+        payload["text"] = text
+    try:
+        telegram_api("answerCallbackQuery", payload)
+    except Exception as exc:
+        print(f"⚠️ Could not answer Telegram callback: {exc}")
+
+
+def get_goal_template(state):
+    templates = state.setdefault("notification_templates", {})
+    template = templates.get("goal", GOAL_TEMPLATE_DEFAULT)
+    if not isinstance(template, str) or not template.strip():
+        template = GOAL_TEMPLATE_DEFAULT
+        templates["goal"] = template
+    return template
+
+
+def render_goal_template(template, values):
+    return template.format_map(values)
+
+
+def validate_goal_template(template):
+    if not template.strip():
+        return "The template cannot be empty."
+    if len(template) > 3500:
+        return "The template is too long. Please keep it under 3,500 characters."
+    try:
+        parsed_fields = {
+            field_name
+            for _, field_name, format_spec, conversion in string.Formatter().parse(template)
+            if field_name is not None
+        }
+    except ValueError:
+        return "The template has unmatched { or } braces."
+    unknown = parsed_fields - GOAL_TEMPLATE_FIELDS
+    if unknown:
+        return (
+            "Unknown placeholder(s): " + ", ".join(sorted(unknown)) +
+            "\nAllowed placeholders: " + ", ".join(sorted(GOAL_TEMPLATE_FIELDS))
+        )
+    try:
+        render_goal_template(template, {
+            "title": "⚽ GOAL",
+            "home_name": "Barcelona",
+            "away_name": "Real Madrid",
+            "player_name": "Lamine Yamal",
+            "minute": "67'",
+            "assist_line": "\n🅰️ Assist: Raphinha",
+            "score_line": "\n📊 Score: 2 - 1",
+        })
+    except Exception as exc:
+        return f"I couldn't preview that template: {exc}"
+    return None
+
+
+def goal_template_preview(template):
+    return render_goal_template(template, {
+        "title": "⚽ GOAL",
+        "home_name": "Barcelona",
+        "away_name": "Real Madrid",
+        "player_name": "Lamine Yamal",
+        "minute": "67'",
+        "assist_line": "\n🅰️ Assist: Raphinha",
+        "score_line": "\n📊 Score: 2 - 1",
+    })
+
+
+def admin_main_menu(chat_id):
+    send_admin_message(
+        chat_id,
+        "⚙️ Bot settings\n\nChoose a section:",
+        {"inline_keyboard": [[
+            {"text": "Formats", "callback_data": "settings:formats"}
+        ]]},
+    )
+
+
+def admin_formats_menu(chat_id):
+    send_admin_message(
+        chat_id,
+        "📝 Message formats\n\nChoose a notification type:",
+        {"inline_keyboard": [[
+            {"text": "Goal Notifications", "callback_data": "formats:goal"}
+        ], [
+            {"text": "⬅️ Back", "callback_data": "settings:home"}
+        ]]},
+    )
+
+
+def admin_goal_template_menu(chat_id, state):
+    template = get_goal_template(state)
+    send_admin_message(
+        chat_id,
+        "⚽ Goal Notifications\n\n"
+        "Current template (placeholders are kept as written):\n\n"
+        f"{template}\n\n"
+        "Preview with sample data:\n\n"
+        f"{goal_template_preview(template)}",
+        {"inline_keyboard": [[
+            {"text": "✏️ Edit template", "callback_data": "goal:edit"}
+        ], [
+            {"text": "⬅️ Back to formats", "callback_data": "settings:formats"}
+        ]]},
+    )
+
+
+def process_admin_updates(state):
+    """Handle a small Telegram settings menu during each scheduled bot run."""
+    if not ADMIN_TELEGRAM_ID:
+        print("ℹ️ ADMIN_TELEGRAM_ID is not configured; settings menu is disabled.")
+        return
+
+    offset = int(state.get("telegram_update_offset", 0) or 0)
+    try:
+        updates = telegram_api("getUpdates", {
+            "offset": offset,
+            "limit": 100,
+            "timeout": 0,
+            "allowed_updates": ["message", "callback_query"],
+        }, timeout=10) or []
+    except Exception as exc:
+        # A settings polling issue must never stop the football-monitoring run.
+        print(f"⚠️ Telegram settings check failed; continuing football monitoring: {exc}")
+        return
+
+    for update in updates:
+        update_id = update.get("update_id")
+        if isinstance(update_id, int):
+            state["telegram_update_offset"] = update_id + 1
+
+        try:
+            callback = update.get("callback_query")
+            if callback:
+                sender_id = str((callback.get("from") or {}).get("id", ""))
+                chat = ((callback.get("message") or {}).get("chat") or {})
+                chat_id = chat.get("id")
+                if sender_id != ADMIN_TELEGRAM_ID or chat.get("type") != "private":
+                    answer_callback_query(callback.get("id", ""), "Not authorized.")
+                    continue
+
+                data = callback.get("data", "")
+                answer_callback_query(callback.get("id", ""))
+                if data == "settings:home":
+                    admin_main_menu(chat_id)
+                elif data == "settings:formats":
+                    admin_formats_menu(chat_id)
+                elif data == "formats:goal":
+                    admin_goal_template_menu(chat_id, state)
+                elif data == "goal:edit":
+                    state["goal_template_editing"] = True
+                    state.pop("goal_template_draft", None)
+                    send_admin_message(
+                        chat_id,
+                        "Send the new goal-notification template as one text message.\n\n"
+                        "Available placeholders:\n"
+                        "{title} — GOAL / PENALTY GOAL / OWN GOAL\n"
+                        "{home_name} — home team\n"
+                        "{away_name} — away team\n"
+                        "{player_name} — tracked goal scorer\n"
+                        "{minute} — goal minute\n"
+                        "{assist_line} — optional assist line (includes its own line break)\n"
+                        "{score_line} — optional score line (includes its own line break)\n\n"
+                        "Nothing will change until you preview and press Save. Send /cancel to stop."
+                    )
+                elif data == "goal:save":
+                    draft = state.get("goal_template_draft")
+                    if draft:
+                        error = validate_goal_template(draft)
+                        if error:
+                            send_admin_message(chat_id, "I couldn't save that template:\n" + error)
+                        else:
+                            state.setdefault("notification_templates", {})["goal"] = draft
+                            state.pop("goal_template_draft", None)
+                            state.pop("goal_template_editing", None)
+                            send_admin_message(
+                                chat_id,
+                                "✅ Goal-notification template saved. It will be used by future goal alerts."
+                            )
+                            admin_goal_template_menu(chat_id, state)
+                    else:
+                        send_admin_message(chat_id, "There is no template waiting to be saved.")
+                elif data == "goal:cancel":
+                    state.pop("goal_template_draft", None)
+                    state.pop("goal_template_editing", None)
+                    send_admin_message(chat_id, "Edit cancelled. The current template is unchanged.")
+                    admin_goal_template_menu(chat_id, state)
+
+            message = update.get("message")
+            if not message:
+                continue
+            sender_id = str((message.get("from") or {}).get("id", ""))
+            chat = message.get("chat") or {}
+            chat_id = chat.get("id")
+            if sender_id != ADMIN_TELEGRAM_ID or chat.get("type") != "private":
+                continue
+
+            text = (message.get("text") or "").strip()
+            if text == "/cancel":
+                state.pop("goal_template_editing", None)
+                state.pop("goal_template_draft", None)
+                send_admin_message(chat_id, "Edit cancelled. The current template is unchanged.")
+            elif text.startswith("/settings") or text.startswith("/start"):
+                admin_main_menu(chat_id)
+            elif state.get("goal_template_editing") and text:
+                error = validate_goal_template(text)
+                if error:
+                    send_admin_message(chat_id, "I couldn't use that template:\n" + error)
+                else:
+                    state["goal_template_draft"] = text
+                    state.pop("goal_template_editing", None)
+                    send_admin_message(
+                        chat_id,
+                        "👀 Preview of your new goal-notification template:\n\n"
+                        f"{goal_template_preview(text)}\n\nSave this format?",
+                        {"inline_keyboard": [[
+                            {"text": "✅ Save", "callback_data": "goal:save"},
+                            {"text": "❌ Cancel", "callback_data": "goal:cancel"},
+                        ]]},
+                    )
+        except Exception as exc:
+            print(f"⚠️ Could not process Telegram settings update {update_id}: {exc}")
 
 
 # ============================================================
@@ -2073,18 +2339,6 @@ def process_match_events(
                 else:
                     title = "⚽ GOAL"
 
-                message = (
-                    f"{title}\n\n"
-                    f"⚽ {home_name} vs {away_name}\n\n"
-                    f"👤 {player['name']}\n"
-                    f"⏱️ {minute}"
-                )
-
-                if assist_name:
-                    message += (
-                        f"\n🅰️ Assist: {assist_name}"
-                    )
-
                 after_home, after_away = (
                     get_event_score_after(event)
                 )
@@ -2101,10 +2355,38 @@ def process_match_events(
                         )
                     )
 
-                if score_after:
-                    message += (
-                        f"\n📊 Score: {score_after}"
+                assist_line = (
+                    f"\n🅰️ Assist: {assist_name}"
+                    if assist_name else ""
+                )
+                score_line = (
+                    f"\n📊 Score: {score_after}"
+                    if score_after else ""
+                )
+                goal_template = get_goal_template(state)
+                try:
+                    message = render_goal_template(goal_template, {
+                        "title": title,
+                        "home_name": home_name,
+                        "away_name": away_name,
+                        "player_name": player["name"],
+                        "minute": minute,
+                        "assist_line": assist_line,
+                        "score_line": score_line,
+                    })
+                except Exception as exc:
+                    print(
+                        f"⚠️ Goal template failed; using default format: {exc}"
                     )
+                    message = render_goal_template(GOAL_TEMPLATE_DEFAULT, {
+                        "title": title,
+                        "home_name": home_name,
+                        "away_name": away_name,
+                        "player_name": player["name"],
+                        "minute": minute,
+                        "assist_line": assist_line,
+                        "score_line": score_line,
+                    })
 
                 send_telegram(message)
 
@@ -4482,6 +4764,19 @@ def main():
     state.setdefault(
         "monitored_matches",
         {}
+    )
+
+    # --------------------------------------------------------
+    # TELEGRAM SETTINGS MENU
+    # --------------------------------------------------------
+
+    process_admin_updates(state)
+
+    # Save Telegram update offset immediately, so a later FotMob error
+    # does not cause the same management command to be handled repeatedly.
+    save_json(
+        STATE_FILE,
+        state,
     )
 
     # --------------------------------------------------------
