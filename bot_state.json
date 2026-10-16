@@ -994,7 +994,9 @@
         "5952279": [
             "Substitution|19|None|645575,173382|"
         ],
-        "5846002": [],
+        "5846002": [
+            "Substitution|85|None|1663487,1114554|"
+        ],
         "5868093": []
     },
     "final_posts": {
@@ -1609,9 +1611,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "36‎’‎",
+                        "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "35:05",
+                        "long": "36:06",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -1628,7 +1630,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T23:08:18.716266+03:30",
+            "next_check_at": "2026-10-16T23:09:21.027364+03:30",
             "final_complete": false
         }
     }
