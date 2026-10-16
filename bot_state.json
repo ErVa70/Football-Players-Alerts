@@ -1390,6 +1390,9 @@
         "6112291": [
             "1367049",
             "1665435"
+        ],
+        "1000020613": [
+            "797908"
         ]
     },
     "transfer_monitor": {
@@ -1591,7 +1594,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114728+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T05:52:20.469102+03:30",
+            "next_check_at": "2026-10-16T05:53:19.981743+03:30",
             "final_complete": false
         },
         "5846002": {
@@ -1632,60 +1635,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114804+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T05:52:20.469102+03:30",
-            "final_complete": false
-        },
-        "1000020613": {
-            "match": {
-                "id": 1000020613,
-                "leagueId": 1000001642,
-                "time": "16.10.2026 02:30",
-                "home": {
-                    "id": 10094,
-                    "score": 0,
-                    "name": "Estudiantes",
-                    "longName": "Estudiantes"
-                },
-                "away": {
-                    "id": 9770,
-                    "score": 0,
-                    "name": "Flamengo",
-                    "longName": "Flamengo"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "Semi-finals",
-                "status": {
-                    "utcTime": "2026-10-16T00:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "16.10.2026 02:30:39",
-                        "secondHalfStarted": "16.10.2026 03:33:44"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:36",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792110600000,
-                "_competition_name": "Copa Libertadores - Semi-finals"
-            },
-            "tracked_player_ids": [
-                797908
-            ],
-            "discovered_at": "2026-10-16T00:00:39.114892+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-16T05:52:20.469102+03:30",
+            "next_check_at": "2026-10-16T05:53:19.981743+03:30",
             "final_complete": false
         },
         "5952279": {
@@ -1727,7 +1677,7 @@
             ],
             "discovered_at": "2026-10-16T00:00:39.114942+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-16T05:52:20.469102+03:30",
+            "next_check_at": "2026-10-16T05:53:19.981743+03:30",
             "final_complete": false
         }
     }
