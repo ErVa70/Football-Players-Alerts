@@ -3179,66 +3179,98 @@ def get_stat_from_rows(
 
 
 def get_lineup_player_data(details):
-    """
-    Map player ID -> lineup player object, so we can use
-    lineup performance/minutes as a fallback.
-    """
-
-    lineup = (
-        details.get(
-            "content",
-            {}
-        ).get(
-            "lineup"
-        )
-        or {}
-    )
-
+    """Map player IDs to lineup entries, retaining team side for role inference."""
+    lineup = details.get("content", {}).get("lineup") or {}
     result = {}
 
-    for side_key in [
-        "homeTeam",
-        "awayTeam",
-    ]:
-
-        side = lineup.get(
-            side_key
-        )
-
+    for side_key in ("homeTeam", "awayTeam"):
+        side = lineup.get(side_key)
         if not side:
             continue
-
-        for role in [
-            "starters",
-            "subs",
-        ]:
-
-            for player in side.get(
-                role,
-                []
-            ):
-
-                player_id = player.get(
-                    "id"
-                )
-
+        for group_name in ("starters", "subs"):
+            for player in side.get(group_name, []):
+                player_id = player.get("id")
                 if player_id is None:
                     continue
-
                 try:
-                    player_id = int(
-                        player_id
-                    )
-                except (
-                    TypeError,
-                    ValueError
-                ):
+                    player_id = int(player_id)
+                except (TypeError, ValueError):
                     continue
-
-                result[player_id] = player
-
+                result[player_id] = {
+                    **player,
+                    "_lineupSide": side_key,
+                    "_lineupGroup": group_name,
+                }
     return result
 
+
+def infer_player_match_role(player_data, lineup_data):
+    """Infer broad role, preferring match-level position over profile position."""
+    def classify(value):
+        if not isinstance(value, str):
+            return None
+        value = value.strip().lower().replace("_", " ").replace("-", " ")
+        if not value:
+            return None
+        compact = value.replace(" ", "")
+        if compact in {"gk", "keeper", "goalkeeper"} or any(word in value for word in ("goalkeeper", "goal keeper", "keeper")):
+            return "goalkeeper"
+        if compact in {"def", "cb", "lb", "rb", "lwb", "rwb", "sw"}:
+            return "defender"
+        if compact in {"mid", "dm", "cdm", "cm", "am", "cam", "lm", "rm"}:
+            return "midfielder"
+        if compact in {"fwd", "st", "cf", "lw", "rw", "ss"}:
+            return "forward"
+        if any(word in value for word in ("defender", "centre back", "center back", "full back", "fullback", "wing back", "left back", "right back", "sweeper")):
+            return "defender"
+        if any(word in value for word in ("midfielder", "midfield", "playmaker", "holding mid", "defensive mid", "attacking mid")):
+            return "midfielder"
+        if any(word in value for word in ("attacker", "forward", "striker", "winger", "centre forward", "center forward", "second striker")):
+            return "forward"
+        return None
+
+    if player_data.get("isGoalkeeper") is True or str(lineup_data.get("positionId")) == "11":
+        return "goalkeeper"
+
+    # Prefer an explicit role from the match-specific playerStats payload.
+    for key in ("position", "positionStringShort", "localizedPosition", "role"):
+        role = classify(player_data.get(key))
+        if role:
+            return role
+
+    description = player_data.get("positionDescription") or {}
+    if isinstance(description, dict):
+        for position in description.get("positions", []):
+            str_pos = position.get("strPos") or {}
+            role = classify(str_pos.get("label")) or classify(str_pos.get("key"))
+            if role:
+                return role
+
+    for key in ("position", "positionName", "role", "usualPosition"):
+        role = classify(lineup_data.get(key))
+        if role:
+            return role
+
+    # Fallback: use the player's actual horizontal placement in FotMob's lineup.
+    layout = lineup_data.get("horizontalLayout") or {}
+    try:
+        x = float(layout.get("x"))
+        if lineup_data.get("_lineupSide") == "awayTeam":
+            x = 1.0 - x
+        if x <= 0.36:
+            return "defender"
+        if x >= 0.64:
+            return "forward"
+        return "midfielder"
+    except (AttributeError, TypeError, ValueError):
+        pass
+
+    # Final fallback: the player's profile position, if present.
+    for key in ("usualPosition", "position", "positionStringShort", "localizedPosition", "role"):
+        role = classify(player_data.get(key))
+        if role:
+            return role
+    return "unknown"
 
 
 def get_played_tracked_player_ids(
@@ -3546,6 +3578,7 @@ def get_player_match_stats(
             "rows": rows,
             "minutes": minutes,
             "rating": rating,
+            "role": infer_player_match_role(data, lineup_data),
         }
 
     return results
@@ -3765,104 +3798,134 @@ STAT_GROUPS = [
 ]
 
 
-def format_player_stat_block(
-    stats
-):
-    rows = stats.get(
-        "rows",
-        []
-    )
-
+def format_player_stat_block(stats):
+    """Format a compact, role-aware selection of meaningful match statistics."""
+    rows = stats.get("rows", [])
     if not rows:
         return ""
 
-    used = set()
-    parts = []
+    role = stats.get("role", "unknown")
+    common = [
+        ("Goals", ["Goals"]),
+        ("Assists", ["Assists", "Goal assist", "goalAssist"]),
+    ]
+    attacking = [
+        ("Total shots", ["Total shots", "total shots", "totalScoringAtt"]),
+        ("Shots on target", ["Shots on target", "ontarget scoring att", "ontargetScoringAtt"]),
+        ("Expected goals (xG)", ["Expected goals (xG)", "Expected goals", "expectedGoals"]),
+        ("Expected assists (xA)", ["Expected assists (xA)", "Expected assists"]),
+        ("Chances created", ["Chances created"]),
+        ("Big chances missed", ["Big chances missed"]),
+        ("Successful dribbles", ["Successful dribbles"]),
+        ("Touches in opposition box", ["Touches in opposition box", "Touches opp box"]),
+        ("Offsides", ["Offsides"]),
+        ("Dispossessed", ["Dispossessed"]),
+    ]
+    midfield = [
+        ("Chances created", ["Chances created"]),
+        ("Expected assists (xA)", ["Expected assists (xA)", "Expected assists"]),
+        ("Accurate passes", ["Accurate passes"]),
+        ("Passes into final third", ["Passes into final third"]),
+        ("Recoveries", ["Recoveries"]),
+        ("Tackles won", ["Tackles won"]),
+        ("Interceptions", ["Interceptions"]),
+        ("Successful dribbles", ["Successful dribbles"]),
+        ("Duels won", ["Duels won"]),
+        ("Total shots", ["Total shots", "total shots", "totalScoringAtt"]),
+        ("Expected goals (xG)", ["Expected goals (xG)", "Expected goals", "expectedGoals"]),
+    ]
+    defending = [
+        ("Tackles won", ["Tackles won"]),
+        ("Interceptions", ["Interceptions"]),
+        ("Clearances", ["Clearances"]),
+        ("Blocks", ["Blocks"]),
+        ("Duels won", ["Duels won"]),
+        ("Aerial duels won", ["Aerial duels won"]),
+        ("Recoveries", ["Recoveries"]),
+        ("Accurate passes", ["Accurate passes"]),
+        ("Accurate long balls", ["Accurate long balls"]),
+        ("Dribbled past", ["Dribbled past"]),
+        ("Chances created", ["Chances created"]),
+    ]
+    goalkeeping = [
+        ("Saves", ["Saves"]),
+        ("Goals conceded", ["Goals conceded"]),
+        ("Goals prevented", ["Goals prevented"]),
+        ("xGOT faced", ["xGOT faced"]),
+        ("Accurate passes", ["Accurate passes"]),
+        ("Accurate long balls", ["Accurate long balls"]),
+    ]
 
-    for group_name, items in (
-        STAT_GROUPS
-    ):
+    if role == "goalkeeper":
+        priorities = goalkeeping
+    elif role == "defender":
+        # For defenders, prioritize defending and progression; goals/assists
+        # appear only if positive, rather than taking slots as routine zeroes.
+        priorities = defending + attacking + common
+    elif role == "midfielder":
+        priorities = common + midfield + defending + attacking
+    elif role == "forward":
+        priorities = common + attacking + midfield
+    else:
+        priorities = common + attacking + midfield + defending + goalkeeping
 
-        lines = []
-
-        for display_name, aliases in items:
-
-            value = get_stat_from_rows(
-                rows,
-                aliases,
-            )
-
-            if value is None:
-                continue
-
-            lines.append(
-                f"• {display_name}: {value}"
-            )
-
-            for alias in aliases:
-                used.add(
-                    normalize_stat_key(
-                        alias
-                    )
-                )
-
-        if lines:
-            parts.append(
-                group_name
-                + "\n"
-                + "\n".join(lines)
-            )
-
-    excluded = {
-        "name",
-        "position",
-        "position string short",
-        "localized position",
-        "shirt",
-        "usual position",
-        "team id",
-        "image url",
-        "page url",
-        "is home team",
-        "is captain",
-        "rating",
-        "fotmob rating",
-        "minutes played",
-        "fantasy score",
-        "shotmap",
-        "team data",
-        "role",
-        "player rating",
-        "playerid",
-        "player id",
+    selected = []
+    used_keys = set()
+    core_zero_labels = {
+        "total shots", "shots on target", "expected goals (xg)",
+        "expected assists (xa)", "chances created", "saves", "goals conceded",
     }
+    if role in {"forward", "midfielder", "unknown"}:
+        core_zero_labels.update({"goals", "assists"})
 
-    remaining = []
-
-    for label, value in rows:
-
-        normalized = normalize_stat_key(
-            label
-        )
-
-        if normalized in used:
+    for label, aliases in priorities:
+        key = normalize_stat_key(label)
+        if key in used_keys:
             continue
-
-        if normalized in excluded:
+        value = get_stat_from_rows(rows, aliases)
+        if value is None:
             continue
+        try:
+            numeric_value = float(str(value).split("/")[0].replace("%", "").strip())
+            is_zero = numeric_value == 0
+        except (TypeError, ValueError):
+            is_zero = False
+        # Keep relevant zeroes (e.g. a striker's shots) but skip peripheral zeroes.
+        if is_zero and key not in core_zero_labels:
+            continue
+        selected.append((label, value))
+        used_keys.add(key)
+        if len(selected) >= 6:
+            break
 
-        remaining.append(
-            f"• {label}: {value}"
-        )
+    # If a role has few supported metrics, fill to at most six with non-zero data.
+    if len(selected) < 4:
+        excluded = {
+            "name", "position", "position string short", "localized position",
+            "shirt", "usual position", "team id", "image url", "page url",
+            "is home team", "is captain", "rating", "fotmob rating",
+            "minutes played", "fantasy score", "shotmap", "team data", "role",
+            "player rating", "playerid", "player id", "goals", "assists",
+        }
+        for label, value in rows:
+            key = normalize_stat_key(label)
+            if key in excluded or key in used_keys:
+                continue
+            try:
+                if float(str(value).split("/")[0].replace("%", "").strip()) == 0:
+                    continue
+            except (TypeError, ValueError):
+                pass
+            selected.append((label, value))
+            used_keys.add(key)
+            if len(selected) >= 6:
+                break
 
-    if remaining:
-        parts.append(
-            "📌 Additional"
-            + "\n"
-            + "\n".join(remaining)
-        )
-
-    return "\n\n".join(parts)
+    if not selected:
+        return ""
+    return "📊 Match stats\n" + "\n".join(
+        f"• {label}: {value}" for label, value in selected
+    )
 
 
 def process_final_report(
@@ -4008,38 +4071,20 @@ def process_final_report(
         )
 
         if rating is not None:
-            message = (
-                f"⭐ {stats['name']} rated {rating}!\n\n"
-                + format_daily_style_event_lines(
-                    match, player_lookup, details, score_text=score_str or None, full_time=True
-                ) + "\n"
-                + f"📌 {reason}\n"
-            )
+            message = f"⭐ {stats['name']} rated {rating}!\n"
         else:
-            message = (
-                f"🏁 {stats['name']} — full-time report\n\n"
-                + format_daily_style_event_lines(
-                    match, player_lookup, details, score_text=score_str or None, full_time=True
-                ) + "\n"
-                + f"📌 {reason}\n"
-            )
+            message = f"🏁 {stats['name']} — full-time report\n"
 
-        if minutes is not None:
-            message += (
-                f"⏱️ {minutes} min\n"
-            )
-
-        performance_block = (
-            format_player_stat_block(
-                stats
-            )
+        message += format_daily_style_event_lines(
+            match, player_lookup, details, score_text=score_str or None, full_time=True
         )
 
+        if minutes is not None:
+            message += f"\n⏱️ Minutes played: {minutes}"
+
+        performance_block = format_player_stat_block(stats)
         if performance_block:
-            message += (
-                "\n📊 PLAYER PERFORMANCE\n"
-                + performance_block
-            )
+            message += "\n\n" + performance_block
 
         if len(message) > 3900:
             message = (
