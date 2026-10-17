@@ -551,7 +551,8 @@
         ],
         "5802963": [
             "Jean-Clair Todibo|STARTING XI"
-        ]
+        ],
+        "5868499": []
     },
     "match_events": {
         "5071387": [
@@ -1571,6 +1572,10 @@
         "5881189": [],
         "5868501": [
             "1665439"
+        ],
+        "5868091": [
+            "427438",
+            "1209399"
         ]
     },
     "transfer_monitor": {
@@ -1732,64 +1737,6 @@
         ]
     },
     "monitored_matches": {
-        "5868091": {
-            "match": {
-                "id": 5868091,
-                "leagueId": 87,
-                "time": "17.10.2026 18:30",
-                "home": {
-                    "id": 8603,
-                    "score": 2,
-                    "name": "Real Betis",
-                    "redCards": 1,
-                    "longName": "Real Betis"
-                },
-                "away": {
-                    "id": 8634,
-                    "score": 5,
-                    "name": "Barcelona",
-                    "longName": "Barcelona"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-10-17T16:30:00.000Z",
-                    "numberOfHomeRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "17.10.2026 18:32:08",
-                        "secondHalfStarted": "17.10.2026 19:42:00"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 5",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:18",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792254600000,
-                "_competition_name": "LaLiga"
-            },
-            "tracked_player_ids": [
-                195305,
-                427438,
-                743192,
-                1209399
-            ],
-            "discovered_at": "2026-10-17T00:00:36.425482+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
-            "final_complete": false
-        },
         "5802963": {
             "match": {
                 "id": 5802963,
@@ -1828,7 +1775,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425560+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5071426": {
@@ -1871,7 +1818,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425600+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5071428": {
@@ -1914,7 +1861,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425638+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5071431": {
@@ -1957,7 +1904,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425677+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5749709": {
@@ -2007,7 +1954,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425725+03:30",
             "finished_seen_at": "2026-10-17T18:24:17.168718+03:30",
-            "next_check_at": "2026-10-17T22:14:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:15:38.028441+03:30",
             "final_complete": false
         },
         "5781774": {
@@ -2042,9 +1989,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "28‎’‎",
+                        "short": "30‎’‎",
                         "shortKey": "",
-                        "long": "27:52",
+                        "long": "29:11",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2059,7 +2006,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425877+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5868500": {
@@ -2109,7 +2056,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425915+03:30",
             "finished_seen_at": "2026-10-17T17:28:18.091029+03:30",
-            "next_check_at": "2026-10-17T22:14:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:15:38.028441+03:30",
             "final_complete": false
         },
         "5868499": {
@@ -2150,7 +2097,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426031+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "6315952": {
@@ -2191,7 +2138,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426226+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5952283": {
@@ -2227,9 +2174,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "85‎’‎",
+                        "short": "86‎’‎",
                         "shortKey": "",
-                        "long": "84:02",
+                        "long": "85:21",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2245,7 +2192,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426268+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         },
         "5103671": {
@@ -2286,7 +2233,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:59:18.465480+03:30",
+            "next_check_at": "2026-10-17T22:00:38.028441+03:30",
             "final_complete": false
         }
     },
