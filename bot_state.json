@@ -1564,7 +1564,11 @@
         ],
         "5904773": [
             "470834"
-        ]
+        ],
+        "5795482": [
+            "1280132"
+        ],
+        "5881189": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -1725,115 +1729,6 @@
         ]
     },
     "monitored_matches": {
-        "5795482": {
-            "match": {
-                "id": 5795482,
-                "leagueId": 47,
-                "time": "17.10.2026 18:30",
-                "home": {
-                    "id": 10261,
-                    "score": 0,
-                    "name": "Newcastle United",
-                    "shortName": "Newcastle",
-                    "longName": "Newcastle United"
-                },
-                "away": {
-                    "id": 10252,
-                    "score": 1,
-                    "name": "Aston Villa",
-                    "longName": "Aston Villa"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-17T16:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "17.10.2026 18:30:30",
-                        "secondHalfStarted": "17.10.2026 19:33:17"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "96‎’‎",
-                        "shortKey": "",
-                        "long": "95:58",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792254600000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                1280132
-            ],
-            "discovered_at": "2026-10-17T00:00:36.425358+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
-            "final_complete": false
-        },
-        "5881189": {
-            "match": {
-                "id": 5881189,
-                "leagueId": 54,
-                "time": "17.10.2026 18:30",
-                "home": {
-                    "id": 9823,
-                    "score": 6,
-                    "name": "Bayern München",
-                    "shortName": "Bayern München",
-                    "longName": "Bayern München"
-                },
-                "away": {
-                    "id": 178475,
-                    "score": 1,
-                    "name": "RB Leipzig",
-                    "shortName": "RB Leipzig",
-                    "longName": "RB Leipzig"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-10-17T16:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "17.10.2026 18:31:55",
-                        "secondHalfStarted": "17.10.2026 19:35:43"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "6 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:32",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792254600000,
-                "_competition_name": "Bundesliga"
-            },
-            "tracked_player_ids": [
-                1412137
-            ],
-            "discovered_at": "2026-10-17T00:00:36.425398+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
-            "final_complete": false
-        },
         "5868091": {
             "match": {
                 "id": 5868091,
@@ -1869,9 +1764,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 5",
                     "liveTime": {
-                        "short": "88‎’‎",
+                        "short": "89‎’‎",
                         "shortKey": "",
-                        "long": "87:15",
+                        "long": "88:18",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -1889,7 +1784,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425482+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5802963": {
@@ -1930,7 +1825,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425560+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5071426": {
@@ -1973,7 +1868,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425600+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5071428": {
@@ -2016,7 +1911,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425638+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5071431": {
@@ -2059,7 +1954,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425677+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5749709": {
@@ -2109,7 +2004,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425725+03:30",
             "finished_seen_at": "2026-10-17T18:24:17.168718+03:30",
-            "next_check_at": "2026-10-17T22:09:20.229306+03:30",
+            "next_check_at": "2026-10-17T22:10:24.227419+03:30",
             "final_complete": false
         },
         "5781774": {
@@ -2144,9 +2039,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "23‎’‎",
+                        "short": "24‎’‎",
                         "shortKey": "",
-                        "long": "22:49",
+                        "long": "23:52",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2161,7 +2056,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425877+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5868500": {
@@ -2211,7 +2106,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425915+03:30",
             "finished_seen_at": "2026-10-17T17:28:18.091029+03:30",
-            "next_check_at": "2026-10-17T22:09:20.229306+03:30",
+            "next_check_at": "2026-10-17T22:10:24.227419+03:30",
             "final_complete": false
         },
         "5868501": {
@@ -2247,9 +2142,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "96‎’‎",
+                        "short": "97‎’‎",
                         "shortKey": "",
-                        "long": "95:28",
+                        "long": "96:31",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2266,7 +2161,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.425993+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5868499": {
@@ -2307,7 +2202,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426031+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "6315952": {
@@ -2348,7 +2243,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426226+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5952283": {
@@ -2384,9 +2279,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "79‎’‎",
+                        "short": "81‎’‎",
                         "shortKey": "",
-                        "long": "78:59",
+                        "long": "80:02",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2402,7 +2297,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426268+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         },
         "5103671": {
@@ -2443,7 +2338,7 @@
             ],
             "discovered_at": "2026-10-17T00:00:36.426306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-17T21:54:20.229306+03:30",
+            "next_check_at": "2026-10-17T21:55:24.227419+03:30",
             "final_complete": false
         }
     },
