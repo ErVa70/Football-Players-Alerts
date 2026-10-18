@@ -1827,6 +1827,9 @@
         "5868496": [
             "748380",
             "873297"
+        ],
+        "5781773": [
+            "1403694"
         ]
     },
     "transfer_monitor": {
@@ -2190,7 +2193,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313079+03:30",
             "finished_seen_at": "2026-10-18T18:24:18.846335+03:30",
-            "next_check_at": "2026-10-18T23:39:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:40:24.532472+03:30",
             "final_complete": false
         },
         "5795480": {
@@ -2242,7 +2245,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313152+03:30",
             "finished_seen_at": "2026-10-18T18:24:18.846335+03:30",
-            "next_check_at": "2026-10-18T23:39:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:40:24.532472+03:30",
             "final_complete": false
         },
         "5868098": {
@@ -2294,7 +2297,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313293+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "5071440": {
@@ -2337,60 +2340,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313474+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
-            "final_complete": false
-        },
-        "5781773": {
-            "match": {
-                "id": 5781773,
-                "leagueId": 937276,
-                "time": "18.10.2026 20:00",
-                "home": {
-                    "id": 8611,
-                    "score": 1,
-                    "name": "FC Twente",
-                    "longName": "FC Twente"
-                },
-                "away": {
-                    "id": 9908,
-                    "score": 2,
-                    "name": "FC Utrecht",
-                    "longName": "FC Utrecht"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-10-18T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 20:01:28",
-                        "secondHalfStarted": "18.10.2026 21:02:51"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "97‎’‎",
-                        "shortKey": "",
-                        "long": "96:26",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792346400000,
-                "_competition_name": "Eredivisie"
-            },
-            "tracked_player_ids": [
-                1403694
-            ],
-            "discovered_at": "2026-10-18T00:00:36.313657+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "5865479": {
@@ -2440,7 +2390,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313941+03:30",
             "finished_seen_at": "2026-10-18T19:00:44.622763+03:30",
-            "next_check_at": "2026-10-18T23:39:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:40:24.532472+03:30",
             "final_complete": false
         },
         "5883692": {
@@ -2490,7 +2440,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313985+03:30",
             "finished_seen_at": "2026-10-18T19:30:48.586654+03:30",
-            "next_check_at": "2026-10-18T23:39:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:40:24.532472+03:30",
             "final_complete": false
         },
         "5884879": {
@@ -2537,7 +2487,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2587,7 +2537,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314080+03:30",
             "finished_seen_at": "2026-10-18T20:22:17.645125+03:30",
-            "next_check_at": "2026-10-18T23:39:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:40:24.532472+03:30",
             "final_complete": false
         },
         "5103664": {
@@ -2641,7 +2591,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314440+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "5103670": {
@@ -2693,7 +2643,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314487+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "5103672": {
@@ -2734,7 +2684,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314534+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "5103673": {
@@ -2775,7 +2725,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-18T23:24:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:25:24.532472+03:30",
             "final_complete": false
         },
         "6315957": {
@@ -2827,7 +2777,7 @@
             ],
             "discovered_at": "2026-10-18T20:36:18.399272+03:30",
             "finished_seen_at": "2026-10-18T20:36:18.399695+03:30",
-            "next_check_at": "2026-10-18T23:39:17.865737+03:30",
+            "next_check_at": "2026-10-18T23:40:24.532472+03:30",
             "final_complete": false
         }
     },
