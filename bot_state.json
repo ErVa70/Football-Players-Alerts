@@ -1850,6 +1850,10 @@
         ],
         "5868098": [
             "873289"
+        ],
+        "5103664": [
+            "19533",
+            "184536"
         ]
     },
     "transfer_monitor": {
@@ -2308,7 +2312,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.313474+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "5865479": {
@@ -2455,7 +2459,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2508,61 +2512,6 @@
             "next_check_at": "2026-10-19T00:45:45.130533+03:30",
             "final_complete": false
         },
-        "5103664": {
-            "match": {
-                "id": 5103664,
-                "leagueId": 1000001407,
-                "time": "18.10.2026 21:00",
-                "home": {
-                    "id": 9863,
-                    "score": 1,
-                    "name": "Fluminense",
-                    "longName": "Fluminense"
-                },
-                "away": {
-                    "id": 8514,
-                    "score": 2,
-                    "name": "Santos",
-                    "longName": "Santos"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "31",
-                "status": {
-                    "utcTime": "2026-10-18T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 21:02:57",
-                        "secondHalfStarted": "18.10.2026 22:08:43"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "66‎’‎",
-                        "shortKey": "",
-                        "long": "65:33",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792350000000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                19533,
-                184536,
-                654044
-            ],
-            "discovered_at": "2026-10-18T00:00:36.314440+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
-            "final_complete": false
-        },
         "5103672": {
             "match": {
                 "id": 5103672,
@@ -2601,7 +2550,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314534+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "5103673": {
@@ -2642,7 +2591,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "6315957": {
@@ -2735,7 +2684,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2777,7 +2726,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "5970166": {
@@ -2818,7 +2767,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088546+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2859,7 +2808,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T00:33:16.049314+03:30",
+            "next_check_at": "2026-10-19T00:34:18.854236+03:30",
             "final_complete": false
         }
     },
