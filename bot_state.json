@@ -2336,9 +2336,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "71‎’‎",
+                        "short": "72‎’‎",
                         "shortKey": "",
-                        "long": "70:05",
+                        "long": "71:03",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2353,7 +2353,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T20:41:20.908820+03:30",
+            "next_check_at": "2026-10-19T20:42:21.783624+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2465,7 +2465,7 @@
                 "time": "19.10.2026 18:30",
                 "home": {
                     "id": 6504,
-                    "score": 0,
+                    "score": 1,
                     "name": "Monza",
                     "longName": "Monza"
                 },
@@ -2488,11 +2488,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "40‎’‎",
+                        "short": "41‎’‎",
                         "shortKey": "",
-                        "long": "39:25",
+                        "long": "40:23",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2507,7 +2507,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T20:41:20.908820+03:30",
+            "next_check_at": "2026-10-19T20:42:21.783624+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2549,7 +2549,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T20:41:20.908820+03:30",
+            "next_check_at": "2026-10-19T20:42:21.783624+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2590,7 +2590,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T20:41:20.908820+03:30",
+            "next_check_at": "2026-10-19T20:42:21.783624+03:30",
             "final_complete": false
         }
     },
