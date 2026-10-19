@@ -2307,7 +2307,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": "2026-10-19T21:20:30.652490+03:30",
-            "next_check_at": "2026-10-20T00:13:21.511487+03:30",
+            "next_check_at": "2026-10-20T00:14:19.387983+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2425,7 +2425,7 @@
                 },
                 "away": {
                     "id": 9764,
-                    "score": 0,
+                    "score": 1,
                     "name": "Gil Vicente",
                     "longName": "Gil Vicente"
                 },
@@ -2443,11 +2443,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:55",
+                        "long": "49:54",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2463,7 +2463,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T23:58:21.511487+03:30",
+            "next_check_at": "2026-10-19T23:59:19.387983+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2504,7 +2504,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T23:58:21.511487+03:30",
+            "next_check_at": "2026-10-19T23:59:19.387983+03:30",
             "final_complete": false
         }
     },
