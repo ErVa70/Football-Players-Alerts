@@ -2035,56 +2035,6 @@
         ]
     },
     "monitored_matches": {
-        "5749709": {
-            "match": {
-                "id": 5749709,
-                "leagueId": 55,
-                "time": "17.10.2026 15:00",
-                "home": {
-                    "id": 7881,
-                    "score": 1,
-                    "name": "Venezia",
-                    "longName": "Venezia"
-                },
-                "away": {
-                    "id": 9875,
-                    "score": 0,
-                    "name": "Napoli",
-                    "longName": "Napoli"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-17T13:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "17.10.2026 15:01:10",
-                        "secondHalfStarted": "17.10.2026 16:04:19"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "1 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792242000000,
-                "_competition_name": "Serie A"
-            },
-            "tracked_player_ids": [
-                1665438
-            ],
-            "discovered_at": "2026-10-17T00:00:36.425725+03:30",
-            "finished_seen_at": "2026-10-17T18:24:17.168718+03:30",
-            "next_check_at": "2026-10-19T16:51:17.687034+03:30",
-            "final_complete": false
-        },
         "6315952": {
             "match": {
                 "id": 6315952,
@@ -2386,7 +2336,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T16:29:17.801501+03:30",
+            "next_check_at": "2026-10-19T16:30:50.846290+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2436,7 +2386,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314080+03:30",
             "finished_seen_at": "2026-10-18T20:22:17.645125+03:30",
-            "next_check_at": "2026-10-19T16:29:19.614981+03:30",
+            "next_check_at": "2026-10-19T17:30:50.846290+03:30",
             "final_complete": false
         },
         "6315957": {
@@ -2529,7 +2479,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T16:29:17.801501+03:30",
+            "next_check_at": "2026-10-19T16:30:50.846290+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2571,7 +2521,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T16:29:17.801501+03:30",
+            "next_check_at": "2026-10-19T16:30:50.846290+03:30",
             "final_complete": false
         },
         "5970166": {
@@ -2612,7 +2562,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088546+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T16:29:17.801501+03:30",
+            "next_check_at": "2026-10-19T16:30:50.846290+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2653,7 +2603,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T16:29:17.801501+03:30",
+            "next_check_at": "2026-10-19T16:30:50.846290+03:30",
             "final_complete": false
         }
     },
