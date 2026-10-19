@@ -2085,56 +2085,6 @@
             "next_check_at": "2026-10-19T15:51:16.623971+03:30",
             "final_complete": false
         },
-        "5868500": {
-            "match": {
-                "id": 5868500,
-                "leagueId": 938653,
-                "time": "17.10.2026 14:00",
-                "home": {
-                    "id": 161744,
-                    "score": 2,
-                    "name": "Real Sociedad B",
-                    "longName": "Real Sociedad B"
-                },
-                "away": {
-                    "id": 9865,
-                    "score": 4,
-                    "name": "Almería",
-                    "longName": "Almería"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-10-17T12:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "17.10.2026 14:00:38",
-                        "secondHalfStarted": "17.10.2026 15:05:12"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "2 - 4",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792238400000,
-                "_competition_name": "LaLiga2"
-            },
-            "tracked_player_ids": [
-                902647
-            ],
-            "discovered_at": "2026-10-17T00:00:36.425915+03:30",
-            "finished_seen_at": "2026-10-17T17:28:18.091029+03:30",
-            "next_check_at": "2026-10-19T15:49:17.176135+03:30",
-            "final_complete": false
-        },
         "6315952": {
             "match": {
                 "id": 6315952,
@@ -2436,7 +2386,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T15:29:19.614981+03:30",
+            "next_check_at": "2026-10-19T15:30:47.336075+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2579,7 +2529,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T15:29:19.614981+03:30",
+            "next_check_at": "2026-10-19T15:30:47.336075+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2621,7 +2571,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T15:29:19.614981+03:30",
+            "next_check_at": "2026-10-19T15:30:47.336075+03:30",
             "final_complete": false
         },
         "5970166": {
@@ -2662,7 +2612,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088546+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T15:29:19.614981+03:30",
+            "next_check_at": "2026-10-19T15:30:47.336075+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2703,7 +2653,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T15:29:19.614981+03:30",
+            "next_check_at": "2026-10-19T15:30:47.336075+03:30",
             "final_complete": false
         }
     },
