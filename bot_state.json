@@ -2331,9 +2331,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "22‎’‎",
+                        "short": "23‎’‎",
                         "shortKey": "",
-                        "long": "21:47",
+                        "long": "22:50",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2348,7 +2348,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T19:43:17.560664+03:30",
+            "next_check_at": "2026-10-19T19:44:20.508771+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2491,7 +2491,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T19:43:17.560664+03:30",
+            "next_check_at": "2026-10-19T19:44:20.508771+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2533,7 +2533,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T19:43:17.560664+03:30",
+            "next_check_at": "2026-10-19T19:44:20.508771+03:30",
             "final_complete": false
         },
         "5970166": {
@@ -2554,12 +2554,13 @@
                     "longName": "Al Ahli"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "10",
                 "status": {
                     "utcTime": "2026-10-19T15:05:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "19.10.2026 17:05:38"
+                        "firstHalfStarted": "19.10.2026 17:05:38",
+                        "secondHalfStarted": "19.10.2026 18:14:04"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2568,12 +2569,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:16",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2585,7 +2586,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088546+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T19:43:17.560664+03:30",
+            "next_check_at": "2026-10-19T19:44:20.508771+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2626,7 +2627,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T19:43:17.560664+03:30",
+            "next_check_at": "2026-10-19T19:44:20.508771+03:30",
             "final_complete": false
         }
     },
