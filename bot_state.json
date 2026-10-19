@@ -1885,7 +1885,8 @@
         ],
         "5970166": [
             "732282"
-        ]
+        ],
+        "5884879": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2321,7 +2322,7 @@
                     "longName": "UCAM Murcia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 3,
+                "statusId": 6,
                 "tournamentStage": "7",
                 "status": {
                     "utcTime": "2026-10-19T15:45:00.000Z",
@@ -2330,19 +2331,16 @@
                         "secondHalfStarted": "19.10.2026 18:46:15"
                     },
                     "periodLength": 45,
-                    "finished": false,
+                    "finished": true,
                     "started": true,
                     "cancelled": false,
-                    "ongoing": true,
+                    "awarded": false,
                     "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "109‎’‎",
-                        "shortKey": "",
-                        "long": "108:01",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
+                    "reason": {
+                        "short": "FT",
+                        "shortKey": "fulltime_short",
+                        "long": "Full-Time",
+                        "longKey": "finished"
                     }
                 },
                 "timeTS": 1792424700000,
@@ -2352,8 +2350,8 @@
                 128290
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-19T21:19:16.200436+03:30",
+            "finished_seen_at": "2026-10-19T21:20:30.652490+03:30",
+            "next_check_at": "2026-10-19T21:21:30.652490+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2491,9 +2489,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "60‎’‎",
+                        "short": "62‎’‎",
                         "shortKey": "",
-                        "long": "59:52",
+                        "long": "61:06",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2508,7 +2506,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T21:19:16.200436+03:30",
+            "next_check_at": "2026-10-19T21:20:30.652490+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2550,7 +2548,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T21:19:16.200436+03:30",
+            "next_check_at": "2026-10-19T21:20:30.652490+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2591,7 +2589,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T21:19:16.200436+03:30",
+            "next_check_at": "2026-10-19T21:20:30.652490+03:30",
             "final_complete": false
         }
     },
