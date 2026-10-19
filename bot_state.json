@@ -1870,6 +1870,9 @@
         ],
         "5103672": [
             "797908"
+        ],
+        "5103673": [
+            "789877"
         ]
     },
     "transfer_monitor": {
@@ -2432,7 +2435,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T04:05:24.648751+03:30",
+            "next_check_at": "2026-10-19T04:06:21.015029+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2483,59 +2486,6 @@
             "discovered_at": "2026-10-18T00:00:36.314080+03:30",
             "finished_seen_at": "2026-10-18T20:22:17.645125+03:30",
             "next_check_at": "2026-10-19T04:11:20.030127+03:30",
-            "final_complete": false
-        },
-        "5103673": {
-            "match": {
-                "id": 5103673,
-                "leagueId": 1000001407,
-                "time": "19.10.2026 00:30",
-                "home": {
-                    "id": 1626,
-                    "score": 1,
-                    "name": "Remo",
-                    "longName": "Remo"
-                },
-                "away": {
-                    "id": 109705,
-                    "score": 1,
-                    "name": "RB Bragantino",
-                    "longName": "RB Bragantino"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "31",
-                "status": {
-                    "utcTime": "2026-10-18T22:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "19.10.2026 00:32:51",
-                        "secondHalfStarted": "19.10.2026 01:42:14"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "99‎’‎",
-                        "shortKey": "",
-                        "long": "98:10",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792362600000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                789877
-            ],
-            "discovered_at": "2026-10-18T00:00:36.314580+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-19T04:05:24.648751+03:30",
             "final_complete": false
         },
         "6315957": {
@@ -2628,7 +2578,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088405+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T04:05:24.648751+03:30",
+            "next_check_at": "2026-10-19T04:06:21.015029+03:30",
             "final_complete": false
         },
         "5887594": {
@@ -2670,7 +2620,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088488+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T04:05:24.648751+03:30",
+            "next_check_at": "2026-10-19T04:06:21.015029+03:30",
             "final_complete": false
         },
         "5970166": {
@@ -2711,7 +2661,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088546+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T04:05:24.648751+03:30",
+            "next_check_at": "2026-10-19T04:06:21.015029+03:30",
             "final_complete": false
         },
         "5103667": {
@@ -2752,7 +2702,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-19T04:05:24.648751+03:30",
+            "next_check_at": "2026-10-19T04:06:21.015029+03:30",
             "final_complete": false
         }
     },
