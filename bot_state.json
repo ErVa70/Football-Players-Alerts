@@ -2312,7 +2312,7 @@
             ],
             "discovered_at": "2026-10-18T00:00:36.314035+03:30",
             "finished_seen_at": "2026-10-19T21:20:30.652490+03:30",
-            "next_check_at": "2026-10-20T03:39:20.218504+03:30",
+            "next_check_at": "2026-10-20T03:54:21.067432+03:30",
             "final_complete": false
         },
         "5885597": {
@@ -2435,12 +2435,13 @@
                     "longName": "Vitória"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "31",
                 "status": {
                     "utcTime": "2026-10-19T23:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.10.2026 01:03:34"
+                        "firstHalfStarted": "20.10.2026 01:03:34",
+                        "secondHalfStarted": "20.10.2026 02:08:05"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2449,12 +2450,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "47‎’‎",
+                        "shortKey": "",
+                        "long": "46:15",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2466,7 +2467,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         },
         "6106333": {
@@ -2507,7 +2508,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2548,7 +2549,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2590,7 +2591,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2635,7 +2636,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2677,7 +2678,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2719,7 +2720,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:38:18.691354+03:30",
+            "next_check_at": "2026-10-20T03:39:21.067432+03:30",
             "final_complete": false
         }
     },
