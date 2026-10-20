@@ -2190,7 +2190,7 @@
                     "liveTime": {
                         "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "70:01",
+                        "long": "70:55",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2205,7 +2205,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:57:19.397452+03:30",
+            "next_check_at": "2026-10-20T23:58:20.657025+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2215,7 +2215,7 @@
                 "time": "20.10.2026 21:00",
                 "home": {
                     "id": 8650,
-                    "score": 3,
+                    "score": 4,
                     "name": "Liverpool",
                     "longName": "Liverpool"
                 },
@@ -2239,11 +2239,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "3 - 2",
+                    "scoreStr": "4 - 2",
                     "liveTime": {
-                        "short": "69‎’‎",
+                        "short": "70‎’‎",
                         "shortKey": "",
-                        "long": "68:06",
+                        "long": "69:00",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2259,7 +2259,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:57:19.397452+03:30",
+            "next_check_at": "2026-10-20T23:58:20.657025+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2296,9 +2296,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "65‎’‎",
+                        "short": "66‎’‎",
                         "shortKey": "",
-                        "long": "64:15",
+                        "long": "65:09",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2316,7 +2316,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:57:19.397452+03:30",
+            "next_check_at": "2026-10-20T23:58:20.657025+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2358,7 +2358,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:57:19.397452+03:30",
+            "next_check_at": "2026-10-20T23:58:20.657025+03:30",
             "final_complete": false
         }
     },
