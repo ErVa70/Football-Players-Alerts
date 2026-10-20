@@ -2430,22 +2430,33 @@
                 },
                 "away": {
                     "id": 7733,
-                    "score": 0,
+                    "score": 1,
                     "name": "Vitória",
                     "longName": "Vitória"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 10,
                 "tournamentStage": "31",
                 "status": {
                     "utcTime": "2026-10-19T23:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.10.2026 01:00:00"
+                        "firstHalfStarted": "20.10.2026 01:03:34"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 1",
+                    "liveTime": {
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792450800000,
                 "_competition_name": "Série A"
@@ -2455,7 +2466,7 @@
             ],
             "discovered_at": "2026-10-19T00:00:39.088601+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         },
         "6106333": {
@@ -2496,7 +2507,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2537,7 +2548,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2579,7 +2590,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2624,7 +2635,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2666,7 +2677,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2708,7 +2719,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T03:29:18.710027+03:30",
+            "next_check_at": "2026-10-20T03:30:49.642500+03:30",
             "final_complete": false
         }
     },
