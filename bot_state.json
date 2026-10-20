@@ -2198,7 +2198,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:20:30.435549+03:30",
+            "next_check_at": "2026-10-20T23:21:21.235842+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2251,7 +2251,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:20:30.435549+03:30",
+            "next_check_at": "2026-10-20T23:21:21.235842+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2273,7 +2273,7 @@
                     "longName": "Barcelona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-20T19:00:00.000Z",
@@ -2287,10 +2287,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
-                        "shortKey": "",
-                        "long": "47:50",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -2307,7 +2307,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:20:30.435549+03:30",
+            "next_check_at": "2026-10-20T23:21:21.235842+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2349,7 +2349,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:20:30.435549+03:30",
+            "next_check_at": "2026-10-20T23:21:21.235842+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2385,9 +2385,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "87‎’‎",
+                        "short": "88‎’‎",
                         "shortKey": "",
-                        "long": "86:56",
+                        "long": "87:47",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2403,7 +2403,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:20:30.435549+03:30",
+            "next_check_at": "2026-10-20T23:21:21.235842+03:30",
             "final_complete": false
         }
     },
