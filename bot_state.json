@@ -2141,7 +2141,7 @@
                     "longName": "Slavia Prague"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-20T16:45:00.000Z",
@@ -2155,10 +2155,10 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "48‎’‎",
-                        "shortKey": "",
-                        "long": "47:14",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -2172,7 +2172,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:03:17.565858+03:30",
+            "next_check_at": "2026-10-20T21:04:20.166604+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2213,7 +2213,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:03:17.565858+03:30",
+            "next_check_at": "2026-10-20T21:04:20.166604+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2255,7 +2255,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:03:17.565858+03:30",
+            "next_check_at": "2026-10-20T21:04:20.166604+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2300,7 +2300,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:03:17.565858+03:30",
+            "next_check_at": "2026-10-20T21:04:20.166604+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2342,7 +2342,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:03:17.565858+03:30",
+            "next_check_at": "2026-10-20T21:04:20.166604+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2384,7 +2384,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:03:17.565858+03:30",
+            "next_check_at": "2026-10-20T21:04:20.166604+03:30",
             "final_complete": false
         }
     },
