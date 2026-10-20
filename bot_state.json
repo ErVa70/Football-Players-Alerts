@@ -2172,12 +2172,13 @@
                     "longName": "PSV Eindhoven"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-20T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.10.2026 21:01:02"
+                        "firstHalfStarted": "20.10.2026 21:01:02",
+                        "secondHalfStarted": "20.10.2026 22:02:18"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2186,12 +2187,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "47‎’‎",
+                        "shortKey": "",
+                        "long": "46:00",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2203,7 +2204,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:32:19.250026+03:30",
+            "next_check_at": "2026-10-20T23:33:18.253199+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2256,7 +2257,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:32:19.250026+03:30",
+            "next_check_at": "2026-10-20T23:33:18.253199+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2312,7 +2313,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:32:19.250026+03:30",
+            "next_check_at": "2026-10-20T23:33:18.253199+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2354,7 +2355,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:32:19.250026+03:30",
+            "next_check_at": "2026-10-20T23:33:18.253199+03:30",
             "final_complete": false
         }
     },
