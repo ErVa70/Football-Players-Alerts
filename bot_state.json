@@ -1347,7 +1347,8 @@
         "6106333": [
             "id:14608479|assist|470834"
         ],
-        "5970168": []
+        "5970168": [],
+        "6106248": []
     },
     "final_posts": {
         "5991881": [
@@ -2178,7 +2179,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:29:20.377867+03:30",
+            "next_check_at": "2026-10-20T22:30:59.572245+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2199,17 +2200,28 @@
                     "longName": "Villarreal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-20T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.10.2026 21:00:00"
+                        "firstHalfStarted": "20.10.2026 21:00:45"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:14",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792522800000,
                 "_competition_name": "Champions League"
@@ -2220,7 +2232,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:29:20.377867+03:30",
+            "next_check_at": "2026-10-20T22:30:59.572245+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2265,7 +2277,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:29:20.377867+03:30",
+            "next_check_at": "2026-10-20T22:30:59.572245+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2307,7 +2319,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:29:20.377867+03:30",
+            "next_check_at": "2026-10-20T22:30:59.572245+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2360,7 +2372,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:29:20.377867+03:30",
+            "next_check_at": "2026-10-20T22:30:59.572245+03:30",
             "final_complete": false
         }
     },
