@@ -2113,56 +2113,6 @@
             "next_check_at": "2026-10-20T18:31:18.798044+03:30",
             "final_complete": false
         },
-        "5885597": {
-            "match": {
-                "id": 5885597,
-                "leagueId": 938796,
-                "time": "18.10.2026 17:00",
-                "home": {
-                    "id": 8388,
-                    "score": 0,
-                    "name": "Numancia",
-                    "longName": "Numancia"
-                },
-                "away": {
-                    "id": 357239,
-                    "score": 0,
-                    "name": "CF Talavera de la Reina",
-                    "longName": "CF Talavera de la Reina"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-18T15:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 17:02:09",
-                        "secondHalfStarted": "18.10.2026 18:04:51"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792335600000,
-                "_competition_name": "Segunda Federacion - Group 5"
-            },
-            "tracked_player_ids": [
-                603463
-            ],
-            "discovered_at": "2026-10-18T00:00:36.314080+03:30",
-            "finished_seen_at": "2026-10-18T20:22:17.645125+03:30",
-            "next_check_at": "2026-10-20T18:45:29.456922+03:30",
-            "final_complete": false
-        },
         "6106333": {
             "match": {
                 "id": 6106333,
@@ -2201,7 +2151,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T18:29:18.541874+03:30",
+            "next_check_at": "2026-10-20T18:30:51.837098+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2242,7 +2192,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T18:29:18.541874+03:30",
+            "next_check_at": "2026-10-20T18:30:51.837098+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2284,7 +2234,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T18:29:18.541874+03:30",
+            "next_check_at": "2026-10-20T18:30:51.837098+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2329,7 +2279,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T18:29:18.541874+03:30",
+            "next_check_at": "2026-10-20T18:30:51.837098+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2371,7 +2321,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T18:29:18.541874+03:30",
+            "next_check_at": "2026-10-20T18:30:51.837098+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2413,7 +2363,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T18:29:18.541874+03:30",
+            "next_check_at": "2026-10-20T18:30:51.837098+03:30",
             "final_complete": false
         }
     },
