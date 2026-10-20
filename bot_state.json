@@ -664,6 +664,9 @@
         "5970168": [
             "Iñigo Martínez|STARTING XI",
             "João Félix|STARTING XI"
+        ],
+        "6106234": [
+            "Ousmane Dembélé|STARTING XI"
         ]
     },
     "match_events": {
@@ -2156,9 +2159,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "46‎’‎",
+                        "short": "47‎’‎",
                         "shortKey": "",
-                        "long": "45:31",
+                        "long": "46:45",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2173,7 +2176,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:19:17.692169+03:30",
+            "next_check_at": "2026-10-20T21:20:31.799556+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2214,7 +2217,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:19:17.692169+03:30",
+            "next_check_at": "2026-10-20T21:20:31.799556+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2256,7 +2259,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:19:17.692169+03:30",
+            "next_check_at": "2026-10-20T21:20:31.799556+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2301,7 +2304,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:19:17.692169+03:30",
+            "next_check_at": "2026-10-20T21:20:31.799556+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2343,7 +2346,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:19:17.692169+03:30",
+            "next_check_at": "2026-10-20T21:20:31.799556+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2385,7 +2388,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:19:17.692169+03:30",
+            "next_check_at": "2026-10-20T21:20:31.799556+03:30",
             "final_complete": false
         }
     },
