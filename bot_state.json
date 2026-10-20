@@ -2063,56 +2063,6 @@
         ]
     },
     "monitored_matches": {
-        "5883692": {
-            "match": {
-                "id": 5883692,
-                "leagueId": 938783,
-                "time": "18.10.2026 16:00",
-                "home": {
-                    "id": 8400,
-                    "score": 2,
-                    "name": "Gimnàstic",
-                    "longName": "Gimnàstic"
-                },
-                "away": {
-                    "id": 161759,
-                    "score": 1,
-                    "name": "Atlético Madrileño",
-                    "longName": "Atlético Madrileño"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "8",
-                "status": {
-                    "utcTime": "2026-10-18T14:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 16:03:51",
-                        "secondHalfStarted": "18.10.2026 17:10:42"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "2 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792332000000,
-                "_competition_name": "Primera Federacion - Group 2"
-            },
-            "tracked_player_ids": [
-                545903
-            ],
-            "discovered_at": "2026-10-18T00:00:36.313985+03:30",
-            "finished_seen_at": "2026-10-18T19:30:48.586654+03:30",
-            "next_check_at": "2026-10-20T18:01:17.716286+03:30",
-            "final_complete": false
-        },
         "5884879": {
             "match": {
                 "id": 5884879,
@@ -2213,58 +2163,6 @@
             "next_check_at": "2026-10-20T17:43:20.128440+03:30",
             "final_complete": false
         },
-        "6315957": {
-            "match": {
-                "id": 6315957,
-                "leagueId": 186,
-                "time": "18.10.2026 16:00",
-                "home": {
-                    "id": 188163,
-                    "score": 2,
-                    "name": "Tondela",
-                    "longName": "Tondela"
-                },
-                "away": {
-                    "id": 9780,
-                    "score": 0,
-                    "name": "Alverca",
-                    "longName": "Alverca"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 11,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-18T14:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 16:01:42",
-                        "secondHalfStarted": "18.10.2026 17:04:44",
-                        "firstExtraHalfStarted": "18.10.2026 17:59:50",
-                        "secondExtraHalfStarted": "18.10.2026 18:21:28"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "2 - 0",
-                    "reason": {
-                        "short": "AET",
-                        "shortKey": "afterextratime_short",
-                        "long": "After extra time",
-                        "longKey": "afterextra"
-                    }
-                },
-                "timeTS": 1792332000000,
-                "_competition_name": "Taca de Portugal"
-            },
-            "tracked_player_ids": [
-                358148
-            ],
-            "discovered_at": "2026-10-18T20:36:18.399272+03:30",
-            "finished_seen_at": "2026-10-18T20:36:18.399695+03:30",
-            "next_check_at": "2026-10-20T18:01:17.716286+03:30",
-            "final_complete": false
-        },
         "6106333": {
             "match": {
                 "id": 6106333,
@@ -2303,7 +2201,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T17:29:16.565266+03:30",
+            "next_check_at": "2026-10-20T17:30:49.960779+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2344,7 +2242,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T17:29:16.565266+03:30",
+            "next_check_at": "2026-10-20T17:30:49.960779+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2386,7 +2284,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T17:29:16.565266+03:30",
+            "next_check_at": "2026-10-20T17:30:49.960779+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2431,7 +2329,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T17:29:16.565266+03:30",
+            "next_check_at": "2026-10-20T17:30:49.960779+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2473,7 +2371,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T17:29:16.565266+03:30",
+            "next_check_at": "2026-10-20T17:30:49.960779+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2515,7 +2413,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T17:29:16.565266+03:30",
+            "next_check_at": "2026-10-20T17:30:49.960779+03:30",
             "final_complete": false
         }
     },
