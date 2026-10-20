@@ -2063,110 +2063,6 @@
         ]
     },
     "monitored_matches": {
-        "5795477": {
-            "match": {
-                "id": 5795477,
-                "leagueId": 47,
-                "time": "18.10.2026 15:00",
-                "home": {
-                    "id": 10204,
-                    "score": 5,
-                    "name": "Brighton & Hove Albion",
-                    "shortName": "Brighton",
-                    "longName": "Brighton & Hove Albion"
-                },
-                "away": {
-                    "id": 9826,
-                    "score": 0,
-                    "name": "Crystal Palace",
-                    "longName": "Crystal Palace"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-18T13:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 15:00:35",
-                        "secondHalfStarted": "18.10.2026 16:03:51"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "5 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792328400000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                952095,
-                1187506
-            ],
-            "discovered_at": "2026-10-18T00:00:36.313079+03:30",
-            "finished_seen_at": "2026-10-18T18:24:18.846335+03:30",
-            "next_check_at": "2026-10-20T16:54:21.319023+03:30",
-            "final_complete": false
-        },
-        "5795480": {
-            "match": {
-                "id": 5795480,
-                "leagueId": 47,
-                "time": "18.10.2026 15:00",
-                "home": {
-                    "id": 8463,
-                    "score": 1,
-                    "name": "Leeds United",
-                    "shortName": "Leeds",
-                    "longName": "Leeds United"
-                },
-                "away": {
-                    "id": 10260,
-                    "score": 1,
-                    "name": "Manchester United",
-                    "shortName": "Man United",
-                    "longName": "Manchester United"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-18T13:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.10.2026 15:00:48",
-                        "secondHalfStarted": "18.10.2026 16:04:10"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "1 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792328400000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                696365
-            ],
-            "discovered_at": "2026-10-18T00:00:36.313152+03:30",
-            "finished_seen_at": "2026-10-18T18:24:18.846335+03:30",
-            "next_check_at": "2026-10-20T16:54:21.319023+03:30",
-            "final_complete": false
-        },
         "5865479": {
             "match": {
                 "id": 5865479,
@@ -2457,7 +2353,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T16:29:16.968320+03:30",
+            "next_check_at": "2026-10-20T16:30:49.449170+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2498,7 +2394,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T16:29:16.968320+03:30",
+            "next_check_at": "2026-10-20T16:30:49.449170+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2540,7 +2436,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T16:29:16.968320+03:30",
+            "next_check_at": "2026-10-20T16:30:49.449170+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2585,7 +2481,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T16:29:16.968320+03:30",
+            "next_check_at": "2026-10-20T16:30:49.449170+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2627,7 +2523,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T16:29:16.968320+03:30",
+            "next_check_at": "2026-10-20T16:30:49.449170+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2669,7 +2565,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T16:29:16.968320+03:30",
+            "next_check_at": "2026-10-20T16:30:49.449170+03:30",
             "final_complete": false
         }
     },
