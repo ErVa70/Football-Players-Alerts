@@ -1950,6 +1950,10 @@
         ],
         "6106248": [
             "921253"
+        ],
+        "6106234": [
+            "692984",
+            "881771"
         ]
     },
     "transfer_monitor": {
@@ -2161,63 +2165,6 @@
             "next_check_at": "2026-10-21T00:36:20.219007+03:30",
             "final_complete": false
         },
-        "6106234": {
-            "match": {
-                "id": 6106234,
-                "leagueId": 943230,
-                "time": "20.10.2026 21:00",
-                "home": {
-                    "id": 9847,
-                    "score": 1,
-                    "name": "Paris Saint-Germain",
-                    "shortName": "PSG",
-                    "longName": "Paris Saint-Germain"
-                },
-                "away": {
-                    "id": 8634,
-                    "score": 1,
-                    "name": "Barcelona",
-                    "longName": "Barcelona"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-20T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "20.10.2026 21:02:40",
-                        "secondHalfStarted": "20.10.2026 22:08:04"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "67‎’‎",
-                        "shortKey": "",
-                        "long": "66:15",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792522800000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                210111,
-                692984,
-                881771,
-                1682313
-            ],
-            "discovered_at": "2026-10-20T00:00:40.244386+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
-            "final_complete": false
-        },
         "6356356": {
             "match": {
                 "id": 6356356,
@@ -2257,7 +2204,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "6106410": {
@@ -2299,7 +2246,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "6106312": {
@@ -2340,7 +2287,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196636+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2381,7 +2328,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2422,7 +2369,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2467,7 +2414,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2510,7 +2457,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "5803618": {
@@ -2551,7 +2498,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2593,7 +2540,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2634,7 +2581,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         },
         "1000014608": {
@@ -2677,7 +2624,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.197045+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T00:26:23.268663+03:30",
+            "next_check_at": "2026-10-21T00:27:17.199792+03:30",
             "final_complete": false
         }
     },
