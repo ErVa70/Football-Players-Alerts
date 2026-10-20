@@ -1926,7 +1926,10 @@
         "5887594": [
             "1159237"
         ],
-        "5103667": []
+        "5103667": [],
+        "6106333": [
+            "470834"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2137,59 +2140,6 @@
             "next_check_at": "2026-10-20T22:35:23.364694+03:30",
             "final_complete": false
         },
-        "6106333": {
-            "match": {
-                "id": 6106333,
-                "leagueId": 943230,
-                "time": "20.10.2026 18:45",
-                "home": {
-                    "id": 8695,
-                    "score": 2,
-                    "name": "Fenerbahçe",
-                    "longName": "Fenerbahçe"
-                },
-                "away": {
-                    "id": 7787,
-                    "score": 2,
-                    "name": "Slavia Prague",
-                    "longName": "Slavia Prague"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-20T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "20.10.2026 18:45:52",
-                        "secondHalfStarted": "20.10.2026 19:48:46"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 2",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:35",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792514700000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                470834
-            ],
-            "discovered_at": "2026-10-20T00:00:40.244195+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:06:21.497122+03:30",
-            "final_complete": false
-        },
         "6106287": {
             "match": {
                 "id": 6106287,
@@ -2228,7 +2178,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:06:21.497122+03:30",
+            "next_check_at": "2026-10-20T22:07:17.879577+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2270,7 +2220,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:06:21.497122+03:30",
+            "next_check_at": "2026-10-20T22:07:17.879577+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2315,7 +2265,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:06:21.497122+03:30",
+            "next_check_at": "2026-10-20T22:07:17.879577+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2357,7 +2307,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:06:21.497122+03:30",
+            "next_check_at": "2026-10-20T22:07:17.879577+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2392,9 +2342,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "37‎’‎",
+                        "short": "38‎’‎",
                         "shortKey": "",
-                        "long": "36:09",
+                        "long": "37:05",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2410,7 +2360,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:06:21.497122+03:30",
+            "next_check_at": "2026-10-20T22:07:17.879577+03:30",
             "final_complete": false
         }
     },
