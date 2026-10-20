@@ -1352,7 +1352,8 @@
             "Substitution|90|None|749010,794427|"
         ],
         "6106248": [
-            "id:14609418"
+            "id:14609418",
+            "Substitution|46|None|1152455,921253|"
         ],
         "6106287": [],
         "6106234": [
@@ -2187,9 +2188,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:01",
+                        "long": "48:06",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2204,7 +2205,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:34:19.720793+03:30",
+            "next_check_at": "2026-10-20T23:35:24.627490+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2225,12 +2226,13 @@
                     "longName": "Villarreal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-20T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.10.2026 21:00:45"
+                        "firstHalfStarted": "20.10.2026 21:00:45",
+                        "secondHalfStarted": "20.10.2026 22:04:13"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2239,12 +2241,12 @@
                     "ongoing": true,
                     "scoreStr": "2 - 2",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "47‎’‎",
+                        "shortKey": "",
+                        "long": "46:11",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2257,7 +2259,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:34:19.720793+03:30",
+            "next_check_at": "2026-10-20T23:35:24.627490+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2313,7 +2315,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:34:19.720793+03:30",
+            "next_check_at": "2026-10-20T23:35:24.627490+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2355,7 +2357,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:34:19.720793+03:30",
+            "next_check_at": "2026-10-20T23:35:24.627490+03:30",
             "final_complete": false
         }
     },
