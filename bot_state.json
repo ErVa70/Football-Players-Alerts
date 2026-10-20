@@ -2188,9 +2188,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "67‎’‎",
+                        "short": "69‎’‎",
                         "shortKey": "",
-                        "long": "66:50",
+                        "long": "68:03",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2205,7 +2205,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:54:18.312870+03:30",
+            "next_check_at": "2026-10-20T23:55:21.638328+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2215,7 +2215,7 @@
                 "time": "20.10.2026 21:00",
                 "home": {
                     "id": 8650,
-                    "score": 2,
+                    "score": 3,
                     "name": "Liverpool",
                     "longName": "Liverpool"
                 },
@@ -2239,11 +2239,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 2",
+                    "scoreStr": "3 - 2",
                     "liveTime": {
-                        "short": "65‎’‎",
+                        "short": "67‎’‎",
                         "shortKey": "",
-                        "long": "64:55",
+                        "long": "66:08",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2259,7 +2259,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:54:18.312870+03:30",
+            "next_check_at": "2026-10-20T23:55:21.638328+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2296,9 +2296,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "62‎’‎",
+                        "short": "63‎’‎",
                         "shortKey": "",
-                        "long": "61:04",
+                        "long": "62:17",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2316,7 +2316,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:54:18.312870+03:30",
+            "next_check_at": "2026-10-20T23:55:21.638328+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2358,7 +2358,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:54:18.312870+03:30",
+            "next_check_at": "2026-10-20T23:55:21.638328+03:30",
             "final_complete": false
         }
     },
