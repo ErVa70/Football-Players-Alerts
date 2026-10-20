@@ -667,6 +667,10 @@
         ],
         "6106234": [
             "Ousmane Dembélé|STARTING XI"
+        ],
+        "6106248": [
+            "Ronald Araujo|STARTING XI",
+            "Ilias Akhomach|BENCH"
         ]
     },
     "match_events": {
@@ -2162,7 +2166,7 @@
                     "liveTime": {
                         "short": "58‎’‎",
                         "shortKey": "",
-                        "long": "57:00",
+                        "long": "57:31",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2177,7 +2181,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244195+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:30:46.292580+03:30",
+            "next_check_at": "2026-10-20T21:31:18.847459+03:30",
             "final_complete": false
         },
         "6106287": {
@@ -2218,7 +2222,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:30:46.292580+03:30",
+            "next_check_at": "2026-10-20T21:31:18.847459+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2260,7 +2264,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:30:46.292580+03:30",
+            "next_check_at": "2026-10-20T21:31:18.847459+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2305,7 +2309,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:30:46.292580+03:30",
+            "next_check_at": "2026-10-20T21:31:18.847459+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2347,7 +2351,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:30:46.292580+03:30",
+            "next_check_at": "2026-10-20T21:31:18.847459+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2382,9 +2386,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:34",
+                        "long": "1:05",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2400,7 +2404,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T21:30:46.292580+03:30",
+            "next_check_at": "2026-10-20T21:31:18.847459+03:30",
             "final_complete": false
         }
     },
