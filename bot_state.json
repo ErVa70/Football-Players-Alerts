@@ -1939,6 +1939,10 @@
         "5103667": [],
         "6106333": [
             "470834"
+        ],
+        "5970168": [
+            "282676",
+            "794427"
         ]
     },
     "transfer_monitor": {
@@ -2199,7 +2203,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:28:19.104788+03:30",
+            "next_check_at": "2026-10-20T23:29:21.003167+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2252,7 +2256,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:28:19.104788+03:30",
+            "next_check_at": "2026-10-20T23:29:21.003167+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2308,7 +2312,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:28:19.104788+03:30",
+            "next_check_at": "2026-10-20T23:29:21.003167+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2350,61 +2354,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:28:19.104788+03:30",
-            "final_complete": false
-        },
-        "5970168": {
-            "match": {
-                "id": 5970168,
-                "leagueId": 1000001787,
-                "time": "20.10.2026 20:00",
-                "home": {
-                    "id": 101918,
-                    "score": 1,
-                    "name": "Al Nassr FC",
-                    "longName": "Al Nassr FC"
-                },
-                "away": {
-                    "id": 1699505,
-                    "score": 0,
-                    "name": "Neom SC",
-                    "longName": "Neom SC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-10-20T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "20.10.2026 20:00:12",
-                        "secondHalfStarted": "20.10.2026 21:08:34"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:45",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792519200000,
-                "_competition_name": "Saudi Pro League"
-            },
-            "tracked_player_ids": [
-                282676,
-                794427
-            ],
-            "discovered_at": "2026-10-20T00:00:40.244519+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-20T23:28:19.104788+03:30",
+            "next_check_at": "2026-10-20T23:29:21.003167+03:30",
             "final_complete": false
         }
     },
