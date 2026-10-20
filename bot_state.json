@@ -2175,9 +2175,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "8‎’‎",
+                        "short": "9‎’‎",
                         "shortKey": "",
-                        "long": "7:18",
+                        "long": "8:17",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2192,7 +2192,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:38:21.298964+03:30",
+            "next_check_at": "2026-10-20T22:39:19.540196+03:30",
             "final_complete": false
         },
         "6106248": {
@@ -2227,9 +2227,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "8‎’‎",
+                        "short": "9‎’‎",
                         "shortKey": "",
-                        "long": "7:35",
+                        "long": "8:34",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2245,7 +2245,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:38:21.298964+03:30",
+            "next_check_at": "2026-10-20T22:39:19.540196+03:30",
             "final_complete": false
         },
         "6106234": {
@@ -2281,9 +2281,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "6‎’‎",
+                        "short": "7‎’‎",
                         "shortKey": "",
-                        "long": "5:40",
+                        "long": "6:39",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2301,7 +2301,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244386+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:38:21.298964+03:30",
+            "next_check_at": "2026-10-20T22:39:19.540196+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -2343,7 +2343,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244465+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:38:21.298964+03:30",
+            "next_check_at": "2026-10-20T22:39:19.540196+03:30",
             "final_complete": false
         },
         "5970168": {
@@ -2364,12 +2364,13 @@
                     "longName": "Neom SC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "10",
                 "status": {
                     "utcTime": "2026-10-20T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.10.2026 20:00:12"
+                        "firstHalfStarted": "20.10.2026 20:00:12",
+                        "secondHalfStarted": "20.10.2026 21:08:34"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2378,12 +2379,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:45",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2396,7 +2397,7 @@
             ],
             "discovered_at": "2026-10-20T00:00:40.244519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-20T22:38:21.298964+03:30",
+            "next_check_at": "2026-10-20T22:39:19.540196+03:30",
             "final_complete": false
         }
     },
