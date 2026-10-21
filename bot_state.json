@@ -2181,7 +2181,7 @@
                     "longName": "Lens"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-21T19:00:00.000Z",
@@ -2195,10 +2195,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
+                        "short": "65‎’‎",
+                        "shortKey": "",
+                        "long": "64:41",
+                        "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -2212,7 +2212,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T23:34:22.101245+03:30",
+            "next_check_at": "2026-10-21T23:35:25.289982+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2264,7 +2264,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T23:34:22.101245+03:30",
+            "next_check_at": "2026-10-21T23:35:25.289982+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2299,9 +2299,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "66‎’‎",
                         "shortKey": "",
-                        "long": "63:59",
+                        "long": "65:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2320,7 +2320,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T23:34:22.101245+03:30",
+            "next_check_at": "2026-10-21T23:35:25.289982+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2374,7 +2374,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T23:34:22.101245+03:30",
+            "next_check_at": "2026-10-21T23:35:25.289982+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2416,7 +2416,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T23:34:22.101245+03:30",
+            "next_check_at": "2026-10-21T23:35:25.289982+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2466,7 +2466,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-21T23:49:22.101245+03:30",
+            "next_check_at": "2026-10-21T23:50:25.289982+03:30",
             "final_complete": false
         }
     },
