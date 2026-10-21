@@ -692,6 +692,12 @@
         ],
         "6106297": [
             "Jean-Clair Todibo|BENCH"
+        ],
+        "6106300": [
+            "Héctor Bellerín|STARTING XI",
+            "Marc Bartra|STARTING XI",
+            "Abdessamad Ezzalzouli|STARTING XI",
+            "Mika Mármol|STARTING XI"
         ]
     },
     "match_events": {
@@ -2178,9 +2184,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "57‎’‎",
+                        "short": "59‎’‎",
                         "shortKey": "",
-                        "long": "56:56",
+                        "long": "58:12",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2195,7 +2201,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "6106312": {
@@ -2231,9 +2237,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 3",
                     "liveTime": {
-                        "short": "59‎’‎",
+                        "short": "60‎’‎",
                         "shortKey": "",
-                        "long": "58:20",
+                        "long": "59:36",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2248,7 +2254,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196636+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2289,7 +2295,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2330,7 +2336,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2375,7 +2381,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2418,7 +2424,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2460,7 +2466,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T21:31:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:32:22.948265+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2510,7 +2516,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-21T21:46:16.827082+03:30",
+            "next_check_at": "2026-10-21T21:47:22.948265+03:30",
             "final_complete": false
         }
     },
