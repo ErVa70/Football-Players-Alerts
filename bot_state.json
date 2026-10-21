@@ -2136,56 +2136,6 @@
         ]
     },
     "monitored_matches": {
-        "5884879": {
-            "match": {
-                "id": 5884879,
-                "leagueId": 938793,
-                "time": "19.10.2026 17:45",
-                "home": {
-                    "id": 8210,
-                    "score": 0,
-                    "name": "Peña Dep. Santa Eulalia",
-                    "longName": "Peña Dep. Santa Eulalia"
-                },
-                "away": {
-                    "id": 189783,
-                    "score": 1,
-                    "name": "UCAM Murcia",
-                    "longName": "UCAM Murcia"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-19T15:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "19.10.2026 17:51:30",
-                        "secondHalfStarted": "19.10.2026 18:46:15"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792424700000,
-                "_competition_name": "Segunda Federacion - Group 3"
-            },
-            "tracked_player_ids": [
-                128290
-            ],
-            "discovered_at": "2026-10-18T00:00:36.314035+03:30",
-            "finished_seen_at": "2026-10-19T21:20:30.652490+03:30",
-            "next_check_at": "2026-10-21T19:47:18.978833+03:30",
-            "final_complete": false
-        },
         "6106410": {
             "match": {
                 "id": 6106410,
@@ -2225,7 +2175,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "6106312": {
@@ -2266,7 +2216,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196636+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2307,7 +2257,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2348,7 +2298,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2393,7 +2343,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2436,7 +2386,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2478,7 +2428,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T19:14:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:15:30.299146+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2528,7 +2478,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-21T19:19:20.484005+03:30",
+            "next_check_at": "2026-10-21T19:20:30.299146+03:30",
             "final_complete": false
         }
     },
