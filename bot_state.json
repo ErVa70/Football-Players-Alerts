@@ -1393,7 +1393,9 @@
         ],
         "6106410": [],
         "6106297": [],
-        "6106300": []
+        "6106300": [],
+        "6106252": [],
+        "6106244": []
     },
     "final_posts": {
         "5991881": [
@@ -2191,9 +2193,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:34",
+                        "long": "1:30",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2208,7 +2210,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:31:18.709117+03:30",
+            "next_check_at": "2026-10-21T22:32:20.563413+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2229,17 +2231,28 @@
                     "longName": "Shakhtar Donetsk"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-21T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "21.10.2026 21:00:00"
+                        "firstHalfStarted": "21.10.2026 21:01:13"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:01",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792609200000,
                 "_competition_name": "Champions League"
@@ -2249,7 +2262,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:31:18.709117+03:30",
+            "next_check_at": "2026-10-21T22:32:20.563413+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2284,9 +2297,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:56",
+                        "long": "1:52",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2305,7 +2318,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:31:18.709117+03:30",
+            "next_check_at": "2026-10-21T22:32:20.563413+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2327,17 +2340,28 @@
                     "longName": "RB Leipzig"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-21T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "21.10.2026 21:00:00"
+                        "firstHalfStarted": "21.10.2026 21:01:49"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:25",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792609200000,
                 "_competition_name": "Champions League"
@@ -2348,7 +2372,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:31:18.709117+03:30",
+            "next_check_at": "2026-10-21T22:32:20.563413+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2390,7 +2414,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:31:18.709117+03:30",
+            "next_check_at": "2026-10-21T22:32:20.563413+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2440,7 +2464,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-21T22:46:18.709117+03:30",
+            "next_check_at": "2026-10-21T22:47:20.563413+03:30",
             "final_complete": false
         }
     },
