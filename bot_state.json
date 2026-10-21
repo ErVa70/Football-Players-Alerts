@@ -1361,7 +1361,8 @@
         "6106287": [],
         "6106234": [
             "Substitution|20|None|881771,692984|"
-        ]
+        ],
+        "1000014608": []
     },
     "final_posts": {
         "5991881": [
@@ -2207,7 +2208,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "6106312": {
@@ -2248,7 +2249,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196636+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2289,7 +2290,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2330,7 +2331,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2375,7 +2376,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2418,7 +2419,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "5803618": {
@@ -2459,7 +2460,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2501,7 +2502,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2542,7 +2543,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         },
         "1000014608": {
@@ -2565,17 +2566,28 @@
                     "longName": "Atlante"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "13",
                 "status": {
                     "utcTime": "2026-10-21T01:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "21.10.2026 03:00:00"
+                        "firstHalfStarted": "21.10.2026 03:00:21"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:25",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792544400000,
                 "_competition_name": "Liga MX"
@@ -2585,7 +2597,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.197045+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T04:29:17.840772+03:30",
+            "next_check_at": "2026-10-21T04:30:46.173158+03:30",
             "final_complete": false
         }
     },
