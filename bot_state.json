@@ -1368,7 +1368,9 @@
             "Substitution|60|None|907253,1118569|"
         ],
         "5803618": [],
-        "1000022325": []
+        "1000022325": [
+            "id:0"
+        ]
     },
     "final_posts": {
         "5991881": [
@@ -2218,7 +2220,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "6106312": {
@@ -2259,7 +2261,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196636+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2300,7 +2302,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2341,7 +2343,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2386,7 +2388,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2429,7 +2431,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2471,7 +2473,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2481,7 +2483,7 @@
                 "time": "21.10.2026 14:00",
                 "home": {
                     "id": 102231,
-                    "score": 1,
+                    "score": 2,
                     "name": "Bangkok United",
                     "longName": "Bangkok United"
                 },
@@ -2504,11 +2506,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "20‎’‎",
+                        "short": "21‎’‎",
                         "shortKey": "",
-                        "long": "19:00",
+                        "long": "20:14",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2523,7 +2525,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T15:49:18.206910+03:30",
+            "next_check_at": "2026-10-21T15:50:32.724583+03:30",
             "final_complete": false
         }
     },
