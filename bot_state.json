@@ -1992,7 +1992,10 @@
             "907253"
         ],
         "5803618": [],
-        "1000022325": []
+        "1000022325": [],
+        "6106312": [
+            "178818"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2187,9 +2190,9 @@
                     "ongoing": true,
                     "scoreStr": "4 - 1",
                     "liveTime": {
-                        "short": "93‎’‎",
+                        "short": "94‎’‎",
                         "shortKey": "",
-                        "long": "92:00",
+                        "long": "93:06",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2204,60 +2207,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
-            "final_complete": false
-        },
-        "6106312": {
-            "match": {
-                "id": 6106312,
-                "leagueId": 943230,
-                "time": "21.10.2026 18:45",
-                "home": {
-                    "id": 8639,
-                    "score": 2,
-                    "name": "Lille",
-                    "longName": "Lille"
-                },
-                "away": {
-                    "id": 8637,
-                    "score": 4,
-                    "name": "Galatasaray",
-                    "longName": "Galatasaray"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-21T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "21.10.2026 18:45:14",
-                        "secondHalfStarted": "21.10.2026 19:47:46"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 4",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:24",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792601100000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                178818
-            ],
-            "discovered_at": "2026-10-21T00:00:38.196636+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:07:16.582566+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2298,7 +2248,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:07:16.582566+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2339,7 +2289,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:07:16.582566+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2384,7 +2334,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:07:16.582566+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2427,7 +2377,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:07:16.582566+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2469,7 +2419,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T22:06:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:07:16.582566+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2519,7 +2469,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-21T22:21:19.327619+03:30",
+            "next_check_at": "2026-10-21T22:22:16.582566+03:30",
             "final_complete": false
         }
     },
