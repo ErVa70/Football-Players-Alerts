@@ -2221,7 +2221,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196557+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "6106312": {
@@ -2262,7 +2262,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196636+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "6106297": {
@@ -2303,7 +2303,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "6106252": {
@@ -2344,7 +2344,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196743+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "6106300": {
@@ -2389,7 +2389,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196794+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "6106244": {
@@ -2432,7 +2432,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "1000022096": {
@@ -2474,7 +2474,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196943+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-21T17:22:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:23:18.779278+03:30",
             "final_complete": false
         },
         "1000022325": {
@@ -2495,7 +2495,7 @@
                     "longName": "Old Blood FC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 3,
+                "statusId": 6,
                 "tournamentStage": "2nd Round",
                 "status": {
                     "utcTime": "2026-10-21T12:00:00.000Z",
@@ -2504,19 +2504,16 @@
                         "secondHalfStarted": "21.10.2026 15:03:32"
                     },
                     "periodLength": 45,
-                    "finished": false,
+                    "finished": true,
                     "started": true,
                     "cancelled": false,
-                    "ongoing": true,
+                    "awarded": false,
                     "scoreStr": "8 - 0",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:48",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
+                    "reason": {
+                        "short": "FT",
+                        "shortKey": "fulltime_short",
+                        "long": "Full-Time",
+                        "longKey": "finished"
                     }
                 },
                 "timeTS": 1792584000000,
@@ -2527,7 +2524,7 @@
             ],
             "discovered_at": "2026-10-21T00:00:38.196994+03:30",
             "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-21T17:23:20.730062+03:30",
+            "next_check_at": "2026-10-21T17:24:18.779278+03:30",
             "final_complete": false
         }
     },
