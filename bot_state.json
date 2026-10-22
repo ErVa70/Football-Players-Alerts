@@ -2426,7 +2426,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735403+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6112300": {
@@ -2481,7 +2481,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735450+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6112374": {
@@ -2534,7 +2534,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735496+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6112342": {
@@ -2587,7 +2587,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735541+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6112393": {
@@ -2642,7 +2642,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6112390": {
@@ -2696,7 +2696,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735688+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6112399": {
@@ -2750,7 +2750,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735735+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         },
         "6428993": {
@@ -2807,7 +2807,7 @@
             "match": {
                 "id": 5970171,
                 "leagueId": 1000001787,
-                "time": "22.10.2026 20:00",
+                "time": "23.10.2026 20:00",
                 "home": {
                     "id": 2530,
                     "score": 0,
@@ -2824,16 +2824,16 @@
                 "statusId": 1,
                 "tournamentStage": "11",
                 "status": {
-                    "utcTime": "2026-10-22T18:00:00.000Z",
+                    "utcTime": "2026-10-23T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "22.10.2026 20:00:00"
+                        "firstHalfStarted": "23.10.2026 20:00:00"
                     },
                     "periodLength": 45,
                     "started": false,
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1792692000000,
+                "timeTS": 1792778400000,
                 "_competition_name": "Saudi Pro League"
             },
             "tracked_player_ids": [
@@ -2841,7 +2841,217 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:59:21.447082+03:30",
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
+            "final_complete": false
+        },
+        "5868101": {
+            "match": {
+                "id": 5868101,
+                "leagueId": 87,
+                "time": "23.10.2026 21:00",
+                "home": {
+                    "id": 9866,
+                    "score": 0,
+                    "name": "Deportivo Alavés",
+                    "longName": "Deportivo Alavés"
+                },
+                "away": {
+                    "id": 9864,
+                    "score": 0,
+                    "name": "Málaga",
+                    "longName": "Málaga"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "10",
+                "status": {
+                    "utcTime": "2026-10-23T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "23.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792782000000,
+                "_competition_name": "LaLiga"
+            },
+            "tracked_player_ids": [
+                282281,
+                637756
+            ],
+            "discovered_at": "2026-10-23T00:00:40.775328+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
+            "final_complete": false
+        },
+        "5868510": {
+            "match": {
+                "id": 5868510,
+                "leagueId": 938653,
+                "time": "23.10.2026 20:30",
+                "home": {
+                    "id": 7878,
+                    "score": 0,
+                    "name": "Granada",
+                    "longName": "Granada"
+                },
+                "away": {
+                    "id": 10281,
+                    "score": 0,
+                    "name": "Real Valladolid",
+                    "longName": "Real Valladolid"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-10-23T18:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "23.10.2026 20:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792780200000,
+                "_competition_name": "LaLiga2"
+            },
+            "tracked_player_ids": [
+                522234,
+                639133
+            ],
+            "discovered_at": "2026-10-23T00:00:40.775410+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
+            "final_complete": false
+        },
+        "1000020614": {
+            "match": {
+                "id": 1000020614,
+                "leagueId": 1000001642,
+                "time": "23.10.2026 02:30",
+                "home": {
+                    "id": 9770,
+                    "score": 0,
+                    "name": "Flamengo",
+                    "longName": "Flamengo"
+                },
+                "away": {
+                    "id": 10094,
+                    "score": 0,
+                    "name": "Estudiantes",
+                    "longName": "Estudiantes"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "Semi-finals",
+                "status": {
+                    "utcTime": "2026-10-23T00:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "23.10.2026 02:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false,
+                    "aggregatedStr": "0 - 0"
+                },
+                "timeTS": 1792715400000,
+                "_competition_name": "Copa Libertadores - Semi-finals"
+            },
+            "tracked_player_ids": [
+                797908
+            ],
+            "discovered_at": "2026-10-23T00:00:40.775486+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
+            "final_complete": false
+        },
+        "5952285": {
+            "match": {
+                "id": 5952285,
+                "leagueId": 1000001746,
+                "time": "23.10.2026 16:30",
+                "home": {
+                    "id": 101904,
+                    "score": 0,
+                    "name": "Al-Shamal",
+                    "longName": "Al-Shamal"
+                },
+                "away": {
+                    "id": 101900,
+                    "score": 0,
+                    "name": "Qatar SC",
+                    "longName": "Qatar SC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "7",
+                "status": {
+                    "utcTime": "2026-10-23T14:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "23.10.2026 16:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792765800000,
+                "_competition_name": "Qatar Stars League"
+            },
+            "tracked_player_ids": [
+                301456,
+                929834
+            ],
+            "discovered_at": "2026-10-23T00:00:40.775542+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
+            "final_complete": false
+        },
+        "5970172": {
+            "match": {
+                "id": 5970172,
+                "leagueId": 1000001787,
+                "time": "23.10.2026 15:30",
+                "home": {
+                    "id": 205687,
+                    "score": 0,
+                    "name": "Al-Faisaly",
+                    "longName": "Al-Faisaly"
+                },
+                "away": {
+                    "id": 101918,
+                    "score": 0,
+                    "name": "Al Nassr FC",
+                    "longName": "Al Nassr FC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-10-23T13:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "23.10.2026 15:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792762200000,
+                "_competition_name": "Saudi Pro League"
+            },
+            "tracked_player_ids": [
+                282676,
+                794427
+            ],
+            "discovered_at": "2026-10-23T00:00:40.775596+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-23T00:00:40.775708+03:30",
             "final_complete": false
         }
     },
