@@ -1460,7 +1460,9 @@
         ],
         "6112293": [
             "Substitution|59|None|1367049,1526557|"
-        ]
+        ],
+        "6112374": [],
+        "6112390": []
     },
     "final_posts": {
         "5991881": [
@@ -2405,7 +2407,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735403+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6112300": {
@@ -2448,7 +2450,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735450+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6112374": {
@@ -2469,17 +2471,28 @@
                     "longName": "Real Sociedad"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-22T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "22.10.2026 21:00:00"
+                        "firstHalfStarted": "22.10.2026 21:00:23"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:26",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792695600000,
                 "_competition_name": "Europa League"
@@ -2489,7 +2502,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735496+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6112342": {
@@ -2530,7 +2543,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735541+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6112393": {
@@ -2573,7 +2586,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6112390": {
@@ -2594,17 +2607,28 @@
                     "longName": "Gent"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "2",
                 "status": {
                     "utcTime": "2026-10-22T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "22.10.2026 21:00:00"
+                        "firstHalfStarted": "22.10.2026 21:00:12"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:37",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792695600000,
                 "_competition_name": "Conference League"
@@ -2615,7 +2639,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735688+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6112399": {
@@ -2657,7 +2681,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735735+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         },
         "6428993": {
@@ -2707,7 +2731,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735780+03:30",
             "finished_seen_at": "2026-10-22T18:30:51.295525+03:30",
-            "next_check_at": "2026-10-22T22:44:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:45:49.352460+03:30",
             "final_complete": false
         },
         "5970171": {
@@ -2748,7 +2772,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:29:18.023879+03:30",
+            "next_check_at": "2026-10-22T22:30:49.352460+03:30",
             "final_complete": false
         }
     },
