@@ -2127,7 +2127,8 @@
         "6112342": [],
         "6112399": [
             "1086012"
-        ]
+        ],
+        "6112356": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2398,60 +2399,6 @@
             "next_check_at": "2026-10-23T00:45:28.684788+03:30",
             "final_complete": false
         },
-        "6112356": {
-            "match": {
-                "id": 6112356,
-                "leagueId": 943229,
-                "time": "22.10.2026 21:00",
-                "home": {
-                    "id": 10188,
-                    "score": 1,
-                    "name": "Beşiktaş",
-                    "longName": "Beşiktaş"
-                },
-                "away": {
-                    "id": 9826,
-                    "score": 2,
-                    "name": "Crystal Palace",
-                    "longName": "Crystal Palace"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-22T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.10.2026 21:02:22",
-                        "secondHalfStarted": "22.10.2026 22:06:14"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "69‎’‎",
-                        "shortKey": "",
-                        "long": "68:07",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792695600000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                952095,
-                1187506
-            ],
-            "discovered_at": "2026-10-22T00:00:38.735403+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
-            "final_complete": false
-        },
         "6428993": {
             "match": {
                 "id": 6428993,
@@ -2540,7 +2487,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
+            "next_check_at": "2026-10-23T00:27:20.487034+03:30",
             "final_complete": false
         },
         "5868101": {
@@ -2582,7 +2529,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
+            "next_check_at": "2026-10-23T00:27:20.487034+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2624,7 +2571,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
+            "next_check_at": "2026-10-23T00:27:20.487034+03:30",
             "final_complete": false
         },
         "1000020614": {
@@ -2666,7 +2613,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775486+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
+            "next_check_at": "2026-10-23T00:27:20.487034+03:30",
             "final_complete": false
         },
         "5952285": {
@@ -2708,7 +2655,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775542+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
+            "next_check_at": "2026-10-23T00:27:20.487034+03:30",
             "final_complete": false
         },
         "5970172": {
@@ -2750,7 +2697,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775596+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T00:26:20.044568+03:30",
+            "next_check_at": "2026-10-23T00:27:20.487034+03:30",
             "final_complete": false
         }
     },
