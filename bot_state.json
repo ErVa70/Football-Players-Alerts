@@ -2423,7 +2423,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735403+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6112300": {
@@ -2477,7 +2477,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735450+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6112374": {
@@ -2498,12 +2498,13 @@
                     "longName": "Real Sociedad"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-22T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "22.10.2026 21:00:23"
+                        "firstHalfStarted": "22.10.2026 21:00:23",
+                        "secondHalfStarted": "22.10.2026 22:00:35"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2512,12 +2513,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 3",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:42",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2529,7 +2530,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735496+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6112342": {
@@ -2581,7 +2582,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735541+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6112393": {
@@ -2635,7 +2636,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6112390": {
@@ -2688,7 +2689,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735688+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6112399": {
@@ -2741,7 +2742,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735735+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         },
         "6428993": {
@@ -2791,7 +2792,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735780+03:30",
             "finished_seen_at": "2026-10-22T18:30:51.295525+03:30",
-            "next_check_at": "2026-10-22T23:45:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:46:17.326213+03:30",
             "final_complete": false
         },
         "5970171": {
@@ -2832,7 +2833,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T23:30:48.211822+03:30",
+            "next_check_at": "2026-10-22T23:31:17.326213+03:30",
             "final_complete": false
         }
     },
