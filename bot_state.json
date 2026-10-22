@@ -2051,7 +2051,10 @@
         "1000022096": [],
         "1000020616": [],
         "6289573": [],
-        "6428993": []
+        "6428993": [],
+        "5952284": [
+            "1225420"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2361,7 +2364,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735284+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112370": {
@@ -2403,7 +2406,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735355+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112356": {
@@ -2445,7 +2448,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735403+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112300": {
@@ -2488,7 +2491,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735450+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112374": {
@@ -2529,7 +2532,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735496+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112342": {
@@ -2570,7 +2573,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735541+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112498": {
@@ -2606,9 +2609,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 5",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "93‎’‎",
                         "shortKey": "",
-                        "long": "90:57",
+                        "long": "92:00",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2623,7 +2626,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735586+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112393": {
@@ -2666,7 +2669,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112390": {
@@ -2708,7 +2711,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735688+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6112399": {
@@ -2750,7 +2753,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735735+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         },
         "6428993": {
@@ -2800,61 +2803,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735780+03:30",
             "finished_seen_at": "2026-10-22T18:30:51.295525+03:30",
-            "next_check_at": "2026-10-22T19:57:20.815817+03:30",
-            "final_complete": false
-        },
-        "5952284": {
-            "match": {
-                "id": 5952284,
-                "leagueId": 1000001746,
-                "time": "22.10.2026 16:30",
-                "home": {
-                    "id": 568590,
-                    "score": 0,
-                    "name": "Al-Shahaniya",
-                    "longName": "Al-Shahaniya"
-                },
-                "away": {
-                    "id": 101895,
-                    "score": 4,
-                    "name": "Al-Sadd",
-                    "longName": "Al-Sadd"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-22T14:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.10.2026 16:30:14",
-                        "secondHalfStarted": "22.10.2026 17:34:03"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 4",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:11",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792679400000,
-                "_competition_name": "Qatar Stars League"
-            },
-            "tracked_player_ids": [
-                173382,
-                1225420
-            ],
-            "discovered_at": "2026-10-22T00:00:38.735917+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:58:17.917276+03:30",
             "final_complete": false
         },
         "5970171": {
@@ -2895,7 +2844,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T19:52:20.815817+03:30",
+            "next_check_at": "2026-10-22T19:53:17.917276+03:30",
             "final_complete": false
         }
     },
