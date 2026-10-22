@@ -2091,6 +2091,10 @@
         ],
         "6112370": [
             "675600"
+        ],
+        "6112293": [
+            "1367049",
+            "1665435"
         ]
     },
     "transfer_monitor": {
@@ -2362,60 +2366,6 @@
             "next_check_at": "2026-10-22T22:43:19.161973+03:30",
             "final_complete": false
         },
-        "6112293": {
-            "match": {
-                "id": 6112293,
-                "leagueId": 943229,
-                "time": "22.10.2026 18:45",
-                "home": {
-                    "id": 10156,
-                    "score": 2,
-                    "name": "Dinamo Zagreb",
-                    "longName": "Dinamo Zagreb"
-                },
-                "away": {
-                    "id": 8464,
-                    "score": 4,
-                    "name": "NEC Nijmegen",
-                    "longName": "NEC Nijmegen"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-10-22T16:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.10.2026 18:47:16",
-                        "secondHalfStarted": "22.10.2026 19:49:59"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 4",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:19",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792687500000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                1367049,
-                1665435
-            ],
-            "discovered_at": "2026-10-22T00:00:38.735284+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
-            "final_complete": false
-        },
         "6112356": {
             "match": {
                 "id": 6112356,
@@ -2455,7 +2405,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735403+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6112300": {
@@ -2498,7 +2448,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735450+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6112374": {
@@ -2539,7 +2489,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735496+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6112342": {
@@ -2580,7 +2530,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735541+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6112393": {
@@ -2623,7 +2573,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6112390": {
@@ -2665,7 +2615,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735688+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6112399": {
@@ -2707,7 +2657,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735735+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         },
         "6428993": {
@@ -2757,7 +2707,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735780+03:30",
             "finished_seen_at": "2026-10-22T18:30:51.295525+03:30",
-            "next_check_at": "2026-10-22T22:23:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:24:21.106077+03:30",
             "final_complete": false
         },
         "5970171": {
@@ -2798,7 +2748,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-22T22:08:30.854399+03:30",
+            "next_check_at": "2026-10-22T22:09:21.106077+03:30",
             "final_complete": false
         }
     },
