@@ -2157,6 +2157,10 @@
         "5970172": [
             "282676",
             "794427"
+        ],
+        "5952285": [
+            "301456",
+            "929834"
         ]
     },
     "transfer_monitor": {
@@ -2466,7 +2470,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T19:59:17.621272+03:30",
+            "next_check_at": "2026-10-23T20:00:40.592894+03:30",
             "final_complete": false
         },
         "5868101": {
@@ -2508,7 +2512,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T19:59:17.621272+03:30",
+            "next_check_at": "2026-10-23T20:00:40.592894+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2550,61 +2554,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T19:59:17.621272+03:30",
-            "final_complete": false
-        },
-        "5952285": {
-            "match": {
-                "id": 5952285,
-                "leagueId": 1000001746,
-                "time": "23.10.2026 16:30",
-                "home": {
-                    "id": 101904,
-                    "score": 2,
-                    "name": "Al-Shamal",
-                    "longName": "Al-Shamal"
-                },
-                "away": {
-                    "id": 101900,
-                    "score": 3,
-                    "name": "Qatar SC",
-                    "longName": "Qatar SC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-10-23T14:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "23.10.2026 16:30:14",
-                        "secondHalfStarted": "23.10.2026 17:36:43"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 3",
-                    "liveTime": {
-                        "short": "98‎’‎",
-                        "shortKey": "",
-                        "long": "97:34",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792765800000,
-                "_competition_name": "Qatar Stars League"
-            },
-            "tracked_player_ids": [
-                301456,
-                929834
-            ],
-            "discovered_at": "2026-10-23T00:00:40.775542+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-23T19:59:17.621272+03:30",
+            "next_check_at": "2026-10-23T20:00:40.592894+03:30",
             "final_complete": false
         },
         "6444994": {
@@ -2646,7 +2596,7 @@
             ],
             "discovered_at": "2026-10-23T17:30:47.912620+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T19:59:17.621272+03:30",
+            "next_check_at": "2026-10-23T20:00:40.592894+03:30",
             "final_complete": false
         }
     },
