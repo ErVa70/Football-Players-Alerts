@@ -1520,7 +1520,9 @@
             "Substitution|52|None|2018426,639133|",
             "id:14621312|assist|522234"
         ],
-        "5868101": []
+        "5868101": [
+            "Substitution|46|None|1175969,637756|"
+        ]
     },
     "final_posts": {
         "5991881": [
@@ -2475,12 +2477,13 @@
                     "longName": "Málaga"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "10",
                 "status": {
                     "utcTime": "2026-10-23T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "23.10.2026 21:00:39"
+                        "firstHalfStarted": "23.10.2026 21:00:39",
+                        "secondHalfStarted": "23.10.2026 22:03:31"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -2489,12 +2492,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:41",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -2507,7 +2510,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:33:19.690731+03:30",
+            "next_check_at": "2026-10-23T23:34:19.788897+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2543,9 +2546,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "74‎’‎",
+                        "short": "75‎’‎",
                         "shortKey": "",
-                        "long": "73:27",
+                        "long": "74:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2561,7 +2564,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:33:19.690731+03:30",
+            "next_check_at": "2026-10-23T23:34:19.788897+03:30",
             "final_complete": false
         },
         "6444994": {
@@ -2603,7 +2606,7 @@
             ],
             "discovered_at": "2026-10-23T17:30:47.912620+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:33:19.690731+03:30",
+            "next_check_at": "2026-10-23T23:34:19.788897+03:30",
             "final_complete": false
         }
     },
