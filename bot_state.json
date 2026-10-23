@@ -1515,7 +1515,8 @@
             "id:0"
         ],
         "5868510": [
-            "id:14620026|assist|639133"
+            "id:14620026|assist|639133",
+            "Substitution|52|None|2018426,639133|"
         ],
         "5868101": []
     },
@@ -2458,7 +2459,7 @@
                 "time": "23.10.2026 20:00",
                 "home": {
                     "id": 2530,
-                    "score": 3,
+                    "score": 4,
                     "name": "Al Ahli",
                     "longName": "Al Ahli"
                 },
@@ -2484,11 +2485,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "3 - 0",
+                    "scoreStr": "4 - 0",
                     "liveTime": {
-                        "short": "77‎’‎",
+                        "short": "78‎’‎",
                         "shortKey": "",
-                        "long": "76:39",
+                        "long": "77:42",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2503,7 +2504,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:11:18.961535+03:30",
+            "next_check_at": "2026-10-23T23:12:20.988728+03:30",
             "final_complete": false
         },
         "5868101": {
@@ -2538,9 +2539,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "41‎’‎",
+                        "short": "42‎’‎",
                         "shortKey": "",
-                        "long": "40:38",
+                        "long": "41:41",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2556,7 +2557,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:11:18.961535+03:30",
+            "next_check_at": "2026-10-23T23:12:20.988728+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2592,9 +2593,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "52‎’‎",
+                        "short": "53‎’‎",
                         "shortKey": "",
-                        "long": "51:33",
+                        "long": "52:36",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2610,7 +2611,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:11:18.961535+03:30",
+            "next_check_at": "2026-10-23T23:12:20.988728+03:30",
             "final_complete": false
         },
         "6444994": {
@@ -2652,7 +2653,7 @@
             ],
             "discovered_at": "2026-10-23T17:30:47.912620+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:11:18.961535+03:30",
+            "next_check_at": "2026-10-23T23:12:20.988728+03:30",
             "final_complete": false
         }
     },
