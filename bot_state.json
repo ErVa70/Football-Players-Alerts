@@ -2189,6 +2189,10 @@
         ],
         "5970171": [
             "732282"
+        ],
+        "5868510": [
+            "522234",
+            "639133"
         ]
     },
     "transfer_monitor": {
@@ -2493,9 +2497,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "70‎’‎",
+                        "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "69:40",
+                        "long": "70:47",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2511,63 +2515,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:58:22.641029+03:30",
-            "final_complete": false
-        },
-        "5868510": {
-            "match": {
-                "id": 5868510,
-                "leagueId": 938653,
-                "time": "23.10.2026 20:30",
-                "home": {
-                    "id": 7878,
-                    "score": 2,
-                    "name": "Granada",
-                    "longName": "Granada"
-                },
-                "away": {
-                    "id": 10281,
-                    "score": 1,
-                    "name": "Real Valladolid",
-                    "redCards": 1,
-                    "longName": "Real Valladolid"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-10-23T18:30:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "23.10.2026 20:32:57",
-                        "secondHalfStarted": "23.10.2026 21:34:44"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "99‎’‎",
-                        "shortKey": "",
-                        "long": "98:27",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792780200000,
-                "_competition_name": "LaLiga2"
-            },
-            "tracked_player_ids": [
-                522234,
-                639133
-            ],
-            "discovered_at": "2026-10-23T00:00:40.775410+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:58:22.641029+03:30",
+            "next_check_at": "2026-10-23T23:59:19.098019+03:30",
             "final_complete": false
         },
         "6444994": {
@@ -2609,7 +2557,7 @@
             ],
             "discovered_at": "2026-10-23T17:30:47.912620+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:58:22.641029+03:30",
+            "next_check_at": "2026-10-23T23:59:19.098019+03:30",
             "final_complete": false
         }
     },
