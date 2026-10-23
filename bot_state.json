@@ -2357,56 +2357,6 @@
             "next_check_at": "2026-10-23T15:59:15.542825+03:30",
             "final_complete": false
         },
-        "1000022325": {
-            "match": {
-                "id": 1000022325,
-                "leagueId": 1000001671,
-                "time": "21.10.2026 14:00",
-                "home": {
-                    "id": 102231,
-                    "score": 8,
-                    "name": "Bangkok United",
-                    "longName": "Bangkok United"
-                },
-                "away": {
-                    "id": 2183202,
-                    "score": 0,
-                    "name": "Old Blood FC",
-                    "longName": "Old Blood FC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "2nd Round",
-                "status": {
-                    "utcTime": "2026-10-21T12:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "21.10.2026 14:00:18",
-                        "secondHalfStarted": "21.10.2026 15:03:32"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "8 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1792584000000,
-                "_competition_name": "FA Cup - 2nd Round"
-            },
-            "tracked_player_ids": [
-                792249
-            ],
-            "discovered_at": "2026-10-21T00:00:38.196994+03:30",
-            "finished_seen_at": "2026-10-21T17:22:20.730062+03:30",
-            "next_check_at": "2026-10-23T15:52:21.869547+03:30",
-            "final_complete": false
-        },
         "6428993": {
             "match": {
                 "id": 6428993,
@@ -2495,7 +2445,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T15:29:18.004801+03:30",
+            "next_check_at": "2026-10-23T15:30:49.598888+03:30",
             "final_complete": false
         },
         "5868101": {
@@ -2537,7 +2487,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T15:29:18.004801+03:30",
+            "next_check_at": "2026-10-23T15:30:49.598888+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2579,7 +2529,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T15:29:18.004801+03:30",
+            "next_check_at": "2026-10-23T15:30:49.598888+03:30",
             "final_complete": false
         },
         "5952285": {
@@ -2621,7 +2571,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775542+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T15:29:18.004801+03:30",
+            "next_check_at": "2026-10-23T15:30:49.598888+03:30",
             "final_complete": false
         },
         "5970172": {
@@ -2663,7 +2613,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775596+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T15:29:18.004801+03:30",
+            "next_check_at": "2026-10-23T15:30:49.598888+03:30",
             "final_complete": false
         }
     },
