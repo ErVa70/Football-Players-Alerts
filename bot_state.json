@@ -2132,7 +2132,10 @@
         "6112399": [
             "1086012"
         ],
-        "6112356": []
+        "6112356": [],
+        "1000020614": [
+            "797908"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2491,7 +2494,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T06:09:18.253329+03:30",
+            "next_check_at": "2026-10-23T06:10:32.560427+03:30",
             "final_complete": false
         },
         "5868101": {
@@ -2533,7 +2536,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T06:09:18.253329+03:30",
+            "next_check_at": "2026-10-23T06:10:32.560427+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2575,65 +2578,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T06:09:18.253329+03:30",
-            "final_complete": false
-        },
-        "1000020614": {
-            "match": {
-                "id": 1000020614,
-                "leagueId": 1000001642,
-                "time": "23.10.2026 02:30",
-                "home": {
-                    "id": 9770,
-                    "score": 0,
-                    "name": "Flamengo",
-                    "penScore": 2,
-                    "longName": "Flamengo"
-                },
-                "away": {
-                    "id": 10094,
-                    "score": 0,
-                    "name": "Estudiantes",
-                    "penScore": 3,
-                    "redCards": 1,
-                    "longName": "Estudiantes"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 4,
-                "tournamentStage": "Semi-finals",
-                "status": {
-                    "utcTime": "2026-10-23T00:30:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "23.10.2026 02:31:00",
-                        "secondHalfStarted": "23.10.2026 03:33:37"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "Pen",
-                        "shortKey": "penalties_short",
-                        "long": "Penalties",
-                        "longKey": "penalties",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    },
-                    "aggregatedStr": "0 - 0"
-                },
-                "timeTS": 1792715400000,
-                "_competition_name": "Copa Libertadores - Semi-finals"
-            },
-            "tracked_player_ids": [
-                797908
-            ],
-            "discovered_at": "2026-10-23T00:00:40.775486+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-23T06:09:18.253329+03:30",
+            "next_check_at": "2026-10-23T06:10:32.560427+03:30",
             "final_complete": false
         },
         "5952285": {
@@ -2675,7 +2620,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775542+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T06:09:18.253329+03:30",
+            "next_check_at": "2026-10-23T06:10:32.560427+03:30",
             "final_complete": false
         },
         "5970172": {
@@ -2717,7 +2662,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775596+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T06:09:18.253329+03:30",
+            "next_check_at": "2026-10-23T06:10:32.560427+03:30",
             "final_complete": false
         }
     },
