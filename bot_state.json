@@ -2454,7 +2454,7 @@
             ],
             "discovered_at": "2026-10-22T00:00:38.735961+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T17:29:16.999460+03:30",
+            "next_check_at": "2026-10-23T17:30:47.912858+03:30",
             "final_complete": false
         },
         "5868101": {
@@ -2496,7 +2496,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T17:29:16.999460+03:30",
+            "next_check_at": "2026-10-23T17:30:47.912858+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2538,7 +2538,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T17:29:16.999460+03:30",
+            "next_check_at": "2026-10-23T17:30:47.912858+03:30",
             "final_complete": false
         },
         "5952285": {
@@ -2580,7 +2580,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775542+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T17:29:16.999460+03:30",
+            "next_check_at": "2026-10-23T17:30:47.912858+03:30",
             "final_complete": false
         },
         "5970172": {
@@ -2615,9 +2615,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "30‎’‎",
+                        "short": "31‎’‎",
                         "shortKey": "",
-                        "long": "29:10",
+                        "long": "30:41",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2633,7 +2633,49 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775596+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T17:29:16.999460+03:30",
+            "next_check_at": "2026-10-23T17:30:47.912858+03:30",
+            "final_complete": false
+        },
+        "6444994": {
+            "match": {
+                "id": 6444994,
+                "leagueId": 942853,
+                "time": "24.10.2026 01:00",
+                "home": {
+                    "id": 9883,
+                    "score": 0,
+                    "name": "Juventud de las Piedras",
+                    "longName": "Juventud de las Piedras"
+                },
+                "away": {
+                    "id": 8450,
+                    "score": 0,
+                    "name": "Club Atletico Peñarol",
+                    "shortName": "Peñarol",
+                    "longName": "Club Atletico Peñarol"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "12",
+                "status": {
+                    "utcTime": "2026-10-23T23:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "24.10.2026 01:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1792796400000,
+                "_competition_name": "Liga AUF Uruguaya Clausura"
+            },
+            "tracked_player_ids": [
+                96616
+            ],
+            "discovered_at": "2026-10-23T17:30:47.912620+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-23T17:30:47.912858+03:30",
             "final_complete": false
         }
     },
