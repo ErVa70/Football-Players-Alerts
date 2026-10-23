@@ -2493,9 +2493,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "69‎’‎",
+                        "short": "70‎’‎",
                         "shortKey": "",
-                        "long": "68:35",
+                        "long": "69:40",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2511,7 +2511,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:57:17.808265+03:30",
+            "next_check_at": "2026-10-23T23:58:22.641029+03:30",
             "final_complete": false
         },
         "5868510": {
@@ -2529,6 +2529,7 @@
                     "id": 10281,
                     "score": 1,
                     "name": "Real Valladolid",
+                    "redCards": 1,
                     "longName": "Real Valladolid"
                 },
                 "eliminatedTeamId": null,
@@ -2536,6 +2537,7 @@
                 "tournamentStage": "11",
                 "status": {
                     "utcTime": "2026-10-23T18:30:00.000Z",
+                    "numberOfAwayRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "23.10.2026 20:32:57",
                         "secondHalfStarted": "23.10.2026 21:34:44"
@@ -2547,9 +2549,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "98‎’‎",
+                        "short": "99‎’‎",
                         "shortKey": "",
-                        "long": "97:22",
+                        "long": "98:27",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -2565,7 +2567,7 @@
             ],
             "discovered_at": "2026-10-23T00:00:40.775410+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:57:17.808265+03:30",
+            "next_check_at": "2026-10-23T23:58:22.641029+03:30",
             "final_complete": false
         },
         "6444994": {
@@ -2607,7 +2609,7 @@
             ],
             "discovered_at": "2026-10-23T17:30:47.912620+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-23T23:57:17.808265+03:30",
+            "next_check_at": "2026-10-23T23:58:22.641029+03:30",
             "final_complete": false
         }
     },
