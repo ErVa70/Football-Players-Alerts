@@ -2553,6 +2553,10 @@
         "5883702": [],
         "5943278": [
             "675600"
+        ],
+        "5887658": [
+            "1159237",
+            "1777474"
         ]
     },
     "transfer_monitor": {
@@ -2954,7 +2958,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608421+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:28:20.335072+03:30",
+            "next_check_at": "2026-10-25T23:29:15.586314+03:30",
             "final_complete": false
         },
         "5749713": {
@@ -3004,61 +3008,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608556+03:30",
             "finished_seen_at": "2026-10-25T19:25:24.856436+03:30",
-            "next_check_at": "2026-10-25T23:43:20.335072+03:30",
-            "final_complete": false
-        },
-        "5887658": {
-            "match": {
-                "id": 5887658,
-                "leagueId": 61,
-                "time": "25.10.2026 19:00",
-                "home": {
-                    "id": 10214,
-                    "score": 1,
-                    "name": "Nacional",
-                    "longName": "Nacional"
-                },
-                "away": {
-                    "id": 10264,
-                    "score": 0,
-                    "name": "Braga",
-                    "longName": "Braga"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-10-25T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.10.2026 19:00:34",
-                        "secondHalfStarted": "25.10.2026 20:08:44"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:36",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792951200000,
-                "_competition_name": "Liga Portugal"
-            },
-            "tracked_player_ids": [
-                1159237,
-                1777474
-            ],
-            "discovered_at": "2026-10-25T00:00:43.608781+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:28:20.335072+03:30",
+            "next_check_at": "2026-10-25T23:44:15.586314+03:30",
             "final_complete": false
         },
         "5883702": {
@@ -3108,7 +3058,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608825+03:30",
             "finished_seen_at": "2026-10-25T23:12:19.644466+03:30",
-            "next_check_at": "2026-10-25T23:29:20.335072+03:30",
+            "next_check_at": "2026-10-25T23:30:15.586314+03:30",
             "final_complete": false
         },
         "5884900": {
@@ -3158,7 +3108,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608869+03:30",
             "finished_seen_at": "2026-10-25T16:24:21.624481+03:30",
-            "next_check_at": "2026-10-25T23:43:20.335072+03:30",
+            "next_check_at": "2026-10-25T23:44:15.586314+03:30",
             "final_complete": false
         },
         "1000013248": {
@@ -3199,7 +3149,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.609048+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:28:20.335072+03:30",
+            "next_check_at": "2026-10-25T23:29:15.586314+03:30",
             "final_complete": false
         }
     },
