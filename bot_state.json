@@ -2924,9 +2924,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "32‎’‎",
+                        "short": "33‎’‎",
                         "shortKey": "",
-                        "long": "31:44",
+                        "long": "32:41",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2941,7 +2941,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608375+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         },
         "5868105": {
@@ -2982,7 +2982,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608421+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         },
         "5749713": {
@@ -3032,7 +3032,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608556+03:30",
             "finished_seen_at": "2026-10-25T19:25:24.856436+03:30",
-            "next_check_at": "2026-10-25T21:47:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:48:17.375891+03:30",
             "final_complete": false
         },
         "5868507": {
@@ -3067,9 +3067,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "32‎’‎",
+                        "short": "33‎’‎",
                         "shortKey": "",
-                        "long": "31:07",
+                        "long": "32:04",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3085,7 +3085,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608737+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         },
         "5887658": {
@@ -3120,9 +3120,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "2‎’‎",
+                        "short": "3‎’‎",
                         "shortKey": "",
-                        "long": "1:46",
+                        "long": "2:43",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3138,7 +3138,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         },
         "5883702": {
@@ -3148,7 +3148,7 @@
                 "time": "25.10.2026 18:45",
                 "home": {
                     "id": 8400,
-                    "score": 0,
+                    "score": 1,
                     "name": "Gimnàstic",
                     "longName": "Gimnàstic"
                 },
@@ -3171,11 +3171,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 1",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
                         "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "15:00",
+                        "long": "15:57",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3190,7 +3190,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608825+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         },
         "5884900": {
@@ -3240,7 +3240,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608869+03:30",
             "finished_seen_at": "2026-10-25T16:24:21.624481+03:30",
-            "next_check_at": "2026-10-25T21:47:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:48:17.375891+03:30",
             "final_complete": false
         },
         "5943278": {
@@ -3261,17 +3261,28 @@
                     "longName": "PAOK Thessaloniki"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "8",
                 "status": {
                     "utcTime": "2026-10-25T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "25.10.2026 19:00:00"
+                        "firstHalfStarted": "25.10.2026 19:02:12"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:05",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1792951200000,
                 "_competition_name": "Super League"
@@ -3281,7 +3292,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608960+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         },
         "1000013248": {
@@ -3322,7 +3333,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.609048+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:32:20.496123+03:30",
+            "next_check_at": "2026-10-25T21:33:17.375891+03:30",
             "final_complete": false
         }
     },
