@@ -2858,7 +2858,7 @@
             ],
             "discovered_at": "2026-10-24T00:00:39.814647+03:30",
             "finished_seen_at": "2026-10-24T17:56:23.247390+03:30",
-            "next_check_at": "2026-10-25T23:18:20.229164+03:30",
+            "next_check_at": "2026-10-26T00:19:16.646747+03:30",
             "final_complete": false
         },
         "5885569": {
@@ -2949,7 +2949,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608421+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:18:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:19:16.646747+03:30",
             "final_complete": false
         },
         "5749713": {
@@ -2999,7 +2999,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608556+03:30",
             "finished_seen_at": "2026-10-25T19:25:24.856436+03:30",
-            "next_check_at": "2026-10-25T23:33:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:34:16.646747+03:30",
             "final_complete": false
         },
         "5887658": {
@@ -3035,9 +3035,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "85‎’‎",
+                        "short": "86‎’‎",
                         "shortKey": "",
-                        "long": "84:31",
+                        "long": "85:32",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3053,7 +3053,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:18:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:19:16.646747+03:30",
             "final_complete": false
         },
         "5883702": {
@@ -3103,7 +3103,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608825+03:30",
             "finished_seen_at": "2026-10-25T23:12:19.644466+03:30",
-            "next_check_at": "2026-10-25T23:19:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:20:16.646747+03:30",
             "final_complete": false
         },
         "5884900": {
@@ -3153,7 +3153,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608869+03:30",
             "finished_seen_at": "2026-10-25T16:24:21.624481+03:30",
-            "next_check_at": "2026-10-25T23:33:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:34:16.646747+03:30",
             "final_complete": false
         },
         "5943278": {
@@ -3169,7 +3169,7 @@
                 },
                 "away": {
                     "id": 8619,
-                    "score": 0,
+                    "score": 1,
                     "name": "PAOK Thessaloniki",
                     "longName": "PAOK Thessaloniki"
                 },
@@ -3187,11 +3187,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "89‎’‎",
+                        "short": "90‎’‎",
                         "shortKey": "",
-                        "long": "88:21",
+                        "long": "89:22",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3206,7 +3206,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608960+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:18:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:19:16.646747+03:30",
             "final_complete": false
         },
         "1000013248": {
@@ -3247,7 +3247,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.609048+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:18:19.344356+03:30",
+            "next_check_at": "2026-10-25T23:19:16.646747+03:30",
             "final_complete": false
         }
     },
