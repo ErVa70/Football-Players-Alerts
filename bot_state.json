@@ -2520,7 +2520,10 @@
             "1109046",
             "1209399"
         ],
-        "5868503": []
+        "5868503": [],
+        "5781778": [
+            "184554"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2915,9 +2918,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "11‎’‎",
+                        "short": "12‎’‎",
                         "shortKey": "",
-                        "long": "10:27",
+                        "long": "11:37",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2932,7 +2935,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608375+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "5868105": {
@@ -2973,7 +2976,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608421+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "5749713": {
@@ -3023,61 +3026,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608556+03:30",
             "finished_seen_at": "2026-10-25T19:25:24.856436+03:30",
-            "next_check_at": "2026-10-25T21:16:15.471206+03:30",
-            "final_complete": false
-        },
-        "5781778": {
-            "match": {
-                "id": 5781778,
-                "leagueId": 937276,
-                "time": "25.10.2026 16:45",
-                "home": {
-                    "id": 8614,
-                    "score": 1,
-                    "name": "Sparta Rotterdam",
-                    "longName": "Sparta Rotterdam"
-                },
-                "away": {
-                    "id": 8593,
-                    "score": 2,
-                    "name": "Ajax",
-                    "longName": "Ajax"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-10-25T15:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.10.2026 16:48:07",
-                        "secondHalfStarted": "25.10.2026 17:51:50"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:13",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792943100000,
-                "_competition_name": "Eredivisie"
-            },
-            "tracked_player_ids": [
-                184554,
-                1789791
-            ],
-            "discovered_at": "2026-10-25T00:00:43.608650+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:17:19.224275+03:30",
             "final_complete": false
         },
         "5868507": {
@@ -3112,9 +3061,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "10‎’‎",
+                        "short": "12‎’‎",
                         "shortKey": "",
-                        "long": "9:50",
+                        "long": "11:00",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3130,7 +3079,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608737+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "5887658": {
@@ -3172,7 +3121,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "5883702": {
@@ -3213,7 +3162,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608825+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "5884900": {
@@ -3263,7 +3212,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608869+03:30",
             "finished_seen_at": "2026-10-25T16:24:21.624481+03:30",
-            "next_check_at": "2026-10-25T21:26:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:27:19.224275+03:30",
             "final_complete": false
         },
         "5943280": {
@@ -3299,9 +3248,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "80‎’‎",
+                        "short": "81‎’‎",
                         "shortKey": "",
-                        "long": "79:16",
+                        "long": "80:26",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3316,7 +3265,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608913+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "5943278": {
@@ -3357,7 +3306,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608960+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         },
         "1000013248": {
@@ -3398,7 +3347,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.609048+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:11:15.471206+03:30",
+            "next_check_at": "2026-10-25T21:12:19.224275+03:30",
             "final_complete": false
         }
     },
