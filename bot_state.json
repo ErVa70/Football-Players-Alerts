@@ -2550,7 +2550,10 @@
         "5868507": [
             "1665439"
         ],
-        "5883702": []
+        "5883702": [],
+        "5943278": [
+            "675600"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2951,7 +2954,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608421+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:26:23.461130+03:30",
+            "next_check_at": "2026-10-25T23:27:17.340168+03:30",
             "final_complete": false
         },
         "5749713": {
@@ -3001,7 +3004,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608556+03:30",
             "finished_seen_at": "2026-10-25T19:25:24.856436+03:30",
-            "next_check_at": "2026-10-25T23:41:23.461130+03:30",
+            "next_check_at": "2026-10-25T23:42:17.340168+03:30",
             "final_complete": false
         },
         "5887658": {
@@ -3037,9 +3040,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "93‎’‎",
+                        "short": "94‎’‎",
                         "shortKey": "",
-                        "long": "92:39",
+                        "long": "93:23",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3055,7 +3058,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:26:23.461130+03:30",
+            "next_check_at": "2026-10-25T23:27:17.340168+03:30",
             "final_complete": false
         },
         "5883702": {
@@ -3105,7 +3108,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608825+03:30",
             "finished_seen_at": "2026-10-25T23:12:19.644466+03:30",
-            "next_check_at": "2026-10-25T23:27:23.461130+03:30",
+            "next_check_at": "2026-10-25T23:28:17.340168+03:30",
             "final_complete": false
         },
         "5884900": {
@@ -3155,60 +3158,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608869+03:30",
             "finished_seen_at": "2026-10-25T16:24:21.624481+03:30",
-            "next_check_at": "2026-10-25T23:41:23.461130+03:30",
-            "final_complete": false
-        },
-        "5943278": {
-            "match": {
-                "id": 5943278,
-                "leagueId": 941071,
-                "time": "25.10.2026 19:00",
-                "home": {
-                    "id": 7753,
-                    "score": 2,
-                    "name": "OFI Crete",
-                    "longName": "OFI Crete"
-                },
-                "away": {
-                    "id": 8619,
-                    "score": 1,
-                    "name": "PAOK Thessaloniki",
-                    "longName": "PAOK Thessaloniki"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "8",
-                "status": {
-                    "utcTime": "2026-10-25T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.10.2026 19:02:12",
-                        "secondHalfStarted": "25.10.2026 20:04:54"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "97‎’‎",
-                        "shortKey": "",
-                        "long": "96:29",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792951200000,
-                "_competition_name": "Super League"
-            },
-            "tracked_player_ids": [
-                675600
-            ],
-            "discovered_at": "2026-10-25T00:00:43.608960+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:26:23.461130+03:30",
+            "next_check_at": "2026-10-25T23:42:17.340168+03:30",
             "final_complete": false
         },
         "1000013248": {
@@ -3249,7 +3199,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.609048+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T23:26:23.461130+03:30",
+            "next_check_at": "2026-10-25T23:27:17.340168+03:30",
             "final_complete": false
         }
     },
