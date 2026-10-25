@@ -2897,7 +2897,7 @@
                 "time": "25.10.2026 18:30",
                 "home": {
                     "id": 8560,
-                    "score": 1,
+                    "score": 2,
                     "name": "Real Sociedad",
                     "longName": "Real Sociedad"
                 },
@@ -2920,11 +2920,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 1",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "26‎’‎",
+                        "short": "27‎’‎",
                         "shortKey": "",
-                        "long": "25:37",
+                        "long": "26:50",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -2939,7 +2939,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608375+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         },
         "5868105": {
@@ -2980,7 +2980,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608421+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         },
         "5749713": {
@@ -3030,7 +3030,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608556+03:30",
             "finished_seen_at": "2026-10-25T19:25:24.856436+03:30",
-            "next_check_at": "2026-10-25T21:41:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:42:26.927343+03:30",
             "final_complete": false
         },
         "5868507": {
@@ -3040,7 +3040,7 @@
                 "time": "25.10.2026 18:30",
                 "home": {
                     "id": 10279,
-                    "score": 1,
+                    "score": 2,
                     "name": "Castellón",
                     "longName": "Castellón"
                 },
@@ -3063,11 +3063,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "26‎’‎",
+                        "short": "27‎’‎",
                         "shortKey": "",
-                        "long": "25:00",
+                        "long": "26:13",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3083,7 +3083,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608737+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         },
         "5887658": {
@@ -3125,7 +3125,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         },
         "5883702": {
@@ -3160,9 +3160,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "9‎’‎",
+                        "short": "11‎’‎",
                         "shortKey": "",
-                        "long": "8:53",
+                        "long": "10:06",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3177,7 +3177,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608825+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         },
         "5884900": {
@@ -3227,7 +3227,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608869+03:30",
             "finished_seen_at": "2026-10-25T16:24:21.624481+03:30",
-            "next_check_at": "2026-10-25T21:41:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:42:26.927343+03:30",
             "final_complete": false
         },
         "5943278": {
@@ -3268,7 +3268,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.608960+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         },
         "1000013248": {
@@ -3309,7 +3309,7 @@
             ],
             "discovered_at": "2026-10-25T00:00:43.609048+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-25T21:26:19.932643+03:30",
+            "next_check_at": "2026-10-25T21:27:26.927343+03:30",
             "final_complete": false
         }
     },
