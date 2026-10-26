@@ -2966,7 +2966,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535248+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:59:18.995793+03:30",
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
             "final_complete": false
         },
         "6050083": {
@@ -3014,7 +3014,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:59:18.995793+03:30",
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
             "final_complete": false
         },
         "5887660": {
@@ -3067,7 +3067,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535433+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:59:18.995793+03:30",
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
             "final_complete": false
         },
         "5103681": {
@@ -3108,7 +3108,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535533+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:59:18.995793+03:30",
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -3149,7 +3149,462 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535573+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:59:18.995793+03:30",
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "5749721": {
+            "match": {
+                "id": 5749721,
+                "leagueId": 55,
+                "time": "27.10.2026 20:45",
+                "home": {
+                    "id": 8686,
+                    "score": 0,
+                    "name": "Roma",
+                    "longName": "Roma"
+                },
+                "away": {
+                    "id": 8529,
+                    "score": 0,
+                    "name": "Cagliari",
+                    "longName": "Cagliari"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "9",
+                "status": {
+                    "utcTime": "2026-10-27T19:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793130300000,
+                "_competition_name": "Serie A"
+            },
+            "tracked_player_ids": [
+                496042
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347515+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6050087": {
+            "match": {
+                "id": 6050087,
+                "leagueId": 943983,
+                "time": "27.10.2026 19:15",
+                "home": {
+                    "id": 101904,
+                    "score": 0,
+                    "name": "Al-Shamal",
+                    "longName": "Al-Shamal"
+                },
+                "away": {
+                    "id": 2529,
+                    "score": 0,
+                    "name": "Al Hilal",
+                    "longName": "Al Hilal"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-27T18:15:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 19:15:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793124900000,
+                "_competition_name": "AFC Champions League Elite West"
+            },
+            "tracked_player_ids": [
+                301456,
+                929834
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347576+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6386056": {
+            "match": {
+                "id": 6386056,
+                "leagueId": 138,
+                "time": "27.10.2026 18:30",
+                "home": {
+                    "id": 190105,
+                    "score": 0,
+                    "name": "CD Cuarte",
+                    "longName": "CD Cuarte"
+                },
+                "away": {
+                    "id": 7732,
+                    "score": 0,
+                    "name": "Girona",
+                    "longName": "Girona"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-27T17:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 18:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793122200000,
+                "_competition_name": "Copa del Rey"
+            },
+            "tracked_player_ids": [
+                873297,
+                748380
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347612+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6386049": {
+            "match": {
+                "id": 6386049,
+                "leagueId": 138,
+                "time": "27.10.2026 19:45",
+                "home": {
+                    "id": 2066184,
+                    "score": 0,
+                    "name": "Castellonense",
+                    "longName": "Castellonense"
+                },
+                "away": {
+                    "id": 9865,
+                    "score": 0,
+                    "name": "Almería",
+                    "longName": "Almería"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-27T18:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 19:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793126700000,
+                "_competition_name": "Copa del Rey"
+            },
+            "tracked_player_ids": [
+                902647
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347647+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6386079": {
+            "match": {
+                "id": 6386079,
+                "leagueId": 138,
+                "time": "27.10.2026 20:00",
+                "home": {
+                    "id": 8316,
+                    "score": 0,
+                    "name": "RSD Alcalá",
+                    "longName": "RSD Alcalá"
+                },
+                "away": {
+                    "id": 8306,
+                    "score": 0,
+                    "name": "Las Palmas",
+                    "longName": "Las Palmas"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-27T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 20:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793127600000,
+                "_competition_name": "Copa del Rey"
+            },
+            "tracked_player_ids": [
+                477615
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347684+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6386064": {
+            "match": {
+                "id": 6386064,
+                "leagueId": 138,
+                "time": "27.10.2026 21:00",
+                "home": {
+                    "id": 209025,
+                    "score": 0,
+                    "name": "CD Manacor",
+                    "longName": "CD Manacor"
+                },
+                "away": {
+                    "id": 10205,
+                    "score": 0,
+                    "name": "Villarreal",
+                    "longName": "Villarreal"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-10-27T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793131200000,
+                "_competition_name": "Copa del Rey"
+            },
+            "tracked_player_ids": [
+                1311915
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347716+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6171134": {
+            "match": {
+                "id": 6171134,
+                "leagueId": 278,
+                "time": "27.10.2026 18:00",
+                "home": {
+                    "id": 2030,
+                    "score": 0,
+                    "name": "First Vienna FC",
+                    "longName": "First Vienna FC"
+                },
+                "away": {
+                    "id": 10015,
+                    "score": 0,
+                    "name": "Rapid Wien",
+                    "longName": "Rapid Wien"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "3",
+                "status": {
+                    "utcTime": "2026-10-27T17:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 18:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793120400000,
+                "_competition_name": "Cup"
+            },
+            "tracked_player_ids": [
+                1114554
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347748+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6284438": {
+            "match": {
+                "id": 6284438,
+                "leagueId": 442,
+                "time": "27.10.2026 17:00",
+                "home": {
+                    "id": 9728,
+                    "score": 0,
+                    "name": "Shakhtar Donetsk",
+                    "longName": "Shakhtar Donetsk"
+                },
+                "away": {
+                    "id": 8688,
+                    "score": 0,
+                    "name": "Dynamo Kyiv",
+                    "longName": "Dynamo Kyiv"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1/8",
+                "status": {
+                    "utcTime": "2026-10-27T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 17:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793116800000,
+                "_competition_name": "Cup"
+            },
+            "tracked_player_ids": [
+                540113
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347781+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6106091": {
+            "match": {
+                "id": 6106091,
+                "leagueId": 944879,
+                "time": "27.10.2026 15:00",
+                "home": {
+                    "id": 104814,
+                    "score": 0,
+                    "name": "Panserraikos FC",
+                    "longName": "Panserraikos FC"
+                },
+                "away": {
+                    "id": 6013,
+                    "score": 0,
+                    "name": "Niki Volou",
+                    "longName": "Niki Volou"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-10-27T14:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 15:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793109600000,
+                "_competition_name": "Cup Group Stage"
+            },
+            "tracked_player_ids": [
+                643674
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347813+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "6162750": {
+            "match": {
+                "id": 6162750,
+                "leagueId": 936417,
+                "time": "27.10.2026 18:00",
+                "home": {
+                    "id": 8296,
+                    "score": 0,
+                    "name": "RW Essen",
+                    "longName": "RW Essen"
+                },
+                "away": {
+                    "id": 178475,
+                    "score": 0,
+                    "name": "RB Leipzig",
+                    "shortName": "RB Leipzig",
+                    "longName": "RB Leipzig"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "2",
+                "status": {
+                    "utcTime": "2026-10-27T17:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 18:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793120400000,
+                "_competition_name": "DFB Pokal"
+            },
+            "tracked_player_ids": [
+                1412137
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347844+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
+            "final_complete": false
+        },
+        "5765944": {
+            "match": {
+                "id": 5765944,
+                "leagueId": 252,
+                "time": "27.10.2026 18:00",
+                "home": {
+                    "id": 10156,
+                    "score": 0,
+                    "name": "Dinamo Zagreb",
+                    "longName": "Dinamo Zagreb"
+                },
+                "away": {
+                    "id": 10162,
+                    "score": 0,
+                    "name": "Rijeka",
+                    "longName": "Rijeka"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-10-27T17:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.10.2026 18:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1793120400000,
+                "_competition_name": "HNL"
+            },
+            "tracked_player_ids": [
+                1665435,
+                1367049
+            ],
+            "discovered_at": "2026-10-27T00:00:39.347876+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-10-27T00:00:39.347908+03:30",
             "final_complete": false
         }
     },
