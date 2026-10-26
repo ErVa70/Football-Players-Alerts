@@ -2599,6 +2599,9 @@
         ],
         "6050081": [
             "732282"
+        ],
+        "5904782": [
+            "470834"
         ]
     },
     "transfer_monitor": {
@@ -2963,7 +2966,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535248+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:54:19.623899+03:30",
+            "next_check_at": "2026-10-26T23:55:23.282232+03:30",
             "final_complete": false
         },
         "6050083": {
@@ -3011,7 +3014,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:54:19.623899+03:30",
+            "next_check_at": "2026-10-26T23:55:23.282232+03:30",
             "final_complete": false
         },
         "5887660": {
@@ -3047,9 +3050,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "79‎’‎",
+                        "short": "80‎’‎",
                         "shortKey": "",
-                        "long": "78:32",
+                        "long": "79:43",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3064,61 +3067,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535433+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:54:19.623899+03:30",
-            "final_complete": false
-        },
-        "5904782": {
-            "match": {
-                "id": 5904782,
-                "leagueId": 71,
-                "time": "26.10.2026 19:30",
-                "home": {
-                    "id": 8637,
-                    "score": 2,
-                    "name": "Galatasaray",
-                    "longName": "Galatasaray"
-                },
-                "away": {
-                    "id": 8695,
-                    "score": 1,
-                    "name": "Fenerbahçe",
-                    "longName": "Fenerbahçe"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-10-26T18:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.10.2026 19:30:56",
-                        "secondHalfStarted": "26.10.2026 20:34:13"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:59",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793039400000,
-                "_competition_name": "Super Lig"
-            },
-            "tracked_player_ids": [
-                178818,
-                470834
-            ],
-            "discovered_at": "2026-10-26T00:00:38.535493+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:54:19.623899+03:30",
+            "next_check_at": "2026-10-26T23:55:23.282232+03:30",
             "final_complete": false
         },
         "5103681": {
@@ -3159,7 +3108,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535533+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:54:19.623899+03:30",
+            "next_check_at": "2026-10-26T23:55:23.282232+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -3200,7 +3149,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535573+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T23:54:19.623899+03:30",
+            "next_check_at": "2026-10-26T23:55:23.282232+03:30",
             "final_complete": false
         }
     },
