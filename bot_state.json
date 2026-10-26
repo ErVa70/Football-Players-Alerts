@@ -1786,7 +1786,8 @@
         "5071455": [],
         "6050081": [
             "Substitution|64|None|1527318,732282|"
-        ]
+        ],
+        "5904782": []
     },
     "final_posts": {
         "5991881": [
@@ -2942,7 +2943,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535248+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:00:41.065806+03:30",
+            "next_check_at": "2026-10-26T22:01:18.205014+03:30",
             "final_complete": false
         },
         "6050083": {
@@ -2990,7 +2991,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:00:41.065806+03:30",
+            "next_check_at": "2026-10-26T22:01:18.205014+03:30",
             "final_complete": false
         },
         "5887660": {
@@ -3031,7 +3032,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535433+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:00:41.065806+03:30",
+            "next_check_at": "2026-10-26T22:01:18.205014+03:30",
             "final_complete": false
         },
         "5904782": {
@@ -3052,17 +3053,28 @@
                     "longName": "Fenerbahçe"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-26T18:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "26.10.2026 19:30:00"
+                        "firstHalfStarted": "26.10.2026 19:30:56"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:22",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793039400000,
                 "_competition_name": "Super Lig"
@@ -3073,7 +3085,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535493+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:00:41.065806+03:30",
+            "next_check_at": "2026-10-26T22:01:18.205014+03:30",
             "final_complete": false
         },
         "5103681": {
@@ -3114,7 +3126,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535533+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:00:41.065806+03:30",
+            "next_check_at": "2026-10-26T22:01:18.205014+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -3155,7 +3167,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535573+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:00:41.065806+03:30",
+            "next_check_at": "2026-10-26T22:01:18.205014+03:30",
             "final_complete": false
         }
     },
