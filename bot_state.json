@@ -2569,6 +2569,9 @@
         ],
         "1000013248": [
             "49939"
+        ],
+        "5071455": [
+            "212472"
         ]
     },
     "transfer_monitor": {
@@ -3124,63 +3127,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535248+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
-            "final_complete": false
-        },
-        "5071455": {
-            "match": {
-                "id": 5071455,
-                "leagueId": 913550,
-                "time": "26.10.2026 02:00",
-                "home": {
-                    "id": 867280,
-                    "score": 3,
-                    "name": "Los Angeles FC",
-                    "shortName": "LAFC",
-                    "longName": "Los Angeles FC"
-                },
-                "away": {
-                    "id": 6637,
-                    "score": 2,
-                    "name": "LA Galaxy",
-                    "shortName": "LA Galaxy",
-                    "longName": "LA Galaxy"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "31",
-                "status": {
-                    "utcTime": "2026-10-26T01:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.10.2026 02:13:08",
-                        "secondHalfStarted": "26.10.2026 03:19:24"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "3 - 2",
-                    "liveTime": {
-                        "short": "99‎’‎",
-                        "shortKey": "",
-                        "long": "98:55",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1792976400000,
-                "_competition_name": "Major League Soccer"
-            },
-            "tracked_player_ids": [
-                212472,
-                920173
-            ],
-            "discovered_at": "2026-10-26T00:00:38.535308+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         },
         "6050081": {
@@ -3221,7 +3168,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535352+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         },
         "6050083": {
@@ -3263,7 +3210,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         },
         "5887660": {
@@ -3304,7 +3251,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535433+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         },
         "5904782": {
@@ -3346,7 +3293,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535493+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         },
         "5103681": {
@@ -3387,7 +3334,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535533+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -3428,7 +3375,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535573+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T06:43:19.115492+03:30",
+            "next_check_at": "2026-10-26T06:44:18.318605+03:30",
             "final_complete": false
         }
     },
