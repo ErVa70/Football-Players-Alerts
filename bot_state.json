@@ -913,7 +913,9 @@
             "Clément Lenglet|STARTING XI"
         ],
         "5802972": [
-            "Ferran Torres|STARTING XI"
+            "Ferran Torres|STARTING XI",
+            "Lucas Digne|BENCH",
+            "Dro Fernández|BENCH"
         ]
     },
     "match_events": {
@@ -2947,7 +2949,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535248+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:20:29.112230+03:30",
+            "next_check_at": "2026-10-26T22:21:16.312023+03:30",
             "final_complete": false
         },
         "6050083": {
@@ -2995,7 +2997,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:20:29.112230+03:30",
+            "next_check_at": "2026-10-26T22:21:16.312023+03:30",
             "final_complete": false
         },
         "5887660": {
@@ -3030,9 +3032,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "4‎’‎",
+                        "short": "5‎’‎",
                         "shortKey": "",
-                        "long": "3:17",
+                        "long": "4:04",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3047,7 +3049,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535433+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:20:29.112230+03:30",
+            "next_check_at": "2026-10-26T22:21:16.312023+03:30",
             "final_complete": false
         },
         "5904782": {
@@ -3082,9 +3084,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "20‎’‎",
+                        "short": "21‎’‎",
                         "shortKey": "",
-                        "long": "19:33",
+                        "long": "20:20",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3100,7 +3102,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535493+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:20:29.112230+03:30",
+            "next_check_at": "2026-10-26T22:21:16.312023+03:30",
             "final_complete": false
         },
         "5103681": {
@@ -3141,7 +3143,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535533+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:20:29.112230+03:30",
+            "next_check_at": "2026-10-26T22:21:16.312023+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -3182,7 +3184,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535573+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-26T22:20:29.112230+03:30",
+            "next_check_at": "2026-10-26T22:21:16.312023+03:30",
             "final_complete": false
         }
     },
