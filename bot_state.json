@@ -2662,7 +2662,11 @@
         "6106091": [],
         "6284438": [],
         "6171134": [],
-        "6162750": []
+        "6162750": [],
+        "5765944": [
+            "1367049",
+            "1665435"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -2868,7 +2872,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -2962,7 +2966,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347515+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         },
         "6050087": {
@@ -2999,7 +3003,7 @@
                     "liveTime": {
                         "short": "41‎’‎",
                         "shortKey": "",
-                        "long": "40:01",
+                        "long": "40:56",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3015,7 +3019,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347576+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         },
         "6386056": {
@@ -3053,7 +3057,7 @@
                     "liveTime": {
                         "short": "70‎’‎",
                         "shortKey": "",
-                        "long": "69:03",
+                        "long": "69:58",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3069,7 +3073,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347612+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         },
         "6386049": {
@@ -3104,9 +3108,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "8‎’‎",
+                        "short": "9‎’‎",
                         "shortKey": "",
-                        "long": "7:39",
+                        "long": "8:34",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3121,7 +3125,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         },
         "6386079": {
@@ -3162,7 +3166,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         },
         "6386064": {
@@ -3203,61 +3207,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347716+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
-            "final_complete": false
-        },
-        "5765944": {
-            "match": {
-                "id": 5765944,
-                "leagueId": 252,
-                "time": "27.10.2026 18:00",
-                "home": {
-                    "id": 10156,
-                    "score": 2,
-                    "name": "Dinamo Zagreb",
-                    "longName": "Dinamo Zagreb"
-                },
-                "away": {
-                    "id": 10162,
-                    "score": 1,
-                    "name": "Rijeka",
-                    "longName": "Rijeka"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-10-27T17:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "27.10.2026 18:02:19",
-                        "secondHalfStarted": "27.10.2026 19:07:57"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:26",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793120400000,
-                "_competition_name": "HNL"
-            },
-            "tracked_player_ids": [
-                1367049,
-                1665435
-            ],
-            "discovered_at": "2026-10-27T00:00:39.347876+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:26:23.750703+03:30",
+            "next_check_at": "2026-10-27T22:27:18.399778+03:30",
             "final_complete": false
         }
     },
