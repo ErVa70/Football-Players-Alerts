@@ -1805,7 +1805,9 @@
         "5802972": [
             "Substitution|65|None|1574189,881771|"
         ],
-        "5103681": [],
+        "5103681": [
+            "Substitution|82|None|169865,1134464|"
+        ],
         "5103674": []
     },
     "final_posts": {
@@ -2974,7 +2976,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "5103681": {
@@ -3010,9 +3012,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "82‎’‎",
+                        "short": "83‎’‎",
                         "shortKey": "",
-                        "long": "81:09",
+                        "long": "82:27",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3027,7 +3029,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535533+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -3063,9 +3065,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "56‎’‎",
+                        "short": "57‎’‎",
                         "shortKey": "",
-                        "long": "55:05",
+                        "long": "56:23",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3080,7 +3082,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535573+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "5749721": {
@@ -3121,7 +3123,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347515+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6050087": {
@@ -3163,7 +3165,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347576+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6386056": {
@@ -3205,7 +3207,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347612+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6386049": {
@@ -3246,7 +3248,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6386079": {
@@ -3287,7 +3289,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6386064": {
@@ -3328,7 +3330,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347716+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6171134": {
@@ -3369,7 +3371,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347748+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6284438": {
@@ -3410,7 +3412,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347781+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6106091": {
@@ -3451,7 +3453,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347813+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "6162750": {
@@ -3493,7 +3495,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347844+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         },
         "5765944": {
@@ -3535,7 +3537,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347876+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T03:44:20.724087+03:30",
+            "next_check_at": "2026-10-27T03:45:38.411296+03:30",
             "final_complete": false
         }
     },
