@@ -2877,7 +2877,7 @@
             ],
             "discovered_at": "2026-10-26T00:00:38.535393+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:52:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:53:22.914051+03:30",
             "final_complete": false
         },
         "5103674": {
@@ -2971,7 +2971,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347515+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:52:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:53:22.914051+03:30",
             "final_complete": false
         },
         "6050087": {
@@ -2992,12 +2992,13 @@
                     "longName": "Al Hilal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-10-27T18:15:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "27.10.2026 19:16:22"
+                        "firstHalfStarted": "27.10.2026 19:16:22",
+                        "secondHalfStarted": "27.10.2026 20:22:52"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -3006,12 +3007,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:28",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -3024,7 +3025,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347576+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:52:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:53:22.914051+03:30",
             "final_complete": false
         },
         "6386056": {
@@ -3075,7 +3076,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347612+03:30",
             "finished_seen_at": "2026-10-27T22:51:17.960520+03:30",
-            "next_check_at": "2026-10-27T22:53:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:54:22.914051+03:30",
             "final_complete": false
         },
         "6386049": {
@@ -3110,9 +3111,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "34‎’‎",
+                        "short": "35‎’‎",
                         "shortKey": "",
-                        "long": "33:35",
+                        "long": "34:36",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3127,7 +3128,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347647+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:52:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:53:22.914051+03:30",
             "final_complete": false
         },
         "6386079": {
@@ -3137,7 +3138,7 @@
                 "time": "27.10.2026 20:00",
                 "home": {
                     "id": 8316,
-                    "score": 0,
+                    "score": 1,
                     "name": "RSD Alcalá",
                     "longName": "RSD Alcalá"
                 },
@@ -3160,11 +3161,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "22‎’‎",
+                        "short": "23‎’‎",
                         "shortKey": "",
-                        "long": "21:09",
+                        "long": "22:10",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3179,7 +3180,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:52:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:53:22.914051+03:30",
             "final_complete": false
         },
         "6386064": {
@@ -3220,7 +3221,7 @@
             ],
             "discovered_at": "2026-10-27T00:00:39.347716+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-27T22:52:19.681170+03:30",
+            "next_check_at": "2026-10-27T22:53:22.914051+03:30",
             "final_complete": false
         }
     },
