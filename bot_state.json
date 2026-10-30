@@ -2930,7 +2930,10 @@
             "1225420"
         ],
         "5909320": [],
-        "5952295": []
+        "5952295": [],
+        "5904790": [
+            "178818"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -3135,7 +3138,7 @@
             ],
             "discovered_at": "2026-10-28T00:00:40.147920+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -3182,7 +3185,7 @@
             ],
             "discovered_at": "2026-10-28T00:00:40.147949+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "6386068": {
@@ -3287,7 +3290,7 @@
             ],
             "discovered_at": "2026-10-28T00:00:40.148036+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -3336,7 +3339,7 @@
             ],
             "discovered_at": "2026-10-28T00:00:40.148065+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "6526891": {
@@ -3430,7 +3433,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394116+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "5802973": {
@@ -3486,7 +3489,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394236+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "5802974": {
@@ -3527,57 +3530,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394296+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
-            "final_complete": false
-        },
-        "5904790": {
-            "match": {
-                "id": 5904790,
-                "leagueId": 71,
-                "time": "30.10.2026 18:00",
-                "home": {
-                    "id": 8622,
-                    "score": 0,
-                    "name": "Konyaspor",
-                    "longName": "Konyaspor"
-                },
-                "away": {
-                    "id": 8637,
-                    "score": 4,
-                    "name": "Galatasaray",
-                    "longName": "Galatasaray"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-10-30T17:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "30.10.2026 18:00:25",
-                        "secondHalfStarted": "30.10.2026 19:09:10"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "0 - 4",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1793379600000,
-                "_competition_name": "Super Lig"
-            },
-            "tracked_player_ids": [
-                178818
-            ],
-            "discovered_at": "2026-10-30T00:00:42.394411+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "1000013252": {
@@ -3618,7 +3571,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394469+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "5970195": {
@@ -3672,7 +3625,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394634+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         },
         "5103687": {
@@ -3713,7 +3666,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394744+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T22:26:21.245255+03:30",
+            "next_check_at": "2026-10-30T22:27:18.779101+03:30",
             "final_complete": false
         }
     },
