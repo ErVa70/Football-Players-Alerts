@@ -2941,6 +2941,9 @@
             "210111",
             "881771",
             "1682313"
+        ],
+        "5970195": [
+            "732282"
         ]
     },
     "transfer_monitor": {
@@ -3204,7 +3207,7 @@
             ],
             "discovered_at": "2026-10-28T00:00:40.148036+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
+            "next_check_at": "2026-10-30T23:27:16.897489+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -3253,7 +3256,7 @@
             ],
             "discovered_at": "2026-10-28T00:00:40.148065+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
+            "next_check_at": "2026-10-30T23:27:16.897489+03:30",
             "final_complete": false
         },
         "5868120": {
@@ -3294,7 +3297,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394116+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
+            "next_check_at": "2026-10-30T23:27:16.897489+03:30",
             "final_complete": false
         },
         "5802974": {
@@ -3335,7 +3338,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394296+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
+            "next_check_at": "2026-10-30T23:27:16.897489+03:30",
             "final_complete": false
         },
         "1000013252": {
@@ -3376,62 +3379,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394469+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
-            "final_complete": false
-        },
-        "5970195": {
-            "match": {
-                "id": 5970195,
-                "leagueId": 1000001787,
-                "time": "30.10.2026 19:00",
-                "home": {
-                    "id": 101916,
-                    "score": 6,
-                    "name": "Al Shabab",
-                    "longName": "Al Shabab"
-                },
-                "away": {
-                    "id": 2530,
-                    "score": 1,
-                    "name": "Al Ahli",
-                    "redCards": 1,
-                    "longName": "Al Ahli"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "12",
-                "status": {
-                    "utcTime": "2026-10-30T18:00:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "30.10.2026 19:00:07",
-                        "secondHalfStarted": "30.10.2026 20:08:08"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "6 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:06",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793383200000,
-                "_competition_name": "Saudi Pro League"
-            },
-            "tracked_player_ids": [
-                732282
-            ],
-            "discovered_at": "2026-10-30T00:00:42.394634+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
+            "next_check_at": "2026-10-30T23:27:16.897489+03:30",
             "final_complete": false
         },
         "5103687": {
@@ -3472,7 +3420,7 @@
             ],
             "discovered_at": "2026-10-30T00:00:42.394744+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-30T23:26:19.619901+03:30",
+            "next_check_at": "2026-10-30T23:27:16.897489+03:30",
             "final_complete": false
         }
     },
