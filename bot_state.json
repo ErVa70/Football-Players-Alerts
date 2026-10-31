@@ -3126,7 +3126,10 @@
         "5781793": [
             "892816"
         ],
-        "5071472": []
+        "5071472": [],
+        "5071474": [
+            "50047"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -3320,9 +3323,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "6‎’‎",
+                        "short": "7‎’‎",
                         "shortKey": "",
-                        "long": "5:55",
+                        "long": "6:56",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3337,7 +3340,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:37:17.975579+03:30",
+            "next_check_at": "2026-10-31T23:38:18.879441+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3372,9 +3375,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "5‎’‎",
+                        "short": "6‎’‎",
                         "shortKey": "",
-                        "long": "4:19",
+                        "long": "5:20",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3390,62 +3393,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:37:17.975579+03:30",
-            "final_complete": false
-        },
-        "5071474": {
-            "match": {
-                "id": 5071474,
-                "leagueId": 913550,
-                "time": "31.10.2026 19:00",
-                "home": {
-                    "id": 546238,
-                    "score": 1,
-                    "name": "New York City FC",
-                    "shortName": "NYCFC",
-                    "longName": "New York City FC"
-                },
-                "away": {
-                    "id": 161195,
-                    "score": 1,
-                    "name": "CF Montréal",
-                    "shortName": "Montreal",
-                    "longName": "CF Montréal"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "33",
-                "status": {
-                    "utcTime": "2026-10-31T18:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "31.10.2026 19:10:43",
-                        "secondHalfStarted": "31.10.2026 20:13:11"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "100‎’‎",
-                        "shortKey": "",
-                        "long": "99:06",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793469600000,
-                "_competition_name": "Major League Soccer"
-            },
-            "tracked_player_ids": [
-                50047
-            ],
-            "discovered_at": "2026-10-31T00:00:41.971545+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:37:17.975579+03:30",
+            "next_check_at": "2026-10-31T23:38:18.879441+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3488,7 +3436,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:37:17.975579+03:30",
+            "next_check_at": "2026-10-31T23:38:18.879441+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3523,9 +3471,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "6‎’‎",
+                        "short": "7‎’‎",
                         "shortKey": "",
-                        "long": "5:48",
+                        "long": "6:49",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3541,7 +3489,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:37:17.975579+03:30",
+            "next_check_at": "2026-10-31T23:38:18.879441+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3576,9 +3524,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "5‎’‎",
+                        "short": "6‎’‎",
                         "shortKey": "",
-                        "long": "4:31",
+                        "long": "5:32",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3593,7 +3541,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:37:17.975579+03:30",
+            "next_check_at": "2026-10-31T23:38:18.879441+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3645,7 +3593,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-11-01T00:37:17.975579+03:30",
+            "next_check_at": "2026-11-01T00:38:18.879441+03:30",
             "final_complete": false
         }
     },
