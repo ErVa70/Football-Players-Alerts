@@ -3073,6 +3073,9 @@
         "5868518": [
             "902647",
             "1327733"
+        ],
+        "5904791": [
+            "470834"
         ]
     },
     "transfer_monitor": {
@@ -3269,9 +3272,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "28‎’‎",
+                        "short": "29‎’‎",
                         "shortKey": "",
-                        "long": "27:26",
+                        "long": "28:24",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3287,7 +3290,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5795496": {
@@ -3329,7 +3332,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5868112": {
@@ -3364,9 +3367,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "25‎’‎",
+                        "short": "26‎’‎",
                         "shortKey": "",
-                        "long": "24:03",
+                        "long": "25:01",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3384,7 +3387,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971319+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3426,7 +3429,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5071470": {
@@ -3479,7 +3482,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5071472": {
@@ -3522,7 +3525,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5071474": {
@@ -3565,7 +3568,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971545+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3608,7 +3611,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5781793": {
@@ -3643,9 +3646,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "11‎’‎",
+                        "short": "12‎’‎",
                         "shortKey": "",
-                        "long": "10:19",
+                        "long": "11:17",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3660,7 +3663,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971753+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3702,7 +3705,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5765952": {
@@ -3755,7 +3758,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971859+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3796,60 +3799,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
-            "final_complete": false
-        },
-        "5904791": {
-            "match": {
-                "id": 5904791,
-                "leagueId": 71,
-                "time": "31.10.2026 17:00",
-                "home": {
-                    "id": 8695,
-                    "score": 1,
-                    "name": "Fenerbahçe",
-                    "longName": "Fenerbahçe"
-                },
-                "away": {
-                    "id": 1925,
-                    "score": 2,
-                    "name": "Göztepe",
-                    "longName": "Göztepe"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-10-31T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "31.10.2026 17:01:50",
-                        "secondHalfStarted": "31.10.2026 18:07:45"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "96‎’‎",
-                        "shortKey": "",
-                        "long": "95:38",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793462400000,
-                "_competition_name": "Super Lig"
-            },
-            "tracked_player_ids": [
-                470834
-            ],
-            "discovered_at": "2026-10-31T00:00:41.972066+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T21:29:22.342971+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3901,7 +3851,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-10-31T22:28:23.423121+03:30",
+            "next_check_at": "2026-10-31T22:29:22.342971+03:30",
             "final_complete": false
         }
     },
