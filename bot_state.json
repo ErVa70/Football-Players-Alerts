@@ -3321,7 +3321,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3363,7 +3363,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "5071472": {
@@ -3401,9 +3401,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "89‎’‎",
+                        "short": "90‎’‎",
                         "shortKey": "",
-                        "long": "88:11",
+                        "long": "89:45",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3418,7 +3418,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "5071474": {
@@ -3435,7 +3435,7 @@
                 },
                 "away": {
                     "id": 161195,
-                    "score": 0,
+                    "score": 1,
                     "name": "CF Montréal",
                     "shortName": "Montreal",
                     "longName": "CF Montréal"
@@ -3454,11 +3454,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "93‎’‎",
                         "shortKey": "",
-                        "long": "90:54",
+                        "long": "92:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3473,7 +3473,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971545+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3516,7 +3516,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3558,7 +3558,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3599,7 +3599,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:29:17.678191+03:30",
+            "next_check_at": "2026-10-31T23:30:44.356052+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3651,7 +3651,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-11-01T00:29:17.678191+03:30",
+            "next_check_at": "2026-11-01T00:30:44.356052+03:30",
             "final_complete": false
         }
     },
