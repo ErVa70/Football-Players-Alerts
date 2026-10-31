@@ -1114,7 +1114,10 @@
             "Marc ter Stegen|STARTING XI",
             "Jofre Torrents|BENCH"
         ],
-        "5868514": []
+        "5868514": [],
+        "5071477": [
+            "Sergi Roberto|STARTING XI"
+        ]
     },
     "match_events": {
         "5071387": [
@@ -3323,9 +3326,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "11‎’‎",
+                        "short": "12‎’‎",
                         "shortKey": "",
-                        "long": "10:44",
+                        "long": "11:55",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3340,7 +3343,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:42:19.267408+03:30",
+            "next_check_at": "2026-10-31T23:43:17.620036+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3375,9 +3378,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "10‎’‎",
+                        "short": "11‎’‎",
                         "shortKey": "",
-                        "long": "9:08",
+                        "long": "10:19",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3393,7 +3396,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:42:19.267408+03:30",
+            "next_check_at": "2026-10-31T23:43:17.620036+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3436,7 +3439,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:42:19.267408+03:30",
+            "next_check_at": "2026-10-31T23:43:17.620036+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3471,9 +3474,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "11‎’‎",
+                        "short": "12‎’‎",
                         "shortKey": "",
-                        "long": "10:37",
+                        "long": "11:48",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3489,7 +3492,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:42:19.267408+03:30",
+            "next_check_at": "2026-10-31T23:43:17.620036+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3524,9 +3527,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "10‎’‎",
+                        "short": "11‎’‎",
                         "shortKey": "",
-                        "long": "9:20",
+                        "long": "10:31",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3541,7 +3544,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:42:19.267408+03:30",
+            "next_check_at": "2026-10-31T23:43:17.620036+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3593,7 +3596,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-11-01T00:42:19.267408+03:30",
+            "next_check_at": "2026-11-01T00:43:17.620036+03:30",
             "final_complete": false
         }
     },
