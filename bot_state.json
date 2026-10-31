@@ -2149,7 +2149,9 @@
         "5071472": [],
         "5071474": [
             "id:14675052"
-        ]
+        ],
+        "5795496": [],
+        "5781786": []
     },
     "final_posts": {
         "5991881": [
@@ -3301,17 +3303,28 @@
                     "longName": "Fulham"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-10-31T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "31.10.2026 21:00:00"
+                        "firstHalfStarted": "31.10.2026 21:01:22"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:57",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793476800000,
                 "_competition_name": "Premier League"
@@ -3321,7 +3334,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3363,7 +3376,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "5071472": {
@@ -3401,9 +3414,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "92‎’‎",
                         "shortKey": "",
-                        "long": "90:16",
+                        "long": "91:25",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3418,7 +3431,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "5071474": {
@@ -3456,9 +3469,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "93‎’‎",
+                        "short": "95‎’‎",
                         "shortKey": "",
-                        "long": "92:59",
+                        "long": "94:08",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3473,7 +3486,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971545+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3516,7 +3529,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3537,17 +3550,28 @@
                     "longName": "AZ Alkmaar"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "11",
                 "status": {
                     "utcTime": "2026-10-31T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "31.10.2026 21:00:00"
+                        "firstHalfStarted": "31.10.2026 21:01:29"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:50",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793476800000,
                 "_competition_name": "Eredivisie"
@@ -3558,7 +3582,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3599,7 +3623,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:31:17.256003+03:30",
+            "next_check_at": "2026-10-31T23:32:19.355783+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3651,7 +3675,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-11-01T00:31:17.256003+03:30",
+            "next_check_at": "2026-11-01T00:32:19.355783+03:30",
             "final_complete": false
         }
     },
