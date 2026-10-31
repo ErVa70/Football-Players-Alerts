@@ -2122,7 +2122,9 @@
         "5071470": [],
         "5795504": [],
         "5868112": [],
-        "5781793": []
+        "5781793": [],
+        "5071472": [],
+        "5071474": []
     },
     "final_posts": {
         "5991881": [
@@ -3272,9 +3274,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "40‎’‎",
+                        "short": "41‎’‎",
                         "shortKey": "",
-                        "long": "39:28",
+                        "long": "40:13",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3290,7 +3292,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5795496": {
@@ -3332,7 +3334,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5868112": {
@@ -3369,7 +3371,7 @@
                     "liveTime": {
                         "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "36:05",
+                        "long": "36:50",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3387,7 +3389,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971319+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3429,7 +3431,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5071470": {
@@ -3482,7 +3484,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5071472": {
@@ -3505,17 +3507,28 @@
                     "longName": "DC United"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "33",
                 "status": {
                     "utcTime": "2026-10-31T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "31.10.2026 19:00:00"
+                        "firstHalfStarted": "31.10.2026 19:10:43"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:27",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793469600000,
                 "_competition_name": "Major League Soccer"
@@ -3525,7 +3538,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5071474": {
@@ -3548,17 +3561,28 @@
                     "longName": "CF Montréal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "33",
                 "status": {
                     "utcTime": "2026-10-31T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "31.10.2026 19:00:00"
+                        "firstHalfStarted": "31.10.2026 19:10:43"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:27",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793469600000,
                 "_competition_name": "Major League Soccer"
@@ -3568,7 +3592,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971545+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3611,7 +3635,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5781793": {
@@ -3646,9 +3670,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "23‎’‎",
+                        "short": "24‎’‎",
                         "shortKey": "",
-                        "long": "22:21",
+                        "long": "23:06",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3663,7 +3687,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971753+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3705,7 +3729,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5765952": {
@@ -3741,9 +3765,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "50‎’‎",
+                        "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "49:26",
+                        "long": "50:11",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3759,7 +3783,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971859+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3800,7 +3824,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T21:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T21:41:16.629276+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3852,7 +3876,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-10-31T22:40:32.612676+03:30",
+            "next_check_at": "2026-10-31T22:41:16.629276+03:30",
             "final_complete": false
         }
     },
