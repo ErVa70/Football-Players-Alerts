@@ -2138,7 +2138,8 @@
         ],
         "5868112": [
             "id:14674549",
-            "Substitution|84|None|1580522,427438|"
+            "Substitution|84|None|1580522,427438|",
+            "Substitution|83|None|1580522,427438|"
         ],
         "5781793": [
             "id:14675358|assist|892816",
@@ -3117,6 +3118,9 @@
             "195305",
             "427438",
             "1209399"
+        ],
+        "5781793": [
+            "892816"
         ]
     },
     "transfer_monitor": {
@@ -3317,7 +3321,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971162+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "5868115": {
@@ -3359,7 +3363,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "5071472": {
@@ -3397,9 +3401,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "66‎’‎",
+                        "short": "67‎’‎",
                         "shortKey": "",
-                        "long": "65:24",
+                        "long": "66:19",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3414,7 +3418,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971492+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "5071474": {
@@ -3452,9 +3456,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "69‎’‎",
+                        "short": "70‎’‎",
                         "shortKey": "",
-                        "long": "68:07",
+                        "long": "69:02",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3469,7 +3473,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971545+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "5071477": {
@@ -3512,60 +3516,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971598+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
-            "final_complete": false
-        },
-        "5781793": {
-            "match": {
-                "id": 5781793,
-                "leagueId": 937276,
-                "time": "31.10.2026 18:45",
-                "home": {
-                    "id": 8640,
-                    "score": 7,
-                    "name": "PSV Eindhoven",
-                    "longName": "PSV Eindhoven"
-                },
-                "away": {
-                    "id": 8525,
-                    "score": 0,
-                    "name": "Willem II",
-                    "longName": "Willem II"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-10-31T17:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "31.10.2026 18:48:04",
-                        "secondHalfStarted": "31.10.2026 19:49:34"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "7 - 0",
-                    "liveTime": {
-                        "short": "92‎’‎",
-                        "shortKey": "",
-                        "long": "91:44",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793468700000,
-                "_competition_name": "Eredivisie"
-            },
-            "tracked_player_ids": [
-                892816
-            ],
-            "discovered_at": "2026-10-31T00:00:41.971753+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "5781786": {
@@ -3607,7 +3558,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.971805+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "5868514": {
@@ -3648,7 +3599,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972015+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-10-31T23:06:19.171261+03:30",
+            "next_check_at": "2026-10-31T23:07:17.880688+03:30",
             "final_complete": false
         },
         "1000014626": {
@@ -3700,7 +3651,7 @@
             ],
             "discovered_at": "2026-10-31T00:00:41.972117+03:30",
             "finished_seen_at": "2026-10-31T06:25:31.504340+03:30",
-            "next_check_at": "2026-11-01T00:06:19.171261+03:30",
+            "next_check_at": "2026-11-01T00:07:17.880688+03:30",
             "final_complete": false
         }
     },
