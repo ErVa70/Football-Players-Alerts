@@ -3519,7 +3519,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011059+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "5749733": {
@@ -3569,7 +3569,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011203+03:30",
             "finished_seen_at": "2026-11-01T16:56:19.104453+03:30",
-            "next_check_at": "2026-11-01T22:46:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:47:19.613927+03:30",
             "final_complete": false
         },
         "5749736": {
@@ -3621,7 +3621,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011249+03:30",
             "finished_seen_at": "2026-11-01T19:28:19.888287+03:30",
-            "next_check_at": "2026-11-01T22:46:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:47:19.613927+03:30",
             "final_complete": false
         },
         "6492337": {
@@ -3662,7 +3662,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "5887665": {
@@ -3704,7 +3704,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011563+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "5865492": {
@@ -3756,7 +3756,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011619+03:30",
             "finished_seen_at": "2026-11-01T17:53:19.387652+03:30",
-            "next_check_at": "2026-11-01T22:46:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:47:19.613927+03:30",
             "final_complete": false
         },
         "5884909": {
@@ -3806,7 +3806,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011664+03:30",
             "finished_seen_at": "2026-11-01T16:33:20.721327+03:30",
-            "next_check_at": "2026-11-01T22:46:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:47:19.613927+03:30",
             "final_complete": false
         },
         "5885580": {
@@ -3860,7 +3860,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011709+03:30",
             "finished_seen_at": "2026-11-01T20:59:17.721827+03:30",
-            "next_check_at": "2026-11-01T22:36:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:37:19.613927+03:30",
             "final_complete": false
         },
         "5943285": {
@@ -3872,6 +3872,7 @@
                     "id": 10200,
                     "score": 2,
                     "name": "Panathinaikos",
+                    "redCards": 1,
                     "longName": "Panathinaikos"
                 },
                 "away": {
@@ -3885,6 +3886,7 @@
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-11-01T17:30:00.000Z",
+                    "numberOfHomeRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "01.11.2026 18:32:58",
                         "secondHalfStarted": "01.11.2026 19:36:49"
@@ -3896,9 +3898,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "70‎’‎",
+                        "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "69:29",
+                        "long": "70:26",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3913,7 +3915,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011843+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "1000019470": {
@@ -3954,7 +3956,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011972+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "1000019468": {
@@ -3995,7 +3997,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012017+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "1000015497": {
@@ -4030,9 +4032,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "45‎’‎",
+                        "short": "46‎’‎",
                         "shortKey": "",
-                        "long": "44:54",
+                        "long": "45:51",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4047,7 +4049,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012061+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         },
         "1000022231": {
@@ -4094,7 +4096,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T22:31:18.412068+03:30",
+            "next_check_at": "2026-11-01T22:32:19.613927+03:30",
             "final_complete": false
         }
     },
