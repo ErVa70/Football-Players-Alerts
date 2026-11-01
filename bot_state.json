@@ -3466,7 +3466,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.010936+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5868118": {
@@ -3487,7 +3487,7 @@
                     "longName": "Real Madrid"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "11",
                 "status": {
                     "utcTime": "2026-11-01T15:15:00.000Z",
@@ -3495,9 +3495,20 @@
                         "firstHalfStarted": "01.11.2026 16:15:00"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "4‎’‎",
+                        "shortKey": "",
+                        "long": "3:15",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793546100000,
                 "_competition_name": "LaLiga"
@@ -3507,7 +3518,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011011+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5868111": {
@@ -3548,7 +3559,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011059+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5802979": {
@@ -3589,7 +3600,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011106+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5749733": {
@@ -3639,7 +3650,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011203+03:30",
             "finished_seen_at": "2026-11-01T16:56:19.104453+03:30",
-            "next_check_at": "2026-11-01T18:52:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:53:20.801090+03:30",
             "final_complete": false
         },
         "5749736": {
@@ -3675,9 +3686,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "58‎’‎",
+                        "short": "59‎’‎",
                         "shortKey": "",
-                        "long": "57:39",
+                        "long": "58:46",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3692,7 +3703,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011249+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5846012": {
@@ -3733,7 +3744,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011293+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5781790": {
@@ -3769,9 +3780,9 @@
                     "ongoing": true,
                     "scoreStr": "4 - 2",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "92‎’‎",
                         "shortKey": "",
-                        "long": "90:21",
+                        "long": "91:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3786,7 +3797,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011337+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5868517": {
@@ -3812,7 +3823,7 @@
                 "status": {
                     "utcTime": "2026-11-01T15:15:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "01.11.2026 16:15:00"
+                        "firstHalfStarted": "01.11.2026 16:16:58"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -3821,9 +3832,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "3‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "2:08",
+                        "long": "1:17",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3839,7 +3850,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011475+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "6492337": {
@@ -3880,7 +3891,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011519+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5887665": {
@@ -3922,7 +3933,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011563+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5865492": {
@@ -3974,7 +3985,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011619+03:30",
             "finished_seen_at": "2026-11-01T17:53:19.387652+03:30",
-            "next_check_at": "2026-11-01T18:52:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:53:20.801090+03:30",
             "final_complete": false
         },
         "5884909": {
@@ -4024,7 +4035,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011664+03:30",
             "finished_seen_at": "2026-11-01T16:33:20.721327+03:30",
-            "next_check_at": "2026-11-01T19:02:17.020351+03:30",
+            "next_check_at": "2026-11-01T19:03:20.801090+03:30",
             "final_complete": false
         },
         "5885580": {
@@ -4065,7 +4076,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011709+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5990924": {
@@ -4101,9 +4112,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "89‎’‎",
+                        "short": "90‎’‎",
                         "shortKey": "",
-                        "long": "88:00",
+                        "long": "89:07",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4118,7 +4129,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011753+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5943286": {
@@ -4159,7 +4170,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011798+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "5943285": {
@@ -4200,7 +4211,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011843+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "1000019470": {
@@ -4241,7 +4252,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.011972+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "1000019468": {
@@ -4282,7 +4293,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012017+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "1000015497": {
@@ -4323,7 +4334,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012061+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         },
         "1000022231": {
@@ -4370,7 +4381,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-01T18:47:17.020351+03:30",
+            "next_check_at": "2026-11-01T18:48:20.801090+03:30",
             "final_complete": false
         }
     },
