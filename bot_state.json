@@ -3352,6 +3352,9 @@
         ],
         "5868521": [
             "1321603"
+        ],
+        "6050089": [
+            "732282"
         ]
     },
     "transfer_monitor": {
@@ -3815,7 +3818,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5795503": {
@@ -3857,7 +3860,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5868113": {
@@ -3900,7 +3903,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951255+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5749731": {
@@ -3942,60 +3945,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
-            "final_complete": false
-        },
-        "6050089": {
-            "match": {
-                "id": 6050089,
-                "leagueId": 943983,
-                "time": "02.11.2026 17:00",
-                "home": {
-                    "id": 101895,
-                    "score": 0,
-                    "name": "Al-Sadd",
-                    "longName": "Al-Sadd"
-                },
-                "away": {
-                    "id": 2530,
-                    "score": 0,
-                    "name": "Al Ahli",
-                    "longName": "Al Ahli"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-02T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "02.11.2026 17:03:38",
-                        "secondHalfStarted": "02.11.2026 18:08:45"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:37",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793635200000,
-                "_competition_name": "AFC Champions League Elite West"
-            },
-            "tracked_player_ids": [
-                732282
-            ],
-            "discovered_at": "2026-11-02T00:00:40.951475+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -4037,7 +3987,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5868520": {
@@ -4078,7 +4028,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5887671": {
@@ -4120,7 +4070,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5888094": {
@@ -4162,7 +4112,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951736+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5883711": {
@@ -4203,7 +4153,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951790+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         },
         "5103698": {
@@ -4247,7 +4197,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951842+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T21:26:22.726968+03:30",
+            "next_check_at": "2026-11-02T21:27:19.847982+03:30",
             "final_complete": false
         }
     },
