@@ -3395,6 +3395,12 @@
         "5868113": [
             "150565",
             "493647"
+        ],
+        "5795503": [
+            "1280132"
+        ],
+        "5868520": [
+            "1233404"
         ]
     },
     "transfer_monitor": {
@@ -3858,60 +3864,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
-            "final_complete": false
-        },
-        "5795503": {
-            "match": {
-                "id": 5795503,
-                "leagueId": 47,
-                "time": "02.11.2026 21:00",
-                "home": {
-                    "id": 10261,
-                    "score": 0,
-                    "name": "Newcastle United",
-                    "shortName": "Newcastle",
-                    "longName": "Newcastle United"
-                },
-                "away": {
-                    "id": 8668,
-                    "score": 0,
-                    "name": "Everton",
-                    "longName": "Everton"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "9",
-                "status": {
-                    "utcTime": "2026-11-02T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "02.11.2026 21:00:31"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:45",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793649600000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                1280132
-            ],
-            "discovered_at": "2026-11-02T00:00:40.951166+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -3953,59 +3906,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
-            "final_complete": false
-        },
-        "5868520": {
-            "match": {
-                "id": 5868520,
-                "leagueId": 938653,
-                "time": "02.11.2026 21:00",
-                "home": {
-                    "id": 8661,
-                    "score": 0,
-                    "name": "Mallorca",
-                    "longName": "Mallorca"
-                },
-                "away": {
-                    "id": 8385,
-                    "score": 0,
-                    "name": "Cádiz",
-                    "longName": "Cádiz"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "12",
-                "status": {
-                    "utcTime": "2026-11-02T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "02.11.2026 21:03:39"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "26‎’‎",
-                        "shortKey": "",
-                        "long": "25:37",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793649600000,
-                "_competition_name": "LaLiga2"
-            },
-            "tracked_player_ids": [
-                1233404
-            ],
-            "discovered_at": "2026-11-02T00:00:40.951632+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "5887671": {
@@ -4058,7 +3959,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "5888094": {
@@ -4109,7 +4010,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951736+03:30",
             "finished_seen_at": "2026-11-02T23:28:22.062431+03:30",
-            "next_check_at": "2026-11-03T01:27:21.537969+03:30",
+            "next_check_at": "2026-11-03T01:33:20.850911+03:30",
             "final_complete": false
         },
         "5883711": {
@@ -4205,7 +4106,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951842+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6106341": {
@@ -4246,7 +4147,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -4287,7 +4188,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -4328,7 +4229,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -4370,7 +4271,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -4416,7 +4317,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -4458,7 +4359,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -4500,7 +4401,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4541,7 +4442,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T01:27:19.606830+03:30",
+            "next_check_at": "2026-11-03T01:28:20.850911+03:30",
             "final_complete": false
         }
     },
