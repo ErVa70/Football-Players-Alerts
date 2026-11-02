@@ -3312,7 +3312,8 @@
         ],
         "1000019468": [
             "169865"
-        ]
+        ],
+        "6492337": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -3627,61 +3628,6 @@
             "next_check_at": "2026-11-02T04:38:18.841328+03:30",
             "final_complete": false
         },
-        "6492337": {
-            "match": {
-                "id": 6492337,
-                "leagueId": 942853,
-                "time": "02.11.2026 00:00",
-                "home": {
-                    "id": 2219,
-                    "score": 2,
-                    "name": "Liverpool FC",
-                    "longName": "Liverpool FC"
-                },
-                "away": {
-                    "id": 9883,
-                    "score": 0,
-                    "name": "Juventud de las Piedras",
-                    "redCards": 1,
-                    "longName": "Juventud de las Piedras"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "13",
-                "status": {
-                    "utcTime": "2026-11-01T23:00:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "02.11.2026 00:02:35",
-                        "secondHalfStarted": "02.11.2026 01:06:07"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 0",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:21",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793574000000,
-                "_competition_name": "Liga AUF Uruguaya Clausura"
-            },
-            "tracked_player_ids": [
-                96616
-            ],
-            "discovered_at": "2026-11-01T00:00:39.011519+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
-            "final_complete": false
-        },
         "5865492": {
             "match": {
                 "id": 5865492,
@@ -3882,7 +3828,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5795503": {
@@ -3924,7 +3870,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5868113": {
@@ -3967,7 +3913,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951255+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5071483": {
@@ -4005,7 +3951,7 @@
                     "liveTime": {
                         "short": "31‎’‎",
                         "shortKey": "",
-                        "long": "30:08",
+                        "long": "30:59",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4021,7 +3967,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951311+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5749731": {
@@ -4063,7 +4009,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "6050088": {
@@ -4105,7 +4051,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951422+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "6050089": {
@@ -4146,7 +4092,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951475+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -4188,7 +4134,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5868521": {
@@ -4230,7 +4176,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5868520": {
@@ -4271,7 +4217,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5887671": {
@@ -4313,7 +4259,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5888094": {
@@ -4355,7 +4301,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951736+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5883711": {
@@ -4396,7 +4342,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951790+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         },
         "5103698": {
@@ -4440,7 +4386,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951842+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T04:25:29.056691+03:30",
+            "next_check_at": "2026-11-02T04:26:20.134619+03:30",
             "final_complete": false
         }
     },
