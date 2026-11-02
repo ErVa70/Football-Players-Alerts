@@ -1178,6 +1178,10 @@
         "5071483": [
             "Lionel Messi|STARTING XI",
             "Luis Suárez|BENCH"
+        ],
+        "6050088": [
+            "Iñigo Martínez|STARTING XI",
+            "João Félix|STARTING XI"
         ]
     },
     "match_events": {
@@ -3785,7 +3789,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5795503": {
@@ -3827,7 +3831,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951166+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5868113": {
@@ -3870,7 +3874,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951255+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5749731": {
@@ -3912,7 +3916,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951370+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "6050088": {
@@ -3954,7 +3958,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951422+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "6050089": {
@@ -3995,7 +3999,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951475+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "6356356": {
@@ -4037,7 +4041,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5868521": {
@@ -4079,7 +4083,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951580+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5868520": {
@@ -4120,7 +4124,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5887671": {
@@ -4162,7 +4166,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5888094": {
@@ -4204,7 +4208,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951736+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5883711": {
@@ -4245,7 +4249,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951790+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         },
         "5103698": {
@@ -4289,7 +4293,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951842+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-02T16:30:49.891990+03:30",
+            "next_check_at": "2026-11-02T16:31:19.583195+03:30",
             "final_complete": false
         }
     },
