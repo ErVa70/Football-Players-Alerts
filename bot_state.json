@@ -3738,7 +3738,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "5888094": {
@@ -3852,14 +3852,12 @@
                 "home": {
                     "id": 8637,
                     "score": 0,
-                    "name": "Galatasaray",
-                    "longName": "Galatasaray"
+                    "name": "Galatasaray"
                 },
                 "away": {
                     "id": 10269,
                     "score": 0,
-                    "name": "VfB Stuttgart",
-                    "longName": "VfB Stuttgart"
+                    "name": "VfB Stuttgart"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
@@ -3882,7 +3880,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3893,14 +3891,12 @@
                 "home": {
                     "id": 9728,
                     "score": 0,
-                    "name": "Shakhtar Donetsk",
-                    "longName": "Shakhtar Donetsk"
+                    "name": "Shakhtar Donetsk"
                 },
                 "away": {
                     "id": 9768,
                     "score": 0,
-                    "name": "Sporting CP",
-                    "longName": "Sporting CP"
+                    "name": "Sporting CP"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
@@ -3923,7 +3919,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3934,14 +3930,12 @@
                 "home": {
                     "id": 10235,
                     "score": 0,
-                    "name": "Feyenoord",
-                    "longName": "Feyenoord"
+                    "name": "Feyenoord"
                 },
                 "away": {
                     "id": 8636,
                     "score": 0,
-                    "name": "Inter",
-                    "longName": "Inter"
+                    "name": "Inter"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
@@ -3964,7 +3958,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3976,14 +3970,12 @@
                     "id": 10260,
                     "score": 0,
                     "name": "Manchester United",
-                    "shortName": "Man United",
-                    "longName": "Manchester United"
+                    "shortName": "Man United"
                 },
                 "away": {
                     "id": 8686,
                     "score": 0,
-                    "name": "Roma",
-                    "longName": "Roma"
+                    "name": "Roma"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
@@ -4006,7 +3998,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -4017,15 +4009,13 @@
                 "home": {
                     "id": 10205,
                     "score": 0,
-                    "name": "Villarreal",
-                    "longName": "Villarreal"
+                    "name": "Villarreal"
                 },
                 "away": {
                     "id": 9847,
                     "score": 0,
                     "name": "Paris Saint-Germain",
-                    "shortName": "PSG",
-                    "longName": "Paris Saint-Germain"
+                    "shortName": "PSG"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
@@ -4052,7 +4042,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -4063,14 +4053,12 @@
                 "home": {
                     "id": 101614,
                     "score": 0,
-                    "name": "Esteghlal",
-                    "longName": "Esteghlal"
+                    "name": "Esteghlal"
                 },
                 "away": {
                     "id": 101904,
                     "score": 0,
-                    "name": "Al-Shamal",
-                    "longName": "Al-Shamal"
+                    "name": "Al-Shamal"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
@@ -4094,7 +4082,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -4105,14 +4093,12 @@
                 "home": {
                     "id": 357266,
                     "score": 0,
-                    "name": "Anaitasuna FT",
-                    "longName": "Anaitasuna FT"
+                    "name": "Anaitasuna FT"
                 },
                 "away": {
                     "id": 9866,
                     "score": 0,
-                    "name": "Deportivo Alavés",
-                    "longName": "Deportivo Alavés"
+                    "name": "Deportivo Alavés"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 5,
@@ -4142,7 +4128,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4153,14 +4139,12 @@
                 "home": {
                     "id": 190064,
                     "score": 0,
-                    "name": "Pamplona",
-                    "longName": "Pamplona"
+                    "name": "Pamplona"
                 },
                 "away": {
                     "id": 8372,
                     "score": 0,
-                    "name": "Eibar",
-                    "longName": "Eibar"
+                    "name": "Eibar"
                 },
                 "eliminatedTeamId": null,
                 "statusId": 5,
@@ -4189,7 +4173,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T17:07:18.415187+03:30",
+            "next_check_at": "2026-11-03T17:08:29.189404+03:30",
             "final_complete": false
         }
     },
