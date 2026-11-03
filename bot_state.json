@@ -3445,7 +3445,8 @@
             "654044",
             "789877"
         ],
-        "6050094": []
+        "6050094": [],
+        "6106335": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -3706,7 +3707,7 @@
             ],
             "discovered_at": "2026-11-02T00:00:40.951790+03:30",
             "finished_seen_at": "2026-11-03T00:59:56.890633+03:30",
-            "next_check_at": "2026-11-03T23:06:31.552567+03:30",
+            "next_check_at": "2026-11-04T00:07:30.608911+03:30",
             "final_complete": false
         },
         "6106341": {
@@ -3740,9 +3741,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "92‎’‎",
                         "shortKey": "",
-                        "long": "90:27",
+                        "long": "91:32",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3757,58 +3758,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
-            "final_complete": false
-        },
-        "6106335": {
-            "match": {
-                "id": 6106335,
-                "leagueId": 943230,
-                "time": "03.11.2026 18:45",
-                "home": {
-                    "id": 9728,
-                    "score": 0,
-                    "name": "Shakhtar Donetsk"
-                },
-                "away": {
-                    "id": 9768,
-                    "score": 1,
-                    "name": "Sporting CP"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-03T17:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "03.11.2026 18:46:01",
-                        "secondHalfStarted": "03.11.2026 19:47:55"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:30",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793727900000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                540113
-            ],
-            "discovered_at": "2026-11-03T00:00:40.621587+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
+            "next_check_at": "2026-11-03T23:07:30.608911+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3847,7 +3797,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
+            "next_check_at": "2026-11-03T23:07:30.608911+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3887,7 +3837,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
+            "next_check_at": "2026-11-03T23:07:30.608911+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3931,7 +3881,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
+            "next_check_at": "2026-11-03T23:07:30.608911+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3977,7 +3927,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
+            "next_check_at": "2026-11-03T23:07:30.608911+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4022,7 +3972,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:06:31.149654+03:30",
+            "next_check_at": "2026-11-03T23:07:30.608911+03:30",
             "final_complete": false
         }
     },
