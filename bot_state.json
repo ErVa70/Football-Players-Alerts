@@ -3761,7 +3761,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3812,7 +3812,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3867,7 +3867,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3913,7 +3913,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -3958,7 +3958,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106401": {
@@ -3997,7 +3997,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.256892+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106330": {
@@ -4032,12 +4032,12 @@
                 "_competition_name": "Champions League"
             },
             "tracked_player_ids": [
-                921253,
-                470834
+                470834,
+                921253
             ],
             "discovered_at": "2026-11-04T00:00:40.257014+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106271": {
@@ -4074,13 +4074,13 @@
             },
             "tracked_player_ids": [
                 195305,
-                743192,
                 427438,
+                743192,
                 1209399
             ],
             "discovered_at": "2026-11-04T00:00:40.257102+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106416": {
@@ -4119,7 +4119,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257204+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106303": {
@@ -4158,7 +4158,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6106322": {
@@ -4199,7 +4199,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257376+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -4238,7 +4238,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "6054597": {
@@ -4277,7 +4277,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         },
         "5103694": {
@@ -4312,12 +4312,12 @@
                 "_competition_name": "Série A"
             },
             "tracked_player_ids": [
-                797908,
-                169865
+                169865,
+                797908
             ],
             "discovered_at": "2026-11-04T00:00:40.257606+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T00:00:40.257689+03:30",
+            "next_check_at": "2026-11-04T00:01:18.636023+03:30",
             "final_complete": false
         }
     },
