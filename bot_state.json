@@ -3729,9 +3729,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:21",
+                        "long": "1:22",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3746,7 +3746,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3779,9 +3779,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "2‎’‎",
+                        "short": "3‎’‎",
                         "shortKey": "",
-                        "long": "1:22",
+                        "long": "2:23",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3796,7 +3796,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3835,7 +3835,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3875,7 +3875,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3919,7 +3919,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -3929,7 +3929,7 @@
                 "time": "03.11.2026 17:00",
                 "home": {
                     "id": 101614,
-                    "score": 0,
+                    "score": 1,
                     "name": "Esteghlal"
                 },
                 "away": {
@@ -3951,11 +3951,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "90‎’‎",
+                        "short": "91‎’‎",
                         "shortKey": "",
-                        "long": "89:38",
+                        "long": "90:39",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3971,7 +3971,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -4017,7 +4017,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4062,7 +4062,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:17:23.632888+03:30",
+            "next_check_at": "2026-11-03T21:18:24.269410+03:30",
             "final_complete": false
         }
     },
