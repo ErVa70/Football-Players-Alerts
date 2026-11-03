@@ -3589,53 +3589,6 @@
         ]
     },
     "monitored_matches": {
-        "1000022231": {
-            "match": {
-                "id": 1000022231,
-                "leagueId": 1000001738,
-                "time": "01.11.2026 16:35",
-                "home": {
-                    "id": 102101,
-                    "score": 0,
-                    "name": "Al-Jazira",
-                    "longName": "Al-Jazira"
-                },
-                "away": {
-                    "id": 182933,
-                    "score": 0,
-                    "name": "Baniyas",
-                    "longName": "Baniyas"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 5,
-                "tournamentStage": "7",
-                "status": {
-                    "utcTime": "2026-11-01T15:35:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "01.11.2026 16:35:00"
-                    },
-                    "periodLength": 45,
-                    "cancelled": true,
-                    "started": false,
-                    "finished": false,
-                    "reason": {
-                        "short": "PP",
-                        "shortKey": "postponed_short",
-                        "long": "Postponed",
-                        "longKey": "postponed"
-                    }
-                },
-                "timeTS": 1793547300000,
-                "_competition_name": "Pro League"
-            },
-            "tracked_player_ids": [
-                535603
-            ],
-            "discovered_at": "2026-11-01T00:00:39.012109+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
-            "final_complete": false
-        },
         "5888094": {
             "match": {
                 "id": 5888094,
@@ -3775,7 +3728,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3814,7 +3767,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3853,7 +3806,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3893,7 +3846,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3937,7 +3890,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -3977,7 +3930,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -4023,7 +3976,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4068,7 +4021,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:04:25.002642+03:30",
+            "next_check_at": "2026-11-03T19:05:26.515543+03:30",
             "final_complete": false
         }
     },
