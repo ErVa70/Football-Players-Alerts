@@ -3744,9 +3744,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "17‎’‎",
                         "shortKey": "",
-                        "long": "14:59",
+                        "long": "16:18",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3761,7 +3761,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:47:20.367306+03:30",
+            "next_check_at": "2026-11-03T23:48:32.569389+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3795,9 +3795,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "16‎’‎",
+                        "short": "17‎’‎",
                         "shortKey": "",
-                        "long": "15:36",
+                        "long": "16:55",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3812,7 +3812,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:47:20.367306+03:30",
+            "next_check_at": "2026-11-03T23:48:32.569389+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3827,7 +3827,7 @@
                 },
                 "away": {
                     "id": 9847,
-                    "score": 3,
+                    "score": 4,
                     "name": "Paris Saint-Germain",
                     "shortName": "PSG"
                 },
@@ -3844,11 +3844,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 3",
+                    "scoreStr": "0 - 4",
                     "liveTime": {
-                        "short": "16‎’‎",
+                        "short": "18‎’‎",
                         "shortKey": "",
-                        "long": "15:45",
+                        "long": "17:04",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3867,7 +3867,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:47:20.367306+03:30",
+            "next_check_at": "2026-11-03T23:48:32.569389+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3913,7 +3913,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:47:20.367306+03:30",
+            "next_check_at": "2026-11-03T23:48:32.569389+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -3958,7 +3958,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T23:47:20.367306+03:30",
+            "next_check_at": "2026-11-03T23:48:32.569389+03:30",
             "final_complete": false
         }
     },
