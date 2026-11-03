@@ -3733,7 +3733,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3772,7 +3772,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3811,7 +3811,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3851,7 +3851,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3895,7 +3895,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -3914,12 +3914,13 @@
                     "name": "Al-Shamal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-03T16:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "03.11.2026 17:00:58"
+                        "firstHalfStarted": "03.11.2026 17:00:58",
+                        "secondHalfStarted": "03.11.2026 18:02:45"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -3928,12 +3929,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:40",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -3946,7 +3947,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3992,7 +3993,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4037,7 +4038,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T20:32:21.596865+03:30",
+            "next_check_at": "2026-11-03T20:33:25.831100+03:30",
             "final_complete": false
         }
     },
