@@ -3716,12 +3716,13 @@
                     "name": "VfB Stuttgart"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-03T17:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "03.11.2026 18:47:02"
+                        "firstHalfStarted": "03.11.2026 18:47:02",
+                        "secondHalfStarted": "03.11.2026 19:50:58"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -3730,12 +3731,12 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:31",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -3747,7 +3748,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3781,9 +3782,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:33",
+                        "long": "48:34",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3798,7 +3799,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3837,7 +3838,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3877,7 +3878,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3921,7 +3922,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3967,7 +3968,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4012,7 +4013,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T22:20:31.721667+03:30",
+            "next_check_at": "2026-11-03T22:21:29.291644+03:30",
             "final_complete": false
         }
     },
