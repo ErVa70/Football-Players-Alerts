@@ -2352,7 +2352,8 @@
             "Substitution|59|None|654044,925841|",
             "Substitution|68|None|789877,960494|",
             "Substitution|79|None|1347933,184536|"
-        ]
+        ],
+        "6050094": []
     },
     "final_posts": {
         "5991881": [
@@ -3728,7 +3729,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3767,7 +3768,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3806,7 +3807,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3846,7 +3847,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3890,7 +3891,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -3909,17 +3910,28 @@
                     "name": "Al-Shamal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-03T16:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "03.11.2026 17:00:00"
+                        "firstHalfStarted": "03.11.2026 17:00:58"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:21",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793721600000,
                 "_competition_name": "AFC Champions League Elite West"
@@ -3930,7 +3942,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3976,7 +3988,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4021,7 +4033,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T19:29:22.222059+03:30",
+            "next_check_at": "2026-11-03T19:31:19.983947+03:30",
             "final_complete": false
         }
     },
