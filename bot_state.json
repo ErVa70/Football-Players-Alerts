@@ -3890,7 +3890,7 @@
             ],
             "discovered_at": "2026-11-01T00:00:39.012109+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "5888094": {
@@ -4034,7 +4034,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -4075,7 +4075,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -4116,7 +4116,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -4158,7 +4158,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -4204,7 +4204,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6050094": {
@@ -4246,7 +4246,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621712+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -4267,7 +4267,7 @@
                     "longName": "Deportivo Alavés"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 5,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-11-03T18:00:00.000Z",
@@ -4275,9 +4275,15 @@
                         "firstHalfStarted": "03.11.2026 19:00:00"
                     },
                     "periodLength": 45,
+                    "cancelled": true,
                     "started": false,
-                    "cancelled": false,
-                    "finished": false
+                    "finished": false,
+                    "reason": {
+                        "short": "PP",
+                        "shortKey": "postponed_short",
+                        "long": "Postponed",
+                        "longKey": "postponed"
+                    }
                 },
                 "timeTS": 1793728800000,
                 "_competition_name": "Copa del Rey"
@@ -4288,7 +4294,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4309,7 +4315,7 @@
                     "longName": "Eibar"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 5,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-11-03T18:00:00.000Z",
@@ -4317,9 +4323,15 @@
                         "firstHalfStarted": "03.11.2026 19:00:00"
                     },
                     "periodLength": 45,
+                    "cancelled": true,
                     "started": false,
-                    "cancelled": false,
-                    "finished": false
+                    "finished": false,
+                    "reason": {
+                        "short": "PP",
+                        "shortKey": "postponed_short",
+                        "long": "Postponed",
+                        "longKey": "postponed"
+                    }
                 },
                 "timeTS": 1793728800000,
                 "_competition_name": "Copa del Rey"
@@ -4329,7 +4341,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T14:17:18.254255+03:30",
+            "next_check_at": "2026-11-03T14:18:21.268971+03:30",
             "final_complete": false
         }
     },
