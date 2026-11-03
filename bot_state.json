@@ -3707,7 +3707,7 @@
                 "time": "03.11.2026 18:45",
                 "home": {
                     "id": 8637,
-                    "score": 0,
+                    "score": 1,
                     "name": "Galatasaray"
                 },
                 "away": {
@@ -3728,11 +3728,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "12‎’‎",
+                        "short": "13‎’‎",
                         "shortKey": "",
-                        "long": "11:23",
+                        "long": "12:20",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3747,7 +3747,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         },
         "6106335": {
@@ -3780,9 +3780,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "13‎’‎",
+                        "short": "14‎’‎",
                         "shortKey": "",
-                        "long": "12:24",
+                        "long": "13:21",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3797,7 +3797,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621587+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         },
         "6106306": {
@@ -3836,7 +3836,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621619+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         },
         "6106291": {
@@ -3876,7 +3876,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621650+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         },
         "6106326": {
@@ -3920,7 +3920,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621680+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         },
         "6386040": {
@@ -3966,7 +3966,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4011,7 +4011,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-03T21:28:25.691039+03:30",
+            "next_check_at": "2026-11-03T21:29:22.793703+03:30",
             "final_complete": false
         }
     },
