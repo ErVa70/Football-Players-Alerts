@@ -2384,7 +2384,8 @@
             "Substitution|60|None|881771,1574189|"
         ],
         "6106401": [],
-        "6106330": []
+        "6106330": [],
+        "6054597": []
     },
     "final_posts": {
         "5991881": [
@@ -3726,7 +3727,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621742+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -3771,7 +3772,7 @@
             ],
             "discovered_at": "2026-11-03T00:00:40.621772+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6106401": {
@@ -3804,9 +3805,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "28‎’‎",
+                        "short": "29‎’‎",
                         "shortKey": "",
-                        "long": "27:52",
+                        "long": "28:48",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3821,7 +3822,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.256892+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6106330": {
@@ -3854,9 +3855,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "28‎’‎",
+                        "short": "29‎’‎",
                         "shortKey": "",
-                        "long": "27:39",
+                        "long": "28:35",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -3872,7 +3873,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257014+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6106271": {
@@ -3915,7 +3916,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257102+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6106416": {
@@ -3954,7 +3955,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257204+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6106303": {
@@ -3993,7 +3994,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6106322": {
@@ -4034,7 +4035,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257376+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -4079,7 +4080,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "6054597": {
@@ -4098,17 +4099,28 @@
                     "name": "Al-Jazira"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "Group Stage - Round 4",
                 "status": {
                     "utcTime": "2026-11-04T18:15:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "04.11.2026 19:15:00"
+                        "firstHalfStarted": "04.11.2026 19:15:22"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:00",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793816100000,
                 "_competition_name": "AFC Champions League Two - B"
@@ -4118,7 +4130,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257528+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         },
         "5103694": {
@@ -4158,7 +4170,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257606+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-04T21:45:26.597560+03:30",
+            "next_check_at": "2026-11-04T21:46:28.842484+03:30",
             "final_complete": false
         }
     },
