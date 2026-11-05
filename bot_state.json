@@ -2469,7 +2469,11 @@
         ],
         "6112405": [
             "Substitution|75|None|1789791,298448|"
-        ]
+        ],
+        "6112347": [],
+        "6112365": [],
+        "6112401": [],
+        "6112416": []
     },
     "final_posts": {
         "5991881": [
@@ -3792,7 +3796,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6112248": {
@@ -3831,7 +3835,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467376+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6112347": {
@@ -3872,7 +3876,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6112365": {
@@ -3891,17 +3895,28 @@
                     "name": "OFI Crete"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-05T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "05.11.2026 21:00:00"
+                        "firstHalfStarted": "05.11.2026 21:01:23"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:49",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793908800000,
                 "_competition_name": "Europa League"
@@ -3911,7 +3926,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467470+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6112331": {
@@ -3951,7 +3966,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467515+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6112401": {
@@ -3990,7 +4005,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467694+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6112416": {
@@ -4009,17 +4024,28 @@
                     "name": "CSKA Sofia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-11-05T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "05.11.2026 21:00:00"
+                        "firstHalfStarted": "05.11.2026 21:01:30"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:42",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793908800000,
                 "_competition_name": "Conference League"
@@ -4029,7 +4055,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467738+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -4074,7 +4100,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         },
         "5103697": {
@@ -4113,7 +4139,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467871+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:31:19.979975+03:30",
+            "next_check_at": "2026-11-05T23:32:18.624274+03:30",
             "final_complete": false
         }
     },
