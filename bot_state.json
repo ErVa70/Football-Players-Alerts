@@ -3577,6 +3577,12 @@
         ],
         "5103696": [
             "303824"
+        ],
+        "6112325": [
+            "952095"
+        ],
+        "6112532": [
+            "1159237"
         ]
     },
     "transfer_monitor": {
@@ -3780,62 +3786,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
-            "final_complete": false
-        },
-        "6112325": {
-            "match": {
-                "id": 6112325,
-                "leagueId": 943229,
-                "time": "05.11.2026 18:45",
-                "home": {
-                    "id": 9826,
-                    "score": 1,
-                    "name": "Crystal Palace",
-                    "redCards": 1
-                },
-                "away": {
-                    "id": 8226,
-                    "score": 1,
-                    "name": "Hoffenheim",
-                    "shortName": "Hoffenheim"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-05T17:45:00.000Z",
-                    "numberOfHomeRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "05.11.2026 18:46:24",
-                        "secondHalfStarted": "05.11.2026 19:48:05"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:11",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793900700000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                952095,
-                1187506
-            ],
-            "discovered_at": "2026-11-05T00:00:34.467256+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112270": {
@@ -3869,9 +3820,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "92‎’‎",
+                        "short": "93‎’‎",
                         "shortKey": "",
-                        "long": "91:21",
+                        "long": "92:24",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3886,7 +3837,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112248": {
@@ -3925,7 +3876,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467376+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112347": {
@@ -3966,7 +3917,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112365": {
@@ -4005,7 +3956,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467470+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112331": {
@@ -4045,59 +3996,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467515+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
-            "final_complete": false
-        },
-        "6112532": {
-            "match": {
-                "id": 6112532,
-                "leagueId": 943231,
-                "time": "05.11.2026 18:45",
-                "home": {
-                    "id": 8071,
-                    "score": 0,
-                    "name": "AGF"
-                },
-                "away": {
-                    "id": 10264,
-                    "score": 0,
-                    "name": "Braga"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-11-05T17:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "05.11.2026 18:48:17",
-                        "secondHalfStarted": "05.11.2026 19:50:20"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "92‎’‎",
-                        "shortKey": "",
-                        "long": "91:56",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793900700000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                1159237,
-                1777474
-            ],
-            "discovered_at": "2026-11-05T00:00:34.467560+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112388": {
@@ -4131,9 +4030,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "93‎’‎",
+                        "short": "94‎’‎",
                         "shortKey": "",
-                        "long": "92:04",
+                        "long": "93:07",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4148,7 +4047,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112405": {
@@ -4184,9 +4083,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 5",
                     "liveTime": {
-                        "short": "79‎’‎",
+                        "short": "80‎’‎",
                         "shortKey": "",
-                        "long": "78:25",
+                        "long": "79:28",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4202,7 +4101,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467649+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112401": {
@@ -4241,7 +4140,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467694+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6112416": {
@@ -4280,7 +4179,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467738+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -4325,7 +4224,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         },
         "5103697": {
@@ -4364,7 +4263,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467871+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:07:16.927295+03:30",
+            "next_check_at": "2026-11-05T23:08:19.612727+03:30",
             "final_complete": false
         }
     },
