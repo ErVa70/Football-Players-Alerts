@@ -3583,7 +3583,9 @@
         ],
         "6112532": [
             "1159237"
-        ]
+        ],
+        "6112270": [],
+        "6112388": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -3786,58 +3788,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
-            "final_complete": false
-        },
-        "6112270": {
-            "match": {
-                "id": 6112270,
-                "leagueId": 943229,
-                "time": "05.11.2026 18:45",
-                "home": {
-                    "id": 8560,
-                    "score": 1,
-                    "name": "Real Sociedad"
-                },
-                "away": {
-                    "id": 9748,
-                    "score": 1,
-                    "name": "Lyon"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-05T17:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "05.11.2026 18:47:03",
-                        "secondHalfStarted": "05.11.2026 19:50:55"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:22",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793900700000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                1490110
-            ],
-            "discovered_at": "2026-11-05T00:00:34.467328+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112248": {
@@ -3876,7 +3827,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467376+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112347": {
@@ -3917,7 +3868,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112365": {
@@ -3956,7 +3907,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467470+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112331": {
@@ -3996,58 +3947,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467515+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
-            "final_complete": false
-        },
-        "6112388": {
-            "match": {
-                "id": 6112388,
-                "leagueId": 943231,
-                "time": "05.11.2026 18:45",
-                "home": {
-                    "id": 8524,
-                    "score": 1,
-                    "name": "Atalanta"
-                },
-                "away": {
-                    "id": 8037,
-                    "score": 1,
-                    "name": "Kairat Almaty"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-11-05T17:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "05.11.2026 18:46:38",
-                        "secondHalfStarted": "05.11.2026 19:50:12"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:06",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793900700000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                579747
-            ],
-            "discovered_at": "2026-11-05T00:00:34.467605+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112405": {
@@ -4063,7 +3963,7 @@
                 },
                 "away": {
                     "id": 8593,
-                    "score": 5,
+                    "score": 6,
                     "name": "Ajax"
                 },
                 "eliminatedTeamId": null,
@@ -4081,11 +3981,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 5",
+                    "scoreStr": "1 - 6",
                     "liveTime": {
-                        "short": "81‎’‎",
+                        "short": "82‎’‎",
                         "shortKey": "",
-                        "long": "80:27",
+                        "long": "81:33",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4101,7 +4001,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467649+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112401": {
@@ -4140,7 +4040,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467694+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6112416": {
@@ -4179,7 +4079,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467738+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -4224,7 +4124,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         },
         "5103697": {
@@ -4263,7 +4163,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467871+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-05T23:09:18.085853+03:30",
+            "next_check_at": "2026-11-05T23:10:29.662746+03:30",
             "final_complete": false
         }
     },
