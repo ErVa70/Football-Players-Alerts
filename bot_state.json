@@ -2496,7 +2496,9 @@
         "5103697": [
             "id:0|assist|1339347"
         ],
-        "5952301": []
+        "5952301": [
+            "id:0"
+        ]
     },
     "final_posts": {
         "5991881": [
@@ -3838,7 +3840,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -3883,7 +3885,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3923,7 +3925,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -3962,7 +3964,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "5846020": {
@@ -4001,7 +4003,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4046,7 +4048,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "5952301": {
@@ -4061,7 +4063,7 @@
                 },
                 "away": {
                     "id": 568590,
-                    "score": 1,
+                    "score": 2,
                     "name": "Al-Shahaniya"
                 },
                 "eliminatedTeamId": null,
@@ -4078,11 +4080,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 1",
+                    "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "76‎’‎",
+                        "short": "77‎’‎",
                         "shortKey": "",
-                        "long": "75:28",
+                        "long": "76:15",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4098,7 +4100,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4144,7 +4146,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T21:37:23.849525+03:30",
+            "next_check_at": "2026-11-06T21:38:19.678911+03:30",
             "final_complete": false
         }
     },
