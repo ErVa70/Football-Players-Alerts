@@ -2506,7 +2506,8 @@
         "5952301": [
             "id:0"
         ],
-        "5846020": []
+        "5846020": [],
+        "5749749": []
     },
     "final_posts": {
         "5991881": [
@@ -3851,7 +3852,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:17:16.949793+03:30",
+            "next_check_at": "2026-11-06T23:18:24.854384+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3891,7 +3892,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:17:16.949793+03:30",
+            "next_check_at": "2026-11-06T23:18:24.854384+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -3910,17 +3911,28 @@
                     "name": "Udinese"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "11",
                 "status": {
                     "utcTime": "2026-11-06T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "06.11.2026 20:45:00"
+                        "firstHalfStarted": "06.11.2026 20:47:58"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:26",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793994300000,
                 "_competition_name": "Serie A"
@@ -3930,7 +3942,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:17:16.949793+03:30",
+            "next_check_at": "2026-11-06T23:18:24.854384+03:30",
             "final_complete": false
         },
         "5846020": {
@@ -3964,9 +3976,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "54‎’‎",
+                        "short": "56‎’‎",
                         "shortKey": "",
-                        "long": "53:55",
+                        "long": "55:03",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -3981,7 +3993,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:17:16.949793+03:30",
+            "next_check_at": "2026-11-06T23:18:24.854384+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4026,7 +4038,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:17:16.949793+03:30",
+            "next_check_at": "2026-11-06T23:18:24.854384+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4072,7 +4084,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:17:16.949793+03:30",
+            "next_check_at": "2026-11-06T23:18:24.854384+03:30",
             "final_complete": false
         }
     },
