@@ -3851,7 +3851,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -3896,7 +3896,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3936,7 +3936,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -3975,7 +3975,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         },
         "5846020": {
@@ -3994,7 +3994,7 @@
                     "name": "Wolfsberger AC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "12",
                 "status": {
                     "utcTime": "2026-11-06T18:30:00.000Z",
@@ -4008,10 +4008,10 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "50‎’‎",
-                        "shortKey": "",
-                        "long": "49:50",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -4025,7 +4025,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4070,7 +4070,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4116,7 +4116,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:51:17.322843+03:30",
+            "next_check_at": "2026-11-06T22:52:18.133730+03:30",
             "final_complete": false
         }
     },
