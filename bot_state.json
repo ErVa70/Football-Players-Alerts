@@ -3858,7 +3858,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:59:15.268430+03:30",
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3909,7 +3909,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:59:15.268430+03:30",
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -3959,7 +3959,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:59:15.268430+03:30",
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4004,7 +4004,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:59:15.268430+03:30",
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4050,7 +4050,980 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:59:15.268430+03:30",
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5795509": {
+            "match": {
+                "id": 5795509,
+                "leagueId": 47,
+                "time": "07.11.2026 16:00",
+                "home": {
+                    "id": 9879,
+                    "score": 0,
+                    "name": "Fulham",
+                    "shortName": "Fulham"
+                },
+                "away": {
+                    "id": 10261,
+                    "score": 0,
+                    "name": "Newcastle United",
+                    "shortName": "Newcastle"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "10",
+                "status": {
+                    "utcTime": "2026-11-07T15:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 16:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794063600000,
+                "_competition_name": "Premier League"
+            },
+            "tracked_player_ids": [
+                821728,
+                1280132
+            ],
+            "discovered_at": "2026-11-07T00:00:35.551746+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5881222": {
+            "match": {
+                "id": 5881222,
+                "leagueId": 54,
+                "time": "07.11.2026 15:30",
+                "home": {
+                    "id": 178475,
+                    "score": 0,
+                    "name": "RB Leipzig",
+                    "shortName": "RB Leipzig"
+                },
+                "away": {
+                    "id": 8406,
+                    "score": 0,
+                    "name": "Augsburg",
+                    "shortName": "Augsburg"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "9",
+                "status": {
+                    "utcTime": "2026-11-07T14:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 15:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794061800000,
+                "_competition_name": "Bundesliga"
+            },
+            "tracked_player_ids": [
+                1412137
+            ],
+            "discovered_at": "2026-11-07T00:00:35.551817+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5868124": {
+            "match": {
+                "id": 5868124,
+                "leagueId": 87,
+                "time": "07.11.2026 16:15",
+                "home": {
+                    "id": 8558,
+                    "score": 0,
+                    "name": "Espanyol"
+                },
+                "away": {
+                    "id": 9783,
+                    "score": 0,
+                    "name": "Deportivo A Coruña"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "12",
+                "status": {
+                    "utcTime": "2026-11-07T15:15:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 16:15:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794064500000,
+                "_competition_name": "LaLiga"
+            },
+            "tracked_player_ids": [
+                1384883,
+                150565,
+                493647
+            ],
+            "discovered_at": "2026-11-07T00:00:35.551865+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5868129": {
+            "match": {
+                "id": 5868129,
+                "leagueId": 87,
+                "time": "07.11.2026 21:00",
+                "home": {
+                    "id": 10267,
+                    "score": 0,
+                    "name": "Valencia"
+                },
+                "away": {
+                    "id": 8633,
+                    "score": 0,
+                    "name": "Real Madrid"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "12",
+                "status": {
+                    "utcTime": "2026-11-07T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794081600000,
+                "_competition_name": "LaLiga"
+            },
+            "tracked_player_ids": [
+                873289
+            ],
+            "discovered_at": "2026-11-07T00:00:35.551911+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5802987": {
+            "match": {
+                "id": 5802987,
+                "leagueId": 53,
+                "time": "07.11.2026 21:05",
+                "home": {
+                    "id": 9847,
+                    "score": 0,
+                    "name": "Paris Saint-Germain",
+                    "shortName": "PSG"
+                },
+                "away": {
+                    "id": 10242,
+                    "score": 0,
+                    "name": "Troyes"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "10",
+                "status": {
+                    "utcTime": "2026-11-07T20:05:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 21:05:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794081900000,
+                "_competition_name": "Ligue 1"
+            },
+            "tracked_player_ids": [
+                210111,
+                1682313,
+                881771,
+                692984
+            ],
+            "discovered_at": "2026-11-07T00:00:35.551956+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5071489": {
+            "match": {
+                "id": 5071489,
+                "leagueId": 913550,
+                "time": "07.11.2026 22:00",
+                "home": {
+                    "id": 161195,
+                    "score": 0,
+                    "name": "CF Montréal",
+                    "shortName": "Montreal"
+                },
+                "away": {
+                    "id": 307691,
+                    "score": 0,
+                    "name": "Vancouver Whitecaps",
+                    "shortName": "Vancouver"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "34",
+                "status": {
+                    "utcTime": "2026-11-07T21:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 22:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794085200000,
+                "_competition_name": "Major League Soccer"
+            },
+            "tracked_player_ids": [
+                50047
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552000+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5071485": {
+            "match": {
+                "id": 5071485,
+                "leagueId": 913550,
+                "time": "07.11.2026 22:00",
+                "home": {
+                    "id": 6397,
+                    "score": 0,
+                    "name": "Chicago Fire FC",
+                    "shortName": "Chicago"
+                },
+                "away": {
+                    "id": 6001,
+                    "score": 0,
+                    "name": "Columbus Crew",
+                    "shortName": "Columbus"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "34",
+                "status": {
+                    "utcTime": "2026-11-07T21:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 22:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794085200000,
+                "_competition_name": "Major League Soccer"
+            },
+            "tracked_player_ids": [
+                361770,
+                93447
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552044+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5071488": {
+            "match": {
+                "id": 5071488,
+                "leagueId": 913550,
+                "time": "07.11.2026 22:00",
+                "home": {
+                    "id": 960720,
+                    "score": 0,
+                    "name": "Inter Miami CF"
+                },
+                "away": {
+                    "id": 1323940,
+                    "score": 0,
+                    "name": "Charlotte FC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "34",
+                "status": {
+                    "utcTime": "2026-11-07T21:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 22:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794085200000,
+                "_competition_name": "Major League Soccer"
+            },
+            "tracked_player_ids": [
+                30981,
+                40636
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552089+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5071491": {
+            "match": {
+                "id": 5071491,
+                "leagueId": 913550,
+                "time": "07.11.2026 22:00",
+                "home": {
+                    "id": 267810,
+                    "score": 0,
+                    "name": "Orlando City",
+                    "shortName": "Orlando"
+                },
+                "away": {
+                    "id": 6580,
+                    "score": 0,
+                    "name": "New England Revolution",
+                    "shortName": "New England"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "34",
+                "status": {
+                    "utcTime": "2026-11-07T21:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 22:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794085200000,
+                "_competition_name": "Major League Soccer"
+            },
+            "tracked_player_ids": [
+                184138
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552135+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5749741": {
+            "match": {
+                "id": 5749741,
+                "leagueId": 55,
+                "time": "07.11.2026 15:00",
+                "home": {
+                    "id": 8529,
+                    "score": 0,
+                    "name": "Cagliari"
+                },
+                "away": {
+                    "id": 9891,
+                    "score": 0,
+                    "name": "Frosinone"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-11-07T14:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 15:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794060000000,
+                "_competition_name": "Serie A"
+            },
+            "tracked_player_ids": [
+                496042
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552181+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5749747": {
+            "match": {
+                "id": 5749747,
+                "leagueId": 55,
+                "time": "07.11.2026 18:00",
+                "home": {
+                    "id": 10167,
+                    "score": 0,
+                    "name": "Parma",
+                    "shortName": "Parma"
+                },
+                "away": {
+                    "id": 9857,
+                    "score": 0,
+                    "name": "Bologna"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-11-07T17:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 18:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794070800000,
+                "_competition_name": "Serie A"
+            },
+            "tracked_player_ids": [
+                873956
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552224+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5803648": {
+            "match": {
+                "id": 5803648,
+                "leagueId": 937875,
+                "time": "07.11.2026 07:00",
+                "home": {
+                    "id": 8270,
+                    "score": 0,
+                    "name": "Avispa Fukuoka"
+                },
+                "away": {
+                    "id": 194016,
+                    "score": 0,
+                    "name": "V-Varen Nagasaki"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "14",
+                "status": {
+                    "utcTime": "2026-11-07T06:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 07:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794031200000,
+                "_competition_name": "J. League"
+            },
+            "tracked_player_ids": [
+                212470
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552270+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5868527": {
+            "match": {
+                "id": 5868527,
+                "leagueId": 938653,
+                "time": "07.11.2026 16:15",
+                "home": {
+                    "id": 8385,
+                    "score": 0,
+                    "name": "Cádiz"
+                },
+                "away": {
+                    "id": 8670,
+                    "score": 0,
+                    "name": "Real Oviedo"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-07T15:15:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 16:15:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794064500000,
+                "_competition_name": "LaLiga2"
+            },
+            "tracked_player_ids": [
+                1321603
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552315+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5868532": {
+            "match": {
+                "id": 5868532,
+                "leagueId": 938653,
+                "time": "07.11.2026 18:30",
+                "home": {
+                    "id": 7854,
+                    "score": 0,
+                    "name": "Leganés"
+                },
+                "away": {
+                    "id": 8393,
+                    "score": 0,
+                    "name": "Albacete"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-07T17:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 18:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794072600000,
+                "_competition_name": "LaLiga2"
+            },
+            "tracked_player_ids": [
+                522579
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552360+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5868531": {
+            "match": {
+                "id": 5868531,
+                "leagueId": 938653,
+                "time": "07.11.2026 21:00",
+                "home": {
+                    "id": 7878,
+                    "score": 0,
+                    "name": "Granada"
+                },
+                "away": {
+                    "id": 9867,
+                    "score": 0,
+                    "name": "Tenerife"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 5,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-07T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "cancelled": true,
+                    "started": false,
+                    "finished": false,
+                    "reason": {
+                        "short": "PP",
+                        "shortKey": "postponed_short",
+                        "long": "Postponed",
+                        "longKey": "postponed"
+                    }
+                },
+                "timeTS": 1794081600000,
+                "_competition_name": "LaLiga2"
+            },
+            "tracked_player_ids": [
+                522234,
+                639133
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552404+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5887672": {
+            "match": {
+                "id": 5887672,
+                "leagueId": 61,
+                "time": "07.11.2026 19:00",
+                "home": {
+                    "id": 9780,
+                    "score": 0,
+                    "name": "Alverca"
+                },
+                "away": {
+                    "id": 212821,
+                    "score": 0,
+                    "name": "Casa Pia AC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-11-07T18:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 19:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794074400000,
+                "_competition_name": "Liga Portugal"
+            },
+            "tracked_player_ids": [
+                358148
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552450+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5888100": {
+            "match": {
+                "id": 5888100,
+                "leagueId": 185,
+                "time": "07.11.2026 15:00",
+                "home": {
+                    "id": 9774,
+                    "score": 0,
+                    "name": "Chaves"
+                },
+                "away": {
+                    "id": 6547,
+                    "score": 0,
+                    "name": "Penafiel"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "10",
+                "status": {
+                    "utcTime": "2026-11-07T14:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 15:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794060000000,
+                "_competition_name": "Liga Portugal 2"
+            },
+            "tracked_player_ids": [
+                772165
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552494+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5990937": {
+            "match": {
+                "id": 5990937,
+                "leagueId": 942846,
+                "time": "07.11.2026 17:30",
+                "home": {
+                    "id": 583897,
+                    "score": 0,
+                    "name": "Vado"
+                },
+                "away": {
+                    "id": 8545,
+                    "score": 0,
+                    "name": "Ravenna"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-07T16:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 17:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794069000000,
+                "_competition_name": "Serie C Grp. B"
+            },
+            "tracked_player_ids": [
+                30743
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552537+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "6140378": {
+            "match": {
+                "id": 6140378,
+                "leagueId": 945430,
+                "time": "07.11.2026 13:45",
+                "home": {
+                    "id": 104814,
+                    "score": 0,
+                    "name": "Panserraikos FC"
+                },
+                "away": {
+                    "id": 2499,
+                    "score": 0,
+                    "name": "Kalamaria"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "25",
+                "status": {
+                    "utcTime": "2026-11-07T12:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 13:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794055500000,
+                "_competition_name": "Super League 2"
+            },
+            "tracked_player_ids": [
+                643674
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552581+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5904800": {
+            "match": {
+                "id": 5904800,
+                "leagueId": 71,
+                "time": "07.11.2026 17:00",
+                "home": {
+                    "id": 8637,
+                    "score": 0,
+                    "name": "Galatasaray"
+                },
+                "away": {
+                    "id": 96498,
+                    "score": 0,
+                    "name": "Amed Sportif"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "11",
+                "status": {
+                    "utcTime": "2026-11-07T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 17:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794067200000,
+                "_competition_name": "Super Lig"
+            },
+            "tracked_player_ids": [
+                178818
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552626+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "1000019469": {
+            "match": {
+                "id": 1000019469,
+                "leagueId": 1000001382,
+                "time": "07.11.2026 22:00",
+                "home": {
+                    "id": 10272,
+                    "score": 0,
+                    "name": "Atlético-MG"
+                },
+                "away": {
+                    "id": 9769,
+                    "score": 0,
+                    "name": "Grêmio"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1/2",
+                "status": {
+                    "utcTime": "2026-11-07T21:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 22:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false,
+                    "aggregatedStr": "0 - 2"
+                },
+                "timeTS": 1794085200000,
+                "_competition_name": "Copa do Brasil"
+            },
+            "tracked_player_ids": [
+                169865
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552669+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "1000014634": {
+            "match": {
+                "id": 1000014634,
+                "leagueId": 1000001644,
+                "time": "07.11.2026 02:00",
+                "home": {
+                    "id": 6358,
+                    "score": 0,
+                    "name": "Atlético de San Luis",
+                    "shortName": "San Luis"
+                },
+                "away": {
+                    "id": 649424,
+                    "score": 0,
+                    "name": "FC Juárez",
+                    "shortName": "Juárez"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "16",
+                "status": {
+                    "utcTime": "2026-11-07T01:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 02:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794013200000,
+                "_competition_name": "Liga MX"
+            },
+            "tracked_player_ids": [
+                907253
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552712+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "5952298": {
+            "match": {
+                "id": 5952298,
+                "leagueId": 1000001746,
+                "time": "07.11.2026 15:15",
+                "home": {
+                    "id": 101904,
+                    "score": 0,
+                    "name": "Al-Shamal"
+                },
+                "away": {
+                    "id": 101905,
+                    "score": 0,
+                    "name": "Al-Sailiya"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "9",
+                "status": {
+                    "utcTime": "2026-11-07T14:15:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 15:15:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794060900000,
+                "_competition_name": "Qatar Stars League"
+            },
+            "tracked_player_ids": [
+                301456,
+                929834
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552767+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
+            "final_complete": false
+        },
+        "1000021468": {
+            "match": {
+                "id": 1000021468,
+                "leagueId": 1000001787,
+                "time": "07.11.2026 01:00",
+                "home": {
+                    "id": 2530,
+                    "score": 0,
+                    "name": "Al Ahli"
+                },
+                "away": {
+                    "id": 205686,
+                    "score": 0,
+                    "name": "Al-Taawoun"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 5,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-07T00:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "07.11.2026 01:00:00"
+                    },
+                    "periodLength": 45,
+                    "cancelled": true,
+                    "started": false,
+                    "finished": false,
+                    "reason": {
+                        "short": "PP",
+                        "shortKey": "postponed_short",
+                        "long": "Postponed",
+                        "longKey": "postponed"
+                    }
+                },
+                "timeTS": 1794009600000,
+                "_competition_name": "Saudi Pro League"
+            },
+            "tracked_player_ids": [
+                732282
+            ],
+            "discovered_at": "2026-11-07T00:00:35.552812+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-07T00:00:35.552857+03:30",
             "final_complete": false
         }
     },
