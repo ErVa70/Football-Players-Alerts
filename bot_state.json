@@ -3624,6 +3624,9 @@
         ],
         "6112331": [
             "1665435"
+        ],
+        "5103697": [
+            "1339347"
         ]
     },
     "transfer_monitor": {
@@ -3827,7 +3830,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -3872,58 +3875,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
-            "final_complete": false
-        },
-        "5103697": {
-            "match": {
-                "id": 5103697,
-                "leagueId": 1000001407,
-                "time": "05.11.2026 23:30",
-                "home": {
-                    "id": 10283,
-                    "score": 6,
-                    "name": "Palmeiras"
-                },
-                "away": {
-                    "id": 1626,
-                    "score": 1,
-                    "name": "Remo"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "34",
-                "status": {
-                    "utcTime": "2026-11-05T22:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "05.11.2026 23:30:35",
-                        "secondHalfStarted": "06.11.2026 00:38:13"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "6 - 1",
-                    "liveTime": {
-                        "short": "90‎’‎",
-                        "shortKey": "",
-                        "long": "89:59",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1793917800000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                1339347
-            ],
-            "discovered_at": "2026-11-05T00:00:34.467871+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3963,7 +3915,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -4002,7 +3954,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "5846020": {
@@ -4041,7 +3993,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4086,7 +4038,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "5952301": {
@@ -4126,7 +4078,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4172,7 +4124,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T03:53:16.374480+03:30",
+            "next_check_at": "2026-11-06T03:54:20.267724+03:30",
             "final_complete": false
         }
     },
