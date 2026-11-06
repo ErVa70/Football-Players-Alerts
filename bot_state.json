@@ -3809,51 +3809,6 @@
         ]
     },
     "monitored_matches": {
-        "6386074": {
-            "match": {
-                "id": 6386074,
-                "leagueId": 138,
-                "time": "04.11.2026 20:45",
-                "home": {
-                    "id": 1315045,
-                    "score": 0,
-                    "name": "CS Puertollano"
-                },
-                "away": {
-                    "id": 8393,
-                    "score": 0,
-                    "name": "Albacete"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 5,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-11-04T19:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "04.11.2026 20:45:00"
-                    },
-                    "periodLength": 45,
-                    "cancelled": true,
-                    "started": false,
-                    "finished": false,
-                    "reason": {
-                        "short": "PP",
-                        "shortKey": "postponed_short",
-                        "long": "Postponed",
-                        "longKey": "postponed"
-                    }
-                },
-                "timeTS": 1793821500000,
-                "_competition_name": "Copa del Rey"
-            },
-            "tracked_player_ids": [
-                522579
-            ],
-            "discovered_at": "2026-11-04T00:00:40.257453+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
-            "final_complete": false
-        },
         "6386038": {
             "match": {
                 "id": 6386038,
@@ -3896,7 +3851,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
+            "next_check_at": "2026-11-06T23:15:25.831919+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3936,7 +3891,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
+            "next_check_at": "2026-11-06T23:15:25.831919+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -3975,7 +3930,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
+            "next_check_at": "2026-11-06T23:15:25.831919+03:30",
             "final_complete": false
         },
         "5846020": {
@@ -4009,9 +3964,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "51‎’‎",
+                        "short": "53‎’‎",
                         "shortKey": "",
-                        "long": "50:58",
+                        "long": "52:04",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4026,7 +3981,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
+            "next_check_at": "2026-11-06T23:15:25.831919+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4071,7 +4026,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
+            "next_check_at": "2026-11-06T23:15:25.831919+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4117,7 +4072,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T23:14:19.810868+03:30",
+            "next_check_at": "2026-11-06T23:15:25.831919+03:30",
             "final_complete": false
         }
     },
