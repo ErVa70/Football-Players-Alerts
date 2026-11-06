@@ -2498,7 +2498,8 @@
         ],
         "5952301": [
             "id:0"
-        ]
+        ],
+        "5846020": []
     },
     "final_posts": {
         "5991881": [
@@ -3840,7 +3841,7 @@
             ],
             "discovered_at": "2026-11-04T00:00:40.257453+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -3885,7 +3886,7 @@
             ],
             "discovered_at": "2026-11-05T00:00:34.467783+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "5868128": {
@@ -3925,7 +3926,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143426+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "5749749": {
@@ -3964,7 +3965,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143506+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "5846020": {
@@ -3983,17 +3984,28 @@
                     "name": "Wolfsberger AC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "12",
                 "status": {
                     "utcTime": "2026-11-06T18:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "06.11.2026 19:30:00"
+                        "firstHalfStarted": "06.11.2026 19:31:27"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:52",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1793989800000,
                 "_competition_name": "Bundesliga"
@@ -4003,7 +4015,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "5868528": {
@@ -4048,7 +4060,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143627+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "5952301": {
@@ -4082,9 +4094,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 3",
                     "liveTime": {
-                        "short": "100‎’‎",
+                        "short": "101‎’‎",
                         "shortKey": "",
-                        "long": "99:22",
+                        "long": "100:24",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4100,7 +4112,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         },
         "1000021472": {
@@ -4146,7 +4158,7 @@
             ],
             "discovered_at": "2026-11-06T00:00:35.143741+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-06T22:01:18.149682+03:30",
+            "next_check_at": "2026-11-06T22:02:27.888776+03:30",
             "final_complete": false
         }
     },
