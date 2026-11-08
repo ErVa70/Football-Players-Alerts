@@ -4060,6 +4060,9 @@
         ],
         "1000013266": [
             "49939"
+        ],
+        "5781795": [
+            "1403694"
         ]
     },
     "transfer_monitor": {
@@ -4264,7 +4267,7 @@
             ],
             "discovered_at": "2026-11-07T00:00:35.552404+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5888100": {
@@ -4405,7 +4408,7 @@
             ],
             "discovered_at": "2026-11-07T00:00:35.552812+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5802990": {
@@ -4455,58 +4458,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.546640+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
-            "final_complete": false
-        },
-        "5781795": {
-            "match": {
-                "id": 5781795,
-                "leagueId": 937276,
-                "time": "08.11.2026 20:00",
-                "home": {
-                    "id": 9908,
-                    "score": 2,
-                    "name": "FC Utrecht"
-                },
-                "away": {
-                    "id": 8464,
-                    "score": 3,
-                    "name": "NEC Nijmegen"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "12",
-                "status": {
-                    "utcTime": "2026-11-08T19:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "08.11.2026 20:02:44",
-                        "secondHalfStarted": "08.11.2026 21:04:44"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 3",
-                    "liveTime": {
-                        "short": "70‎’‎",
-                        "shortKey": "",
-                        "long": "69:23",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794164400000,
-                "_competition_name": "Eredivisie"
-            },
-            "tracked_player_ids": [
-                1403694
-            ],
-            "discovered_at": "2026-11-08T00:00:37.546927+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5868525": {
@@ -4551,7 +4503,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5868533": {
@@ -4596,7 +4548,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5887673": {
@@ -4635,7 +4587,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547192+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5887677": {
@@ -4675,7 +4627,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547234+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         },
         "5888102": {
@@ -4966,7 +4918,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T00:24:17.335542+03:30",
+            "next_check_at": "2026-11-09T00:25:21.041835+03:30",
             "final_complete": false
         }
     },
