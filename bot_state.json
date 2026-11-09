@@ -4282,55 +4282,7 @@
             ],
             "discovered_at": "2026-11-07T00:00:35.552404+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T19:29:18.495203+03:30",
-            "final_complete": false
-        },
-        "5904800": {
-            "match": {
-                "id": 5904800,
-                "leagueId": 71,
-                "time": "07.11.2026 17:00",
-                "home": {
-                    "id": 8637,
-                    "score": 4,
-                    "name": "Galatasaray"
-                },
-                "away": {
-                    "id": 96498,
-                    "score": 3,
-                    "name": "Amed Sportif"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-11-07T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "07.11.2026 17:02:30",
-                        "secondHalfStarted": "07.11.2026 18:07:48"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "4 - 3",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1794067200000,
-                "_competition_name": "Super Lig"
-            },
-            "tracked_player_ids": [
-                178818
-            ],
-            "discovered_at": "2026-11-07T00:00:35.552626+03:30",
-            "finished_seen_at": "2026-11-07T21:27:17.646914+03:30",
-            "next_check_at": "2026-11-09T19:52:20.623338+03:30",
+            "next_check_at": "2026-11-09T19:30:45.041761+03:30",
             "final_complete": false
         },
         "5868525": {
@@ -4375,7 +4327,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T19:29:18.495203+03:30",
+            "next_check_at": "2026-11-09T19:30:45.041761+03:30",
             "final_complete": false
         },
         "5868533": {
@@ -4414,7 +4366,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T19:29:18.495203+03:30",
+            "next_check_at": "2026-11-09T19:30:45.041761+03:30",
             "final_complete": false
         },
         "5888102": {
