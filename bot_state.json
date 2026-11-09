@@ -4285,7 +4285,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T23:59:22.382151+03:30",
+            "next_check_at": "2026-11-10T00:00:38.423054+03:30",
             "final_complete": false
         },
         "5868533": {
@@ -4335,7 +4335,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T23:59:22.382151+03:30",
+            "next_check_at": "2026-11-10T00:00:38.423054+03:30",
             "final_complete": false
         },
         "5888102": {
@@ -4576,6 +4576,85 @@
             "discovered_at": "2026-11-08T00:00:37.547499+03:30",
             "finished_seen_at": "2026-11-08T16:32:19.513243+03:30",
             "next_check_at": "2026-11-10T00:57:16.935808+03:30",
+            "final_complete": false
+        },
+        "6386040": {
+            "match": {
+                "id": 6386040,
+                "leagueId": 138,
+                "time": "10.11.2026 19:00",
+                "home": {
+                    "id": 357266,
+                    "score": 0,
+                    "name": "Anaitasuna FT"
+                },
+                "away": {
+                    "id": 9866,
+                    "score": 0,
+                    "name": "Deportivo Alavés"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-11-10T18:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "10.11.2026 19:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794333600000,
+                "_competition_name": "Copa del Rey"
+            },
+            "tracked_player_ids": [
+                282281,
+                637756
+            ],
+            "discovered_at": "2026-11-10T00:00:38.422906+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-10T00:00:38.423054+03:30",
+            "final_complete": false
+        },
+        "6386069": {
+            "match": {
+                "id": 6386069,
+                "leagueId": 138,
+                "time": "10.11.2026 19:00",
+                "home": {
+                    "id": 190064,
+                    "score": 0,
+                    "name": "Pamplona"
+                },
+                "away": {
+                    "id": 8372,
+                    "score": 0,
+                    "name": "Eibar"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-11-10T18:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "10.11.2026 19:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794333600000,
+                "_competition_name": "Copa del Rey"
+            },
+            "tracked_player_ids": [
+                1327733
+            ],
+            "discovered_at": "2026-11-10T00:00:38.422994+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-10T00:00:38.423054+03:30",
             "final_complete": false
         }
     },
