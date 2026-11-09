@@ -4282,7 +4282,7 @@
             ],
             "discovered_at": "2026-11-07T00:00:35.552404+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T10:30:47.278099+03:30",
+            "next_check_at": "2026-11-09T10:31:19.616030+03:30",
             "final_complete": false
         },
         "5888100": {
@@ -4423,14 +4423,14 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T10:30:47.278099+03:30",
+            "next_check_at": "2026-11-09T10:31:19.616030+03:30",
             "final_complete": false
         },
         "5868533": {
             "match": {
                 "id": 5868533,
                 "leagueId": 938653,
-                "time": "08.11.2026 18:30",
+                "time": "09.11.2026 20:30",
                 "home": {
                     "id": 8306,
                     "score": 0,
@@ -4442,25 +4442,19 @@
                     "name": "Eldense"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 5,
+                "statusId": 1,
                 "tournamentStage": "13",
                 "status": {
-                    "utcTime": "2026-11-08T17:30:00.000Z",
+                    "utcTime": "2026-11-09T19:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "08.11.2026 18:30:00"
+                        "firstHalfStarted": "09.11.2026 20:30:00"
                     },
                     "periodLength": 45,
-                    "cancelled": true,
                     "started": false,
-                    "finished": false,
-                    "reason": {
-                        "short": "PP",
-                        "shortKey": "postponed_short",
-                        "long": "Postponed",
-                        "longKey": "postponed"
-                    }
+                    "cancelled": false,
+                    "finished": false
                 },
-                "timeTS": 1794159000000,
+                "timeTS": 1794252600000,
                 "_competition_name": "LaLiga2"
             },
             "tracked_player_ids": [
@@ -4468,7 +4462,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T10:30:47.278099+03:30",
+            "next_check_at": "2026-11-09T10:31:19.616030+03:30",
             "final_complete": false
         },
         "5888102": {
