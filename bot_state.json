@@ -4243,52 +4243,6 @@
         ]
     },
     "monitored_matches": {
-        "5868531": {
-            "match": {
-                "id": 5868531,
-                "leagueId": 938653,
-                "time": "07.11.2026 21:00",
-                "home": {
-                    "id": 7878,
-                    "score": 0,
-                    "name": "Granada"
-                },
-                "away": {
-                    "id": 9867,
-                    "score": 0,
-                    "name": "Tenerife"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 5,
-                "tournamentStage": "13",
-                "status": {
-                    "utcTime": "2026-11-07T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "07.11.2026 21:00:00"
-                    },
-                    "periodLength": 45,
-                    "cancelled": true,
-                    "started": false,
-                    "finished": false,
-                    "reason": {
-                        "short": "PP",
-                        "shortKey": "postponed_short",
-                        "long": "Postponed",
-                        "longKey": "postponed"
-                    }
-                },
-                "timeTS": 1794081600000,
-                "_competition_name": "LaLiga2"
-            },
-            "tracked_player_ids": [
-                522234,
-                639133
-            ],
-            "discovered_at": "2026-11-07T00:00:35.552404+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-09T23:29:20.352482+03:30",
-            "final_complete": false
-        },
         "5868525": {
             "match": {
                 "id": 5868525,
@@ -4331,7 +4285,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T23:29:20.352482+03:30",
+            "next_check_at": "2026-11-09T23:30:44.629129+03:30",
             "final_complete": false
         },
         "5868533": {
@@ -4364,9 +4318,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "29‎’‎",
+                        "short": "31‎’‎",
                         "shortKey": "",
-                        "long": "28:44",
+                        "long": "30:08",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4381,7 +4335,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547105+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-09T23:29:20.352482+03:30",
+            "next_check_at": "2026-11-09T23:30:44.629129+03:30",
             "final_complete": false
         },
         "5888102": {
