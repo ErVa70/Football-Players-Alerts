@@ -4265,7 +4265,7 @@
                 "time": "10.11.2026 19:00",
                 "home": {
                     "id": 357266,
-                    "score": 0,
+                    "score": 1,
                     "name": "Anaitasuna FT"
                 },
                 "away": {
@@ -4286,11 +4286,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 2",
+                    "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "42‎’‎",
+                        "short": "43‎’‎",
                         "shortKey": "",
-                        "long": "41:59",
+                        "long": "42:49",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4306,7 +4306,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:13:17.554973+03:30",
+            "next_check_at": "2026-11-10T22:14:18.525348+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4341,7 +4341,7 @@
                     "liveTime": {
                         "short": "44‎’‎",
                         "shortKey": "",
-                        "long": "43:00",
+                        "long": "43:50",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4356,7 +4356,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:13:17.554973+03:30",
+            "next_check_at": "2026-11-10T22:14:18.525348+03:30",
             "final_complete": false
         }
     },
