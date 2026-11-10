@@ -4300,7 +4300,7 @@
         "6386040": {
             "match": {
                 "id": 6386040,
-                "leagueId": 138,
+                "leagueId": 1000005300,
                 "time": "10.11.2026 19:00",
                 "home": {
                     "id": 357266,
@@ -4314,7 +4314,7 @@
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
-                "tournamentStage": "1",
+                "tournamentStage": "1st Round",
                 "status": {
                     "utcTime": "2026-11-10T18:00:00.000Z",
                     "halfs": {
@@ -4326,7 +4326,7 @@
                     "finished": false
                 },
                 "timeTS": 1794333600000,
-                "_competition_name": "Copa del Rey"
+                "_competition_name": "Copa del Rey - 1st Round"
             },
             "tracked_player_ids": [
                 282281,
@@ -4334,13 +4334,13 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T17:47:19.625297+03:30",
+            "next_check_at": "2026-11-10T17:48:17.346007+03:30",
             "final_complete": false
         },
         "6386069": {
             "match": {
                 "id": 6386069,
-                "leagueId": 138,
+                "leagueId": 1000005300,
                 "time": "10.11.2026 19:00",
                 "home": {
                     "id": 190064,
@@ -4354,7 +4354,7 @@
                 },
                 "eliminatedTeamId": null,
                 "statusId": 1,
-                "tournamentStage": "1",
+                "tournamentStage": "1st Round",
                 "status": {
                     "utcTime": "2026-11-10T18:00:00.000Z",
                     "halfs": {
@@ -4366,14 +4366,14 @@
                     "finished": false
                 },
                 "timeTS": 1794333600000,
-                "_competition_name": "Copa del Rey"
+                "_competition_name": "Copa del Rey - 1st Round"
             },
             "tracked_player_ids": [
                 1327733
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T17:47:19.625297+03:30",
+            "next_check_at": "2026-11-10T17:48:17.346007+03:30",
             "final_complete": false
         }
     },
