@@ -4266,7 +4266,47 @@
             "723564|2026-09-27T10:22:04Z|2|1066681|contract"
         ]
     },
-    "monitored_matches": {},
+    "monitored_matches": {
+        "6574946": {
+            "match": {
+                "id": 6574946,
+                "leagueId": 10342,
+                "time": "11.11.2026 01:00",
+                "home": {
+                    "id": 2219,
+                    "score": 0,
+                    "name": "Liverpool FC"
+                },
+                "away": {
+                    "id": 9883,
+                    "score": 0,
+                    "name": "Juventud de las Piedras"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1/4",
+                "status": {
+                    "utcTime": "2026-11-11T00:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "11.11.2026 01:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794355200000,
+                "_competition_name": "Cup"
+            },
+            "tracked_player_ids": [
+                96616
+            ],
+            "discovered_at": "2026-11-11T00:00:38.560058+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-11T00:00:38.560149+03:30",
+            "final_complete": false
+        }
+    },
     "telegram_update_offset": 561456541,
     "notification_templates": {}
 }
