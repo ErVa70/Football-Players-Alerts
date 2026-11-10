@@ -4290,7 +4290,7 @@
                     "liveTime": {
                         "short": "46‎’‎",
                         "shortKey": "",
-                        "long": "45:01",
+                        "long": "45:59",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4306,7 +4306,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:16:19.610513+03:30",
+            "next_check_at": "2026-11-10T22:17:17.535279+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4325,7 +4325,7 @@
                     "name": "Eibar"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "1st Round",
                 "status": {
                     "utcTime": "2026-11-10T18:00:00.000Z",
@@ -4339,10 +4339,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "47‎’‎",
-                        "shortKey": "",
-                        "long": "46:02",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -4356,7 +4356,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:16:19.610513+03:30",
+            "next_check_at": "2026-11-10T22:17:17.535279+03:30",
             "final_complete": false
         }
     },
