@@ -1453,7 +1453,9 @@
         ],
         "5868533": [
             "Sandro Ramírez|BENCH"
-        ]
+        ],
+        "6386040": [],
+        "6386069": []
     },
     "match_events": {
         "5071387": [
@@ -4249,54 +4251,6 @@
         ]
     },
     "monitored_matches": {
-        "5865494": {
-            "match": {
-                "id": 5865494,
-                "leagueId": 212,
-                "time": "08.11.2026 15:30",
-                "home": {
-                    "id": 8369,
-                    "score": 3,
-                    "name": "Debrecen"
-                },
-                "away": {
-                    "id": 8043,
-                    "score": 1,
-                    "name": "Újpest"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "13",
-                "status": {
-                    "utcTime": "2026-11-08T14:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "08.11.2026 15:32:04",
-                        "secondHalfStarted": "08.11.2026 16:46:34"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "3 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1794148200000,
-                "_competition_name": "NB I"
-            },
-            "tracked_player_ids": [
-                477613
-            ],
-            "discovered_at": "2026-11-08T00:00:37.547320+03:30",
-            "finished_seen_at": "2026-11-08T20:05:22.077897+03:30",
-            "next_check_at": "2026-11-10T18:30:47.756476+03:30",
-            "final_complete": false
-        },
         "6386040": {
             "match": {
                 "id": 6386040,
@@ -4334,7 +4288,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T17:59:16.284950+03:30",
+            "next_check_at": "2026-11-10T18:00:38.103379+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4373,7 +4327,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T17:59:16.284950+03:30",
+            "next_check_at": "2026-11-10T18:00:38.103379+03:30",
             "final_complete": false
         }
     },
