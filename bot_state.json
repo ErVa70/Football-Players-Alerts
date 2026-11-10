@@ -2806,7 +2806,8 @@
         "5887677": [],
         "5868533": [
             "Substitution|84|None|477615,887705|"
-        ]
+        ],
+        "6386069": []
     },
     "final_posts": {
         "5991881": [
@@ -4293,7 +4294,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T21:29:17.661428+03:30",
+            "next_check_at": "2026-11-10T21:30:45.580528+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4312,17 +4313,28 @@
                     "name": "Eibar"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1st Round",
                 "status": {
                     "utcTime": "2026-11-10T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "10.11.2026 19:00:00"
+                        "firstHalfStarted": "10.11.2026 19:00:17"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:28",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794333600000,
                 "_competition_name": "Copa del Rey - 1st Round"
@@ -4332,7 +4344,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T21:29:17.661428+03:30",
+            "next_check_at": "2026-11-10T21:30:45.580528+03:30",
             "final_complete": false
         }
     },
