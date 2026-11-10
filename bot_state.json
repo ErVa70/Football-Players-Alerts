@@ -4291,55 +4291,7 @@
             ],
             "discovered_at": "2026-11-08T00:00:37.547016+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T14:29:17.027954+03:30",
-            "final_complete": false
-        },
-        "5888102": {
-            "match": {
-                "id": 5888102,
-                "leagueId": 185,
-                "time": "08.11.2026 12:00",
-                "home": {
-                    "id": 4064,
-                    "score": 1,
-                    "name": "Feirense"
-                },
-                "away": {
-                    "id": 188154,
-                    "score": 0,
-                    "name": "Lusitânia Lourosa"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-11-08T11:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "08.11.2026 12:00:27",
-                        "secondHalfStarted": "08.11.2026 13:03:04"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "1 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1794135600000,
-                "_competition_name": "Liga Portugal 2"
-            },
-            "tracked_player_ids": [
-                358147
-            ],
-            "discovered_at": "2026-11-08T00:00:37.547279+03:30",
-            "finished_seen_at": "2026-11-08T16:26:19.347202+03:30",
-            "next_check_at": "2026-11-10T14:56:18.209190+03:30",
+            "next_check_at": "2026-11-10T14:30:45.555411+03:30",
             "final_complete": false
         },
         "5865494": {
@@ -4390,102 +4342,6 @@
             "next_check_at": "2026-11-10T15:28:21.056184+03:30",
             "final_complete": false
         },
-        "5883718": {
-            "match": {
-                "id": 5883718,
-                "leagueId": 938783,
-                "time": "08.11.2026 12:00",
-                "home": {
-                    "id": 278806,
-                    "score": 1,
-                    "name": "CDA Águilas FC"
-                },
-                "away": {
-                    "id": 8400,
-                    "score": 1,
-                    "name": "Gimnàstic"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-11-08T11:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "08.11.2026 12:03:54",
-                        "secondHalfStarted": "08.11.2026 13:10:29"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "1 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1794135600000,
-                "_competition_name": "Primera Federacion - Group 2"
-            },
-            "tracked_player_ids": [
-                545903
-            ],
-            "discovered_at": "2026-11-08T00:00:37.547415+03:30",
-            "finished_seen_at": "2026-11-08T16:36:19.342346+03:30",
-            "next_check_at": "2026-11-10T15:05:21.068832+03:30",
-            "final_complete": false
-        },
-        "5885629": {
-            "match": {
-                "id": 5885629,
-                "leagueId": 938796,
-                "time": "08.11.2026 12:00",
-                "home": {
-                    "id": 8388,
-                    "score": 6,
-                    "name": "Numancia"
-                },
-                "away": {
-                    "id": 1315045,
-                    "score": 0,
-                    "name": "CS Puertollano"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "10",
-                "status": {
-                    "utcTime": "2026-11-08T11:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "08.11.2026 12:02:01",
-                        "secondHalfStarted": "08.11.2026 13:04:50"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "6 - 0",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1794135600000,
-                "_competition_name": "Segunda Federacion - Group 5"
-            },
-            "tracked_player_ids": [
-                603463
-            ],
-            "discovered_at": "2026-11-08T00:00:37.547499+03:30",
-            "finished_seen_at": "2026-11-08T16:32:19.513243+03:30",
-            "next_check_at": "2026-11-10T15:05:21.068832+03:30",
-            "final_complete": false
-        },
         "6386040": {
             "match": {
                 "id": 6386040,
@@ -4523,7 +4379,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T14:29:17.027954+03:30",
+            "next_check_at": "2026-11-10T14:30:45.555411+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4562,7 +4418,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T14:29:17.027954+03:30",
+            "next_check_at": "2026-11-10T14:30:45.555411+03:30",
             "final_complete": false
         }
     },
