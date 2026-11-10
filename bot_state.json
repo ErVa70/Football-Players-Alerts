@@ -4274,12 +4274,13 @@
                     "name": "Deportivo Alavés"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "1st Round",
                 "status": {
                     "utcTime": "2026-11-10T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "10.11.2026 19:01:18"
+                        "firstHalfStarted": "10.11.2026 19:01:18",
+                        "secondHalfStarted": "10.11.2026 20:05:14"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -4288,12 +4289,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:56",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -4306,7 +4307,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:35:22.612361+03:30",
+            "next_check_at": "2026-11-10T22:36:17.721994+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4340,9 +4341,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "48‎’‎",
+                        "short": "49‎’‎",
                         "shortKey": "",
-                        "long": "47:33",
+                        "long": "48:24",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4357,7 +4358,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:35:22.612361+03:30",
+            "next_check_at": "2026-11-10T22:36:17.721994+03:30",
             "final_complete": false
         }
     },
