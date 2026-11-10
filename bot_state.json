@@ -4270,7 +4270,7 @@
                 },
                 "away": {
                     "id": 9866,
-                    "score": 2,
+                    "score": 3,
                     "name": "Deportivo Alavés"
                 },
                 "eliminatedTeamId": null,
@@ -4287,11 +4287,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 2",
+                    "scoreStr": "1 - 3",
                     "liveTime": {
-                        "short": "55‎’‎",
+                        "short": "56‎’‎",
                         "shortKey": "",
-                        "long": "54:05",
+                        "long": "55:15",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4307,7 +4307,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:44:19.202788+03:30",
+            "next_check_at": "2026-11-10T22:45:29.201460+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4341,9 +4341,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 3",
                     "liveTime": {
-                        "short": "57‎’‎",
+                        "short": "58‎’‎",
                         "shortKey": "",
-                        "long": "56:33",
+                        "long": "57:43",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4358,7 +4358,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:44:19.202788+03:30",
+            "next_check_at": "2026-11-10T22:45:29.201460+03:30",
             "final_complete": false
         }
     },
