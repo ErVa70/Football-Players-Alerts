@@ -4279,7 +4279,7 @@
                 "status": {
                     "utcTime": "2026-11-10T18:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "10.11.2026 19:01:14"
+                        "firstHalfStarted": "10.11.2026 19:01:18"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -4288,9 +4288,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "2‎’‎",
+                        "short": "3‎’‎",
                         "shortKey": "",
-                        "long": "1:06",
+                        "long": "2:11",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4306,7 +4306,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T21:32:20.159579+03:30",
+            "next_check_at": "2026-11-10T21:33:29.898726+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4321,7 +4321,7 @@
                 },
                 "away": {
                     "id": 8372,
-                    "score": 0,
+                    "score": 1,
                     "name": "Eibar"
                 },
                 "eliminatedTeamId": null,
@@ -4337,11 +4337,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "3‎’‎",
+                        "short": "4‎’‎",
                         "shortKey": "",
-                        "long": "2:03",
+                        "long": "3:12",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4356,7 +4356,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T21:32:20.159579+03:30",
+            "next_check_at": "2026-11-10T21:33:29.898726+03:30",
             "final_complete": false
         }
     },
