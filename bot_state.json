@@ -4291,7 +4291,7 @@
                     "liveTime": {
                         "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "50:17",
+                        "long": "50:53",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4307,7 +4307,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:40:31.181775+03:30",
+            "next_check_at": "2026-11-10T22:41:15.247398+03:30",
             "final_complete": false
         },
         "6386069": {
@@ -4322,7 +4322,7 @@
                 },
                 "away": {
                     "id": 8372,
-                    "score": 2,
+                    "score": 3,
                     "name": "Eibar"
                 },
                 "eliminatedTeamId": null,
@@ -4339,11 +4339,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 2",
+                    "scoreStr": "0 - 3",
                     "liveTime": {
-                        "short": "53‎’‎",
+                        "short": "54‎’‎",
                         "shortKey": "",
-                        "long": "52:45",
+                        "long": "53:21",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4358,7 +4358,7 @@
             ],
             "discovered_at": "2026-11-10T00:00:38.422994+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-10T22:40:31.181775+03:30",
+            "next_check_at": "2026-11-10T22:41:15.247398+03:30",
             "final_complete": false
         }
     },
