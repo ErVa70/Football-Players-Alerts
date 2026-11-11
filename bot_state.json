@@ -4284,7 +4284,7 @@
                     "name": "Juventud de las Piedras"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "1/4",
                 "status": {
                     "utcTime": "2026-11-11T00:00:00.000Z",
@@ -4298,10 +4298,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "50‎’‎",
-                        "shortKey": "",
-                        "long": "49:29",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -4315,7 +4315,7 @@
             ],
             "discovered_at": "2026-11-11T00:00:38.560058+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-11T04:21:17.082799+03:30",
+            "next_check_at": "2026-11-11T04:22:19.171774+03:30",
             "final_complete": false
         }
     },
