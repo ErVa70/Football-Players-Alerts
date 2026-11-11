@@ -4277,16 +4277,18 @@
                 "home": {
                     "id": 2219,
                     "score": 1,
-                    "name": "Liverpool FC"
+                    "name": "Liverpool FC",
+                    "penScore": 0
                 },
                 "away": {
                     "id": 9883,
                     "score": 1,
                     "name": "Juventud de las Piedras",
+                    "penScore": 0,
                     "redCards": 1
                 },
                 "eliminatedTeamId": null,
-                "statusId": 20,
+                "statusId": 4,
                 "tournamentStage": "1/4",
                 "status": {
                     "utcTime": "2026-11-11T00:00:00.000Z",
@@ -4319,7 +4321,7 @@
             ],
             "discovered_at": "2026-11-11T00:00:38.560058+03:30",
             "finished_seen_at": "2026-11-11T05:28:18.264714+03:30",
-            "next_check_at": "2026-11-11T05:32:19.023102+03:30",
+            "next_check_at": "2026-11-11T05:33:17.391804+03:30",
             "final_complete": false
         }
     },
