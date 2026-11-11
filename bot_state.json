@@ -4281,13 +4281,15 @@
                 "away": {
                     "id": 9883,
                     "score": 1,
-                    "name": "Juventud de las Piedras"
+                    "name": "Juventud de las Piedras",
+                    "redCards": 1
                 },
                 "eliminatedTeamId": null,
                 "statusId": 3,
                 "tournamentStage": "1/4",
                 "status": {
                     "utcTime": "2026-11-11T00:00:00.000Z",
+                    "numberOfAwayRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "11.11.2026 01:01:48",
                         "secondHalfStarted": "11.11.2026 02:08:06"
@@ -4299,9 +4301,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "80‎’‎",
+                        "short": "81‎’‎",
                         "shortKey": "",
-                        "long": "79:01",
+                        "long": "80:01",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4316,7 +4318,7 @@
             ],
             "discovered_at": "2026-11-11T00:00:38.560058+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-11T05:12:19.176457+03:30",
+            "next_check_at": "2026-11-11T05:13:17.161162+03:30",
             "final_complete": false
         }
     },
