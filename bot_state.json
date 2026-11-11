@@ -2812,7 +2812,8 @@
             "id:0|assist|637756",
             "Substitution|75|None|873827,282281|",
             "id:0"
-        ]
+        ],
+        "6574946": []
     },
     "final_posts": {
         "5991881": [
@@ -4283,17 +4284,28 @@
                     "name": "Juventud de las Piedras"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1/4",
                 "status": {
                     "utcTime": "2026-11-11T00:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "11.11.2026 01:00:00"
+                        "firstHalfStarted": "11.11.2026 01:01:48"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:29",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794355200000,
                 "_competition_name": "Cup"
@@ -4303,7 +4315,7 @@
             ],
             "discovered_at": "2026-11-11T00:00:38.560058+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-11T03:31:17.433341+03:30",
+            "next_check_at": "2026-11-11T03:32:23.902368+03:30",
             "final_complete": false
         }
     },
