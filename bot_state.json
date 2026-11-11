@@ -4107,7 +4107,8 @@
         "6386040": [
             "282281",
             "637756"
-        ]
+        ],
+        "6574946": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4285,7 +4286,7 @@
                     "redCards": 1
                 },
                 "eliminatedTeamId": null,
-                "statusId": 3,
+                "statusId": 6,
                 "tournamentStage": "1/4",
                 "status": {
                     "utcTime": "2026-11-11T00:00:00.000Z",
@@ -4295,19 +4296,16 @@
                         "secondHalfStarted": "11.11.2026 02:08:06"
                     },
                     "periodLength": 45,
-                    "finished": false,
+                    "finished": true,
                     "started": true,
                     "cancelled": false,
-                    "ongoing": true,
+                    "awarded": false,
                     "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:16",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
+                    "reason": {
+                        "short": "FT",
+                        "shortKey": "fulltime_short",
+                        "long": "Full-Time",
+                        "longKey": "finished"
                     }
                 },
                 "timeTS": 1794355200000,
@@ -4317,8 +4315,8 @@
                 96616
             ],
             "discovered_at": "2026-11-11T00:00:38.560058+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-11T05:27:22.855534+03:30",
+            "finished_seen_at": "2026-11-11T05:28:18.264714+03:30",
+            "next_check_at": "2026-11-11T05:29:18.264714+03:30",
             "final_complete": false
         }
     },
