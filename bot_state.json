@@ -1468,7 +1468,8 @@
             "Aleix Garrido|BENCH"
         ],
         "6386074": [],
-        "6040251": []
+        "6040251": [],
+        "6040336": []
     },
     "match_events": {
         "5071387": [
@@ -4376,7 +4377,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4508,7 +4509,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4547,7 +4548,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "6040251": {
@@ -4581,9 +4582,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "62‎’‎",
+                        "short": "63‎’‎",
                         "shortKey": "",
-                        "long": "61:40",
+                        "long": "62:55",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4598,7 +4599,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633571+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4637,7 +4638,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4676,7 +4677,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -4726,7 +4727,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633877+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4759,9 +4760,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "22‎’‎",
+                        "short": "23‎’‎",
                         "shortKey": "",
-                        "long": "21:13",
+                        "long": "22:28",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4779,7 +4780,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T21:55:22.333819+03:30",
+            "next_check_at": "2026-11-12T21:56:29.180166+03:30",
             "final_complete": false
         }
     },
