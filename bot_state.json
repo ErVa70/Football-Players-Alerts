@@ -4160,7 +4160,8 @@
         "6040401": [],
         "6040240": [
             "579747"
-        ]
+        ],
+        "5181858": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4424,7 +4425,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4528,57 +4529,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
-            "final_complete": false
-        },
-        "5181858": {
-            "match": {
-                "id": 5181858,
-                "leagueId": 920743,
-                "time": "12.11.2026 20:45",
-                "home": {
-                    "id": 8491,
-                    "score": 1,
-                    "name": "England"
-                },
-                "away": {
-                    "id": 10155,
-                    "score": 0,
-                    "name": "Croatia"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-12T19:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "12.11.2026 20:47:10"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "43‎’‎",
-                        "shortKey": "",
-                        "long": "42:07",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794512700000,
-                "_competition_name": "UEFA Nations League A Grp. 3"
-            },
-            "tracked_player_ids": [
-                696365
-            ],
-            "discovered_at": "2026-11-12T00:26:45.633432+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "5181833": {
@@ -4617,7 +4568,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4657,7 +4608,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4698,7 +4649,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "6040203": {
@@ -4737,7 +4688,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330494+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4779,7 +4730,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4818,7 +4769,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4857,7 +4808,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4898,7 +4849,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T01:07:18.854323+03:30",
+            "next_check_at": "2026-11-13T01:08:20.161221+03:30",
             "final_complete": false
         }
     },
