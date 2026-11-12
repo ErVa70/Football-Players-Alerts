@@ -4394,7 +4394,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4487,7 +4487,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         },
         "5181858": {
@@ -4526,7 +4526,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4541,7 +4541,7 @@
                 },
                 "away": {
                     "id": 5979,
-                    "score": 0,
+                    "score": 1,
                     "name": "Gambia"
                 },
                 "eliminatedTeamId": null,
@@ -4557,11 +4557,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "37‎’‎",
+                        "short": "38‎’‎",
                         "shortKey": "",
-                        "long": "36:28",
+                        "long": "37:35",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4576,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4609,9 +4609,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "36‎’‎",
+                        "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "35:49",
+                        "long": "36:56",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4626,7 +4626,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4659,9 +4659,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "36‎’‎",
+                        "short": "37‎’‎",
                         "shortKey": "",
-                        "long": "35:48",
+                        "long": "36:55",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4676,7 +4676,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4710,9 +4710,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "76‎’‎",
+                        "short": "78‎’‎",
                         "shortKey": "",
-                        "long": "75:54",
+                        "long": "77:01",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4730,7 +4730,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:08:18.406334+03:30",
+            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
             "final_complete": false
         }
     },
