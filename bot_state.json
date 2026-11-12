@@ -4394,7 +4394,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4487,7 +4487,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         },
         "5181858": {
@@ -4526,7 +4526,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4559,9 +4559,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "38‎’‎",
+                        "short": "39‎’‎",
                         "shortKey": "",
-                        "long": "37:35",
+                        "long": "38:53",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4576,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4609,9 +4609,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "37‎’‎",
+                        "short": "39‎’‎",
                         "shortKey": "",
-                        "long": "36:56",
+                        "long": "38:14",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4626,7 +4626,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4659,9 +4659,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "37‎’‎",
+                        "short": "39‎’‎",
                         "shortKey": "",
-                        "long": "36:55",
+                        "long": "38:13",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4676,7 +4676,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4686,7 +4686,7 @@
                 "time": "12.11.2026 19:00",
                 "home": {
                     "id": 161758,
-                    "score": 1,
+                    "score": 2,
                     "name": "Navalcarnero"
                 },
                 "away": {
@@ -4708,11 +4708,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 1",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "78‎’‎",
+                        "short": "79‎’‎",
                         "shortKey": "",
-                        "long": "77:01",
+                        "long": "78:19",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4730,7 +4730,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T23:09:16.376326+03:30",
+            "next_check_at": "2026-11-12T23:10:34.014175+03:30",
             "final_complete": false
         }
     },
