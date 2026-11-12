@@ -4392,7 +4392,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4485,7 +4485,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         },
         "5181858": {
@@ -4524,7 +4524,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4534,7 +4534,7 @@
                 "time": "12.11.2026 20:00",
                 "home": {
                     "id": 6709,
-                    "score": 1,
+                    "score": 2,
                     "name": "Ivory Coast"
                 },
                 "away": {
@@ -4555,11 +4555,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "24‎’‎",
+                        "short": "25‎’‎",
                         "shortKey": "",
-                        "long": "23:46",
+                        "long": "24:38",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4574,7 +4574,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4609,7 +4609,7 @@
                     "liveTime": {
                         "short": "24‎’‎",
                         "shortKey": "",
-                        "long": "23:07",
+                        "long": "23:59",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4624,7 +4624,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4659,7 +4659,7 @@
                     "liveTime": {
                         "short": "24‎’‎",
                         "shortKey": "",
-                        "long": "23:06",
+                        "long": "23:58",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4674,7 +4674,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4708,9 +4708,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:12",
+                        "long": "64:04",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4728,7 +4728,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T22:55:26.821858+03:30",
+            "next_check_at": "2026-11-12T22:56:18.528891+03:30",
             "final_complete": false
         }
     },
