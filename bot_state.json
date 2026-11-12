@@ -2816,7 +2816,8 @@
             "Substitution|75|None|873827,282281|",
             "id:0"
         ],
-        "6574946": []
+        "6574946": [],
+        "6628145": []
     },
     "final_posts": {
         "5991881": [
@@ -4364,7 +4365,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4457,7 +4458,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "5181858": {
@@ -4496,7 +4497,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4535,7 +4536,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6040251": {
@@ -4574,7 +4575,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633571+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4613,7 +4614,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4652,7 +4653,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6628145": {
@@ -4672,17 +4673,28 @@
                     "name": "Mladá Boleslav"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-11-12T10:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "12.11.2026 11:00:00"
+                        "firstHalfStarted": "12.11.2026 11:00:53"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:25",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794477600000,
                 "_competition_name": "Club Friendlies"
@@ -4692,7 +4704,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633753+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6618311": {
@@ -4731,7 +4743,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633816+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -4770,7 +4782,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633877+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4812,7 +4824,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T13:30:48.579170+03:30",
+            "next_check_at": "2026-11-12T13:31:18.115227+03:30",
             "final_complete": false
         }
     },
