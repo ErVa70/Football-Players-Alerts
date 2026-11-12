@@ -1005,7 +1005,11 @@
             "André Gomes|BENCH"
         ],
         "6386038": [],
-        "6386067": [],
+        "6386067": [
+            "Héctor Bellerín|STARTING XI",
+            "Júnior Firpo|STARTING XI",
+            "Marc Bartra|BENCH"
+        ],
         "6386080": [],
         "6386068": [
             "Estanis Pedrola|STARTING XI"
@@ -4370,7 +4374,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4463,7 +4467,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "5181858": {
@@ -4502,7 +4506,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4541,7 +4545,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "6040251": {
@@ -4574,9 +4578,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "18‎’‎",
+                        "short": "19‎’‎",
                         "shortKey": "",
-                        "long": "17:20",
+                        "long": "18:30",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4591,7 +4595,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633571+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4630,7 +4634,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4669,7 +4673,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -4708,7 +4712,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633877+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4750,7 +4754,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T20:51:19.216454+03:30",
+            "next_check_at": "2026-11-12T20:52:29.923768+03:30",
             "final_complete": false
         }
     },
