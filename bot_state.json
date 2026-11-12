@@ -4112,7 +4112,8 @@
             "282281",
             "637756"
         ],
-        "6574946": []
+        "6574946": [],
+        "6628145": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4365,7 +4366,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633229+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "5181857": {
@@ -4458,7 +4459,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633330+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "5181858": {
@@ -4497,7 +4498,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633432+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6040240": {
@@ -4536,7 +4537,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633507+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6040251": {
@@ -4575,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633571+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6040336": {
@@ -4614,7 +4615,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633632+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6040401": {
@@ -4653,59 +4654,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633692+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
-            "final_complete": false
-        },
-        "6628145": {
-            "match": {
-                "id": 6628145,
-                "leagueId": 915708,
-                "time": "12.11.2026 11:00",
-                "home": {
-                    "id": 178475,
-                    "score": 4,
-                    "name": "RB Leipzig",
-                    "shortName": "RB Leipzig"
-                },
-                "away": {
-                    "id": 10180,
-                    "score": 5,
-                    "name": "Mladá Boleslav"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-11-12T10:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "12.11.2026 11:00:53",
-                        "secondHalfStarted": "12.11.2026 12:03:10"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "4 - 5",
-                    "liveTime": {
-                        "short": "91‎’‎",
-                        "shortKey": "",
-                        "long": "90:08",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794477600000,
-                "_competition_name": "Club Friendlies"
-            },
-            "tracked_player_ids": [
-                1412137
-            ],
-            "discovered_at": "2026-11-12T00:26:45.633753+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6618311": {
@@ -4744,7 +4693,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633816+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6386074": {
@@ -4783,7 +4732,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633877+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         },
         "6386067": {
@@ -4825,7 +4774,7 @@
             ],
             "discovered_at": "2026-11-12T00:26:45.633937+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-12T15:18:18.111702+03:30",
+            "next_check_at": "2026-11-12T15:19:15.967802+03:30",
             "final_complete": false
         }
     },
