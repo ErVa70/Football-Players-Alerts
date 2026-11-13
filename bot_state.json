@@ -2871,8 +2871,11 @@
             "id:0",
             "Substitution|73|None|174472,1102732|"
         ],
-        "6040204": [],
-        "5883731": []
+        "6040204": [
+            "Substitution|75|None|1656600,1209399|"
+        ],
+        "5883731": [],
+        "6633880": []
     },
     "final_posts": {
         "5991881": [
@@ -4195,6 +4198,9 @@
         ],
         "6386080": [
             "1102732"
+        ],
+        "6040204": [
+            "1209399"
         ]
     },
     "transfer_monitor": {
@@ -4394,60 +4400,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
-            "final_complete": false
-        },
-        "6040204": {
-            "match": {
-                "id": 6040204,
-                "leagueId": 943876,
-                "time": "13.11.2026 21:00",
-                "home": {
-                    "id": 6262,
-                    "score": 1,
-                    "name": "Morocco"
-                },
-                "away": {
-                    "id": 121281,
-                    "score": 0,
-                    "name": "Niger"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-11-13T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "13.11.2026 21:05:45"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "24‎’‎",
-                        "shortKey": "",
-                        "long": "23:33",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794600000000,
-                "_competition_name": "Africa Cup of Nations Qualification Grp. A"
-            },
-            "tracked_player_ids": [
-                522579,
-                1187506,
-                1209399,
-                1311915
-            ],
-            "discovered_at": "2026-11-13T00:00:36.330524+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4486,7 +4439,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4536,7 +4489,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5181870": {
@@ -4580,7 +4533,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4619,7 +4572,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4658,7 +4611,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "6539346": {
@@ -4700,7 +4653,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792163+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "6497224": {
@@ -4747,7 +4700,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792201+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4787,7 +4740,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5868544": {
@@ -4827,7 +4780,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5868537": {
@@ -4866,7 +4819,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792303+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5868542": {
@@ -4905,7 +4858,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792335+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4946,7 +4899,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         },
         "6140267": {
@@ -4985,7 +4938,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792399+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T01:31:18.795187+03:30",
+            "next_check_at": "2026-11-14T01:32:28.575593+03:30",
             "final_complete": false
         }
     },
