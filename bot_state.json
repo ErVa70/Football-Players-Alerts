@@ -4351,7 +4351,7 @@
                 "time": "13.11.2026 20:45",
                 "home": {
                     "id": 6708,
-                    "score": 2,
+                    "score": 3,
                     "name": "Netherlands"
                 },
                 "away": {
@@ -4372,11 +4372,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "18‎’‎",
+                        "short": "19‎’‎",
                         "shortKey": "",
-                        "long": "17:54",
+                        "long": "18:55",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4391,7 +4391,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4424,9 +4424,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "20‎’‎",
+                        "short": "21‎’‎",
                         "shortKey": "",
-                        "long": "19:27",
+                        "long": "20:28",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4442,7 +4442,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4483,7 +4483,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4502,17 +4502,28 @@
                     "name": "Niger"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "3",
                 "status": {
                     "utcTime": "2026-11-13T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.11.2026 21:00:00"
+                        "firstHalfStarted": "13.11.2026 21:05:45"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:35",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794600000000,
                 "_competition_name": "Africa Cup of Nations Qualification Grp. A"
@@ -4525,7 +4536,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4564,7 +4575,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4603,7 +4614,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4636,9 +4647,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "4‎’‎",
+                        "short": "5‎’‎",
                         "shortKey": "",
-                        "long": "3:39",
+                        "long": "4:40",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4655,7 +4666,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:35:22.635645+03:30",
+            "next_check_at": "2026-11-13T23:36:21.330380+03:30",
             "final_complete": false
         }
     },
