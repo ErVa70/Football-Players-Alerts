@@ -2870,7 +2870,8 @@
         "6386080": [
             "id:0"
         ],
-        "6040204": []
+        "6040204": [],
+        "5883731": []
     },
     "final_posts": {
         "5991881": [
@@ -4377,9 +4378,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "32‎’‎",
+                        "short": "34‎’‎",
                         "shortKey": "",
-                        "long": "31:42",
+                        "long": "33:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4394,7 +4395,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4427,9 +4428,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "34‎’‎",
+                        "short": "35‎’‎",
                         "shortKey": "",
-                        "long": "33:15",
+                        "long": "34:36",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4445,7 +4446,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4486,7 +4487,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4519,9 +4520,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "14‎’‎",
+                        "short": "15‎’‎",
                         "shortKey": "",
-                        "long": "13:22",
+                        "long": "14:43",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4539,7 +4540,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4578,7 +4579,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4597,17 +4598,28 @@
                     "name": "Real Madrid Castilla"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "12",
                 "status": {
                     "utcTime": "2026-11-13T20:15:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.11.2026 21:15:00"
+                        "firstHalfStarted": "13.11.2026 21:19:28"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:00",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794600900000,
                 "_competition_name": "Primera Federacion - Group 2"
@@ -4617,7 +4629,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4650,9 +4662,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "18‎’‎",
+                        "short": "19‎’‎",
                         "shortKey": "",
-                        "long": "17:27",
+                        "long": "18:48",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4669,7 +4681,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:49:17.310874+03:30",
+            "next_check_at": "2026-11-13T23:50:28.658263+03:30",
             "final_complete": false
         }
     },
