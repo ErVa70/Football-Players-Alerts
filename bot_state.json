@@ -4169,7 +4169,8 @@
         "5181857": [
             "873289",
             "881771"
-        ]
+        ],
+        "6040203": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4366,7 +4367,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4406,7 +4407,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4447,58 +4448,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
-            "final_complete": false
-        },
-        "6040203": {
-            "match": {
-                "id": 6040203,
-                "leagueId": 943876,
-                "time": "13.11.2026 17:00",
-                "home": {
-                    "id": 5889,
-                    "score": 2,
-                    "name": "Gabon"
-                },
-                "away": {
-                    "id": 4167,
-                    "score": 0,
-                    "name": "Lesotho"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "3",
-                "status": {
-                    "utcTime": "2026-11-13T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "13.11.2026 17:03:58",
-                        "secondHalfStarted": "13.11.2026 18:08:26"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 0",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:42",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794585600000,
-                "_competition_name": "Africa Cup of Nations Qualification Grp. A"
-            },
-            "tracked_player_ids": [
-                150565
-            ],
-            "discovered_at": "2026-11-13T00:00:36.330494+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4540,7 +4490,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4579,7 +4529,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4618,7 +4568,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4659,7 +4609,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T21:28:19.024945+03:30",
+            "next_check_at": "2026-11-13T21:29:17.703792+03:30",
             "final_complete": false
         }
     },
