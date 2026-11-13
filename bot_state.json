@@ -4378,9 +4378,9 @@
                     "ongoing": true,
                     "scoreStr": "4 - 0",
                     "liveTime": {
-                        "short": "37‎’‎",
+                        "short": "39‎’‎",
                         "shortKey": "",
-                        "long": "36:55",
+                        "long": "38:06",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4395,7 +4395,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4428,9 +4428,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "39‎’‎",
+                        "short": "40‎’‎",
                         "shortKey": "",
-                        "long": "38:28",
+                        "long": "39:39",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4446,7 +4446,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4487,7 +4487,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4520,9 +4520,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "19‎’‎",
+                        "short": "20‎’‎",
                         "shortKey": "",
-                        "long": "18:35",
+                        "long": "19:46",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4540,7 +4540,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4579,7 +4579,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4612,9 +4612,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "5‎’‎",
+                        "short": "7‎’‎",
                         "shortKey": "",
-                        "long": "4:52",
+                        "long": "6:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4629,7 +4629,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4644,7 +4644,7 @@
                 },
                 "away": {
                     "id": 9910,
-                    "score": 1,
+                    "score": 2,
                     "name": "Celta Vigo"
                 },
                 "eliminatedTeamId": null,
@@ -4660,11 +4660,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 1",
+                    "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "23‎’‎",
+                        "short": "24‎’‎",
                         "shortKey": "",
-                        "long": "22:40",
+                        "long": "23:51",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4681,7 +4681,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:54:20.921677+03:30",
+            "next_check_at": "2026-11-13T23:55:39.001040+03:30",
             "final_complete": false
         }
     },
