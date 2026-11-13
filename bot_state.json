@@ -2864,7 +2864,8 @@
         ],
         "5181858": [],
         "5181797": [],
-        "6040203": []
+        "6040203": [],
+        "5181834": []
     },
     "final_posts": {
         "5991881": [
@@ -4377,7 +4378,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4396,17 +4397,28 @@
                     "name": "Germany"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "5",
                 "status": {
                     "utcTime": "2026-11-13T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "13.11.2026 20:45:00"
+                        "firstHalfStarted": "13.11.2026 20:45:52"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:41",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794599100000,
                 "_competition_name": "UEFA Nations League A Grp. 2"
@@ -4417,7 +4429,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4458,7 +4470,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4500,7 +4512,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4539,7 +4551,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4578,7 +4590,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4619,7 +4631,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:15:33.012192+03:30",
+            "next_check_at": "2026-11-13T23:16:33.304839+03:30",
             "final_complete": false
         }
     },
