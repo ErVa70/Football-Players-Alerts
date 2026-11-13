@@ -4357,7 +4357,7 @@
                 },
                 "away": {
                     "id": 6383,
-                    "score": 0,
+                    "score": 1,
                     "name": "Greece"
                 },
                 "eliminatedTeamId": null,
@@ -4373,11 +4373,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "3 - 0",
+                    "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "24‎’‎",
+                        "short": "25‎’‎",
                         "shortKey": "",
-                        "long": "23:45",
+                        "long": "24:43",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4392,7 +4392,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330369+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         },
         "5181834": {
@@ -4425,9 +4425,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "26‎’‎",
+                        "short": "27‎’‎",
                         "shortKey": "",
-                        "long": "25:18",
+                        "long": "26:16",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4443,7 +4443,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330428+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         },
         "6462728": {
@@ -4484,7 +4484,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330462+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         },
         "6040204": {
@@ -4517,9 +4517,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "6‎’‎",
+                        "short": "7‎’‎",
                         "shortKey": "",
-                        "long": "5:25",
+                        "long": "6:23",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4537,7 +4537,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330524+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         },
         "6633880": {
@@ -4576,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330555+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         },
         "5883731": {
@@ -4615,7 +4615,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330602+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         },
         "6386080": {
@@ -4648,9 +4648,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "10‎’‎",
+                        "short": "11‎’‎",
                         "shortKey": "",
-                        "long": "9:30",
+                        "long": "10:28",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4667,7 +4667,7 @@
             ],
             "discovered_at": "2026-11-13T00:00:36.330633+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-13T23:41:17.443516+03:30",
+            "next_check_at": "2026-11-13T23:42:18.483928+03:30",
             "final_complete": false
         }
     },
