@@ -4478,7 +4478,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4517,7 +4517,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4556,7 +4556,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4596,7 +4596,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "5868544": {
@@ -4606,7 +4606,7 @@
                 "time": "14.11.2026 16:15",
                 "home": {
                     "id": 161744,
-                    "score": 1,
+                    "score": 2,
                     "name": "Real Sociedad B"
                 },
                 "away": {
@@ -4628,11 +4628,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 1",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "55‎’‎",
+                        "short": "56‎’‎",
                         "shortKey": "",
-                        "long": "54:18",
+                        "long": "55:18",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4648,7 +4648,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "5868537": {
@@ -4687,7 +4687,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792303+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "5868542": {
@@ -4726,7 +4726,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792335+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4767,7 +4767,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T19:57:17.067879+03:30",
+            "next_check_at": "2026-11-14T19:58:19.033567+03:30",
             "final_complete": false
         }
     },
