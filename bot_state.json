@@ -4212,7 +4212,8 @@
         "6633880": [],
         "6462728": [
             "921253"
-        ]
+        ],
+        "6539346": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4464,7 +4465,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4503,7 +4504,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4542,61 +4543,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
-            "final_complete": false
-        },
-        "6539346": {
-            "match": {
-                "id": 6539346,
-                "leagueId": 914609,
-                "time": "14.11.2026 01:00",
-                "home": {
-                    "id": 8258,
-                    "score": 1,
-                    "name": "Colombia"
-                },
-                "away": {
-                    "id": 9762,
-                    "score": 0,
-                    "name": "Chile"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-11-14T00:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "14.11.2026 01:06:25",
-                        "secondHalfStarted": "14.11.2026 02:13:15"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "96‎’‎",
-                        "shortKey": "",
-                        "long": "95:53",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794614400000,
-                "_competition_name": "Friendlies"
-            },
-            "tracked_player_ids": [
-                49939,
-                50047,
-                301456,
-                496042
-            ],
-            "discovered_at": "2026-11-14T00:00:38.792163+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "6497224": {
@@ -4643,7 +4590,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792201+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4683,7 +4630,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "5868544": {
@@ -4723,7 +4670,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792271+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "5868537": {
@@ -4762,7 +4709,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792303+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "5868542": {
@@ -4801,7 +4748,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792335+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4842,7 +4789,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         },
         "6140267": {
@@ -4881,7 +4828,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792399+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T05:34:20.629989+03:30",
+            "next_check_at": "2026-11-14T05:35:24.884011+03:30",
             "final_complete": false
         }
     },
