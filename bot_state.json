@@ -2919,7 +2919,8 @@
         ],
         "5181870": [],
         "5181821": [],
-        "5181845": []
+        "5181845": [],
+        "5868543": []
     },
     "final_posts": {
         "5991881": [
@@ -4503,9 +4504,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "14:39",
+                        "long": "15:30",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4525,7 +4526,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T23:31:26.211675+03:30",
+            "next_check_at": "2026-11-14T23:32:17.595854+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4558,9 +4559,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "14:54",
+                        "long": "15:45",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4575,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T23:31:26.211675+03:30",
+            "next_check_at": "2026-11-14T23:32:17.595854+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4608,9 +4609,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "14:19",
+                        "long": "15:10",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4625,7 +4626,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T23:31:26.211675+03:30",
+            "next_check_at": "2026-11-14T23:32:17.595854+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4665,7 +4666,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T23:31:26.211675+03:30",
+            "next_check_at": "2026-11-14T23:32:17.595854+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4684,17 +4685,28 @@
                     "name": "Girona"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "14",
                 "status": {
                     "utcTime": "2026-11-14T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "14.11.2026 21:00:00"
+                        "firstHalfStarted": "14.11.2026 21:01:40"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:37",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794686400000,
                 "_competition_name": "LaLiga2"
@@ -4706,7 +4718,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T23:31:26.211675+03:30",
+            "next_check_at": "2026-11-14T23:32:17.595854+03:30",
             "final_complete": false
         }
     },
