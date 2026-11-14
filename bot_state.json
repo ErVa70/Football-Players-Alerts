@@ -4231,7 +4231,10 @@
         ],
         "6539346": [],
         "6497224": [],
-        "6140267": []
+        "6140267": [],
+        "5868544": [
+            "1665439"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4483,7 +4486,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4522,7 +4525,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4561,7 +4564,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4601,61 +4604,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
-            "final_complete": false
-        },
-        "5868544": {
-            "match": {
-                "id": 5868544,
-                "leagueId": 938653,
-                "time": "14.11.2026 16:15",
-                "home": {
-                    "id": 161744,
-                    "score": 2,
-                    "name": "Real Sociedad B"
-                },
-                "away": {
-                    "id": 9869,
-                    "score": 2,
-                    "name": "Sporting Gijón",
-                    "redCards": 1
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "14",
-                "status": {
-                    "utcTime": "2026-11-14T15:15:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "14.11.2026 16:16:14",
-                        "secondHalfStarted": "14.11.2026 17:17:50"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 2",
-                    "liveTime": {
-                        "short": "98‎’‎",
-                        "shortKey": "",
-                        "long": "97:39",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794669300000,
-                "_competition_name": "LaLiga2"
-            },
-            "tracked_player_ids": [
-                1054033,
-                1665439
-            ],
-            "discovered_at": "2026-11-14T00:00:38.792271+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         },
         "5868537": {
@@ -4694,7 +4643,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792303+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         },
         "5868542": {
@@ -4733,7 +4682,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792335+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4774,7 +4723,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T20:40:29.381373+03:30",
+            "next_check_at": "2026-11-14T20:41:16.466973+03:30",
             "final_complete": false
         }
     },
