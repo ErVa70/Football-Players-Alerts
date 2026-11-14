@@ -4498,7 +4498,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4537,7 +4537,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4576,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4616,7 +4616,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         },
         "5868537": {
@@ -4631,7 +4631,7 @@
                 },
                 "away": {
                     "id": 494050,
-                    "score": 0,
+                    "score": 1,
                     "name": "FC Andorra"
                 },
                 "eliminatedTeamId": null,
@@ -4648,11 +4648,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "66‎’‎",
+                        "short": "67‎’‎",
                         "shortKey": "",
-                        "long": "65:04",
+                        "long": "66:07",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4667,7 +4667,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792303+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         },
         "5868542": {
@@ -4701,9 +4701,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "64‎’‎",
+                        "short": "65‎’‎",
                         "shortKey": "",
-                        "long": "63:49",
+                        "long": "64:52",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4718,7 +4718,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792335+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4759,7 +4759,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:24:20.794458+03:30",
+            "next_check_at": "2026-11-14T22:25:23.699876+03:30",
             "final_complete": false
         }
     },
