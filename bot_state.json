@@ -1510,7 +1510,13 @@
         "5181845": [
             "Robert Lewandowski|STARTING XI"
         ],
-        "5181821": []
+        "5181821": [
+            "Yusuf Demir|BENCH"
+        ],
+        "5181870": [
+            "João Félix|STARTING XI",
+            "Trincão|BENCH"
+        ]
     },
     "match_events": {
         "5071387": [
@@ -4492,7 +4498,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792034+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         },
         "5181821": {
@@ -4531,7 +4537,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792094+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         },
         "5181845": {
@@ -4570,7 +4576,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792130+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         },
         "6391963": {
@@ -4610,7 +4616,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792238+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         },
         "5868537": {
@@ -4646,7 +4652,7 @@
                     "liveTime": {
                         "short": "62‎’‎",
                         "shortKey": "",
-                        "long": "61:06",
+                        "long": "61:52",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4661,7 +4667,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792303+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         },
         "5868542": {
@@ -4695,9 +4701,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "60‎’‎",
+                        "short": "61‎’‎",
                         "shortKey": "",
-                        "long": "59:51",
+                        "long": "60:37",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4712,7 +4718,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792335+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         },
         "5868543": {
@@ -4753,7 +4759,7 @@
             ],
             "discovered_at": "2026-11-14T00:00:38.792367+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-14T22:20:30.307257+03:30",
+            "next_check_at": "2026-11-14T22:21:17.613406+03:30",
             "final_complete": false
         }
     },
