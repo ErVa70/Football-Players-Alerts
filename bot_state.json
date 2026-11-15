@@ -4574,7 +4574,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937220+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T22:20:29.644756+03:30",
+            "next_check_at": "2026-11-15T22:21:19.597995+03:30",
             "final_complete": false
         },
         "5181860": {
@@ -4668,7 +4668,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T22:20:29.644756+03:30",
+            "next_check_at": "2026-11-15T22:21:19.597995+03:30",
             "final_complete": false
         },
         "5868538": {
@@ -4678,7 +4678,7 @@
                 "time": "15.11.2026 18:30",
                 "home": {
                     "id": 8372,
-                    "score": 0,
+                    "score": 1,
                     "name": "Eibar"
                 },
                 "away": {
@@ -4700,11 +4700,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "61‎’‎",
+                        "short": "62‎’‎",
                         "shortKey": "",
-                        "long": "60:27",
+                        "long": "61:15",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4719,7 +4719,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937364+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T22:20:29.644756+03:30",
+            "next_check_at": "2026-11-15T22:21:19.597995+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4769,7 +4769,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937424+03:30",
             "finished_seen_at": "2026-11-15T20:58:27.797319+03:30",
-            "next_check_at": "2026-11-15T22:25:29.644756+03:30",
+            "next_check_at": "2026-11-15T22:26:19.597995+03:30",
             "final_complete": false
         },
         "5884944": {
@@ -4817,7 +4817,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937461+03:30",
             "finished_seen_at": "2026-11-15T15:52:18.385305+03:30",
-            "next_check_at": "2026-11-15T22:35:29.644756+03:30",
+            "next_check_at": "2026-11-15T22:36:19.597995+03:30",
             "final_complete": false
         },
         "5885634": {
@@ -4865,7 +4865,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937497+03:30",
             "finished_seen_at": "2026-11-15T16:23:24.282143+03:30",
-            "next_check_at": "2026-11-15T22:35:29.644756+03:30",
+            "next_check_at": "2026-11-15T22:36:19.597995+03:30",
             "final_complete": false
         }
     },
