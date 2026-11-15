@@ -4491,56 +4491,6 @@
         ]
     },
     "monitored_matches": {
-        "5883731": {
-            "match": {
-                "id": 5883731,
-                "leagueId": 938783,
-                "time": "13.11.2026 21:15",
-                "home": {
-                    "id": 8400,
-                    "score": 0,
-                    "name": "Gimnàstic"
-                },
-                "away": {
-                    "id": 8367,
-                    "score": 0,
-                    "name": "Real Madrid Castilla"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "12",
-                "status": {
-                    "utcTime": "2026-11-13T20:15:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "13.11.2026 21:19:28"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "10‎’‎",
-                        "shortKey": "",
-                        "long": "9:50",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794600900000,
-                "_competition_name": "Primera Federacion - Group 2"
-            },
-            "tracked_player_ids": [
-                545903
-            ],
-            "discovered_at": "2026-11-13T00:00:36.330602+03:30",
-            "finished_seen_at": "2026-11-14T01:45:29.803700+03:30",
-            "next_check_at": "2026-11-16T00:15:35.294281+03:30",
-            "final_complete": false
-        },
         "5181799": {
             "match": {
                 "id": 5181799,
@@ -4571,9 +4521,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "29‎’‎",
+                        "short": "30‎’‎",
                         "shortKey": "",
-                        "long": "28:16",
+                        "long": "29:30",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4592,7 +4542,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937220+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T23:44:18.379016+03:30",
+            "next_check_at": "2026-11-15T23:45:28.127169+03:30",
             "final_complete": false
         },
         "5181860": {
@@ -4625,9 +4575,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "26‎’‎",
+                        "short": "27‎’‎",
                         "shortKey": "",
-                        "long": "25:22",
+                        "long": "26:36",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4697,7 +4647,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T23:44:18.379016+03:30",
+            "next_check_at": "2026-11-15T23:45:28.127169+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4747,7 +4697,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937424+03:30",
             "finished_seen_at": "2026-11-15T20:58:27.797319+03:30",
-            "next_check_at": "2026-11-15T23:59:18.379016+03:30",
+            "next_check_at": "2026-11-16T00:00:28.127169+03:30",
             "final_complete": false
         },
         "5884944": {
@@ -4795,7 +4745,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937461+03:30",
             "finished_seen_at": "2026-11-15T15:52:18.385305+03:30",
-            "next_check_at": "2026-11-15T23:59:18.379016+03:30",
+            "next_check_at": "2026-11-16T00:00:28.127169+03:30",
             "final_complete": false
         },
         "5885634": {
@@ -4843,7 +4793,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937497+03:30",
             "finished_seen_at": "2026-11-15T16:23:24.282143+03:30",
-            "next_check_at": "2026-11-15T23:59:18.379016+03:30",
+            "next_check_at": "2026-11-16T00:00:28.127169+03:30",
             "final_complete": false
         }
     },
