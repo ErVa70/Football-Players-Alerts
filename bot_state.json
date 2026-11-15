@@ -4569,7 +4569,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937220+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T22:04:27.141793+03:30",
+            "next_check_at": "2026-11-15T22:05:30.353838+03:30",
             "final_complete": false
         },
         "5181860": {
@@ -4663,7 +4663,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T22:04:27.141793+03:30",
+            "next_check_at": "2026-11-15T22:05:30.353838+03:30",
             "final_complete": false
         },
         "5868538": {
@@ -4682,12 +4682,13 @@
                     "name": "Cádiz"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "14",
                 "status": {
                     "utcTime": "2026-11-15T17:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.11.2026 18:31:45"
+                        "firstHalfStarted": "15.11.2026 18:31:45",
+                        "secondHalfStarted": "15.11.2026 19:35:02"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -4696,12 +4697,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:25",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -4713,7 +4714,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937364+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T22:04:27.141793+03:30",
+            "next_check_at": "2026-11-15T22:05:30.353838+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4763,7 +4764,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937424+03:30",
             "finished_seen_at": "2026-11-15T20:58:27.797319+03:30",
-            "next_check_at": "2026-11-15T22:09:27.141793+03:30",
+            "next_check_at": "2026-11-15T22:10:30.353838+03:30",
             "final_complete": false
         },
         "5884944": {
@@ -4811,7 +4812,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937461+03:30",
             "finished_seen_at": "2026-11-15T15:52:18.385305+03:30",
-            "next_check_at": "2026-11-15T22:19:27.141793+03:30",
+            "next_check_at": "2026-11-15T22:20:30.353838+03:30",
             "final_complete": false
         },
         "5885634": {
@@ -4859,7 +4860,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937497+03:30",
             "finished_seen_at": "2026-11-15T16:23:24.282143+03:30",
-            "next_check_at": "2026-11-15T22:19:27.141793+03:30",
+            "next_check_at": "2026-11-15T22:20:30.353838+03:30",
             "final_complete": false
         }
     },
