@@ -4332,7 +4332,8 @@
         ],
         "5868538": [
             "1327733"
-        ]
+        ],
+        "5181799": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4493,60 +4494,6 @@
         ]
     },
     "monitored_matches": {
-        "5181799": {
-            "match": {
-                "id": 5181799,
-                "leagueId": 920741,
-                "time": "15.11.2026 20:45",
-                "home": {
-                    "id": 6723,
-                    "score": 0,
-                    "name": "France"
-                },
-                "away": {
-                    "id": 6595,
-                    "score": 0,
-                    "name": "Turkiye"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-11-15T19:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "15.11.2026 20:45:57"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "44‎’‎",
-                        "shortKey": "",
-                        "long": "43:13",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794771900000,
-                "_competition_name": "UEFA Nations League A Grp. 1"
-            },
-            "tracked_player_ids": [
-                184138,
-                210111,
-                488412,
-                692984,
-                955214
-            ],
-            "discovered_at": "2026-11-15T00:00:44.937220+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
-            "final_complete": false
-        },
         "5181860": {
             "match": {
                 "id": 5181860,
@@ -4649,7 +4596,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4836,7 +4783,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         },
         "6040339": {
@@ -4875,7 +4822,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092074+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         },
         "6040403": {
@@ -4914,7 +4861,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092152+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         },
         "6040253": {
@@ -4953,7 +4900,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092233+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4992,7 +4939,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -5031,7 +4978,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T01:08:25.988537+03:30",
+            "next_check_at": "2026-11-16T01:09:16.296256+03:30",
             "final_complete": false
         }
     },
