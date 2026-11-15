@@ -4293,7 +4293,8 @@
             "873297",
             "1321603"
         ],
-        "6391963": []
+        "6391963": [],
+        "5884944": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4544,7 +4545,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937220+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "5181860": {
@@ -4638,7 +4639,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "5868540": {
@@ -4679,7 +4680,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "5868538": {
@@ -4718,7 +4719,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937364+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4757,7 +4758,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "5884944": {
@@ -4776,7 +4777,7 @@
                     "name": "Peña Dep. Santa Eulalia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 3,
+                "statusId": 6,
                 "tournamentStage": "11",
                 "status": {
                     "utcTime": "2026-11-15T10:30:00.000Z",
@@ -4785,19 +4786,16 @@
                         "secondHalfStarted": "15.11.2026 12:33:07"
                     },
                     "periodLength": 45,
-                    "finished": false,
+                    "finished": true,
                     "started": true,
                     "cancelled": false,
-                    "ongoing": true,
+                    "awarded": false,
                     "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:01",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
+                    "reason": {
+                        "short": "FT",
+                        "shortKey": "fulltime_short",
+                        "long": "Full-Time",
+                        "longKey": "finished"
                     }
                 },
                 "timeTS": 1794738600000,
@@ -4807,8 +4805,8 @@
                 128290
             ],
             "discovered_at": "2026-11-15T00:00:44.937461+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "finished_seen_at": "2026-11-15T15:52:18.385305+03:30",
+            "next_check_at": "2026-11-15T15:53:18.385305+03:30",
             "final_complete": false
         },
         "5885634": {
@@ -4842,9 +4840,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "65‎’‎",
+                        "short": "66‎’‎",
                         "shortKey": "",
-                        "long": "64:02",
+                        "long": "65:12",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4859,7 +4857,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937497+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "5990944": {
@@ -4898,7 +4896,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937532+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         },
         "1000022723": {
@@ -4937,7 +4935,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:51:15.978853+03:30",
+            "next_check_at": "2026-11-15T15:52:18.385305+03:30",
             "final_complete": false
         }
     },
