@@ -2958,7 +2958,8 @@
         "5990944": [],
         "5868538": [
             "Substitution|70|None|202639,1327733|"
-        ]
+        ],
+        "5181799": []
     },
     "final_posts": {
         "5991881": [
@@ -4555,17 +4556,28 @@
                     "name": "Turkiye"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-11-15T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "15.11.2026 20:45:00"
+                        "firstHalfStarted": "15.11.2026 20:45:57"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:21",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794771900000,
                 "_competition_name": "UEFA Nations League A Grp. 1"
@@ -4579,7 +4591,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937220+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T23:15:35.294281+03:30",
+            "next_check_at": "2026-11-15T23:16:18.191017+03:30",
             "final_complete": false
         },
         "5181860": {
@@ -4673,7 +4685,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T23:15:35.294281+03:30",
+            "next_check_at": "2026-11-15T23:16:18.191017+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4723,7 +4735,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937424+03:30",
             "finished_seen_at": "2026-11-15T20:58:27.797319+03:30",
-            "next_check_at": "2026-11-15T23:30:35.294281+03:30",
+            "next_check_at": "2026-11-15T23:31:18.191017+03:30",
             "final_complete": false
         },
         "5884944": {
@@ -4771,7 +4783,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937461+03:30",
             "finished_seen_at": "2026-11-15T15:52:18.385305+03:30",
-            "next_check_at": "2026-11-15T23:30:35.294281+03:30",
+            "next_check_at": "2026-11-15T23:31:18.191017+03:30",
             "final_complete": false
         },
         "5885634": {
@@ -4819,7 +4831,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937497+03:30",
             "finished_seen_at": "2026-11-15T16:23:24.282143+03:30",
-            "next_check_at": "2026-11-15T23:30:35.294281+03:30",
+            "next_check_at": "2026-11-15T23:31:18.191017+03:30",
             "final_complete": false
         }
     },
