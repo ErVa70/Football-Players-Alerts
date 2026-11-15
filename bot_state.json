@@ -4544,7 +4544,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937220+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5181860": {
@@ -4638,7 +4638,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937290+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5868540": {
@@ -4679,7 +4679,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937328+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5868538": {
@@ -4718,7 +4718,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937364+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5888111": {
@@ -4757,7 +4757,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937424+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5884944": {
@@ -4772,7 +4772,7 @@
                 },
                 "away": {
                     "id": 8210,
-                    "score": 0,
+                    "score": 1,
                     "name": "Peña Dep. Santa Eulalia"
                 },
                 "eliminatedTeamId": null,
@@ -4789,11 +4789,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 0",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "78‎’‎",
+                        "short": "79‎’‎",
                         "shortKey": "",
-                        "long": "77:15",
+                        "long": "78:03",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4808,7 +4808,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937461+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5885634": {
@@ -4842,9 +4842,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "49‎’‎",
+                        "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "48:16",
+                        "long": "49:04",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4859,7 +4859,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937497+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "5990944": {
@@ -4898,7 +4898,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937532+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         },
         "1000022723": {
@@ -4937,7 +4937,7 @@
             ],
             "discovered_at": "2026-11-15T00:00:44.937568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-15T15:35:24.650458+03:30",
+            "next_check_at": "2026-11-15T15:36:17.502859+03:30",
             "final_complete": false
         }
     },
