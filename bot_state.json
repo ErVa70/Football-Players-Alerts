@@ -2973,7 +2973,8 @@
         ],
         "6040339": [],
         "6040403": [],
-        "6040253": []
+        "6040253": [],
+        "5868536": []
     },
     "final_posts": {
         "5991881": [
@@ -4695,7 +4696,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:00:36.517361+03:30",
+            "next_check_at": "2026-11-16T23:01:21.872168+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4714,7 +4715,7 @@
                     "name": "Celta Fortuna"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "14",
                 "status": {
                     "utcTime": "2026-11-16T19:30:00.000Z",
@@ -4722,9 +4723,20 @@
                         "firstHalfStarted": "16.11.2026 20:30:00"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:09",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794857400000,
                 "_competition_name": "LaLiga2"
@@ -4734,7 +4746,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:00:36.517361+03:30",
+            "next_check_at": "2026-11-16T23:01:21.872168+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4773,7 +4785,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:00:36.517361+03:30",
+            "next_check_at": "2026-11-16T23:01:21.872168+03:30",
             "final_complete": false
         },
         "6462729": {
@@ -4812,7 +4824,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:00:36.517361+03:30",
+            "next_check_at": "2026-11-16T23:01:21.872168+03:30",
             "final_complete": false
         }
     },
