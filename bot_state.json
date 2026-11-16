@@ -4342,7 +4342,8 @@
         "5181860": [
             "873289"
         ],
-        "6040339": []
+        "6040339": [],
+        "6040403": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4687,58 +4688,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:34:22.068273+03:30",
-            "final_complete": false
-        },
-        "6040403": {
-            "match": {
-                "id": 6040403,
-                "leagueId": 943885,
-                "time": "16.11.2026 14:00",
-                "home": {
-                    "id": 5805,
-                    "score": 2,
-                    "name": "Sudan"
-                },
-                "away": {
-                    "id": 6395,
-                    "score": 4,
-                    "name": "Senegal"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-16T13:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "16.11.2026 14:07:27",
-                        "secondHalfStarted": "16.11.2026 15:15:00"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 4",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:21",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794834000000,
-                "_competition_name": "Africa Cup of Nations Qualification Grp. J"
-            },
-            "tracked_player_ids": [
-                643674
-            ],
-            "discovered_at": "2026-11-16T00:00:35.092152+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:34:22.068273+03:30",
+            "next_check_at": "2026-11-16T18:35:39.083008+03:30",
             "final_complete": false
         },
         "6040253": {
@@ -4777,7 +4727,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092233+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:34:22.068273+03:30",
+            "next_check_at": "2026-11-16T18:35:39.083008+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4816,7 +4766,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:34:22.068273+03:30",
+            "next_check_at": "2026-11-16T18:35:39.083008+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4855,7 +4805,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:34:22.068273+03:30",
+            "next_check_at": "2026-11-16T18:35:39.083008+03:30",
             "final_complete": false
         }
     },
