@@ -4708,7 +4708,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:59:15.531430+03:30",
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4758,7 +4758,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:59:15.531430+03:30",
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4797,14 +4797,14 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:59:15.531430+03:30",
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
             "final_complete": false
         },
         "6462729": {
             "match": {
                 "id": 6462729,
                 "leagueId": 914609,
-                "time": "17.11.2026 00:00",
+                "time": "18.11.2026 00:00",
                 "home": {
                     "id": 6706,
                     "score": 0,
@@ -4819,16 +4819,16 @@
                 "statusId": 1,
                 "tournamentStage": "1",
                 "status": {
-                    "utcTime": "2026-11-16T23:00:00.000Z",
+                    "utcTime": "2026-11-17T23:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "17.11.2026 00:00:00"
+                        "firstHalfStarted": "18.11.2026 00:00:00"
                     },
                     "periodLength": 45,
                     "started": false,
                     "cancelled": false,
                     "finished": false
                 },
-                "timeTS": 1794870000000,
+                "timeTS": 1794956400000,
                 "_competition_name": "Friendlies"
             },
             "tracked_player_ids": [
@@ -4836,7 +4836,417 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T23:59:15.531430+03:30",
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "5181871": {
+            "match": {
+                "id": 5181871,
+                "leagueId": 920742,
+                "time": "17.11.2026 20:45",
+                "home": {
+                    "id": 8238,
+                    "score": 0,
+                    "name": "Denmark"
+                },
+                "away": {
+                    "id": 8492,
+                    "score": 0,
+                    "name": "Norway"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "6",
+                "status": {
+                    "utcTime": "2026-11-17T19:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794944700000,
+                "_competition_name": "UEFA Nations League A Grp. 4"
+            },
+            "tracked_player_ids": [
+                169865
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913550+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "5181872": {
+            "match": {
+                "id": 5181872,
+                "leagueId": 920742,
+                "time": "17.11.2026 20:45",
+                "home": {
+                    "id": 5790,
+                    "score": 0,
+                    "name": "Wales"
+                },
+                "away": {
+                    "id": 8361,
+                    "score": 0,
+                    "name": "Portugal"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "6",
+                "status": {
+                    "utcTime": "2026-11-17T19:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794944700000,
+                "_competition_name": "UEFA Nations League A Grp. 4"
+            },
+            "tracked_player_ids": [
+                470834,
+                358147,
+                361770,
+                794427,
+                732282
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913622+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "5181822": {
+            "match": {
+                "id": 5181822,
+                "leagueId": 920747,
+                "time": "17.11.2026 20:45",
+                "home": {
+                    "id": 8567,
+                    "score": 0,
+                    "name": "Israel"
+                },
+                "away": {
+                    "id": 8255,
+                    "score": 0,
+                    "name": "Austria"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "6",
+                "status": {
+                    "utcTime": "2026-11-17T19:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794944700000,
+                "_competition_name": "UEFA Nations League B Grp. 3"
+            },
+            "tracked_player_ids": [
+                1114554
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913671+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "5181848": {
+            "match": {
+                "id": 5181848,
+                "leagueId": 920748,
+                "time": "17.11.2026 20:45",
+                "home": {
+                    "id": 8568,
+                    "score": 0,
+                    "name": "Poland"
+                },
+                "away": {
+                    "id": 8520,
+                    "score": 0,
+                    "name": "Sweden"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "6",
+                "status": {
+                    "utcTime": "2026-11-17T19:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794944700000,
+                "_competition_name": "UEFA Nations League B Grp. 4"
+            },
+            "tracked_player_ids": [
+                93447
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913717+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "6487085": {
+            "match": {
+                "id": 6487085,
+                "leagueId": 914609,
+                "time": "17.11.2026 11:00",
+                "home": {
+                    "id": 5825,
+                    "score": 0,
+                    "name": "Singapore"
+                },
+                "away": {
+                    "id": 8256,
+                    "score": 0,
+                    "name": "Brazil"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-11-17T10:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 11:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794909600000,
+                "_competition_name": "Friendlies"
+            },
+            "tracked_player_ids": [
+                540113,
+                797908,
+                30743,
+                19533,
+                184536,
+                654044,
+                789877,
+                535603,
+                1339347
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913763+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "6540017": {
+            "match": {
+                "id": 6540017,
+                "leagueId": 914609,
+                "time": "18.11.2026 00:00",
+                "home": {
+                    "id": 9762,
+                    "score": 0,
+                    "name": "Chile"
+                },
+                "away": {
+                    "id": 8258,
+                    "score": 0,
+                    "name": "Colombia"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-11-17T23:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "18.11.2026 00:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794956400000,
+                "_competition_name": "Friendlies"
+            },
+            "tracked_player_ids": [
+                496042,
+                301456,
+                49939,
+                50047
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913861+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "6540018": {
+            "match": {
+                "id": 6540018,
+                "leagueId": 914609,
+                "time": "18.11.2026 00:30",
+                "home": {
+                    "id": 5796,
+                    "score": 0,
+                    "name": "Uruguay"
+                },
+                "away": {
+                    "id": 262134,
+                    "score": 0,
+                    "name": "Dominican Republic"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-11-17T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "18.11.2026 00:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794958200000,
+                "_competition_name": "Friendlies"
+            },
+            "tracked_player_ids": [
+                921253,
+                743192,
+                96616
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913906+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "6040205": {
+            "match": {
+                "id": 6040205,
+                "leagueId": 943876,
+                "time": "17.11.2026 14:00",
+                "home": {
+                    "id": 4167,
+                    "score": 0,
+                    "name": "Lesotho"
+                },
+                "away": {
+                    "id": 5889,
+                    "score": 0,
+                    "name": "Gabon"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-11-17T13:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 14:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794920400000,
+                "_competition_name": "Africa Cup of Nations Qualification Grp. A"
+            },
+            "tracked_player_ids": [
+                150565
+            ],
+            "discovered_at": "2026-11-17T00:01:16.913961+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "6040206": {
+            "match": {
+                "id": 6040206,
+                "leagueId": 943876,
+                "time": "17.11.2026 21:00",
+                "home": {
+                    "id": 121281,
+                    "score": 0,
+                    "name": "Niger"
+                },
+                "away": {
+                    "id": 6262,
+                    "score": 0,
+                    "name": "Morocco"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-11-17T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794945600000,
+                "_competition_name": "Africa Cup of Nations Qualification Grp. A"
+            },
+            "tracked_player_ids": [
+                1187506,
+                522579,
+                1209399,
+                1311915
+            ],
+            "discovered_at": "2026-11-17T00:01:16.914009+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
+            "final_complete": false
+        },
+        "6040241": {
+            "match": {
+                "id": 6040241,
+                "leagueId": 943878,
+                "time": "17.11.2026 17:00",
+                "home": {
+                    "id": 5979,
+                    "score": 0,
+                    "name": "Gambia"
+                },
+                "away": {
+                    "id": 6709,
+                    "score": 0,
+                    "name": "Ivory Coast"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "4",
+                "status": {
+                    "utcTime": "2026-11-17T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 17:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794931200000,
+                "_competition_name": "Africa Cup of Nations Qualification Grp. C"
+            },
+            "tracked_player_ids": [
+                579747
+            ],
+            "discovered_at": "2026-11-17T00:01:16.914055+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-17T00:01:16.914099+03:30",
             "final_complete": false
         }
     },
