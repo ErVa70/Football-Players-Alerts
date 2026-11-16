@@ -4341,7 +4341,8 @@
         "5181799": [],
         "5181860": [
             "873289"
-        ]
+        ],
+        "6040339": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4686,58 +4687,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:26:27.464834+03:30",
-            "final_complete": false
-        },
-        "6040339": {
-            "match": {
-                "id": 6040339,
-                "leagueId": 943882,
-                "time": "16.11.2026 14:00",
-                "home": {
-                    "id": 5802,
-                    "score": 0,
-                    "name": "Namibia"
-                },
-                "away": {
-                    "id": 6629,
-                    "score": 3,
-                    "name": "Cameroon"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-16T13:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "16.11.2026 14:02:30",
-                        "secondHalfStarted": "16.11.2026 15:12:07"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 3",
-                    "liveTime": {
-                        "short": "90‎’‎",
-                        "shortKey": "",
-                        "long": "89:20",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794834000000,
-                "_competition_name": "Africa Cup of Nations Qualification Grp. G"
-            },
-            "tracked_player_ids": [
-                545903
-            ],
-            "discovered_at": "2026-11-16T00:00:35.092074+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:26:27.464834+03:30",
+            "next_check_at": "2026-11-16T18:27:16.819716+03:30",
             "final_complete": false
         },
         "6040403": {
@@ -4771,9 +4721,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 3",
                     "liveTime": {
-                        "short": "87‎’‎",
+                        "short": "88‎’‎",
                         "shortKey": "",
-                        "long": "86:27",
+                        "long": "87:16",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4788,7 +4738,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092152+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:26:27.464834+03:30",
+            "next_check_at": "2026-11-16T18:27:16.819716+03:30",
             "final_complete": false
         },
         "6040253": {
@@ -4827,7 +4777,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092233+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:26:27.464834+03:30",
+            "next_check_at": "2026-11-16T18:27:16.819716+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4866,7 +4816,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:26:27.464834+03:30",
+            "next_check_at": "2026-11-16T18:27:16.819716+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4905,7 +4855,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T18:26:27.464834+03:30",
+            "next_check_at": "2026-11-16T18:27:16.819716+03:30",
             "final_complete": false
         }
     },
