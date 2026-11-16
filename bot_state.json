@@ -4686,7 +4686,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T16:37:34.292930+03:30",
+            "next_check_at": "2026-11-16T16:38:25.416029+03:30",
             "final_complete": false
         },
         "6040339": {
@@ -4721,7 +4721,7 @@
                     "liveTime": {
                         "short": "6‎’‎",
                         "shortKey": "",
-                        "long": "5:04",
+                        "long": "5:50",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4736,7 +4736,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092074+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T16:37:34.292930+03:30",
+            "next_check_at": "2026-11-16T16:38:25.416029+03:30",
             "final_complete": false
         },
         "6040403": {
@@ -4755,17 +4755,28 @@
                     "name": "Senegal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-16T13:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "16.11.2026 14:00:00"
+                        "firstHalfStarted": "16.11.2026 14:07:27"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:53",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794834000000,
                 "_competition_name": "Africa Cup of Nations Qualification Grp. J"
@@ -4775,7 +4786,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092152+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T16:37:34.292930+03:30",
+            "next_check_at": "2026-11-16T16:38:25.416029+03:30",
             "final_complete": false
         },
         "6040253": {
@@ -4814,7 +4825,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092233+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T16:37:34.292930+03:30",
+            "next_check_at": "2026-11-16T16:38:25.416029+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4853,7 +4864,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T16:37:34.292930+03:30",
+            "next_check_at": "2026-11-16T16:38:25.416029+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4892,7 +4903,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T16:37:34.292930+03:30",
+            "next_check_at": "2026-11-16T16:38:25.416029+03:30",
             "final_complete": false
         }
     },
