@@ -4690,7 +4690,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:16:18.462808+03:30",
+            "next_check_at": "2026-11-16T20:17:17.067941+03:30",
             "final_complete": false
         },
         "6040253": {
@@ -4723,9 +4723,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "45‎’‎",
+                        "short": "46‎’‎",
                         "shortKey": "",
-                        "long": "44:42",
+                        "long": "45:42",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4740,7 +4740,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092233+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:16:18.462808+03:30",
+            "next_check_at": "2026-11-16T20:17:17.067941+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4779,7 +4779,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:16:18.462808+03:30",
+            "next_check_at": "2026-11-16T20:17:17.067941+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4818,7 +4818,46 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:16:18.462808+03:30",
+            "next_check_at": "2026-11-16T20:17:17.067941+03:30",
+            "final_complete": false
+        },
+        "6462729": {
+            "match": {
+                "id": 6462729,
+                "leagueId": 914609,
+                "time": "17.11.2026 00:00",
+                "home": {
+                    "id": 6706,
+                    "score": 0,
+                    "name": "Argentina"
+                },
+                "away": {
+                    "id": 6705,
+                    "score": 0,
+                    "name": "Costa Rica"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1",
+                "status": {
+                    "utcTime": "2026-11-16T23:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "17.11.2026 00:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1794870000000,
+                "_competition_name": "Friendlies"
+            },
+            "tracked_player_ids": [
+                30981
+            ],
+            "discovered_at": "2026-11-16T20:17:17.067605+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-16T20:17:17.067941+03:30",
             "final_complete": false
         }
     },
