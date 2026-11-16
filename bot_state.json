@@ -4690,7 +4690,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.091930+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:37:28.825585+03:30",
+            "next_check_at": "2026-11-16T20:38:19.374937+03:30",
             "final_complete": false
         },
         "6040253": {
@@ -4709,12 +4709,13 @@
                     "name": "Guinea"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-16T16:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "16.11.2026 17:01:33"
+                        "firstHalfStarted": "16.11.2026 17:01:33",
+                        "secondHalfStarted": "16.11.2026 18:07:20"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -4723,12 +4724,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:59",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -4740,7 +4741,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092233+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:37:28.825585+03:30",
+            "next_check_at": "2026-11-16T20:38:19.374937+03:30",
             "final_complete": false
         },
         "5868536": {
@@ -4779,7 +4780,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092306+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:37:28.825585+03:30",
+            "next_check_at": "2026-11-16T20:38:19.374937+03:30",
             "final_complete": false
         },
         "6561781": {
@@ -4818,7 +4819,7 @@
             ],
             "discovered_at": "2026-11-16T00:00:35.092381+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:37:28.825585+03:30",
+            "next_check_at": "2026-11-16T20:38:19.374937+03:30",
             "final_complete": false
         },
         "6462729": {
@@ -4857,7 +4858,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-16T20:37:28.825585+03:30",
+            "next_check_at": "2026-11-16T20:38:19.374937+03:30",
             "final_complete": false
         }
     },
