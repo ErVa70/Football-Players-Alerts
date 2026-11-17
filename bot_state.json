@@ -4410,7 +4410,8 @@
         ],
         "5181848": [
             "93447"
-        ]
+        ],
+        "5181822": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4607,7 +4608,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4657,57 +4658,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
-            "final_complete": false
-        },
-        "5181822": {
-            "match": {
-                "id": 5181822,
-                "leagueId": 920747,
-                "time": "17.11.2026 20:45",
-                "home": {
-                    "id": 8567,
-                    "score": 1,
-                    "name": "Israel"
-                },
-                "away": {
-                    "id": 8255,
-                    "score": 0,
-                    "name": "Austria"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "6",
-                "status": {
-                    "utcTime": "2026-11-17T19:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "17.11.2026 20:46:16"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "43‎’‎",
-                        "shortKey": "",
-                        "long": "42:53",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794944700000,
-                "_competition_name": "UEFA Nations League B Grp. 3"
-            },
-            "tracked_player_ids": [
-                1114554
-            ],
-            "discovered_at": "2026-11-17T00:01:16.913671+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4749,7 +4700,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4790,7 +4741,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4843,7 +4794,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "6391964": {
@@ -4884,7 +4835,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804493+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -4923,7 +4874,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "5103711": {
@@ -4964,7 +4915,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804629+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "5103709": {
@@ -5003,7 +4954,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804685+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         },
         "5103704": {
@@ -5042,7 +4993,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T01:10:39.702022+03:30",
+            "next_check_at": "2026-11-18T01:11:18.086488+03:30",
             "final_complete": false
         }
     },
