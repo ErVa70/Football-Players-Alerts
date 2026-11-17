@@ -1552,7 +1552,10 @@
             "Martín Cáceres|BENCH"
         ],
         "6487085": [],
-        "6040205": []
+        "6040205": [],
+        "6040241": [
+            "Franck Kessié|STARTING XI"
+        ]
     },
     "match_events": {
         "5071387": [
@@ -4566,7 +4569,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4605,7 +4608,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "5181872": {
@@ -4648,7 +4651,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913622+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "5181822": {
@@ -4687,7 +4690,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "5181848": {
@@ -4726,7 +4729,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4768,7 +4771,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4809,7 +4812,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4851,7 +4854,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         },
         "6040241": {
@@ -4870,17 +4873,28 @@
                     "name": "Ivory Coast"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-17T16:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "17.11.2026 17:00:00"
+                        "firstHalfStarted": "17.11.2026 17:04:08"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:28",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794931200000,
                 "_competition_name": "Africa Cup of Nations Qualification Grp. C"
@@ -4890,7 +4904,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914055+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T19:34:18.996721+03:30",
+            "next_check_at": "2026-11-17T19:35:42.171750+03:30",
             "final_complete": false
         }
     },
