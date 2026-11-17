@@ -2999,7 +2999,8 @@
         "6040205": [],
         "6040241": [
             "Substitution|74|None|1425182,579747|"
-        ]
+        ],
+        "5181872": []
     },
     "final_posts": {
         "5991881": [
@@ -4583,7 +4584,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4622,7 +4623,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "5181872": {
@@ -4641,17 +4642,28 @@
                     "name": "Portugal"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-11-17T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "17.11.2026 20:45:00"
+                        "firstHalfStarted": "17.11.2026 20:45:13"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:15",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794944700000,
                 "_competition_name": "UEFA Nations League A Grp. 4"
@@ -4665,7 +4677,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913622+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "5181822": {
@@ -4704,7 +4716,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "5181848": {
@@ -4743,7 +4755,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4785,7 +4797,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4826,7 +4838,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4868,7 +4880,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:14:33.753436+03:30",
+            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
             "final_complete": false
         }
     },
