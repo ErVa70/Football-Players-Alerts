@@ -3000,7 +3000,9 @@
         "6040241": [
             "Substitution|74|None|1425182,579747|"
         ],
-        "5181872": []
+        "5181872": [],
+        "5181822": [],
+        "5181848": []
     },
     "final_posts": {
         "5991881": [
@@ -4584,7 +4586,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4623,7 +4625,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "5181872": {
@@ -4656,9 +4658,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:15",
+                        "long": "1:14",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4677,7 +4679,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913622+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "5181822": {
@@ -4696,17 +4698,28 @@
                     "name": "Austria"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-11-17T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "17.11.2026 20:45:00"
+                        "firstHalfStarted": "17.11.2026 20:46:16"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:11",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794944700000,
                 "_competition_name": "UEFA Nations League B Grp. 3"
@@ -4716,7 +4729,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "5181848": {
@@ -4735,17 +4748,28 @@
                     "name": "Sweden"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "6",
                 "status": {
                     "utcTime": "2026-11-17T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "17.11.2026 20:45:00"
+                        "firstHalfStarted": "17.11.2026 20:46:15"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:12",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794944700000,
                 "_competition_name": "UEFA Nations League B Grp. 4"
@@ -4755,7 +4779,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4797,7 +4821,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4838,7 +4862,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4880,7 +4904,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:15:29.079489+03:30",
+            "next_check_at": "2026-11-17T23:16:27.489394+03:30",
             "final_complete": false
         }
     },
