@@ -1555,6 +1555,14 @@
         "6040205": [],
         "6040241": [
             "Franck Kessié|STARTING XI"
+        ],
+        "5181871": [],
+        "5181872": [
+            "Trincão|STARTING XI",
+            "João Félix|BENCH"
+        ],
+        "5181848": [
+            "Robert Lewandowski|BENCH"
         ]
     },
     "match_events": {
@@ -4574,7 +4582,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4613,7 +4621,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "5181872": {
@@ -4656,7 +4664,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913622+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "5181822": {
@@ -4695,7 +4703,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "5181848": {
@@ -4734,7 +4742,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4776,7 +4784,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4817,7 +4825,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4859,7 +4867,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T22:14:17.755800+03:30",
+            "next_check_at": "2026-11-17T22:15:30.566511+03:30",
             "final_complete": false
         }
     },
