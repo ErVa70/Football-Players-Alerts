@@ -1567,7 +1567,9 @@
         "5181822": [],
         "6040206": [
             "Abdessamad Ezzalzouli|BENCH"
-        ]
+        ],
+        "5103711": [],
+        "5103704": []
     },
     "match_events": {
         "5071387": [
@@ -4593,7 +4595,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4643,7 +4645,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "5181872": {
@@ -4697,7 +4699,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913622+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "5181822": {
@@ -4747,7 +4749,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "5181848": {
@@ -4797,7 +4799,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4839,7 +4841,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4880,7 +4882,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4933,7 +4935,206 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T23:59:14.339040+03:30",
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
+            "final_complete": false
+        },
+        "6391964": {
+            "match": {
+                "id": 6391964,
+                "leagueId": 941129,
+                "time": "18.11.2026 01:00",
+                "home": {
+                    "id": 6713,
+                    "score": 0,
+                    "name": "USA"
+                },
+                "away": {
+                    "id": 5934,
+                    "score": 0,
+                    "name": "Haiti"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1/4",
+                "status": {
+                    "utcTime": "2026-11-18T00:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "18.11.2026 01:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false,
+                    "aggregatedStr": "6 - 0"
+                },
+                "timeTS": 1794960000000,
+                "_competition_name": "CONCACAF Nations League A Championship Playoff"
+            },
+            "tracked_player_ids": [
+                892816,
+                1054033
+            ],
+            "discovered_at": "2026-11-18T00:00:37.804493+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
+            "final_complete": false
+        },
+        "6386038": {
+            "match": {
+                "id": 6386038,
+                "leagueId": 1000005300,
+                "time": "18.11.2026 20:00",
+                "home": {
+                    "id": 4697,
+                    "score": 0,
+                    "name": "Alcoyano"
+                },
+                "away": {
+                    "id": 8661,
+                    "score": 0,
+                    "name": "Mallorca"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1st Round",
+                "status": {
+                    "utcTime": "2026-11-18T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "18.11.2026 20:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795028400000,
+                "_competition_name": "Copa del Rey - 1st Round"
+            },
+            "tracked_player_ids": [
+                1233404
+            ],
+            "discovered_at": "2026-11-18T00:00:37.804568+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
+            "final_complete": false
+        },
+        "5103711": {
+            "match": {
+                "id": 5103711,
+                "leagueId": 1000001407,
+                "time": "18.11.2026 23:30",
+                "home": {
+                    "id": 9767,
+                    "score": 0,
+                    "name": "Coritiba"
+                },
+                "away": {
+                    "id": 8514,
+                    "score": 0,
+                    "name": "Santos"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "35",
+                "status": {
+                    "utcTime": "2026-11-18T22:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "18.11.2026 23:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795041000000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                19533,
+                184536,
+                654044
+            ],
+            "discovered_at": "2026-11-18T00:00:37.804629+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
+            "final_complete": false
+        },
+        "5103709": {
+            "match": {
+                "id": 5103709,
+                "leagueId": 1000001407,
+                "time": "19.11.2026 00:30",
+                "home": {
+                    "id": 9781,
+                    "score": 0,
+                    "name": "Cruzeiro"
+                },
+                "away": {
+                    "id": 10283,
+                    "score": 0,
+                    "name": "Palmeiras"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "35",
+                "status": {
+                    "utcTime": "2026-11-18T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "19.11.2026 00:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795044600000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                1339347
+            ],
+            "discovered_at": "2026-11-18T00:00:37.804685+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
+            "final_complete": false
+        },
+        "5103704": {
+            "match": {
+                "id": 5103704,
+                "leagueId": 1000001407,
+                "time": "19.11.2026 00:30",
+                "home": {
+                    "id": 9770,
+                    "score": 0,
+                    "name": "Flamengo"
+                },
+                "away": {
+                    "id": 10273,
+                    "score": 0,
+                    "name": "Athletico Paranaense"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "35",
+                "status": {
+                    "utcTime": "2026-11-18T23:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "19.11.2026 00:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795044600000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                797908
+            ],
+            "discovered_at": "2026-11-18T00:00:37.804740+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-18T00:00:37.804799+03:30",
             "final_complete": false
         }
     },
