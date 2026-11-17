@@ -4374,7 +4374,10 @@
         ],
         "6561781": [],
         "6487085": [],
-        "6040205": []
+        "6040205": [],
+        "6040241": [
+            "579747"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4571,7 +4574,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "5181871": {
@@ -4610,7 +4613,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913550+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "5181872": {
@@ -4653,7 +4656,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913622+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "5181822": {
@@ -4692,7 +4695,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913671+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "5181848": {
@@ -4731,7 +4734,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4773,7 +4776,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4814,7 +4817,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         },
         "6040206": {
@@ -4856,60 +4859,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.914009+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
-            "final_complete": false
-        },
-        "6040241": {
-            "match": {
-                "id": 6040241,
-                "leagueId": 943878,
-                "time": "17.11.2026 17:00",
-                "home": {
-                    "id": 5979,
-                    "score": 2,
-                    "name": "Gambia",
-                    "redCards": 1
-                },
-                "away": {
-                    "id": 6709,
-                    "score": 2,
-                    "name": "Ivory Coast"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-17T16:00:00.000Z",
-                    "numberOfHomeRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "17.11.2026 17:04:08",
-                        "secondHalfStarted": "17.11.2026 18:12:31"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 2",
-                    "liveTime": {
-                        "short": "99‎’‎",
-                        "shortKey": "",
-                        "long": "98:38",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794931200000,
-                "_competition_name": "Africa Cup of Nations Qualification Grp. C"
-            },
-            "tracked_player_ids": [
-                579747
-            ],
-            "discovered_at": "2026-11-17T00:01:16.914055+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-17T21:36:18.283607+03:30",
+            "next_check_at": "2026-11-17T21:37:32.734012+03:30",
             "final_complete": false
         }
     },
