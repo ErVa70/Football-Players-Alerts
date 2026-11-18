@@ -3029,7 +3029,8 @@
         "6462729": [],
         "6540017": [],
         "6540018": [],
-        "6391964": []
+        "6391964": [],
+        "6386038": []
     },
     "final_posts": {
         "5991881": [
@@ -4609,17 +4610,28 @@
                     "name": "Mallorca"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1st Round",
                 "status": {
                     "utcTime": "2026-11-18T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "18.11.2026 20:00:00"
+                        "firstHalfStarted": "18.11.2026 20:01:57"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:23",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795028400000,
                 "_competition_name": "Copa del Rey - 1st Round"
@@ -4629,7 +4641,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T22:31:20.036553+03:30",
+            "next_check_at": "2026-11-18T22:32:23.411413+03:30",
             "final_complete": false
         },
         "5103711": {
@@ -4670,7 +4682,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804629+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T22:31:20.036553+03:30",
+            "next_check_at": "2026-11-18T22:32:23.411413+03:30",
             "final_complete": false
         },
         "5103709": {
@@ -4709,7 +4721,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804685+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T22:31:20.036553+03:30",
+            "next_check_at": "2026-11-18T22:32:23.411413+03:30",
             "final_complete": false
         },
         "5103704": {
@@ -4748,7 +4760,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T22:31:20.036553+03:30",
+            "next_check_at": "2026-11-18T22:32:23.411413+03:30",
             "final_complete": false
         },
         "6684553": {
@@ -4788,7 +4800,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T22:31:20.036553+03:30",
+            "next_check_at": "2026-11-18T22:32:23.411413+03:30",
             "final_complete": false
         }
     },
