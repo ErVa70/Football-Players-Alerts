@@ -4590,7 +4590,7 @@
                 "time": "18.11.2026 00:00",
                 "home": {
                     "id": 6706,
-                    "score": 0,
+                    "score": 4,
                     "name": "Argentina"
                 },
                 "away": {
@@ -4599,17 +4599,28 @@
                     "name": "Costa Rica"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 10,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-11-17T23:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "18.11.2026 00:00:00"
+                        "firstHalfStarted": "18.11.2026 00:01:49"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "4 - 0",
+                    "liveTime": {
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794956400000,
                 "_competition_name": "Friendlies"
@@ -4619,7 +4630,7 @@
             ],
             "discovered_at": "2026-11-16T20:17:17.067605+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "6540017": {
@@ -4638,17 +4649,28 @@
                     "name": "Colombia"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 10,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-11-17T23:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "18.11.2026 00:00:00"
+                        "firstHalfStarted": "18.11.2026 00:08:14"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794956400000,
                 "_competition_name": "Friendlies"
@@ -4661,7 +4683,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913861+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "6540018": {
@@ -4680,17 +4702,28 @@
                     "name": "Dominican Republic"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1",
                 "status": {
                     "utcTime": "2026-11-17T23:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "18.11.2026 00:30:00"
+                        "firstHalfStarted": "18.11.2026 00:31:04"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "31‎’‎",
+                        "shortKey": "",
+                        "long": "30:10",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1794958200000,
                 "_competition_name": "Friendlies"
@@ -4702,7 +4735,7 @@
             ],
             "discovered_at": "2026-11-17T00:01:16.913906+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "6391964": {
@@ -4743,7 +4776,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804493+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -4782,7 +4815,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "5103711": {
@@ -4823,7 +4856,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804629+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "5103709": {
@@ -4862,7 +4895,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804685+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         },
         "5103704": {
@@ -4901,7 +4934,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T03:30:51.328434+03:30",
+            "next_check_at": "2026-11-18T03:31:16.750425+03:30",
             "final_complete": false
         }
     },
