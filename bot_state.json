@@ -1578,7 +1578,8 @@
         "6540018": [
             "Ronald Araujo|BENCH"
         ],
-        "6391964": []
+        "6391964": [],
+        "5103712": []
     },
     "match_events": {
         "5071387": [
@@ -4642,7 +4643,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T23:59:15.139248+03:30",
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
             "final_complete": false
         },
         "5103711": {
@@ -4683,7 +4684,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804629+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T23:59:15.139248+03:30",
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
             "final_complete": false
         },
         "5103709": {
@@ -4722,7 +4723,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804685+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T23:59:15.139248+03:30",
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
             "final_complete": false
         },
         "5103704": {
@@ -4761,7 +4762,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T23:59:15.139248+03:30",
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
             "final_complete": false
         },
         "6684553": {
@@ -4801,7 +4802,164 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T23:59:15.139248+03:30",
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
+            "final_complete": false
+        },
+        "5952302": {
+            "match": {
+                "id": 5952302,
+                "leagueId": 1000001746,
+                "time": "19.11.2026 16:30",
+                "home": {
+                    "id": 179097,
+                    "score": 0,
+                    "name": "Al-Ahli"
+                },
+                "away": {
+                    "id": 101904,
+                    "score": 0,
+                    "name": "Al-Shamal"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "10",
+                "status": {
+                    "utcTime": "2026-11-19T15:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "19.11.2026 16:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795102200000,
+                "_competition_name": "Qatar Stars League"
+            },
+            "tracked_player_ids": [
+                301456,
+                929834
+            ],
+            "discovered_at": "2026-11-19T00:00:45.147082+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
+            "final_complete": false
+        },
+        "5103707": {
+            "match": {
+                "id": 5103707,
+                "leagueId": 1000001407,
+                "time": "19.11.2026 01:30",
+                "home": {
+                    "id": 9808,
+                    "score": 0,
+                    "name": "Corinthians"
+                },
+                "away": {
+                    "id": 8517,
+                    "score": 0,
+                    "name": "Botafogo"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "35",
+                "status": {
+                    "utcTime": "2026-11-19T00:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "19.11.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795048200000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                303824
+            ],
+            "discovered_at": "2026-11-19T00:00:45.147157+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
+            "final_complete": false
+        },
+        "5103710": {
+            "match": {
+                "id": 5103710,
+                "leagueId": 1000001407,
+                "time": "19.11.2026 01:30",
+                "home": {
+                    "id": 9769,
+                    "score": 0,
+                    "name": "Grêmio"
+                },
+                "away": {
+                    "id": 7877,
+                    "score": 0,
+                    "name": "Bahia"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "35",
+                "status": {
+                    "utcTime": "2026-11-19T00:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "19.11.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795048200000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                169865
+            ],
+            "discovered_at": "2026-11-19T00:00:45.147193+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
+            "final_complete": false
+        },
+        "5103712": {
+            "match": {
+                "id": 5103712,
+                "leagueId": 1000001407,
+                "time": "19.11.2026 23:30",
+                "home": {
+                    "id": 7733,
+                    "score": 0,
+                    "name": "Vitória"
+                },
+                "away": {
+                    "id": 109705,
+                    "score": 0,
+                    "name": "RB Bragantino"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "35",
+                "status": {
+                    "utcTime": "2026-11-19T22:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "19.11.2026 23:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795127400000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                789877
+            ],
+            "discovered_at": "2026-11-19T00:00:45.147227+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-19T00:00:45.147262+03:30",
             "final_complete": false
         }
     },
