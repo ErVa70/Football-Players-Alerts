@@ -4425,7 +4425,10 @@
         "5181871": [],
         "6040206": [],
         "6462729": [],
-        "6540017": []
+        "6540017": [],
+        "6540018": [
+            "921253"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4586,59 +4589,6 @@
         ]
     },
     "monitored_matches": {
-        "6540018": {
-            "match": {
-                "id": 6540018,
-                "leagueId": 914609,
-                "time": "18.11.2026 00:30",
-                "home": {
-                    "id": 5796,
-                    "score": 5,
-                    "name": "Uruguay"
-                },
-                "away": {
-                    "id": 262134,
-                    "score": 0,
-                    "name": "Dominican Republic"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1",
-                "status": {
-                    "utcTime": "2026-11-17T23:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "18.11.2026 00:31:04",
-                        "secondHalfStarted": "18.11.2026 01:35:29"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "5 - 0",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:56",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1794958200000,
-                "_competition_name": "Friendlies"
-            },
-            "tracked_player_ids": [
-                96616,
-                743192,
-                921253
-            ],
-            "discovered_at": "2026-11-17T00:01:16.913906+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-18T04:54:25.879532+03:30",
-            "final_complete": false
-        },
         "6391964": {
             "match": {
                 "id": 6391964,
@@ -4670,9 +4620,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 0",
                     "liveTime": {
-                        "short": "58‎’‎",
+                        "short": "59‎’‎",
                         "shortKey": "",
-                        "long": "57:23",
+                        "long": "58:20",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4689,7 +4639,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804493+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T04:54:25.879532+03:30",
+            "next_check_at": "2026-11-18T04:55:22.866314+03:30",
             "final_complete": false
         },
         "6386038": {
@@ -4728,7 +4678,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804568+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T04:54:25.879532+03:30",
+            "next_check_at": "2026-11-18T04:55:22.866314+03:30",
             "final_complete": false
         },
         "5103711": {
@@ -4769,7 +4719,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804629+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T04:54:25.879532+03:30",
+            "next_check_at": "2026-11-18T04:55:22.866314+03:30",
             "final_complete": false
         },
         "5103709": {
@@ -4808,7 +4758,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804685+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T04:54:25.879532+03:30",
+            "next_check_at": "2026-11-18T04:55:22.866314+03:30",
             "final_complete": false
         },
         "5103704": {
@@ -4847,7 +4797,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-18T04:54:25.879532+03:30",
+            "next_check_at": "2026-11-18T04:55:22.866314+03:30",
             "final_complete": false
         }
     },
