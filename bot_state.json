@@ -3055,7 +3055,9 @@
             "Substitution|87|None|925841,654044|"
         ],
         "5103704": [],
-        "5103709": []
+        "5103709": [],
+        "5103707": [],
+        "5103710": []
     },
     "final_posts": {
         "5991881": [
@@ -4702,9 +4704,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "91‎’‎",
+                        "short": "93‎’‎",
                         "shortKey": "",
-                        "long": "90:52",
+                        "long": "92:24",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4721,7 +4723,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804629+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "5103709": {
@@ -4771,7 +4773,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804685+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "5103704": {
@@ -4821,7 +4823,7 @@
             ],
             "discovered_at": "2026-11-18T00:00:37.804740+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "6684553": {
@@ -4861,7 +4863,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "5952302": {
@@ -4901,7 +4903,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147082+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "5103707": {
@@ -4920,17 +4922,28 @@
                     "name": "Botafogo"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "35",
                 "status": {
                     "utcTime": "2026-11-19T00:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "19.11.2026 01:30:00"
+                        "firstHalfStarted": "19.11.2026 01:30:12"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:39",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795048200000,
                 "_competition_name": "Série A"
@@ -4940,7 +4953,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147157+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "5103710": {
@@ -4979,7 +4992,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147193+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         },
         "5103712": {
@@ -5018,7 +5031,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147227+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T03:59:19.174725+03:30",
+            "next_check_at": "2026-11-19T04:00:51.591514+03:30",
             "final_complete": false
         }
     },
