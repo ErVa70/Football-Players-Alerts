@@ -4794,7 +4794,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T23:59:18.446138+03:30",
+            "next_check_at": "2026-11-20T00:00:35.450009+03:30",
             "final_complete": false
         },
         "5103712": {
@@ -4833,7 +4833,167 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147227+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T23:59:18.446138+03:30",
+            "next_check_at": "2026-11-20T00:00:35.450009+03:30",
+            "final_complete": false
+        },
+        "6580833": {
+            "match": {
+                "id": 6580833,
+                "leagueId": 957981,
+                "time": "20.11.2026 01:30",
+                "home": {
+                    "id": 267810,
+                    "score": 0,
+                    "name": "Orlando City",
+                    "shortName": "Orlando"
+                },
+                "away": {
+                    "id": 722265,
+                    "score": 0,
+                    "name": "FC Cincinnati",
+                    "shortName": "Cincinnati"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "1/16",
+                "status": {
+                    "utcTime": "2026-11-20T00:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "20.11.2026 01:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795134600000,
+                "_competition_name": "Major League Soccer Playoff"
+            },
+            "tracked_player_ids": [
+                184138
+            ],
+            "discovered_at": "2026-11-20T00:00:35.449748+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-20T00:00:35.450009+03:30",
+            "final_complete": false
+        },
+        "5909336": {
+            "match": {
+                "id": 5909336,
+                "leagueId": 940431,
+                "time": "20.11.2026 17:00",
+                "home": {
+                    "id": 9728,
+                    "score": 0,
+                    "name": "Shakhtar Donetsk"
+                },
+                "away": {
+                    "id": 1507991,
+                    "score": 0,
+                    "name": "Liviy Bereh"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-20T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "20.11.2026 17:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795190400000,
+                "_competition_name": "Premier League"
+            },
+            "tracked_player_ids": [
+                540113
+            ],
+            "discovered_at": "2026-11-20T00:00:35.449834+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-20T00:00:35.450009+03:30",
+            "final_complete": false
+        },
+        "5883746": {
+            "match": {
+                "id": 5883746,
+                "leagueId": 938783,
+                "time": "20.11.2026 21:00",
+                "home": {
+                    "id": 161771,
+                    "score": 0,
+                    "name": "Villarreal B"
+                },
+                "away": {
+                    "id": 8400,
+                    "score": 0,
+                    "name": "Gimnàstic"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-20T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "20.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795204800000,
+                "_competition_name": "Primera Federacion - Group 2"
+            },
+            "tracked_player_ids": [
+                545903
+            ],
+            "discovered_at": "2026-11-20T00:00:35.449894+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-20T00:00:35.450009+03:30",
+            "final_complete": false
+        },
+        "5970153": {
+            "match": {
+                "id": 5970153,
+                "leagueId": 1000001787,
+                "time": "20.11.2026 18:30",
+                "home": {
+                    "id": 2530,
+                    "score": 0,
+                    "name": "Al Ahli"
+                },
+                "away": {
+                    "id": 101918,
+                    "score": 0,
+                    "name": "Al Nassr FC"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "9",
+                "status": {
+                    "utcTime": "2026-11-20T17:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "20.11.2026 18:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795195800000,
+                "_competition_name": "Saudi Pro League"
+            },
+            "tracked_player_ids": [
+                282676,
+                794427,
+                732282
+            ],
+            "discovered_at": "2026-11-20T00:00:35.449953+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-20T00:00:35.450009+03:30",
             "final_complete": false
         }
     },
