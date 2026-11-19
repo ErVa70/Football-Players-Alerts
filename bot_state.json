@@ -4479,6 +4479,9 @@
         "5103704": [],
         "5103709": [
             "1339347"
+        ],
+        "5103707": [
+            "303824"
         ]
     },
     "transfer_monitor": {
@@ -4779,7 +4782,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T05:50:38.750825+03:30",
+            "next_check_at": "2026-11-19T05:51:17.604547+03:30",
             "final_complete": false
         },
         "5952302": {
@@ -4819,58 +4822,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147082+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T05:50:38.750825+03:30",
-            "final_complete": false
-        },
-        "5103707": {
-            "match": {
-                "id": 5103707,
-                "leagueId": 1000001407,
-                "time": "19.11.2026 01:30",
-                "home": {
-                    "id": 9808,
-                    "score": 4,
-                    "name": "Corinthians"
-                },
-                "away": {
-                    "id": 8517,
-                    "score": 0,
-                    "name": "Botafogo"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "35",
-                "status": {
-                    "utcTime": "2026-11-19T00:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "19.11.2026 01:30:12",
-                        "secondHalfStarted": "19.11.2026 02:35:11"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "4 - 0",
-                    "liveTime": {
-                        "short": "91‎’‎",
-                        "shortKey": "",
-                        "long": "90:27",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795048200000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                303824
-            ],
-            "discovered_at": "2026-11-19T00:00:45.147157+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-19T05:50:38.750825+03:30",
+            "next_check_at": "2026-11-19T05:51:17.604547+03:30",
             "final_complete": false
         },
         "5103710": {
@@ -4904,9 +4856,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "90‎’‎",
+                        "short": "91‎’‎",
                         "shortKey": "",
-                        "long": "89:41",
+                        "long": "90:12",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4921,7 +4873,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147193+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T05:50:38.750825+03:30",
+            "next_check_at": "2026-11-19T05:51:17.604547+03:30",
             "final_complete": false
         },
         "5103712": {
@@ -4960,7 +4912,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147227+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-19T05:50:38.750825+03:30",
+            "next_check_at": "2026-11-19T05:51:17.604547+03:30",
             "final_complete": false
         }
     },
