@@ -3090,7 +3090,8 @@
             "Substitution|77|None|789877,960494|"
         ],
         "6580833": [],
-        "5909336": []
+        "5909336": [],
+        "5970153": []
     },
     "final_posts": {
         "5991881": [
@@ -4818,7 +4819,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:00:36.732969+03:30",
+            "next_check_at": "2026-11-20T21:01:16.081936+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4852,9 +4853,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "69‎’‎",
+                        "short": "70‎’‎",
                         "shortKey": "",
-                        "long": "68:55",
+                        "long": "69:27",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4869,7 +4870,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:00:36.732969+03:30",
+            "next_check_at": "2026-11-20T21:01:16.081936+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4908,7 +4909,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:00:36.732969+03:30",
+            "next_check_at": "2026-11-20T21:01:16.081936+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4927,17 +4928,28 @@
                     "name": "Al Nassr FC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-11-20T17:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.11.2026 18:30:00"
+                        "firstHalfStarted": "20.11.2026 18:30:32"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:36",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795195800000,
                 "_competition_name": "Saudi Pro League"
@@ -4949,7 +4961,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:00:36.732969+03:30",
+            "next_check_at": "2026-11-20T21:01:16.081936+03:30",
             "final_complete": false
         }
     },
