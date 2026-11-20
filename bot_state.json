@@ -4519,7 +4519,8 @@
         ],
         "6580833": [
             "184138"
-        ]
+        ],
+        "5909336": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -4819,58 +4820,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:25:31.840651+03:30",
-            "final_complete": false
-        },
-        "5909336": {
-            "match": {
-                "id": 5909336,
-                "leagueId": 940431,
-                "time": "20.11.2026 17:00",
-                "home": {
-                    "id": 9728,
-                    "score": 1,
-                    "name": "Shakhtar Donetsk"
-                },
-                "away": {
-                    "id": 1507991,
-                    "score": 1,
-                    "name": "Liviy Bereh"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "13",
-                "status": {
-                    "utcTime": "2026-11-20T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "20.11.2026 17:03:29",
-                        "secondHalfStarted": "20.11.2026 18:06:41"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "94‎’‎",
-                        "shortKey": "",
-                        "long": "93:50",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795190400000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                540113
-            ],
-            "discovered_at": "2026-11-20T00:00:35.449834+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:25:31.840651+03:30",
+            "next_check_at": "2026-11-20T21:26:17.612681+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4909,7 +4859,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:25:31.840651+03:30",
+            "next_check_at": "2026-11-20T21:26:17.612681+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4942,9 +4892,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "25‎’‎",
+                        "short": "26‎’‎",
                         "shortKey": "",
-                        "long": "24:59",
+                        "long": "25:38",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4961,7 +4911,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:25:31.840651+03:30",
+            "next_check_at": "2026-11-20T21:26:17.612681+03:30",
             "final_complete": false
         }
     },
