@@ -3093,7 +3093,8 @@
         "5909336": [],
         "5970153": [
             "id:0"
-        ]
+        ],
+        "5883746": []
     },
     "final_posts": {
         "5991881": [
@@ -4776,7 +4777,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T23:31:16.098462+03:30",
+            "next_check_at": "2026-11-20T23:32:18.052883+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4795,17 +4796,28 @@
                     "name": "Gimnàstic"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "13",
                 "status": {
                     "utcTime": "2026-11-20T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.11.2026 21:00:00"
+                        "firstHalfStarted": "20.11.2026 21:01:18"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:52",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795204800000,
                 "_competition_name": "Primera Federacion - Group 2"
@@ -4815,7 +4827,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T23:31:16.098462+03:30",
+            "next_check_at": "2026-11-20T23:32:18.052883+03:30",
             "final_complete": false
         }
     },
