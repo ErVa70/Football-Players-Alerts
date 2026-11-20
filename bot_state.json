@@ -4820,7 +4820,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:50:37.454915+03:30",
+            "next_check_at": "2026-11-20T21:51:23.393830+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4859,7 +4859,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:50:37.454915+03:30",
+            "next_check_at": "2026-11-20T21:51:23.393830+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4878,7 +4878,7 @@
                     "name": "Al Nassr FC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "9",
                 "status": {
                     "utcTime": "2026-11-20T17:30:00.000Z",
@@ -4892,10 +4892,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "51‎’‎",
-                        "shortKey": "",
-                        "long": "50:05",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -4911,7 +4911,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:50:37.454915+03:30",
+            "next_check_at": "2026-11-20T21:51:23.393830+03:30",
             "final_complete": false
         }
     },
