@@ -3081,7 +3081,8 @@
         "5103712": [
             "id:0",
             "Substitution|77|None|789877,960494|"
-        ]
+        ],
+        "6580833": []
     },
     "final_posts": {
         "5991881": [
@@ -4806,7 +4807,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:10:26.400088+03:30",
+            "next_check_at": "2026-11-20T04:11:30.096999+03:30",
             "final_complete": false
         },
         "6580833": {
@@ -4827,17 +4828,28 @@
                     "shortName": "Cincinnati"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1/16",
                 "status": {
                     "utcTime": "2026-11-20T00:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.11.2026 01:30:00"
+                        "firstHalfStarted": "20.11.2026 01:40:34"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:55",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795134600000,
                 "_competition_name": "Major League Soccer Playoff"
@@ -4847,7 +4859,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449748+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:10:26.400088+03:30",
+            "next_check_at": "2026-11-20T04:11:30.096999+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4886,7 +4898,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:10:26.400088+03:30",
+            "next_check_at": "2026-11-20T04:11:30.096999+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4925,7 +4937,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:10:26.400088+03:30",
+            "next_check_at": "2026-11-20T04:11:30.096999+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4966,7 +4978,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:10:26.400088+03:30",
+            "next_check_at": "2026-11-20T04:11:30.096999+03:30",
             "final_complete": false
         }
     },
