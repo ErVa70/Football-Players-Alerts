@@ -4800,7 +4800,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T03:40:31.447648+03:30",
+            "next_check_at": "2026-11-20T03:41:24.944948+03:30",
             "final_complete": false
         },
         "5103712": {
@@ -4815,7 +4815,7 @@
                 },
                 "away": {
                     "id": 109705,
-                    "score": 0,
+                    "score": 1,
                     "name": "RB Bragantino"
                 },
                 "eliminatedTeamId": null,
@@ -4832,11 +4832,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "73‎’‎",
+                        "short": "74‎’‎",
                         "shortKey": "",
-                        "long": "72:39",
+                        "long": "73:33",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4851,7 +4851,7 @@
             ],
             "discovered_at": "2026-11-19T00:00:45.147227+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T03:40:31.447648+03:30",
+            "next_check_at": "2026-11-20T03:41:24.944948+03:30",
             "final_complete": false
         },
         "6580833": {
@@ -4892,7 +4892,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449748+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T03:40:31.447648+03:30",
+            "next_check_at": "2026-11-20T03:41:24.944948+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4931,7 +4931,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T03:40:31.447648+03:30",
+            "next_check_at": "2026-11-20T03:41:24.944948+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4970,7 +4970,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T03:40:31.447648+03:30",
+            "next_check_at": "2026-11-20T03:41:24.944948+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -5011,7 +5011,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T03:40:31.447648+03:30",
+            "next_check_at": "2026-11-20T03:41:24.944948+03:30",
             "final_complete": false
         }
     },
