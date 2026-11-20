@@ -4818,7 +4818,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:52:17.118104+03:30",
+            "next_check_at": "2026-11-20T20:53:15.754825+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4828,7 +4828,7 @@
                 "time": "20.11.2026 17:00",
                 "home": {
                     "id": 9728,
-                    "score": 0,
+                    "score": 1,
                     "name": "Shakhtar Donetsk"
                 },
                 "away": {
@@ -4850,11 +4850,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 1",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "61‎’‎",
+                        "short": "62‎’‎",
                         "shortKey": "",
-                        "long": "60:35",
+                        "long": "61:29",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4869,7 +4869,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:52:17.118104+03:30",
+            "next_check_at": "2026-11-20T20:53:15.754825+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4908,7 +4908,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:52:17.118104+03:30",
+            "next_check_at": "2026-11-20T20:53:15.754825+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4949,7 +4949,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:52:17.118104+03:30",
+            "next_check_at": "2026-11-20T20:53:15.754825+03:30",
             "final_complete": false
         }
     },
