@@ -4818,7 +4818,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:36:17.749613+03:30",
+            "next_check_at": "2026-11-20T20:37:18.431555+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4837,12 +4837,13 @@
                     "name": "Liviy Bereh"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "13",
                 "status": {
                     "utcTime": "2026-11-20T16:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "20.11.2026 17:03:29"
+                        "firstHalfStarted": "20.11.2026 17:03:29",
+                        "secondHalfStarted": "20.11.2026 18:06:41"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -4851,12 +4852,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:37",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -4868,7 +4869,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:36:17.749613+03:30",
+            "next_check_at": "2026-11-20T20:37:18.431555+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4907,7 +4908,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:36:17.749613+03:30",
+            "next_check_at": "2026-11-20T20:37:18.431555+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4948,7 +4949,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T20:36:17.749613+03:30",
+            "next_check_at": "2026-11-20T20:37:18.431555+03:30",
             "final_complete": false
         }
     },
