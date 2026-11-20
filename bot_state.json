@@ -4503,6 +4503,9 @@
         ],
         "5952302": [
             "929834"
+        ],
+        "5103712": [
+            "789877"
         ]
     },
     "transfer_monitor": {
@@ -4803,58 +4806,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:04:17.182344+03:30",
-            "final_complete": false
-        },
-        "5103712": {
-            "match": {
-                "id": 5103712,
-                "leagueId": 1000001407,
-                "time": "19.11.2026 23:30",
-                "home": {
-                    "id": 7733,
-                    "score": 2,
-                    "name": "Vitória"
-                },
-                "away": {
-                    "id": 109705,
-                    "score": 1,
-                    "name": "RB Bragantino"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "35",
-                "status": {
-                    "utcTime": "2026-11-19T22:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "19.11.2026 23:31:39",
-                        "secondHalfStarted": "20.11.2026 00:42:51"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "2 - 1",
-                    "liveTime": {
-                        "short": "97‎’‎",
-                        "shortKey": "",
-                        "long": "96:15",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795127400000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                789877
-            ],
-            "discovered_at": "2026-11-19T00:00:45.147227+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:04:17.182344+03:30",
+            "next_check_at": "2026-11-20T04:05:21.864044+03:30",
             "final_complete": false
         },
         "6580833": {
@@ -4895,7 +4847,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449748+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:04:17.182344+03:30",
+            "next_check_at": "2026-11-20T04:05:21.864044+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4934,7 +4886,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:04:17.182344+03:30",
+            "next_check_at": "2026-11-20T04:05:21.864044+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4973,7 +4925,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:04:17.182344+03:30",
+            "next_check_at": "2026-11-20T04:05:21.864044+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -5014,7 +4966,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T04:04:17.182344+03:30",
+            "next_check_at": "2026-11-20T04:05:21.864044+03:30",
             "final_complete": false
         }
     },
