@@ -4820,7 +4820,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:31:16.897664+03:30",
+            "next_check_at": "2026-11-20T21:32:19.354945+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4859,7 +4859,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:31:16.897664+03:30",
+            "next_check_at": "2026-11-20T21:32:19.354945+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4869,7 +4869,7 @@
                 "time": "20.11.2026 18:30",
                 "home": {
                     "id": 2530,
-                    "score": 0,
+                    "score": 1,
                     "name": "Al Ahli"
                 },
                 "away": {
@@ -4890,11 +4890,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 1",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "31‎’‎",
+                        "short": "32‎’‎",
                         "shortKey": "",
-                        "long": "30:44",
+                        "long": "31:47",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4911,7 +4911,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:31:16.897664+03:30",
+            "next_check_at": "2026-11-20T21:32:19.354945+03:30",
             "final_complete": false
         }
     },
