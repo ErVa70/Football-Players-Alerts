@@ -4819,7 +4819,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:15:26.488370+03:30",
+            "next_check_at": "2026-11-20T21:16:17.130192+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4853,9 +4853,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "84‎’‎",
+                        "short": "85‎’‎",
                         "shortKey": "",
-                        "long": "83:45",
+                        "long": "84:27",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4870,7 +4870,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:15:26.488370+03:30",
+            "next_check_at": "2026-11-20T21:16:17.130192+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4909,7 +4909,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:15:26.488370+03:30",
+            "next_check_at": "2026-11-20T21:16:17.130192+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4942,9 +4942,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "14:54",
+                        "long": "15:36",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -4961,7 +4961,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T21:15:26.488370+03:30",
+            "next_check_at": "2026-11-20T21:16:17.130192+03:30",
             "final_complete": false
         }
     },
