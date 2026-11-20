@@ -4807,7 +4807,7 @@
             ],
             "discovered_at": "2026-11-18T15:18:21.153203+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T05:20:27.556414+03:30",
+            "next_check_at": "2026-11-20T05:21:20.147683+03:30",
             "final_complete": false
         },
         "6580833": {
@@ -4823,7 +4823,7 @@
                 },
                 "away": {
                     "id": 722265,
-                    "score": 1,
+                    "score": 2,
                     "name": "FC Cincinnati",
                     "shortName": "Cincinnati"
                 },
@@ -4841,11 +4841,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "1 - 1",
+                    "scoreStr": "1 - 2",
                     "liveTime": {
                         "short": "50‎’‎",
                         "shortKey": "",
-                        "long": "49:07",
+                        "long": "49:49",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -4860,7 +4860,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449748+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T05:20:27.556414+03:30",
+            "next_check_at": "2026-11-20T05:21:20.147683+03:30",
             "final_complete": false
         },
         "5909336": {
@@ -4899,7 +4899,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449834+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T05:20:27.556414+03:30",
+            "next_check_at": "2026-11-20T05:21:20.147683+03:30",
             "final_complete": false
         },
         "5883746": {
@@ -4938,7 +4938,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449894+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T05:20:27.556414+03:30",
+            "next_check_at": "2026-11-20T05:21:20.147683+03:30",
             "final_complete": false
         },
         "5970153": {
@@ -4979,7 +4979,7 @@
             ],
             "discovered_at": "2026-11-20T00:00:35.449953+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-20T05:20:27.556414+03:30",
+            "next_check_at": "2026-11-20T05:21:20.147683+03:30",
             "final_complete": false
         }
     },
