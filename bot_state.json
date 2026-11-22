@@ -4897,7 +4897,8 @@
         ],
         "6506260": [
             "488412"
-        ]
+        ],
+        "1000013268": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5294,7 +5295,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T02:31:15.804676+03:30",
+            "next_check_at": "2026-11-23T02:32:21.554417+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5492,45 +5493,6 @@
             "next_check_at": "2026-11-23T02:35:28.551605+03:30",
             "final_complete": false
         },
-        "1000013268": {
-            "match": {
-                "id": 1000013268,
-                "leagueId": 1000001661,
-                "time": "22.11.2026 22:00",
-                "home": {
-                    "id": 7815,
-                    "score": 0,
-                    "name": "Colo Colo"
-                },
-                "away": {
-                    "id": 6458,
-                    "score": 0,
-                    "name": "Universidad Católica"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 1,
-                "tournamentStage": "28",
-                "status": {
-                    "utcTime": "2026-11-22T21:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.11.2026 22:00:00"
-                    },
-                    "periodLength": 45,
-                    "started": false,
-                    "cancelled": false,
-                    "finished": false
-                },
-                "timeTS": 1795381200000,
-                "_competition_name": "Primera División"
-            },
-            "tracked_player_ids": [
-                49939
-            ],
-            "discovered_at": "2026-11-22T00:00:34.741222+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-23T02:31:15.804676+03:30",
-            "final_complete": false
-        },
         "5103718": {
             "match": {
                 "id": 5103718,
@@ -5567,7 +5529,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T02:31:15.804676+03:30",
+            "next_check_at": "2026-11-23T02:32:21.554417+03:30",
             "final_complete": false
         },
         "6050098": {
@@ -5608,7 +5570,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T02:31:15.804676+03:30",
+            "next_check_at": "2026-11-23T02:32:21.554417+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5647,7 +5609,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T02:31:15.804676+03:30",
+            "next_check_at": "2026-11-23T02:32:21.554417+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5686,7 +5648,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T02:31:15.804676+03:30",
+            "next_check_at": "2026-11-23T02:32:21.554417+03:30",
             "final_complete": false
         }
     },
