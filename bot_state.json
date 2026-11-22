@@ -3329,7 +3329,8 @@
             "Substitution|80|None|1757894,1327733|",
             "Substitution|82|None|748380,1231648|"
         ],
-        "5749751": []
+        "5749751": [],
+        "5868548": []
     },
     "final_posts": {
         "5991881": [
@@ -5034,56 +5035,6 @@
         ]
     },
     "monitored_matches": {
-        "5883746": {
-            "match": {
-                "id": 5883746,
-                "leagueId": 938783,
-                "time": "20.11.2026 21:00",
-                "home": {
-                    "id": 161771,
-                    "score": 1,
-                    "name": "Villarreal B"
-                },
-                "away": {
-                    "id": 8400,
-                    "score": 1,
-                    "name": "Gimnàstic"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "13",
-                "status": {
-                    "utcTime": "2026-11-20T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "20.11.2026 21:01:18"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 1",
-                    "liveTime": {
-                        "short": "28‎’‎",
-                        "shortKey": "",
-                        "long": "27:52",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795204800000,
-                "_competition_name": "Primera Federacion - Group 2"
-            },
-            "tracked_player_ids": [
-                545903
-            ],
-            "discovered_at": "2026-11-20T00:00:35.449894+03:30",
-            "finished_seen_at": "2026-11-21T01:28:18.532799+03:30",
-            "next_check_at": "2026-11-23T00:01:16.174423+03:30",
-            "final_complete": false
-        },
         "5795522": {
             "match": {
                 "id": 5795522,
@@ -5320,7 +5271,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T23:29:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:30:56.655454+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5368,7 +5319,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740539+03:30",
             "finished_seen_at": "2026-11-22T16:51:16.084270+03:30",
-            "next_check_at": "2026-11-22T23:44:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:45:56.655454+03:30",
             "final_complete": false
         },
         "5749751": {
@@ -5383,7 +5334,7 @@
                 },
                 "away": {
                     "id": 8636,
-                    "score": 0,
+                    "score": 1,
                     "name": "Inter"
                 },
                 "eliminatedTeamId": null,
@@ -5399,11 +5350,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "14:05",
+                        "long": "15:44",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5418,7 +5369,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740626+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T23:29:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:30:56.655454+03:30",
             "final_complete": false
         },
         "5781804": {
@@ -5469,7 +5420,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740670+03:30",
             "finished_seen_at": "2026-11-22T18:53:21.577315+03:30",
-            "next_check_at": "2026-11-22T23:44:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:45:56.655454+03:30",
             "final_complete": false
         },
         "5888115": {
@@ -5517,7 +5468,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740714+03:30",
             "finished_seen_at": "2026-11-22T19:28:18.958034+03:30",
-            "next_check_at": "2026-11-22T23:44:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:45:56.655454+03:30",
             "final_complete": false
         },
         "5884916": {
@@ -5565,7 +5516,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740807+03:30",
             "finished_seen_at": "2026-11-22T15:54:29.117817+03:30",
-            "next_check_at": "2026-11-22T23:44:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:45:56.655454+03:30",
             "final_complete": false
         },
         "6506260": {
@@ -5604,7 +5555,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740951+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T23:29:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:30:56.655454+03:30",
             "final_complete": false
         },
         "5868548": {
@@ -5623,17 +5574,28 @@
                     "name": "Albacete"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "15",
                 "status": {
                     "utcTime": "2026-11-22T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "22.11.2026 21:00:00"
+                        "firstHalfStarted": "22.11.2026 21:00:24"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:32",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795377600000,
                 "_competition_name": "LaLiga2"
@@ -5643,7 +5605,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741178+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T23:29:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:30:56.655454+03:30",
             "final_complete": false
         },
         "1000013268": {
@@ -5682,7 +5644,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741222+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T23:29:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:30:56.655454+03:30",
             "final_complete": false
         },
         "5103718": {
@@ -5721,7 +5683,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T23:29:18.136309+03:30",
+            "next_check_at": "2026-11-22T23:30:56.655454+03:30",
             "final_complete": false
         }
     },
