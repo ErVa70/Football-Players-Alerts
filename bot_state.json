@@ -4856,6 +4856,9 @@
         "5943299": [
             "675600",
             "990996"
+        ],
+        "5795521": [
+            "921253"
         ]
     },
     "transfer_monitor": {
@@ -5266,61 +5269,6 @@
             "next_check_at": "2026-11-22T22:10:31.443503+03:30",
             "final_complete": false
         },
-        "5795521": {
-            "match": {
-                "id": 5795521,
-                "leagueId": 47,
-                "time": "22.11.2026 17:30",
-                "home": {
-                    "id": 8650,
-                    "score": 4,
-                    "name": "Liverpool"
-                },
-                "away": {
-                    "id": 10260,
-                    "score": 0,
-                    "name": "Manchester United",
-                    "redCards": 1,
-                    "shortName": "Man United"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-11-22T16:30:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "22.11.2026 17:30:11",
-                        "secondHalfStarted": "22.11.2026 18:34:38"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "4 - 0",
-                    "liveTime": {
-                        "short": "93‎’‎",
-                        "shortKey": "",
-                        "long": "92:48",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795365000000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                696365,
-                921253
-            ],
-            "discovered_at": "2026-11-22T00:00:34.740333+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
-            "final_complete": false
-        },
         "6580835": {
             "match": {
                 "id": 6580835,
@@ -5358,7 +5306,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5406,7 +5354,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740539+03:30",
             "finished_seen_at": "2026-11-22T16:51:16.084270+03:30",
-            "next_check_at": "2026-11-22T22:07:26.627878+03:30",
+            "next_check_at": "2026-11-22T22:08:16.554462+03:30",
             "final_complete": false
         },
         "5749751": {
@@ -5445,7 +5393,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740626+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         },
         "5781804": {
@@ -5496,7 +5444,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740670+03:30",
             "finished_seen_at": "2026-11-22T18:53:21.577315+03:30",
-            "next_check_at": "2026-11-22T22:07:26.627878+03:30",
+            "next_check_at": "2026-11-22T22:08:16.554462+03:30",
             "final_complete": false
         },
         "5888115": {
@@ -5544,7 +5492,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740714+03:30",
             "finished_seen_at": "2026-11-22T19:28:18.958034+03:30",
-            "next_check_at": "2026-11-22T22:07:26.627878+03:30",
+            "next_check_at": "2026-11-22T22:08:16.554462+03:30",
             "final_complete": false
         },
         "5884916": {
@@ -5592,7 +5540,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740807+03:30",
             "finished_seen_at": "2026-11-22T15:54:29.117817+03:30",
-            "next_check_at": "2026-11-22T22:07:26.627878+03:30",
+            "next_check_at": "2026-11-22T22:08:16.554462+03:30",
             "final_complete": false
         },
         "6506260": {
@@ -5631,7 +5579,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740951+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         },
         "5868553": {
@@ -5650,7 +5598,7 @@
                     "name": "Eibar"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "15",
                 "status": {
                     "utcTime": "2026-11-22T17:30:00.000Z",
@@ -5664,10 +5612,10 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "52‎’‎",
-                        "shortKey": "",
-                        "long": "51:39",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -5683,7 +5631,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741135+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         },
         "5868548": {
@@ -5722,7 +5670,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741178+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         },
         "1000013268": {
@@ -5761,7 +5709,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741222+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         },
         "5103718": {
@@ -5800,7 +5748,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-22T21:52:26.627878+03:30",
+            "next_check_at": "2026-11-22T21:53:16.554462+03:30",
             "final_complete": false
         }
     },
