@@ -4887,6 +4887,9 @@
         ],
         "5749751": [
             "579747"
+        ],
+        "5868548": [
+            "522579"
         ]
     },
     "transfer_monitor": {
@@ -5284,7 +5287,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5518,57 +5521,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740951+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
-            "final_complete": false
-        },
-        "5868548": {
-            "match": {
-                "id": 5868548,
-                "leagueId": 1000007645,
-                "time": "22.11.2026 21:00",
-                "home": {
-                    "id": 7876,
-                    "score": 0,
-                    "name": "Burgos CF"
-                },
-                "away": {
-                    "id": 8393,
-                    "score": 0,
-                    "name": "Albacete"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "15",
-                "status": {
-                    "utcTime": "2026-11-22T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.11.2026 21:00:24"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:48",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795377600000,
-                "_competition_name": "LaLiga2"
-            },
-            "tracked_player_ids": [
-                522579
-            ],
-            "discovered_at": "2026-11-22T00:00:34.741178+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         },
         "1000013268": {
@@ -5607,7 +5560,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741222+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         },
         "5103718": {
@@ -5646,7 +5599,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         },
         "6050098": {
@@ -5687,7 +5640,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5726,7 +5679,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5765,7 +5718,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:18:19.781291+03:30",
+            "next_check_at": "2026-11-23T01:19:24.333686+03:30",
             "final_complete": false
         }
     },
