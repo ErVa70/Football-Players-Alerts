@@ -4883,6 +4883,9 @@
             "748380",
             "873297",
             "1327733"
+        ],
+        "5749751": [
+            "579747"
         ]
     },
     "transfer_monitor": {
@@ -5280,7 +5283,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5329,56 +5332,6 @@
             "discovered_at": "2026-11-22T00:00:34.740539+03:30",
             "finished_seen_at": "2026-11-22T16:51:16.084270+03:30",
             "next_check_at": "2026-11-23T01:17:20.800478+03:30",
-            "final_complete": false
-        },
-        "5749751": {
-            "match": {
-                "id": 5749751,
-                "leagueId": 55,
-                "time": "22.11.2026 20:45",
-                "home": {
-                    "id": 8524,
-                    "score": 1,
-                    "name": "Atalanta"
-                },
-                "away": {
-                    "id": 8636,
-                    "score": 2,
-                    "name": "Inter"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "12",
-                "status": {
-                    "utcTime": "2026-11-22T19:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.11.2026 20:45:12"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "45‎’‎",
-                        "shortKey": "",
-                        "long": "44:00",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795376700000,
-                "_competition_name": "Serie A"
-            },
-            "tracked_player_ids": [
-                579747
-            ],
-            "discovered_at": "2026-11-22T00:00:34.740626+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
             "final_complete": false
         },
         "5781804": {
@@ -5564,7 +5517,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740951+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "5868548": {
@@ -5614,7 +5567,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741178+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "1000013268": {
@@ -5653,7 +5606,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741222+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "5103718": {
@@ -5692,7 +5645,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "6050098": {
@@ -5733,7 +5686,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5772,7 +5725,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5811,7 +5764,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T01:09:16.680654+03:30",
+            "next_check_at": "2026-11-23T01:10:31.502018+03:30",
             "final_complete": false
         }
     },
