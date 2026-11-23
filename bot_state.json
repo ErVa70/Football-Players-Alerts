@@ -5067,56 +5067,6 @@
         ]
     },
     "monitored_matches": {
-        "5795522": {
-            "match": {
-                "id": 5795522,
-                "leagueId": 47,
-                "time": "21.11.2026 13:30",
-                "home": {
-                    "id": 8456,
-                    "score": 1,
-                    "name": "Manchester City",
-                    "shortName": "Man City"
-                },
-                "away": {
-                    "id": 9879,
-                    "score": 1,
-                    "name": "Fulham",
-                    "shortName": "Fulham"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-11-21T12:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "21.11.2026 13:30:35",
-                        "secondHalfStarted": "21.11.2026 14:33:16"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "1 - 1",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1795264200000,
-                "_competition_name": "Premier League"
-            },
-            "tracked_player_ids": [
-                821728
-            ],
-            "discovered_at": "2026-11-21T00:00:37.272741+03:30",
-            "finished_seen_at": "2026-11-21T17:52:17.024310+03:30",
-            "next_check_at": "2026-11-23T16:19:22.180730+03:30",
-            "final_complete": false
-        },
         "5795523": {
             "match": {
                 "id": 5795523,
@@ -5449,7 +5399,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T15:59:15.449047+03:30",
+            "next_check_at": "2026-11-23T16:00:39.224909+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5488,7 +5438,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T15:59:15.449047+03:30",
+            "next_check_at": "2026-11-23T16:00:39.224909+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5527,7 +5477,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T15:59:15.449047+03:30",
+            "next_check_at": "2026-11-23T16:00:39.224909+03:30",
             "final_complete": false
         }
     },
