@@ -3365,7 +3365,8 @@
             "id:14779273",
             "id:14779278"
         ],
-        "5868551": []
+        "5868551": [],
+        "6674108": []
     },
     "final_posts": {
         "5991881": [
@@ -5299,17 +5300,28 @@
                     "name": "Defensor Sporting"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "15",
                 "status": {
                     "utcTime": "2026-11-23T19:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "23.11.2026 20:30:00"
+                        "firstHalfStarted": "23.11.2026 20:30:33"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:37",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795462200000,
                 "_competition_name": "Liga AUF Uruguaya Clausura"
@@ -5319,7 +5331,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T23:00:38.283882+03:30",
+            "next_check_at": "2026-11-23T23:01:16.117981+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5352,9 +5364,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:32",
+                        "long": "1:13",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5369,7 +5381,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T23:00:38.283882+03:30",
+            "next_check_at": "2026-11-23T23:01:16.117981+03:30",
             "final_complete": false
         }
     },
