@@ -5108,7 +5108,7 @@
             ],
             "discovered_at": "2026-11-21T00:00:37.272741+03:30",
             "finished_seen_at": "2026-11-21T17:52:17.024310+03:30",
-            "next_check_at": "2026-11-23T04:13:15.015295+03:30",
+            "next_check_at": "2026-11-23T05:13:16.308891+03:30",
             "final_complete": false
         },
         "5795523": {
@@ -5257,7 +5257,7 @@
             ],
             "discovered_at": "2026-11-21T00:00:37.273452+03:30",
             "finished_seen_at": "2026-11-21T08:33:14.897146+03:30",
-            "next_check_at": "2026-11-23T04:13:15.015295+03:30",
+            "next_check_at": "2026-11-23T05:13:16.308891+03:30",
             "final_complete": false
         },
         "6580835": {
@@ -5277,12 +5277,13 @@
                     "name": "Charlotte FC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "1/8",
                 "status": {
                     "utcTime": "2026-11-22T23:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "23.11.2026 00:40:22"
+                        "firstHalfStarted": "23.11.2026 00:40:22",
+                        "secondHalfStarted": "23.11.2026 01:42:21"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -5291,12 +5292,12 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:43",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -5308,7 +5309,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:12:18.266009+03:30",
+            "next_check_at": "2026-11-23T04:13:16.308891+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5544,7 +5545,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:12:18.266009+03:30",
+            "next_check_at": "2026-11-23T04:13:16.308891+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5583,7 +5584,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:12:18.266009+03:30",
+            "next_check_at": "2026-11-23T04:13:16.308891+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5622,7 +5623,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:12:18.266009+03:30",
+            "next_check_at": "2026-11-23T04:13:16.308891+03:30",
             "final_complete": false
         }
     },
