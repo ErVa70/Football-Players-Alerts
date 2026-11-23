@@ -5290,9 +5290,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "41‎’‎",
+                        "short": "42‎’‎",
                         "shortKey": "",
-                        "long": "40:05",
+                        "long": "41:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5307,7 +5307,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:50:27.964525+03:30",
+            "next_check_at": "2026-11-23T03:51:26.059605+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5518,13 +5518,15 @@
                 "away": {
                     "id": 10276,
                     "score": 0,
-                    "name": "Vasco da Gama"
+                    "name": "Vasco da Gama",
+                    "redCards": 1
                 },
                 "eliminatedTeamId": null,
                 "statusId": 3,
                 "tournamentStage": "36",
                 "status": {
                     "utcTime": "2026-11-22T22:30:00.000Z",
+                    "numberOfAwayRedCards": 1,
                     "halfs": {
                         "firstHalfStarted": "22.11.2026 23:31:43",
                         "secondHalfStarted": "23.11.2026 00:36:41"
@@ -5536,9 +5538,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "89‎’‎",
+                        "short": "90‎’‎",
                         "shortKey": "",
-                        "long": "88:46",
+                        "long": "89:44",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5553,7 +5555,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:50:27.964525+03:30",
+            "next_check_at": "2026-11-23T03:51:26.059605+03:30",
             "final_complete": false
         },
         "6050098": {
@@ -5594,7 +5596,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:50:27.964525+03:30",
+            "next_check_at": "2026-11-23T03:51:26.059605+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5633,7 +5635,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:50:27.964525+03:30",
+            "next_check_at": "2026-11-23T03:51:26.059605+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5672,7 +5674,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:50:27.964525+03:30",
+            "next_check_at": "2026-11-23T03:51:26.059605+03:30",
             "final_complete": false
         }
     },
