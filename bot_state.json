@@ -4916,6 +4916,10 @@
         "5103718": [],
         "6580835": [
             "93447"
+        ],
+        "6050098": [
+            "732282",
+            "929834"
         ]
     },
     "transfer_monitor": {
@@ -5272,59 +5276,6 @@
             "next_check_at": "2026-11-23T22:06:20.719637+03:30",
             "final_complete": false
         },
-        "6050098": {
-            "match": {
-                "id": 6050098,
-                "leagueId": 943983,
-                "time": "23.11.2026 17:00",
-                "home": {
-                    "id": 101904,
-                    "score": 3,
-                    "name": "Al-Shamal"
-                },
-                "away": {
-                    "id": 2530,
-                    "score": 2,
-                    "name": "Al Ahli"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-23T16:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "23.11.2026 17:00:32",
-                        "secondHalfStarted": "23.11.2026 18:05:52"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "3 - 2",
-                    "liveTime": {
-                        "short": "98‎’‎",
-                        "shortKey": "",
-                        "long": "97:15",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795449600000,
-                "_competition_name": "AFC Champions League Elite West"
-            },
-            "tracked_player_ids": [
-                301456,
-                732282,
-                929834
-            ],
-            "discovered_at": "2026-11-23T00:00:38.849775+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-23T21:28:18.521615+03:30",
-            "final_complete": false
-        },
         "6674108": {
             "match": {
                 "id": 6674108,
@@ -5361,7 +5312,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T21:28:18.521615+03:30",
+            "next_check_at": "2026-11-23T21:29:17.536792+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5400,7 +5351,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T21:28:18.521615+03:30",
+            "next_check_at": "2026-11-23T21:29:17.536792+03:30",
             "final_complete": false
         }
     },
