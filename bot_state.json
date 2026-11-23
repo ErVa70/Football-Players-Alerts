@@ -4902,7 +4902,10 @@
             "488412"
         ],
         "1000013268": [],
-        "5103718": []
+        "5103718": [],
+        "6580835": [
+            "93447"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5159,7 +5162,7 @@
             ],
             "discovered_at": "2026-11-21T00:00:37.272834+03:30",
             "finished_seen_at": "2026-11-21T22:58:23.812982+03:30",
-            "next_check_at": "2026-11-23T05:10:27.598024+03:30",
+            "next_check_at": "2026-11-23T06:10:29.291931+03:30",
             "final_complete": false
         },
         "5885611": {
@@ -5260,58 +5263,6 @@
             "discovered_at": "2026-11-21T00:00:37.273452+03:30",
             "finished_seen_at": "2026-11-21T08:33:14.897146+03:30",
             "next_check_at": "2026-11-23T05:13:16.308891+03:30",
-            "final_complete": false
-        },
-        "6580835": {
-            "match": {
-                "id": 6580835,
-                "leagueId": 957981,
-                "time": "23.11.2026 00:30",
-                "home": {
-                    "id": 6397,
-                    "score": 1,
-                    "name": "Chicago Fire FC",
-                    "shortName": "Chicago"
-                },
-                "away": {
-                    "id": 1323940,
-                    "score": 2,
-                    "name": "Charlotte FC"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "1/8",
-                "status": {
-                    "utcTime": "2026-11-22T23:30:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "23.11.2026 00:40:22",
-                        "secondHalfStarted": "23.11.2026 01:42:21"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 2",
-                    "liveTime": {
-                        "short": "102‎’‎",
-                        "shortKey": "",
-                        "long": "101:56",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795390200000,
-                "_competition_name": "Major League Soccer Playoff"
-            },
-            "tracked_player_ids": [
-                93447
-            ],
-            "discovered_at": "2026-11-22T00:00:34.740495+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-23T05:09:17.295550+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5547,7 +5498,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T05:09:17.295550+03:30",
+            "next_check_at": "2026-11-23T05:10:29.291931+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5586,7 +5537,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T05:09:17.295550+03:30",
+            "next_check_at": "2026-11-23T05:10:29.291931+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5625,7 +5576,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T05:09:17.295550+03:30",
+            "next_check_at": "2026-11-23T05:10:29.291931+03:30",
             "final_complete": false
         }
     },
