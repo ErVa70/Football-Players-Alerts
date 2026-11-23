@@ -4899,7 +4899,8 @@
         "6506260": [
             "488412"
         ],
-        "1000013268": []
+        "1000013268": [],
+        "5103718": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5307,7 +5308,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:59:26.634064+03:30",
+            "next_check_at": "2026-11-23T04:00:41.352162+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5505,59 +5506,6 @@
             "next_check_at": "2026-11-23T04:56:18.186595+03:30",
             "final_complete": false
         },
-        "5103718": {
-            "match": {
-                "id": 5103718,
-                "leagueId": 1000001407,
-                "time": "22.11.2026 23:30",
-                "home": {
-                    "id": 109705,
-                    "score": 1,
-                    "name": "RB Bragantino"
-                },
-                "away": {
-                    "id": 10276,
-                    "score": 0,
-                    "name": "Vasco da Gama",
-                    "redCards": 1
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "36",
-                "status": {
-                    "utcTime": "2026-11-22T22:30:00.000Z",
-                    "numberOfAwayRedCards": 1,
-                    "halfs": {
-                        "firstHalfStarted": "22.11.2026 23:31:43",
-                        "secondHalfStarted": "23.11.2026 00:36:41"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "98‎’‎",
-                        "shortKey": "",
-                        "long": "97:45",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795386600000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                789877
-            ],
-            "discovered_at": "2026-11-22T00:00:34.741266+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:59:26.634064+03:30",
-            "final_complete": false
-        },
         "6050098": {
             "match": {
                 "id": 6050098,
@@ -5596,7 +5544,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:59:26.634064+03:30",
+            "next_check_at": "2026-11-23T04:00:41.352162+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5635,7 +5583,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:59:26.634064+03:30",
+            "next_check_at": "2026-11-23T04:00:41.352162+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5674,7 +5622,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:59:26.634064+03:30",
+            "next_check_at": "2026-11-23T04:00:41.352162+03:30",
             "final_complete": false
         }
     },
