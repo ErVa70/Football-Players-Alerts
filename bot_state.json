@@ -3354,7 +3354,8 @@
             "id:14778508"
         ],
         "6050098": [
-            "Substitution|56|None|929834,1000876|"
+            "Substitution|56|None|929834,1000876|",
+            "id:14779192"
         ]
     },
     "final_posts": {
@@ -5375,7 +5376,7 @@
                 "time": "23.11.2026 17:00",
                 "home": {
                     "id": 101904,
-                    "score": 0,
+                    "score": 1,
                     "name": "Al-Shamal"
                 },
                 "away": {
@@ -5397,11 +5398,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 2",
+                    "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "62‎’‎",
+                        "short": "63‎’‎",
                         "shortKey": "",
-                        "long": "61:26",
+                        "long": "62:18",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5418,7 +5419,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T20:52:19.927687+03:30",
+            "next_check_at": "2026-11-23T20:53:15.255506+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5457,7 +5458,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T20:52:19.927687+03:30",
+            "next_check_at": "2026-11-23T20:53:15.255506+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5496,7 +5497,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T20:52:19.927687+03:30",
+            "next_check_at": "2026-11-23T20:53:15.255506+03:30",
             "final_complete": false
         }
     },
