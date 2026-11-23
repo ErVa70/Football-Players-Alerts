@@ -3345,7 +3345,9 @@
         "6506260": [],
         "1000013268": [],
         "5103718": [],
-        "6580835": []
+        "6580835": [
+            "id:14778508"
+        ]
     },
     "final_posts": {
         "5991881": [
@@ -5267,7 +5269,7 @@
                 "time": "23.11.2026 00:30",
                 "home": {
                     "id": 6397,
-                    "score": 0,
+                    "score": 1,
                     "name": "Chicago Fire FC",
                     "shortName": "Chicago"
                 },
@@ -5290,11 +5292,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 1",
+                    "scoreStr": "1 - 1",
                     "liveTime": {
                         "short": "69‎’‎",
                         "shortKey": "",
-                        "long": "68:02",
+                        "long": "68:58",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5309,7 +5311,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:35:24.097493+03:30",
+            "next_check_at": "2026-11-23T04:36:19.533378+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5545,7 +5547,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:35:24.097493+03:30",
+            "next_check_at": "2026-11-23T04:36:19.533378+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5584,7 +5586,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:35:24.097493+03:30",
+            "next_check_at": "2026-11-23T04:36:19.533378+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5623,7 +5625,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T04:35:24.097493+03:30",
+            "next_check_at": "2026-11-23T04:36:19.533378+03:30",
             "final_complete": false
         }
     },
