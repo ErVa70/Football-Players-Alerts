@@ -5382,7 +5382,7 @@
                     "name": "Al Ahli"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "5",
                 "status": {
                     "utcTime": "2026-11-23T16:00:00.000Z",
@@ -5396,10 +5396,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "49‎’‎",
-                        "shortKey": "",
-                        "long": "48:40",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -5415,7 +5415,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T20:19:16.004964+03:30",
+            "next_check_at": "2026-11-23T20:20:40.209543+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5454,7 +5454,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T20:19:16.004964+03:30",
+            "next_check_at": "2026-11-23T20:20:40.209543+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5493,7 +5493,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T20:19:16.004964+03:30",
+            "next_check_at": "2026-11-23T20:20:40.209543+03:30",
             "final_complete": false
         }
     },
