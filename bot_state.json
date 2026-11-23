@@ -5276,17 +5276,28 @@
                     "name": "Charlotte FC"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "1/8",
                 "status": {
                     "utcTime": "2026-11-22T23:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "23.11.2026 00:30:00"
+                        "firstHalfStarted": "23.11.2026 00:40:22"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "21‎’‎",
+                        "shortKey": "",
+                        "long": "20:56",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795390200000,
                 "_competition_name": "Major League Soccer Playoff"
@@ -5296,7 +5307,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.740495+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:30:44.794839+03:30",
+            "next_check_at": "2026-11-23T03:31:18.970129+03:30",
             "final_complete": false
         },
         "5749754": {
@@ -5501,7 +5512,7 @@
                 "time": "22.11.2026 23:30",
                 "home": {
                     "id": 109705,
-                    "score": 0,
+                    "score": 1,
                     "name": "RB Bragantino"
                 },
                 "away": {
@@ -5510,17 +5521,29 @@
                     "name": "Vasco da Gama"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 3,
                 "tournamentStage": "36",
                 "status": {
                     "utcTime": "2026-11-22T22:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "22.11.2026 23:30:00"
+                        "firstHalfStarted": "22.11.2026 23:31:43",
+                        "secondHalfStarted": "23.11.2026 00:36:41"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "1 - 0",
+                    "liveTime": {
+                        "short": "70‎’‎",
+                        "shortKey": "",
+                        "long": "69:37",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795386600000,
                 "_competition_name": "Série A"
@@ -5530,7 +5553,7 @@
             ],
             "discovered_at": "2026-11-22T00:00:34.741266+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:30:44.794839+03:30",
+            "next_check_at": "2026-11-23T03:31:18.970129+03:30",
             "final_complete": false
         },
         "6050098": {
@@ -5571,7 +5594,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849775+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:30:44.794839+03:30",
+            "next_check_at": "2026-11-23T03:31:18.970129+03:30",
             "final_complete": false
         },
         "6674108": {
@@ -5610,7 +5633,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:30:44.794839+03:30",
+            "next_check_at": "2026-11-23T03:31:18.970129+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5649,7 +5672,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T03:30:44.794839+03:30",
+            "next_check_at": "2026-11-23T03:31:18.970129+03:30",
             "final_complete": false
         }
     },
