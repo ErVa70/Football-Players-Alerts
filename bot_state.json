@@ -5316,9 +5316,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "31‎’‎",
+                        "short": "32‎’‎",
                         "shortKey": "",
-                        "long": "30:41",
+                        "long": "31:47",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5333,7 +5333,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849853+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T23:31:15.790186+03:30",
+            "next_check_at": "2026-11-23T23:32:21.057367+03:30",
             "final_complete": false
         },
         "5868551": {
@@ -5343,7 +5343,7 @@
                 "time": "23.11.2026 20:30",
                 "home": {
                     "id": 357259,
-                    "score": 0,
+                    "score": 1,
                     "name": "AD Ceuta FC"
                 },
                 "away": {
@@ -5364,11 +5364,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 2",
+                    "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "32‎’‎",
+                        "short": "33‎’‎",
                         "shortKey": "",
-                        "long": "31:17",
+                        "long": "32:23",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5383,7 +5383,7 @@
             ],
             "discovered_at": "2026-11-23T00:00:38.849933+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-23T23:31:15.790186+03:30",
+            "next_check_at": "2026-11-23T23:32:21.057367+03:30",
             "final_complete": false
         }
     },
