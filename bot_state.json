@@ -5138,7 +5138,7 @@
                     "name": "Aston Villa"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 2,
+                "statusId": 10,
                 "tournamentStage": "5",
                 "status": {
                     "utcTime": "2026-11-24T17:45:00.000Z",
@@ -5152,10 +5152,10 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "45‎’‎",
-                        "shortKey": "",
-                        "long": "44:51",
-                        "longKey": "",
+                        "short": "HT",
+                        "shortKey": "halftime_short",
+                        "long": "Half-Time",
+                        "longKey": "pause_match",
                         "maxTime": 45,
                         "basePeriod": 45,
                         "addedTime": 0
@@ -5169,7 +5169,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515536+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         },
         "6106307": {
@@ -5208,7 +5208,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515606+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         },
         "6106325": {
@@ -5249,7 +5249,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515643+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         },
         "6106243": {
@@ -5289,7 +5289,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515679+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         },
         "6106394": {
@@ -5331,7 +5331,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515714+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         },
         "6050103": {
@@ -5364,9 +5364,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "15‎’‎",
+                        "short": "16‎’‎",
                         "shortKey": "",
-                        "long": "14:50",
+                        "long": "15:34",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5382,7 +5382,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515771+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         },
         "5103733": {
@@ -5421,7 +5421,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515843+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T22:00:39.937602+03:30",
+            "next_check_at": "2026-11-24T22:01:16.820207+03:30",
             "final_complete": false
         }
     },
