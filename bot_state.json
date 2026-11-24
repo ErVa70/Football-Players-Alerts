@@ -5113,54 +5113,6 @@
         ]
     },
     "monitored_matches": {
-        "5888115": {
-            "match": {
-                "id": 5888115,
-                "leagueId": 185,
-                "time": "22.11.2026 15:00",
-                "home": {
-                    "id": 4531,
-                    "score": 2,
-                    "name": "Vizela"
-                },
-                "away": {
-                    "id": 4064,
-                    "score": 2,
-                    "name": "Feirense"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 6,
-                "tournamentStage": "11",
-                "status": {
-                    "utcTime": "2026-11-22T14:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "22.11.2026 15:02:13",
-                        "secondHalfStarted": "22.11.2026 16:05:15"
-                    },
-                    "periodLength": 45,
-                    "finished": true,
-                    "started": true,
-                    "cancelled": false,
-                    "awarded": false,
-                    "scoreStr": "2 - 2",
-                    "reason": {
-                        "short": "FT",
-                        "shortKey": "fulltime_short",
-                        "long": "Full-Time",
-                        "longKey": "finished"
-                    }
-                },
-                "timeTS": 1795356000000,
-                "_competition_name": "Liga Portugal 2"
-            },
-            "tracked_player_ids": [
-                358147
-            ],
-            "discovered_at": "2026-11-22T00:00:34.740714+03:30",
-            "finished_seen_at": "2026-11-22T19:28:18.958034+03:30",
-            "next_check_at": "2026-11-24T18:01:24.268490+03:30",
-            "final_complete": false
-        },
         "6106339": {
             "match": {
                 "id": 6106339,
@@ -5197,7 +5149,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515536+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         },
         "6106307": {
@@ -5236,7 +5188,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515606+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         },
         "6106325": {
@@ -5277,7 +5229,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515643+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         },
         "6106243": {
@@ -5317,7 +5269,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515679+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         },
         "6106394": {
@@ -5359,7 +5311,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515714+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         },
         "6050103": {
@@ -5399,7 +5351,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515771+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         },
         "5103733": {
@@ -5438,7 +5390,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515843+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T17:29:17.517240+03:30",
+            "next_check_at": "2026-11-24T17:30:46.518737+03:30",
             "final_complete": false
         }
     },
