@@ -5009,7 +5009,8 @@
         ],
         "6106307": [
             "1225450"
-        ]
+        ],
+        "5103733": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5170,45 +5171,6 @@
         ]
     },
     "monitored_matches": {
-        "5103733": {
-            "match": {
-                "id": 5103733,
-                "leagueId": 1000001407,
-                "time": "24.11.2026 22:00",
-                "home": {
-                    "id": 197693,
-                    "score": 0,
-                    "name": "Chapecoense"
-                },
-                "away": {
-                    "id": 10283,
-                    "score": 0,
-                    "name": "Palmeiras"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 1,
-                "tournamentStage": "37",
-                "status": {
-                    "utcTime": "2026-11-24T21:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "24.11.2026 22:00:00"
-                    },
-                    "periodLength": 45,
-                    "started": false,
-                    "cancelled": false,
-                    "finished": false
-                },
-                "timeTS": 1795554000000,
-                "_competition_name": "Série A"
-            },
-            "tracked_player_ids": [
-                1339347
-            ],
-            "discovered_at": "2026-11-24T00:00:50.515843+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
-            "final_complete": false
-        },
         "6106391": {
             "match": {
                 "id": 6106391,
@@ -5245,7 +5207,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780621+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "6106294": {
@@ -5284,7 +5246,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780705+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "6106235": {
@@ -5327,7 +5289,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780759+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "6106336": {
@@ -5367,7 +5329,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780806+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "6106279": {
@@ -5407,7 +5369,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780860+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "5803668": {
@@ -5446,7 +5408,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780912+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "6054598": {
@@ -5485,7 +5447,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780966+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         },
         "5103719": {
@@ -5524,7 +5486,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.781023+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T02:24:23.662017+03:30",
+            "next_check_at": "2026-11-25T02:25:22.305893+03:30",
             "final_complete": false
         }
     },
