@@ -5201,7 +5201,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515606+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T23:59:25.729980+03:30",
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
             "final_complete": false
         },
         "6106325": {
@@ -5253,7 +5253,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515643+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T23:59:25.729980+03:30",
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
             "final_complete": false
         },
         "6106243": {
@@ -5304,7 +5304,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515679+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T23:59:25.729980+03:30",
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
             "final_complete": false
         },
         "6106394": {
@@ -5357,7 +5357,7 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515714+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T23:59:25.729980+03:30",
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
             "final_complete": false
         },
         "5103733": {
@@ -5396,7 +5396,325 @@
             ],
             "discovered_at": "2026-11-24T00:00:50.515843+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-24T23:59:25.729980+03:30",
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "6106391": {
+            "match": {
+                "id": 6106391,
+                "leagueId": 943230,
+                "time": "25.11.2026 18:45",
+                "home": {
+                    "id": 7787,
+                    "score": 0,
+                    "name": "Slavia Prague"
+                },
+                "away": {
+                    "id": 10205,
+                    "score": 0,
+                    "name": "Villarreal"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "5",
+                "status": {
+                    "utcTime": "2026-11-25T17:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 18:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795628700000,
+                "_competition_name": "Champions League"
+            },
+            "tracked_player_ids": [
+                1311915
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780621+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "6106294": {
+            "match": {
+                "id": 6106294,
+                "leagueId": 943230,
+                "time": "25.11.2026 21:00",
+                "home": {
+                    "id": 8342,
+                    "score": 0,
+                    "name": "Club Brugge"
+                },
+                "away": {
+                    "id": 8650,
+                    "score": 0,
+                    "name": "Liverpool"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "5",
+                "status": {
+                    "utcTime": "2026-11-25T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795636800000,
+                "_competition_name": "Champions League"
+            },
+            "tracked_player_ids": [
+                921253
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780705+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "6106235": {
+            "match": {
+                "id": 6106235,
+                "leagueId": 943230,
+                "time": "25.11.2026 21:00",
+                "home": {
+                    "id": 9847,
+                    "score": 0,
+                    "name": "Paris Saint-Germain",
+                    "shortName": "PSG"
+                },
+                "away": {
+                    "id": 8686,
+                    "score": 0,
+                    "name": "Roma"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "5",
+                "status": {
+                    "utcTime": "2026-11-25T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795636800000,
+                "_competition_name": "Champions League"
+            },
+            "tracked_player_ids": [
+                210111,
+                1682313,
+                881771,
+                692984
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780759+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "6106336": {
+            "match": {
+                "id": 6106336,
+                "leagueId": 943230,
+                "time": "25.11.2026 21:00",
+                "home": {
+                    "id": 9728,
+                    "score": 0,
+                    "name": "Shakhtar Donetsk"
+                },
+                "away": {
+                    "id": 8695,
+                    "score": 0,
+                    "name": "Fenerbahçe"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "5",
+                "status": {
+                    "utcTime": "2026-11-25T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795636800000,
+                "_competition_name": "Champions League"
+            },
+            "tracked_player_ids": [
+                470834,
+                540113
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780806+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "6106279": {
+            "match": {
+                "id": 6106279,
+                "leagueId": 943230,
+                "time": "25.11.2026 21:00",
+                "home": {
+                    "id": 9768,
+                    "score": 0,
+                    "name": "Sporting CP"
+                },
+                "away": {
+                    "id": 10260,
+                    "score": 0,
+                    "name": "Manchester United",
+                    "shortName": "Man United"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "5",
+                "status": {
+                    "utcTime": "2026-11-25T20:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 21:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795636800000,
+                "_competition_name": "Champions League"
+            },
+            "tracked_player_ids": [
+                696365
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780860+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "5803668": {
+            "match": {
+                "id": 5803668,
+                "leagueId": 937875,
+                "time": "25.11.2026 11:00",
+                "home": {
+                    "id": 8270,
+                    "score": 0,
+                    "name": "Avispa Fukuoka"
+                },
+                "away": {
+                    "id": 6581,
+                    "score": 0,
+                    "name": "Yokohama F.Marinos"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "16",
+                "status": {
+                    "utcTime": "2026-11-25T10:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 11:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795600800000,
+                "_competition_name": "J. League"
+            },
+            "tracked_player_ids": [
+                212470
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780912+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "6054598": {
+            "match": {
+                "id": 6054598,
+                "leagueId": 9469,
+                "time": "25.11.2026 17:00",
+                "home": {
+                    "id": 102101,
+                    "score": 0,
+                    "name": "Al-Jazira"
+                },
+                "away": {
+                    "id": 389880,
+                    "score": 0,
+                    "name": "Gol Gohar"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "Group Stage - Round 5",
+                "status": {
+                    "utcTime": "2026-11-25T16:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "25.11.2026 17:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795622400000,
+                "_competition_name": "AFC Champions League Two - B"
+            },
+            "tracked_player_ids": [
+                535603
+            ],
+            "discovered_at": "2026-11-25T00:00:36.780966+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
+            "final_complete": false
+        },
+        "5103719": {
+            "match": {
+                "id": 5103719,
+                "leagueId": 1000001407,
+                "time": "26.11.2026 00:00",
+                "home": {
+                    "id": 10272,
+                    "score": 0,
+                    "name": "Atlético-MG"
+                },
+                "away": {
+                    "id": 9808,
+                    "score": 0,
+                    "name": "Corinthians"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "36",
+                "status": {
+                    "utcTime": "2026-11-25T23:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "26.11.2026 00:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795647600000,
+                "_competition_name": "Série A"
+            },
+            "tracked_player_ids": [
+                303824
+            ],
+            "discovered_at": "2026-11-25T00:00:36.781023+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-25T00:00:36.781076+03:30",
             "final_complete": false
         }
     },
