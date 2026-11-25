@@ -5045,7 +5045,18 @@
         "6054598": [
             "535603"
         ],
-        "6106391": []
+        "6106391": [],
+        "6106294": [
+            "921253"
+        ],
+        "6106235": [
+            "692984",
+            "881771"
+        ],
+        "6106336": [
+            "470834"
+        ],
+        "6106279": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5206,212 +5217,6 @@
         ]
     },
     "monitored_matches": {
-        "6106294": {
-            "match": {
-                "id": 6106294,
-                "leagueId": 943230,
-                "time": "25.11.2026 21:00",
-                "home": {
-                    "id": 8342,
-                    "score": 0,
-                    "name": "Club Brugge"
-                },
-                "away": {
-                    "id": 8650,
-                    "score": 1,
-                    "name": "Liverpool"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-25T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.11.2026 21:02:01"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "28‎’‎",
-                        "shortKey": "",
-                        "long": "27:09",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795636800000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                921253
-            ],
-            "discovered_at": "2026-11-25T00:00:36.780705+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
-            "final_complete": false
-        },
-        "6106235": {
-            "match": {
-                "id": 6106235,
-                "leagueId": 943230,
-                "time": "25.11.2026 21:00",
-                "home": {
-                    "id": 9847,
-                    "score": 0,
-                    "name": "Paris Saint-Germain",
-                    "shortName": "PSG"
-                },
-                "away": {
-                    "id": 8686,
-                    "score": 1,
-                    "name": "Roma"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-25T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.11.2026 21:01:33"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "28‎’‎",
-                        "shortKey": "",
-                        "long": "27:37",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795636800000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                210111,
-                692984,
-                881771,
-                1682313
-            ],
-            "discovered_at": "2026-11-25T00:00:36.780759+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
-            "final_complete": false
-        },
-        "6106336": {
-            "match": {
-                "id": 6106336,
-                "leagueId": 943230,
-                "time": "25.11.2026 21:00",
-                "home": {
-                    "id": 9728,
-                    "score": 0,
-                    "name": "Shakhtar Donetsk"
-                },
-                "away": {
-                    "id": 8695,
-                    "score": 0,
-                    "name": "Fenerbahçe"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-25T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.11.2026 21:02:14"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "27‎’‎",
-                        "shortKey": "",
-                        "long": "26:56",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795636800000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                470834,
-                540113
-            ],
-            "discovered_at": "2026-11-25T00:00:36.780806+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
-            "final_complete": false
-        },
-        "6106279": {
-            "match": {
-                "id": 6106279,
-                "leagueId": 943230,
-                "time": "25.11.2026 21:00",
-                "home": {
-                    "id": 9768,
-                    "score": 0,
-                    "name": "Sporting CP"
-                },
-                "away": {
-                    "id": 10260,
-                    "score": 0,
-                    "name": "Manchester United",
-                    "shortName": "Man United"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-25T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.11.2026 21:00:07"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "30‎’‎",
-                        "shortKey": "",
-                        "long": "29:03",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795636800000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                696365
-            ],
-            "discovered_at": "2026-11-25T00:00:36.780860+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
-            "final_complete": false
-        },
         "5103719": {
             "match": {
                 "id": 5103719,
@@ -5448,7 +5253,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.781023+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112348": {
@@ -5490,7 +5295,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.856980+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112290": {
@@ -5531,7 +5336,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857030+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112282": {
@@ -5570,7 +5375,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857061+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112322": {
@@ -5611,7 +5416,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857090+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112371": {
@@ -5650,7 +5455,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857118+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112395": {
@@ -5690,7 +5495,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857146+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112495": {
@@ -5730,7 +5535,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857174+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112486": {
@@ -5769,7 +5574,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857202+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112391": {
@@ -5809,7 +5614,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857230+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         },
         "6112529": {
@@ -5848,7 +5653,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857258+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T01:24:26.361697+03:30",
+            "next_check_at": "2026-11-26T01:25:24.260322+03:30",
             "final_complete": false
         }
     },
