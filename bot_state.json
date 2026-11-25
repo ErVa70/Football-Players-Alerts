@@ -1797,7 +1797,8 @@
         "6054598": [
             "Malcom|STARTING XI"
         ],
-        "6106391": []
+        "6106391": [],
+        "6106279": []
     },
     "match_events": {
         "5071387": [
@@ -5215,9 +5216,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "55‎’‎",
+                        "short": "56‎’‎",
                         "shortKey": "",
-                        "long": "54:18",
+                        "long": "55:36",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5232,7 +5233,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780621+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T22:28:18.837041+03:30",
+            "next_check_at": "2026-11-25T22:29:29.384499+03:30",
             "final_complete": false
         },
         "6106294": {
@@ -5271,7 +5272,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780705+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T22:28:18.837041+03:30",
+            "next_check_at": "2026-11-25T22:29:29.384499+03:30",
             "final_complete": false
         },
         "6106235": {
@@ -5314,7 +5315,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780759+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T22:28:18.837041+03:30",
+            "next_check_at": "2026-11-25T22:29:29.384499+03:30",
             "final_complete": false
         },
         "6106336": {
@@ -5354,7 +5355,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780806+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T22:28:18.837041+03:30",
+            "next_check_at": "2026-11-25T22:29:29.384499+03:30",
             "final_complete": false
         },
         "6106279": {
@@ -5394,7 +5395,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780860+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T22:28:18.837041+03:30",
+            "next_check_at": "2026-11-25T22:29:29.384499+03:30",
             "final_complete": false
         },
         "5103719": {
@@ -5433,7 +5434,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.781023+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T22:28:18.837041+03:30",
+            "next_check_at": "2026-11-25T22:29:29.384499+03:30",
             "final_complete": false
         }
     },
