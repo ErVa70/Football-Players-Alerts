@@ -5233,9 +5233,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "17‎’‎",
+                        "short": "18‎’‎",
                         "shortKey": "",
-                        "long": "16:09",
+                        "long": "17:16",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5250,7 +5250,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780705+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:48:19.092762+03:30",
+            "next_check_at": "2026-11-25T23:49:17.919249+03:30",
             "final_complete": false
         },
         "6106235": {
@@ -5284,9 +5284,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "17‎’‎",
+                        "short": "18‎’‎",
                         "shortKey": "",
-                        "long": "16:37",
+                        "long": "17:44",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5304,7 +5304,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780759+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:48:19.092762+03:30",
+            "next_check_at": "2026-11-25T23:49:17.919249+03:30",
             "final_complete": false
         },
         "6106336": {
@@ -5319,7 +5319,7 @@
                 },
                 "away": {
                     "id": 8695,
-                    "score": 0,
+                    "score": 1,
                     "name": "Fenerbahçe"
                 },
                 "eliminatedTeamId": null,
@@ -5335,11 +5335,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "0 - 1",
                     "liveTime": {
-                        "short": "16‎’‎",
+                        "short": "18‎’‎",
                         "shortKey": "",
-                        "long": "15:56",
+                        "long": "17:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5355,7 +5355,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780806+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:48:19.092762+03:30",
+            "next_check_at": "2026-11-25T23:49:17.919249+03:30",
             "final_complete": false
         },
         "6106279": {
@@ -5389,9 +5389,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "19‎’‎",
+                        "short": "20‎’‎",
                         "shortKey": "",
-                        "long": "18:03",
+                        "long": "19:10",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5406,7 +5406,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780860+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:48:19.092762+03:30",
+            "next_check_at": "2026-11-25T23:49:17.919249+03:30",
             "final_complete": false
         },
         "5103719": {
@@ -5445,7 +5445,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.781023+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:48:19.092762+03:30",
+            "next_check_at": "2026-11-25T23:49:17.919249+03:30",
             "final_complete": false
         }
     },
