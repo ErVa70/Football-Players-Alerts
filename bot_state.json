@@ -5037,7 +5037,8 @@
         "5803668": [],
         "6054598": [
             "535603"
-        ]
+        ],
+        "6106391": []
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5198,57 +5199,6 @@
         ]
     },
     "monitored_matches": {
-        "6106391": {
-            "match": {
-                "id": 6106391,
-                "leagueId": 943230,
-                "time": "25.11.2026 18:45",
-                "home": {
-                    "id": 7787,
-                    "score": 0,
-                    "name": "Slavia Prague"
-                },
-                "away": {
-                    "id": 10205,
-                    "score": 1,
-                    "name": "Villarreal"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 3,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-25T17:45:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "25.11.2026 18:45:34",
-                        "secondHalfStarted": "25.11.2026 19:48:53"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "95‎’‎",
-                        "shortKey": "",
-                        "long": "94:18",
-                        "longKey": "",
-                        "maxTime": 90,
-                        "basePeriod": 90,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795628700000,
-                "_competition_name": "Champions League"
-            },
-            "tracked_player_ids": [
-                1311915
-            ],
-            "discovered_at": "2026-11-25T00:00:36.780621+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:08:18.265723+03:30",
-            "final_complete": false
-        },
         "6106294": {
             "match": {
                 "id": 6106294,
@@ -5285,7 +5235,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780705+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:08:18.265723+03:30",
+            "next_check_at": "2026-11-25T23:09:16.728184+03:30",
             "final_complete": false
         },
         "6106235": {
@@ -5328,7 +5278,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780759+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:08:18.265723+03:30",
+            "next_check_at": "2026-11-25T23:09:16.728184+03:30",
             "final_complete": false
         },
         "6106336": {
@@ -5368,7 +5318,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780806+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:08:18.265723+03:30",
+            "next_check_at": "2026-11-25T23:09:16.728184+03:30",
             "final_complete": false
         },
         "6106279": {
@@ -5408,7 +5358,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.780860+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:08:18.265723+03:30",
+            "next_check_at": "2026-11-25T23:09:16.728184+03:30",
             "final_complete": false
         },
         "5103719": {
@@ -5447,7 +5397,7 @@
             ],
             "discovered_at": "2026-11-25T00:00:36.781023+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-25T23:08:18.265723+03:30",
+            "next_check_at": "2026-11-25T23:09:16.728184+03:30",
             "final_complete": false
         }
     },
