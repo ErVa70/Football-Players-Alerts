@@ -5140,7 +5140,10 @@
             "184554",
             "1789791"
         ],
-        "6112495": []
+        "6112495": [],
+        "6112529": [
+            "990996"
+        ]
     },
     "transfer_monitor": {
         "initialized": true,
@@ -5350,7 +5353,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857090+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "6112371": {
@@ -5400,7 +5403,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857118+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "6112486": {
@@ -5450,7 +5453,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857202+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "6112391": {
@@ -5501,57 +5504,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857230+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
-            "final_complete": false
-        },
-        "6112529": {
-            "match": {
-                "id": 6112529,
-                "leagueId": 943231,
-                "time": "26.11.2026 21:00",
-                "home": {
-                    "id": 10202,
-                    "score": 0,
-                    "name": "Nordsjælland"
-                },
-                "away": {
-                    "id": 10200,
-                    "score": 0,
-                    "name": "Panathinaikos"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-26T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:10"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:59",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795723200000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                990996
-            ],
-            "discovered_at": "2026-11-26T00:00:36.857258+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "5749769": {
@@ -5591,7 +5544,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5630,7 +5583,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5669,7 +5622,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5708,7 +5661,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:21:16.360943+03:30",
+            "next_check_at": "2026-11-27T01:22:19.221363+03:30",
             "final_complete": false
         }
     },
