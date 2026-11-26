@@ -5342,7 +5342,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857090+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:59:16.281859+03:30",
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
             "final_complete": false
         },
         "6112371": {
@@ -5392,7 +5392,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857118+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:59:16.281859+03:30",
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
             "final_complete": false
         },
         "6112486": {
@@ -5442,7 +5442,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857202+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:59:16.281859+03:30",
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
             "final_complete": false
         },
         "6112391": {
@@ -5493,7 +5493,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857230+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:59:16.281859+03:30",
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
             "final_complete": false
         },
         "6112529": {
@@ -5543,7 +5543,164 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857258+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:59:16.281859+03:30",
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
+            "final_complete": false
+        },
+        "5749769": {
+            "match": {
+                "id": 5749769,
+                "leagueId": 55,
+                "time": "27.11.2026 20:45",
+                "home": {
+                    "id": 7881,
+                    "score": 0,
+                    "name": "Venezia"
+                },
+                "away": {
+                    "id": 9857,
+                    "score": 0,
+                    "name": "Bologna"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "13",
+                "status": {
+                    "utcTime": "2026-11-27T19:45:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.11.2026 20:45:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795808700000,
+                "_competition_name": "Serie A"
+            },
+            "tracked_player_ids": [
+                873956,
+                1665438
+            ],
+            "discovered_at": "2026-11-27T00:00:40.734717+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
+            "final_complete": false
+        },
+        "5888120": {
+            "match": {
+                "id": 5888120,
+                "leagueId": 185,
+                "time": "27.11.2026 19:00",
+                "home": {
+                    "id": 4064,
+                    "score": 0,
+                    "name": "Feirense"
+                },
+                "away": {
+                    "id": 9765,
+                    "score": 0,
+                    "name": "Portimonense"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "12",
+                "status": {
+                    "utcTime": "2026-11-27T18:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.11.2026 19:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795802400000,
+                "_competition_name": "Liga Portugal 2"
+            },
+            "tracked_player_ids": [
+                358147
+            ],
+            "discovered_at": "2026-11-27T00:00:40.734786+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
+            "final_complete": false
+        },
+        "5865506": {
+            "match": {
+                "id": 5865506,
+                "leagueId": 212,
+                "time": "27.11.2026 19:30",
+                "home": {
+                    "id": 5755,
+                    "score": 0,
+                    "name": "Györi ETO"
+                },
+                "away": {
+                    "id": 8369,
+                    "score": 0,
+                    "name": "Debrecen"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "15",
+                "status": {
+                    "utcTime": "2026-11-27T18:30:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.11.2026 19:30:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795804200000,
+                "_competition_name": "NB I"
+            },
+            "tracked_player_ids": [
+                477613
+            ],
+            "discovered_at": "2026-11-27T00:00:40.734854+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
+            "final_complete": false
+        },
+        "1000015518": {
+            "match": {
+                "id": 1000015518,
+                "leagueId": 1000001509,
+                "time": "27.11.2026 20:00",
+                "home": {
+                    "id": 96953,
+                    "score": 0,
+                    "name": "Francs Borains"
+                },
+                "away": {
+                    "id": 6351,
+                    "score": 0,
+                    "name": "Eupen"
+                },
+                "eliminatedTeamId": null,
+                "statusId": 1,
+                "tournamentStage": "12",
+                "status": {
+                    "utcTime": "2026-11-27T19:00:00.000Z",
+                    "halfs": {
+                        "firstHalfStarted": "27.11.2026 20:00:00"
+                    },
+                    "periodLength": 45,
+                    "started": false,
+                    "cancelled": false,
+                    "finished": false
+                },
+                "timeTS": 1795806000000,
+                "_competition_name": "First Division B"
+            },
+            "tracked_player_ids": [
+                873294
+            ],
+            "discovered_at": "2026-11-27T00:00:40.734899+03:30",
+            "finished_seen_at": null,
+            "next_check_at": "2026-11-27T00:00:40.734943+03:30",
             "final_complete": false
         }
     },
