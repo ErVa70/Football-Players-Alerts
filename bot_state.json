@@ -5143,6 +5143,9 @@
         "6112495": [],
         "6112529": [
             "990996"
+        ],
+        "6112322": [
+            "1490110"
         ]
     },
     "transfer_monitor": {
@@ -5304,58 +5307,6 @@
         ]
     },
     "monitored_matches": {
-        "6112322": {
-            "match": {
-                "id": 6112322,
-                "leagueId": 943229,
-                "time": "26.11.2026 21:00",
-                "home": {
-                    "id": 9826,
-                    "score": 0,
-                    "name": "Crystal Palace"
-                },
-                "away": {
-                    "id": 8560,
-                    "score": 0,
-                    "name": "Real Sociedad"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-26T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:22"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 0",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:47",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795723200000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                952095,
-                1187506,
-                1490110
-            ],
-            "discovered_at": "2026-11-26T00:00:36.857090+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
-            "final_complete": false
-        },
         "6112371": {
             "match": {
                 "id": 6112371,
@@ -5403,7 +5354,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857118+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         },
         "6112486": {
@@ -5453,7 +5404,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857202+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         },
         "6112391": {
@@ -5504,7 +5455,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857230+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         },
         "5749769": {
@@ -5544,7 +5495,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5583,7 +5534,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5622,7 +5573,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5661,7 +5612,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:24:17.913994+03:30",
+            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
             "final_complete": false
         }
     },
