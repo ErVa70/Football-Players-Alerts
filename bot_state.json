@@ -3503,7 +3503,9 @@
         "6112495": [],
         "6112322": [],
         "6112391": [],
-        "6112529": []
+        "6112529": [],
+        "6112371": [],
+        "6112486": []
     },
     "final_posts": {
         "5991881": [
@@ -5310,7 +5312,7 @@
                 "status": {
                     "utcTime": "2026-11-26T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:00"
+                        "firstHalfStarted": "26.11.2026 21:00:22"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -5321,7 +5323,7 @@
                     "liveTime": {
                         "short": "1‎’‎",
                         "shortKey": "",
-                        "long": "0:44",
+                        "long": "0:51",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5338,7 +5340,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857090+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:30:44.589543+03:30",
+            "next_check_at": "2026-11-26T23:31:16.724623+03:30",
             "final_complete": false
         },
         "6112371": {
@@ -5357,17 +5359,28 @@
                     "name": "Anderlecht"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "5",
                 "status": {
                     "utcTime": "2026-11-26T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:00"
+                        "firstHalfStarted": "26.11.2026 21:00:54"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:19",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795723200000,
                 "_competition_name": "Europa League"
@@ -5377,7 +5390,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857118+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:30:44.589543+03:30",
+            "next_check_at": "2026-11-26T23:31:16.724623+03:30",
             "final_complete": false
         },
         "6112486": {
@@ -5396,17 +5409,28 @@
                     "name": "Atalanta"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "4",
                 "status": {
                     "utcTime": "2026-11-26T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:00"
+                        "firstHalfStarted": "26.11.2026 21:00:50"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:23",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795723200000,
                 "_competition_name": "Conference League"
@@ -5416,7 +5440,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857202+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:30:44.589543+03:30",
+            "next_check_at": "2026-11-26T23:31:16.724623+03:30",
             "final_complete": false
         },
         "6112391": {
@@ -5440,7 +5464,7 @@
                 "status": {
                     "utcTime": "2026-11-26T20:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:00"
+                        "firstHalfStarted": "26.11.2026 21:00:24"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -5451,7 +5475,7 @@
                     "liveTime": {
                         "short": "1‎’‎",
                         "shortKey": "",
-                        "long": "0:44",
+                        "long": "0:49",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5467,7 +5491,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857230+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:30:44.589543+03:30",
+            "next_check_at": "2026-11-26T23:31:16.724623+03:30",
             "final_complete": false
         },
         "6112529": {
@@ -5500,9 +5524,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "1‎’‎",
+                        "short": "2‎’‎",
                         "shortKey": "",
-                        "long": "0:34",
+                        "long": "1:03",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5517,7 +5541,7 @@
             ],
             "discovered_at": "2026-11-26T00:00:36.857258+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-26T23:30:44.589543+03:30",
+            "next_check_at": "2026-11-26T23:31:16.724623+03:30",
             "final_complete": false
         }
     },
