@@ -5146,6 +5146,16 @@
         ],
         "6112322": [
             "1490110"
+        ],
+        "6112371": [
+            "675600"
+        ],
+        "6112486": [
+            "579747"
+        ],
+        "6112391": [
+            "1159237",
+            "1777474"
         ]
     },
     "transfer_monitor": {
@@ -5307,157 +5317,6 @@
         ]
     },
     "monitored_matches": {
-        "6112371": {
-            "match": {
-                "id": 6112371,
-                "leagueId": 943229,
-                "time": "26.11.2026 21:00",
-                "home": {
-                    "id": 7753,
-                    "score": 0,
-                    "name": "OFI Crete"
-                },
-                "away": {
-                    "id": 8635,
-                    "score": 1,
-                    "name": "Anderlecht"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "5",
-                "status": {
-                    "utcTime": "2026-11-26T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:50"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "0 - 1",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:19",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795723200000,
-                "_competition_name": "Europa League"
-            },
-            "tracked_player_ids": [
-                675600
-            ],
-            "discovered_at": "2026-11-26T00:00:36.857118+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
-            "final_complete": false
-        },
-        "6112486": {
-            "match": {
-                "id": 6112486,
-                "leagueId": 943231,
-                "time": "26.11.2026 21:00",
-                "home": {
-                    "id": 10116,
-                    "score": 1,
-                    "name": "Borac Banja Luka"
-                },
-                "away": {
-                    "id": 8524,
-                    "score": 0,
-                    "name": "Atalanta"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-26T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:26"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:43",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795723200000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                579747
-            ],
-            "discovered_at": "2026-11-26T00:00:36.857202+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
-            "final_complete": false
-        },
-        "6112391": {
-            "match": {
-                "id": 6112391,
-                "leagueId": 943231,
-                "time": "26.11.2026 21:00",
-                "home": {
-                    "id": 10264,
-                    "score": 1,
-                    "name": "Braga"
-                },
-                "away": {
-                    "id": 1693,
-                    "score": 0,
-                    "name": "KuPS"
-                },
-                "eliminatedTeamId": null,
-                "statusId": 2,
-                "tournamentStage": "4",
-                "status": {
-                    "utcTime": "2026-11-26T20:00:00.000Z",
-                    "halfs": {
-                        "firstHalfStarted": "26.11.2026 21:00:24"
-                    },
-                    "periodLength": 45,
-                    "finished": false,
-                    "started": true,
-                    "cancelled": false,
-                    "ongoing": true,
-                    "scoreStr": "1 - 0",
-                    "liveTime": {
-                        "short": "29‎’‎",
-                        "shortKey": "",
-                        "long": "28:45",
-                        "longKey": "",
-                        "maxTime": 45,
-                        "basePeriod": 45,
-                        "addedTime": 0
-                    }
-                },
-                "timeTS": 1795723200000,
-                "_competition_name": "Conference League"
-            },
-            "tracked_player_ids": [
-                1159237,
-                1777474
-            ],
-            "discovered_at": "2026-11-26T00:00:36.857230+03:30",
-            "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
-            "final_complete": false
-        },
         "5749769": {
             "match": {
                 "id": 5749769,
@@ -5495,7 +5354,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
+            "next_check_at": "2026-11-27T01:26:20.105329+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5534,7 +5393,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
+            "next_check_at": "2026-11-27T01:26:20.105329+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5573,7 +5432,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
+            "next_check_at": "2026-11-27T01:26:20.105329+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5612,7 +5471,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T01:25:23.079173+03:30",
+            "next_check_at": "2026-11-27T01:26:20.105329+03:30",
             "final_complete": false
         }
     },
