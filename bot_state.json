@@ -5365,7 +5365,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:11:23.533698+03:30",
+            "next_check_at": "2026-11-27T23:12:18.635020+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5399,9 +5399,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "81‎’‎",
+                        "short": "82‎’‎",
                         "shortKey": "",
-                        "long": "80:31",
+                        "long": "81:27",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5416,7 +5416,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:11:23.533698+03:30",
+            "next_check_at": "2026-11-27T23:12:18.635020+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5435,12 +5435,13 @@
                     "name": "Debrecen"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "15",
                 "status": {
                     "utcTime": "2026-11-27T18:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "27.11.2026 19:33:21"
+                        "firstHalfStarted": "27.11.2026 19:33:21",
+                        "secondHalfStarted": "27.11.2026 20:42:06"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -5449,12 +5450,12 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:12",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -5466,7 +5467,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:11:23.533698+03:30",
+            "next_check_at": "2026-11-27T23:12:18.635020+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5499,9 +5500,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "39‎’‎",
+                        "short": "40‎’‎",
                         "shortKey": "",
-                        "long": "38:22",
+                        "long": "39:18",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5516,7 +5517,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:11:23.533698+03:30",
+            "next_check_at": "2026-11-27T23:12:18.635020+03:30",
             "final_complete": false
         }
     },
