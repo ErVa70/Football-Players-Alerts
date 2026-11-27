@@ -5360,9 +5360,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "21‎’‎",
+                        "short": "22‎’‎",
                         "shortKey": "",
-                        "long": "20:07",
+                        "long": "21:01",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5378,7 +5378,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:36:18.344720+03:30",
+            "next_check_at": "2026-11-27T23:37:22.223148+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5426,7 +5426,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": "2026-11-27T23:26:21.235898+03:30",
-            "next_check_at": "2026-11-27T23:37:18.344720+03:30",
+            "next_check_at": "2026-11-27T23:38:22.223148+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5460,9 +5460,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "70‎’‎",
+                        "short": "71‎’‎",
                         "shortKey": "",
-                        "long": "69:12",
+                        "long": "70:06",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5477,7 +5477,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:36:18.344720+03:30",
+            "next_check_at": "2026-11-27T23:37:22.223148+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5496,12 +5496,13 @@
                     "name": "Eupen"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 10,
+                "statusId": 3,
                 "tournamentStage": "12",
                 "status": {
                     "utcTime": "2026-11-27T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "27.11.2026 20:03:00"
+                        "firstHalfStarted": "27.11.2026 20:03:00",
+                        "secondHalfStarted": "27.11.2026 21:06:40"
                     },
                     "periodLength": 45,
                     "finished": false,
@@ -5510,12 +5511,12 @@
                     "ongoing": true,
                     "scoreStr": "2 - 2",
                     "liveTime": {
-                        "short": "HT",
-                        "shortKey": "halftime_short",
-                        "long": "Half-Time",
-                        "longKey": "pause_match",
-                        "maxTime": 45,
-                        "basePeriod": 45,
+                        "short": "46‎’‎",
+                        "shortKey": "",
+                        "long": "45:32",
+                        "longKey": "",
+                        "maxTime": 90,
+                        "basePeriod": 90,
                         "addedTime": 0
                     }
                 },
@@ -5527,7 +5528,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:36:18.344720+03:30",
+            "next_check_at": "2026-11-27T23:37:22.223148+03:30",
             "final_complete": false
         }
     },
