@@ -5362,7 +5362,7 @@
                     "liveTime": {
                         "short": "17‎’‎",
                         "shortKey": "",
-                        "long": "16:01",
+                        "long": "16:54",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5378,7 +5378,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:32:18.479721+03:30",
+            "next_check_at": "2026-11-27T23:33:15.417107+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5426,7 +5426,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": "2026-11-27T23:26:21.235898+03:30",
-            "next_check_at": "2026-11-27T23:33:18.479721+03:30",
+            "next_check_at": "2026-11-27T23:34:15.417107+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5462,7 +5462,7 @@
                     "liveTime": {
                         "short": "66‎’‎",
                         "shortKey": "",
-                        "long": "65:06",
+                        "long": "65:59",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5477,7 +5477,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:32:18.479721+03:30",
+            "next_check_at": "2026-11-27T23:33:15.417107+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5527,7 +5527,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:32:18.479721+03:30",
+            "next_check_at": "2026-11-27T23:33:15.417107+03:30",
             "final_complete": false
         }
     },
