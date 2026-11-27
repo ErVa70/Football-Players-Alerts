@@ -1854,7 +1854,8 @@
         "5865506": [
             "Sergi Samper|BENCH"
         ],
-        "1000015518": []
+        "1000015518": [],
+        "5749769": []
     },
     "match_events": {
         "5071387": [
@@ -5361,7 +5362,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:29:15.617098+03:30",
+            "next_check_at": "2026-11-27T22:30:43.592368+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5411,7 +5412,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:29:15.617098+03:30",
+            "next_check_at": "2026-11-27T22:30:43.592368+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5444,9 +5445,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "26‎’‎",
+                        "short": "28‎’‎",
                         "shortKey": "",
-                        "long": "25:45",
+                        "long": "27:22",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5461,7 +5462,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:29:15.617098+03:30",
+            "next_check_at": "2026-11-27T22:30:43.592368+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5500,7 +5501,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:29:15.617098+03:30",
+            "next_check_at": "2026-11-27T22:30:43.592368+03:30",
             "final_complete": false
         }
     },
