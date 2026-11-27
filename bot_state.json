@@ -3520,7 +3520,8 @@
         "6112486": [
             "Substitution|46|None|579747,957203|"
         ],
-        "5888120": []
+        "5888120": [],
+        "5865506": []
     },
     "final_posts": {
         "5991881": [
@@ -5359,7 +5360,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:03:18.477086+03:30",
+            "next_check_at": "2026-11-27T22:04:24.924124+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5392,9 +5393,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "32‎’‎",
+                        "short": "33‎’‎",
                         "shortKey": "",
-                        "long": "31:12",
+                        "long": "32:18",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5409,7 +5410,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:03:18.477086+03:30",
+            "next_check_at": "2026-11-27T22:04:24.924124+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5428,17 +5429,28 @@
                     "name": "Debrecen"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "15",
                 "status": {
                     "utcTime": "2026-11-27T18:30:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "27.11.2026 19:30:00"
+                        "firstHalfStarted": "27.11.2026 19:33:21"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:03",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795804200000,
                 "_competition_name": "NB I"
@@ -5448,7 +5460,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:03:18.477086+03:30",
+            "next_check_at": "2026-11-27T22:04:24.924124+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5487,7 +5499,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:03:18.477086+03:30",
+            "next_check_at": "2026-11-27T22:04:24.924124+03:30",
             "final_complete": false
         }
     },
