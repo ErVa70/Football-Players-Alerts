@@ -3519,7 +3519,8 @@
         "6112371": [],
         "6112486": [
             "Substitution|46|None|579747,957203|"
-        ]
+        ],
+        "5888120": []
     },
     "final_posts": {
         "5991881": [
@@ -5358,7 +5359,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:31:16.719414+03:30",
+            "next_check_at": "2026-11-27T21:32:18.749857+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5377,7 +5378,7 @@
                     "name": "Portimonense"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "12",
                 "status": {
                     "utcTime": "2026-11-27T18:00:00.000Z",
@@ -5385,9 +5386,20 @@
                         "firstHalfStarted": "27.11.2026 19:00:00"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "3‎’‎",
+                        "shortKey": "",
+                        "long": "2:14",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795802400000,
                 "_competition_name": "Liga Portugal 2"
@@ -5397,7 +5409,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:31:16.719414+03:30",
+            "next_check_at": "2026-11-27T21:32:18.749857+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5436,7 +5448,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:31:16.719414+03:30",
+            "next_check_at": "2026-11-27T21:32:18.749857+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5475,7 +5487,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:31:16.719414+03:30",
+            "next_check_at": "2026-11-27T21:32:18.749857+03:30",
             "final_complete": false
         }
     },
