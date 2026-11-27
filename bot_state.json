@@ -1850,6 +1850,9 @@
         "6112391": [
             "Pau Víctor|STARTING XI",
             "Tomás Marqués|BENCH"
+        ],
+        "5865506": [
+            "Sergi Samper|BENCH"
         ]
     },
     "match_events": {
@@ -5355,7 +5358,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:20:34.158257+03:30",
+            "next_check_at": "2026-11-27T21:21:17.684214+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5394,7 +5397,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:20:34.158257+03:30",
+            "next_check_at": "2026-11-27T21:21:17.684214+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5433,7 +5436,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:20:34.158257+03:30",
+            "next_check_at": "2026-11-27T21:21:17.684214+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5472,7 +5475,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T21:20:34.158257+03:30",
+            "next_check_at": "2026-11-27T21:21:17.684214+03:30",
             "final_complete": false
         }
     },
