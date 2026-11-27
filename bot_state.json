@@ -3523,7 +3523,8 @@
             "Substitution|46|None|579747,957203|"
         ],
         "5888120": [],
-        "5865506": []
+        "5865506": [],
+        "1000015518": []
     },
     "final_posts": {
         "5991881": [
@@ -5362,7 +5363,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:32:18.876390+03:30",
+            "next_check_at": "2026-11-27T22:33:29.038813+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5412,7 +5413,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:32:18.876390+03:30",
+            "next_check_at": "2026-11-27T22:33:29.038813+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5445,9 +5446,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 0",
                     "liveTime": {
-                        "short": "29‎’‎",
+                        "short": "31‎’‎",
                         "shortKey": "",
-                        "long": "28:57",
+                        "long": "30:07",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5462,7 +5463,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:32:18.876390+03:30",
+            "next_check_at": "2026-11-27T22:33:29.038813+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5481,17 +5482,28 @@
                     "name": "Eupen"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "12",
                 "status": {
                     "utcTime": "2026-11-27T19:00:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "27.11.2026 20:00:00"
+                        "firstHalfStarted": "27.11.2026 20:03:00"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "1‎’‎",
+                        "shortKey": "",
+                        "long": "0:28",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795806000000,
                 "_competition_name": "First Division B"
@@ -5501,7 +5513,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T22:32:18.876390+03:30",
+            "next_check_at": "2026-11-27T22:33:29.038813+03:30",
             "final_complete": false
         }
     },
