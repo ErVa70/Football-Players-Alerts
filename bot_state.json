@@ -5345,17 +5345,28 @@
                     "name": "Bologna"
                 },
                 "eliminatedTeamId": null,
-                "statusId": 1,
+                "statusId": 2,
                 "tournamentStage": "13",
                 "status": {
                     "utcTime": "2026-11-27T19:45:00.000Z",
                     "halfs": {
-                        "firstHalfStarted": "27.11.2026 20:45:00"
+                        "firstHalfStarted": "27.11.2026 20:46:11"
                     },
                     "periodLength": 45,
-                    "started": false,
+                    "finished": false,
+                    "started": true,
                     "cancelled": false,
-                    "finished": false
+                    "ongoing": true,
+                    "scoreStr": "0 - 0",
+                    "liveTime": {
+                        "short": "2‎’‎",
+                        "shortKey": "",
+                        "long": "1:04",
+                        "longKey": "",
+                        "maxTime": 45,
+                        "basePeriod": 45,
+                        "addedTime": 0
+                    }
                 },
                 "timeTS": 1795808700000,
                 "_competition_name": "Serie A"
@@ -5366,7 +5377,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734717+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:16:18.086490+03:30",
+            "next_check_at": "2026-11-27T23:17:16.566781+03:30",
             "final_complete": false
         },
         "5888120": {
@@ -5400,9 +5411,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 2",
                     "liveTime": {
-                        "short": "86‎’‎",
+                        "short": "87‎’‎",
                         "shortKey": "",
-                        "long": "85:27",
+                        "long": "86:24",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5417,7 +5428,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734786+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:16:18.086490+03:30",
+            "next_check_at": "2026-11-27T23:17:16.566781+03:30",
             "final_complete": false
         },
         "5865506": {
@@ -5451,9 +5462,9 @@
                     "ongoing": true,
                     "scoreStr": "1 - 1",
                     "liveTime": {
-                        "short": "50‎’‎",
+                        "short": "51‎’‎",
                         "shortKey": "",
-                        "long": "49:12",
+                        "long": "50:09",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5468,7 +5479,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734854+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:16:18.086490+03:30",
+            "next_check_at": "2026-11-27T23:17:16.566781+03:30",
             "final_complete": false
         },
         "1000015518": {
@@ -5501,9 +5512,9 @@
                     "ongoing": true,
                     "scoreStr": "2 - 1",
                     "liveTime": {
-                        "short": "44‎’‎",
+                        "short": "45‎’‎",
                         "shortKey": "",
-                        "long": "43:18",
+                        "long": "44:15",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5518,7 +5529,7 @@
             ],
             "discovered_at": "2026-11-27T00:00:40.734899+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-27T23:16:18.086490+03:30",
+            "next_check_at": "2026-11-27T23:17:16.566781+03:30",
             "final_complete": false
         }
     },
