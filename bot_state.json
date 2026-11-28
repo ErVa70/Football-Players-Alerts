@@ -1889,6 +1889,9 @@
         ],
         "5868561": [
             "Aleix Garrido|STARTING XI"
+        ],
+        "1000021468": [
+            "Trincão|STARTING XI"
         ]
     },
     "match_events": {
@@ -5532,9 +5535,9 @@
                     "ongoing": true,
                     "scoreStr": "0 - 2",
                     "liveTime": {
-                        "short": "76‎’‎",
+                        "short": "77‎’‎",
                         "shortKey": "",
-                        "long": "75:34",
+                        "long": "76:36",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5549,7 +5552,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011382+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5868148": {
@@ -5590,7 +5593,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011516+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "6580841": {
@@ -5630,7 +5633,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011628+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5846029": {
@@ -5669,7 +5672,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011684+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5781820": {
@@ -5708,7 +5711,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011745+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5887681": {
@@ -5747,7 +5750,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011833+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5885601": {
@@ -5786,7 +5789,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.011890+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "1000020617": {
@@ -5825,7 +5828,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012003+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5803000": {
@@ -5835,7 +5838,7 @@
                 "time": "28.11.2026 17:15",
                 "home": {
                     "id": 8121,
-                    "score": 0,
+                    "score": 1,
                     "name": "Angers"
                 },
                 "away": {
@@ -5856,11 +5859,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "0 - 0",
+                    "scoreStr": "1 - 0",
                     "liveTime": {
-                        "short": "20‎’‎",
+                        "short": "21‎’‎",
                         "shortKey": "",
-                        "long": "19:06",
+                        "long": "20:08",
                         "longKey": "",
                         "maxTime": 45,
                         "basePeriod": 45,
@@ -5875,7 +5878,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012057+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5803007": {
@@ -5918,7 +5921,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012112+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5868558": {
@@ -5928,7 +5931,7 @@
                 "time": "28.11.2026 16:15",
                 "home": {
                     "id": 8393,
-                    "score": 2,
+                    "score": 3,
                     "name": "Albacete"
                 },
                 "away": {
@@ -5950,11 +5953,11 @@
                     "started": true,
                     "cancelled": false,
                     "ongoing": true,
-                    "scoreStr": "2 - 0",
+                    "scoreStr": "3 - 0",
                     "liveTime": {
-                        "short": "62‎’‎",
+                        "short": "63‎’‎",
                         "shortKey": "",
-                        "long": "61:13",
+                        "long": "62:15",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -5969,7 +5972,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012221+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5868562": {
@@ -6005,9 +6008,9 @@
                     "ongoing": true,
                     "scoreStr": "3 - 1",
                     "liveTime": {
-                        "short": "55‎’‎",
+                        "short": "56‎’‎",
                         "shortKey": "",
-                        "long": "54:28",
+                        "long": "55:30",
                         "longKey": "",
                         "maxTime": 90,
                         "basePeriod": 90,
@@ -6023,7 +6026,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012276+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "5868561": {
@@ -6062,7 +6065,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012331+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "1000013276": {
@@ -6101,7 +6104,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012388+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         },
         "1000021468": {
@@ -6140,7 +6143,7 @@
             ],
             "discovered_at": "2026-11-28T00:00:38.012498+03:30",
             "finished_seen_at": null,
-            "next_check_at": "2026-11-28T20:04:20.605386+03:30",
+            "next_check_at": "2026-11-28T20:05:28.203529+03:30",
             "final_complete": false
         }
     },
